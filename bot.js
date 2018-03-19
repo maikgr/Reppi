@@ -28,9 +28,9 @@ client.on('message', msg => {
 
       memeChance = Math.floor(Math.random() * 100) / 100;
       console.log("memeChance : " + memeChance);
-      if(memeChance < 0.05){
+      if(memeChance < 0.1){
         msg.reply("", {
-        file: "./images/random/1.jpg"
+        file: "./images/random/1.JPG"
         });
       } else {
         gachaStart();

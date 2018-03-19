@@ -13,6 +13,14 @@ var chatBoxNumber = 0;
 var memeChance = 0;
 var itemNumber = 0;
 
+process.env.PORT
+config.port = process.env.PORT
+
+app.listen(config.port, () => {
+  logger.info('Listening on port %d', config.port);
+});
+
+
 client.login('NDI0ODA4NDA2NDcwMzYxMDg4.DY-RqQ.X32wbXehoOMzDurLGal26z_l-GM');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);

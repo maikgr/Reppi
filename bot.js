@@ -76,7 +76,7 @@ function gachaDraw(){
 function drawItem(){
   itemNumber = 0
   itemNumber = getRandomInt(1,10);
-  resultArray.push("./items/" + itemNumber + ".PNG");
+  resultArray.push("items/" + itemNumber + ".PNG");
 }
 
 function drawValkyrie(){
@@ -154,7 +154,7 @@ function generateImage(){
     .draw(images("/app/images/" + resultArray[6]) .size(160,160), 372, 576)
     .draw(images("/app/images/" + resultArray[7]) .size(160,160), 567, 576)
     .draw(images("/app/images/" + resultArray[8]) .size(160,160), 760, 576)
-    .draw(images("/app/imagess/" + resultArray[9]) .size(160,160), 950, 576)
+    .draw(images("/app/images/" + resultArray[9]) .size(160,160), 950, 576)
     .draw(images("/app/images/chat/" + chatBoxChar + "/" + getSRankText + "/" + chatBoxNumber + ".PNG") .size(989,276), 0,680)
     .draw(images("/app/images/chat/" + chatBoxChar + "/" + avatarRank) .size(242,276), 0,680)
     .save("output.jpg", {

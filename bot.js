@@ -13,13 +13,10 @@ var chatBoxNumber = 0;
 var memeChance = 0;
 var itemNumber = 0;
 
-process.env.PORT
-config.port = process.env.PORT
-
-app.listen(config.port, () => {
-  logger.info('Listening on port %d', config.port);
+var port = process.env.PORT || 3000;
+app.listen(port, "0.0.0.0", function() {
+console.log("Listening on Port 3000");
 });
-
 
 client.login('NDI0ODA4NDA2NDcwMzYxMDg4.DY-RqQ.X32wbXehoOMzDurLGal26z_l-GM');
 client.on('ready', () => {

@@ -1,8 +1,8 @@
 var standard = {
     valk : {
-        s : ["moonlight.png", "lightningempress.png", "dimensionalbreak.png", "bloodrose.png", "violetexecutor.png"],
-        a : ["ranger.png", "divineprayer.png", "bladestrike.png", "shadowdash.png", "snowy.png", "yama.png", "triumph.png", "nexus.png"],
-        b : ["whitecomet.png", "crimsonimpulse.png", "chariot.png", "battlestorm.png"],
+        s : ["moonlight.PNG", "lightningempress.PNG", "dimensionalbreak.PNG", "bloodrose.PNG", "violetexecutor.PNG"],
+        a : ["ranger.PNG", "divineprayer.PNG", "bladestrike.PNG", "shadowdash.PNG", "snowy.PNG", "yama.PNG", "triumph.PNG", "nexus.PNG"],
+        b : ["whitecomet.PNG", "crimsonimpulse.PNG", "chariot.PNG", "battlestorm.PNG"],
     },
 };
 

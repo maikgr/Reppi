@@ -1,0 +1,28 @@
+{
+  "name": "reppi",
+  "version": "1.0.0",
+  "description": "Repulsion Bot",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "images": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeCCW96/Reppi.git"
+  },
+  "keywords": [
+    "Reppi",
+    "discord.js"
+  ],
+  "author": "MikeCCW96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeCCW96/Reppi/issues"
+  },
+  "homepage": "https://github.com/MikeCCW96/Reppi#readme"
+}

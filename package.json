@@ -9,8 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node bot"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,7 @@
   },
   "keywords": [
     "Reppi",
-    "discord.js"
+    "discord"
   ],
   "author": "MikeCCW96",
   "license": "ISC",

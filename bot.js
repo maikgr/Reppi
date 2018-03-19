@@ -142,6 +142,7 @@ function generateImage(){
     avatarRank = "avatar.PNG";
   }
 
+  /*
   images("input.jpg")
     .size(1280,950)
     .draw(images(__dirname + "/images/" + resultArray[0]) .size(160,160), 174, 386)
@@ -158,5 +159,5 @@ function generateImage(){
     .draw(images(__dirname + "/images/chat/" + chatBoxChar + "/" + avatarRank) .size(242,276), 0,680)
     .save("output.jpg", {
       quality :50
-    });
+    });*/
 }

@@ -36,7 +36,7 @@ function connectClient(memeFileTotal){
 
         memeFileName = getRandomInt(1, memeFileTotal + 1);
 
-        if(memeChance < 0.95){
+        if(memeChance < 0.07){
           msg.reply("", {
           file: "./images/random/" + memeFileName + ".JPG"
           });

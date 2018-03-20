@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 var standardGacha = require('./standardGacha.js');
 
-/*
+
 client.login('NDI0ODA4NDA2NDcwMzYxMDg4.DY-RqQ.X32wbXehoOMzDurLGal26z_l-GM');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -24,7 +24,7 @@ client.on('message', msg => {
         file: "./images/random/1.jpg"
         });
       } else {
-        gachaStart();
+        standardGacha.gachaStart();
         msg.reply("", {
         file: "output.jpg"
         });
@@ -32,10 +32,3 @@ client.on('message', msg => {
     }
   }
 });
-*/
-
-setInterval(function() {
-  console.time('test');
-  standardGacha.gachaStart();
-  console.timeEnd('test');
-}, 200);

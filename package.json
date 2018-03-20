@@ -4,6 +4,7 @@
   "description": "Repulsion Bot",
   "main": "bot.js",
   "dependencies": {
+    "count-files": "^2.6.2",
     "discord.js": "^11.3.2",
     "express": "^4.16.3",
     "images": "^3.0.1"

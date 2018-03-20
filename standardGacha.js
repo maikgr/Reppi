@@ -113,8 +113,6 @@ function getCharacterAvatar(){
   }
 
   countFiles('images/chat/' + chatBoxChar + '/' + getSRankText, function (err, results) {
-    console.log(chatBoxChar);
-    console.log('', results);
     generateImage(results.files);
   });
 

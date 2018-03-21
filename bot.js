@@ -28,7 +28,7 @@ function connectClient(memeFileTotal){
     //378748690095013919 for Repulsion
     if (msg.content === '!gacha') {
       if(msg.channel.name !== 'bot-spam'){
-        msg.reply("does this looks like " + channel + " channel to you? If yes, Reppi suggests you to get your eyesight checked.")
+        msg.reply("Does this looks like " + channel + " channel to you? If yes, I suggest you to get your eyesight checked.")
       } else {
 
         memeChance = Math.floor(Math.random() * 100) / 100;

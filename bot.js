@@ -24,7 +24,7 @@ countFiles('images/random', function (err, results) {
 
 function connectClient(memeFileTotal){
   client.on('message', msg => {
-    var channel = client.channels.get('424485532794355732');
+    var channel = client.channels.get('378748690095013919');
     //378748690095013919 for Repulsion
     if (msg.content === '!gacha') {
       if(msg.channel.name !== 'bot-spam'){

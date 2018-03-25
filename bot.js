@@ -4,7 +4,7 @@ const client = new Discord.Client();
 var standardGacha = require('./standardGacha.js');
 var memeFileName;
 
-client.login('NDI2NzU2NjQ4MTY2NjIxMTg0.DZanng.dlDgwQY3Vx3V1mIMplUlDZUptkk');
+client.login('NDI0ODA4NDA2NDcwMzYxMDg4.DZk4lw.TJzxym6ET6Hg8uGGd_wdHWZYWqQ');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
@@ -22,7 +22,7 @@ countFiles('images/random', function(err, results) {
 
 function connectClient(memeFileTotal) {
   client.on('message', msg => {
-    var channel = client.channels.get('424485532794355732');
+    var channel = client.channels.get('378748690095013919');
     //378748690095013919 for Repulsion
     if (msg.content === '!gacha') {
       if (msg.channel.name !== 'bot-spam') {

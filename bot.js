@@ -647,7 +647,7 @@ function connectClient(memeFileTotal) {
             "title": "``Weapon list``",
             "fields": [{
               "name": "----------------",
-              "value": "Gun \n`!weapon gun` \n\nKatana \n`!weapon katana \n\nCannon \n`!weapon cannon \n\ngreatsword \n`!weapon greatsword` \n\nCross \n`!weapon cross` \n\nGauntlet \n`!weapon gauntlet`"
+              "value": "Gun \n`!weapon gun` \n\nKatana \n`!weapon katana` \n\nCannon \n`!weapon cannon` \n\ngreatsword \n`!weapon greatsword` \n\nCross \n`!weapon cross` \n\nGauntlet \n`!weapon gauntlet`"
             }]
           }
         });

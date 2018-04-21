@@ -343,6 +343,302 @@ function connectClient(memeFileTotal) {
       }
 
     }
+    if (msg.content.startsWith("!valkyrie")) {
+
+      if (msg.content === "!valkyrie") {
+        msg.reply({
+          embed: {
+            "color": 6332693,
+            "title": "``Valkyrie list``",
+            "fields": [{
+              "name": "----------------",
+              "value": "Kiana Kaslana \n`!valkyrie kiana` \n\nMei Raiden \n`!valkyrie mei` \n\nBronya Zaychik \n`!valkyrie bronya` \n\nHimeko Murata \n`!valkyrie himeko` \n\nSakura Yae  \n`!valkyrie sakura` \n\nTheresa Apocalypse  \n`!valkyrie theresa` \n\nKallen Kaslana  \n`!valkyrie kallen` \n\nFu Hua  \n`!valkyrie fuhua`"
+            }]
+          }
+        });
+      } else
+
+        //Kiana =========================================
+        if (msg.content === "!valkyrie kiana") {
+          msg.reply({
+            embed: {
+              "color": 6332693,
+              "title": "``Kiana Kaslana``",
+              "fields": [{
+                "name": "------",
+                "value": "White Comet \n`!valkyrie wc` \n\nRanger \n`!valkyrie ranger` \n\nDivine Prayer \n`!valkyrie dp` \n\nMoonbeam/Moonlight \n`!valkyrie mb`"
+              }]
+            }
+          });
+        } else
+
+      if (msg.content === "!valkyrie wc") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/whitecomet.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie mb") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/moonbeam.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie dp") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/divineprayer.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie ranger") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/ranger.PNG"
+        });
+      } else
+        //Kiana =========================================
+
+
+
+        //Mei =========================================
+        if (msg.content === "!valkyrie mei") {
+          msg.reply({
+            embed: {
+              "color": 6332693,
+              "title": "``Mei Raiden``",
+              "fields": [{
+                "name": "------",
+                "value": "Crimson Impulse \n`!valkyrie ci` \n\nShadow Dash \n`!valkyrie sd` \n\nStriker \n`!valkyrie striker` \n\nLightning Empress \n`!valkyrie le`"
+              }]
+            }
+          });
+        } else
+
+      if (msg.content === "!valkyrie ci") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/crimsonimpulse.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie sd") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/shadowdash.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie striker") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/striker.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie le") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/lightningempress.PNG"
+        });
+      } else
+        //Mei =========================================
+
+        //Bronya =========================================
+        if (msg.content === "!valkyrie bronya") {
+          msg.reply({
+            embed: {
+              "color": 6332693,
+              "title": "``Bronya Zaychik``",
+              "fields": [{
+                "name": "------",
+                "value": "Chariot \n`!valkyrie chariot` \n\nYamabuki Armor \n`!valkyrie yama` \n\nSnowy Sniper \n`!valkyrie snowy` \n\nDimensional Break \n`!valkyrie db` \n\nSilver Wolf \n`!valkyrie wolf` \n\nBlack Nucleus \n`!valkyrie bn`"
+              }]
+            }
+          });
+        } else
+
+      if (msg.content === "!valkyrie chariot") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/chariot.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie yama") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/yamabuki.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie snowy") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/snowy.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie db") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/dimensionalbreak.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie wolf") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/wolf.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie bn") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/blacknucleus.PNG"
+        });
+      } else
+        //Bronya =========================================
+
+        //Himeko =========================================
+        if (msg.content === "!valkyrie himeko") {
+          msg.reply({
+            embed: {
+              "color": 6332693,
+              "title": "``Himeko Murata``",
+              "fields": [{
+                "name": "------",
+                "value": "Battle Storm \n`!valkyrie bs` \n\nTriumph \n`!valkyrie triumph` \n\nScarlet Fusion \n`!valkyrie sf` \n\nBlood Rose \n`!valkyrie br`"
+              }]
+            }
+          });
+        } else
+
+      if (msg.content === "!valkyrie bs") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/battlestorm.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie triumph") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/triumph.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie sf") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/scarletfusion.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie br") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/bloodrose.PNG"
+        });
+      } else
+        //Himeko =========================================
+
+        //Sakura =========================================
+        if (msg.content === "!valkyrie sakura") {
+          msg.reply({
+            embed: {
+              "color": 6332693,
+              "title": "``Sakura Yae``",
+              "fields": [{
+                "name": "------",
+                "value": "Miko \n`!valkyrie miko` \n\nFire Sakura \n`!valkyrie firesaku` \n\nUnforgotten Apostle \n`!valkyrie ua`"
+              }]
+            }
+          });
+        } else
+
+      if (msg.content === "!valkyrie miko") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/miko.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie firesaku") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/firesaku.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie ua") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/unforgottenapostle.PNG"
+        });
+      } else
+        //Sakura =========================================
+
+        //Theresa =========================================
+        if (msg.content === "!valkyrie theresa") {
+          msg.reply({
+            embed: {
+              "color": 6332693,
+              "title": "``Theresa Apocalypse``",
+              "fields": [{
+                "name": "------",
+                "value": "Pledge \n`!valkyrie pledge` \n\nSakuno Rondo \n`!valkyrie rondo` \n\nViolet Executer \n`!valkyrie ve` \n\nGod Blessing Anthem \n`!valkyrie anthem`"
+              }]
+            }
+          });
+        } else
+
+      if (msg.content === "!valkyrie pledge") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/pledge.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie rondo") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/rondo.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie ve") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/violetexecuter.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie anthem") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/anthem.PNG"
+        });
+      } else
+        //Theresa =========================================
+
+        //Kallen =========================================
+        if (msg.content === "!valkyrie kallen") {
+          msg.reply("", {
+            file: "./images/valkyriedetails/kallen.PNG"
+          });
+        } else
+          //Kallen =========================================
+
+          //Fuhua =========================================
+          if (msg.content === "!valkyrie fuhua") {
+            msg.reply({
+              embed: {
+                "color": 6332693,
+                "title": "``Fu Hua``",
+                "fields": [{
+                  "name": "------",
+                  "value": "Swift Wing \n`!valkyrie sw` \n\nBlack Knight Full Moon \n`!valkyrie bk`"
+                }]
+              }
+            });
+          } else
+
+      if (msg.content === "!valkyrie sw") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/swiftwing.PNG"
+        });
+      } else
+
+      if (msg.content === "!valkyrie bk") {
+        msg.reply("", {
+          file: "./images/valkyriedetails/blackknight.PNG"
+        });
+      }
+      //Fuhua =========================================
+      else {
+        msg.reply("Valkyrie not found. Please do `!valkyrie`");
+      }
+
+    }
     if (msg.content.startsWith("!weapon")) {
       if (msg.content === "!weapon") {
         msg.reply({
@@ -1031,6 +1327,7 @@ function connectClient(memeFileTotal) {
       await newMessage.react("❌").catch((error) => {});
 
     });
+    }
 
 
   });

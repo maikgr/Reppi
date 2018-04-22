@@ -4,29 +4,10 @@ const client = new Discord.Client();
 var standardGacha = require('./standardGacha.js');
 var memeFileName;
 
-var schedule = require('node-schedule');
-var rule = new schedule.RecurrenceRule();
-var ruleArmadaBossStart = new schedule.RecurrenceRule();
-var ruleArmadaBossEnd = new schedule.RecurrenceRule();
-
-//ruleArmadaBossStart.hour = 19;
-//ruleArmadaBossStart.minute = 0;
-
-//ruleArmadaBossEnd.hour = 20;
-//ruleArmadaBossEnd.minute = 30;
-
-//rule.dayOfWeek = [2];
-//rule.hour = 20;
-//rule.minute = 28;
-
-client.login('NDI2NzU2NjQ4MTY2NjIxMTg0.DZanng.dlDgwQY3Vx3V1mIMplUlDZUptkk');
+client.login('NDI0ODA4NDA2NDcwMzYxMDg4.DZk4lw.TJzxym6ET6Hg8uGGd_wdHWZYWqQ');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
-  //schedule.scheduleJob(ruleArmadaBossStart, function() {
-  //  client.channels.get('423091913852190720').send("Boss time", {
-  //    file: "./images/BossInvasion.PNG"
-  //  });
 });
 
 function getRandomInt(min, max) {
@@ -41,7 +22,7 @@ countFiles('images/random', function(err, results) {
 
 function connectClient(memeFileTotal) {
   client.on('message', msg => {
-    var channel = client.channels.get('424485532794355732');
+    var channel = client.channels.get('378748690095013919');
     //378748690095013919 for Repulsion
     if (msg.content === '!gacha') {
       if (msg.channel.name !== 'bot-spam') {
@@ -59,23 +40,19 @@ function connectClient(memeFileTotal) {
         } else {
           start();
 
-          async function start() {
+          async function start(){
             let done = await standardGacha.gachaStart();
-            if (done == 'done') {
+            if (done == 'done'){
               msg.reply("", {
                 file: "output.jpg"
               });
             }
           }
+
         }
       }
     }
 
-    //if (msg.content === '!pingmepls') {
-    //let myRole = msg.guild.roles.find("name", "Testing stuff");
-    //let myRole = msg.guild.roles.get("427463098279002122");
-    //msg.reply("" + myRole);
-    //}
 
     if (msg.content.startsWith("!valkyrie")) {
 
@@ -1427,6 +1404,7 @@ function connectClient(memeFileTotal) {
 
       });
     }
+
 
 
   });

@@ -691,6 +691,9 @@ function connectClient(memeFileTotal) {
         }
       }
 
+      totalPageNumber = Math.floor(selectedWeapon.length / 9) + 1;
+      currentPageDisplay = currentPage + 1;
+
       embed = {
         "author": {
           "name": titleForEmbed,
@@ -703,7 +706,7 @@ function connectClient(memeFileTotal) {
         },
         "footer": {
           "icon_url": "attachment://attentionicon.PNG",
-          "text": "Please press the number below (reaction) to select"
+          "text": "Page " + currentPageDisplay + " of " + totalPageNumber + " | Please press the number below (reaction) to select"
         },
         "fields": [{
           "name": "----------------",
@@ -1404,7 +1407,6 @@ function connectClient(memeFileTotal) {
 
       });
     }
-
 
 
   });

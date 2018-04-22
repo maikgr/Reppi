@@ -7,119 +7,153 @@ var equipment = {
           "Increase EP gain by 35%",
           "Passive Skill",
           "Add additional 50 lightning elemental damage on-hit",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K7_10_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K7_10_5.png",
+          "254",
+          "58"
         ],
         ["Hyper Railgun",
           "Active Skill",
           "Deal 2,289 lightning elemental damage to targeted enemy surroundings, inflicting paralysis status to them, last for 4.00 seconds (EP Consumption: 16 – Cooldown: 18s)",
           "Passive Skill",
           "On hit 3% chance to inflict paralysis status to the target, causing immobilize and unable to attack, last for 2.50 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K6_11_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K6_11_5.png",
+          "287",
+          "19"
         ],
         ["Shennong's Guardians",
           "Active Skill",
           "Deal 7 slashes to surrounding enemies, each slash deals physical damage 77% based on attack power, inflict bind status, last for 3.7 seconds (EP Consumption: 21 – Cooldown: 14s)",
           "Passive Skill",
           "When performing space-time distortion, inflict bleed to enemy, deal 47% physical damage every 0.5 seconds, last for 5.7 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K15_118_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K15_118_5.png",
+          "285",
+          "22"
         ],
         ["Spirit Gun - Yae",
           "Active Skill",
           "Deal 7 slashes to surrounding enemies, each slash deals physical damage 77% based on attack power, inflict bind status, last for 3.7 seconds (EP Consumption: 21 – Cooldown: 14s)",
           "Passive Skill",
           "When performing space-time distortion, inflict bleed to enemy, deal 47% physical damage every 0.5 seconds, last for 5.7 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K22_151_5-204500.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K22_151_5-204500.png",
+          "267",
+          "21"
         ],
         ["Dominator's Pistol",
           "Active Skill",
           "Forms a number of rising punches from the ground, each deal physical damage 50% based on attack power to the targeted enemy surroundings, inflict burn status to them, dealing 149 fire elemental damage per every 0.5 seconds, last for 2.10 seconds (EP Consumption: 25 – Cooldown: 10s)",
           "Passive Skill",
           "Add additional 25 fire elemental damage on-hit",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K12_67_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K12_67_5.png",
+          "244",
+          "16"
         ],
         ["Fafnir Flame",
           "Active Skill",
           "Deals flame wave explosions around self, inflict knock back status, each wave deal physical damage 115% based on attack power and inflict burn status, dealing 159 fire elemental damage every 0.5 seconds, last for 3.00 seconds (EP Consumption: 25 – Cooldown: 20s)",
           "Passive Skill",
           "Increase physical damage by 18% during Burst Mode",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K5_09_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K5_09_5.png",
+          "248",
+          "43"
         ],
         ["Blaze Destroyer",
           "Active Skill",
           "Knock back enemies in a small frontal area and inflict float status, deal physical damage 100% based on attack power. Hit enemies then explode, deal 1881 fire elemental damage, inflict surrounding enemies with burn status, dealing 195 fire elemental damage per every 0.5 seconds, lasts for 4.5 seconds(EP Consumption: 20 – Cooldown: 9s)",
           "Passive Skill",
           "Add 40 fire elemental damage for each enemy inflicted with burn, stack up to 5 times",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K13_68_5-262080.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K13_68_5-262080.png",
+          "276",
+          "32"
         ],
         ["Jingwei's Wings",
           "Active Skill",
           "Call Meteor shower from the sky, last for 12 seconds, when the meteor explodes, deals  physical damage 90% based on attack power, inflict burn status, dealing 96 fire elemental damage pẻ every 0.5 seconds, last for 1.5 seconds (EP Consumption: 30 – Cooldown: 25s)",
           "Passive Skill",
           "Attacking the same target for every 2.5 seconds gives additional 2.0% critical rate and 5.0% critical damage, stacks up to 20% critical rate and 50% critical damage",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K16_119_5-165660.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K16_119_5-165660.png",
+          "259",
+          "30"
         ],
         ["Thunder Kikaku",
           "Active Skill",
           "Possess a will-o’-the-wisp on enemy, last for 7.99 seconds. Possessed enemies and the surrounding area will receive 637 electric elemental damage every 0.5 seconds (EP Consumption: 16 – Cooldown: 25s)",
           "Passive Skill",
           "Gives 30% electric elemental damage. When in Burst mode,  on hit inflict enemy electric shock status​, increase incoming lightning elemental damage 59.8%, last for 7 seconds.",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K21_148_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K21_148_5.png",
+          "264",
+          "47"
         ],
         ["Mjolnir",
           "Active Skill",
           "Smashing Mjolnir to knockdown enemies, dealing physical damage 404%  based on attack power, and inflict vulnerable status to them, reduce defense power by 80%, last for 4.00 seconds (EP Consumption: 18 – Cooldown: 13s)",
           "Passive Skill",
           "Increase critical chance by 15%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K5_12_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K5_12_5.png",
+          "298",
+          "6"
         ],
         ["Light and Shadow",
           "Active Skill",
           "Release an ice ball dragging enemies along its path, causing a large scale explosion in the end that inflict freeze status to the enemies within the explosion, dealing 846 ice elemental damage every 0.9 seconds, last for 3.99 seconds (EP Consumption: 20 – Cooldown: 20s)",
           "Passive Skill",
           "Releases cold air when elite’s shield got broken by basic attack (branch attack and charged attack included), reduce movement speed and attack speed to the target and small surrounding enemies by  84%, last for 3.99 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K14_69_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K14_69_5.png",
+          "270",
+          "39"
         ],
         ["The Energy Leaper",
           "Active Skill",
           "Kiana will jump back, leaving a bullet that will explode, deal physical damage 349% based on attack power,  and stun the enemies in the area for 4.49 seconds (EP Consumption: 14 – Cooldown: 16s)",
           "Passive Skill",
           "After performing space-time distortion, increases attack speed by 79.8%, critical rate by 24.9%,  last for 4 seconds. Only last in Space-time distortion",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K17_128_5-253540.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K17_128_5-253540.png",
+          "276",
+          "32"
         ],
         ["Hurricane Revolver",
           "Active Skill",
           "Summon a whirlwind around self, dealing rapid attack to surrounding enemy, each attack deals 174 ice elemental damage. The whirlwind exlode when expires, dealing 300% physical damage, and inflicting 60% slowing moving speed and attack speed to the enemy, last for 1.50 seconds, Kiana can move during whirlwind duration (EP Consumption: 24 – Cooldown: 30s)",
           "Passive Skill",
           "5% chance on-hit to increase moving speed by 100%, last for 4.50 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K10_64_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K10_64_4.png",
+          "224",
+          "39"
         ],
         ["Usurper Hand Cannon",
           "Active Skill",
           "Shoot out a low-frequency sound, dealing 379% physical damage based on attack power, inflict 6 seconds weaken status to enemies, reduce their attack power by 60% (EP Consumption: 15 – Cooldown: 15s)",
           "Passive Skill",
           "Increase ranged physical damage by 40%. Reduce damage dealt by 10% per every 1m further away from the enemy, up to 80%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K18_131_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K18_131_5.png",
+          "272",
+          "27"
         ],
         ["Proto Spirit Bow",
           "Active Skill",
           "Fire 2 wind bullet in a straight line, each deal physical damage 110% based on attack power. On hit against enemy with bleed status regain 10 EP to wielder (EP consumption: 18 – Cooldown:0s)",
           "Passive Skill",
           "Attack speed +25%, Movement speed +25%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K24_155_5-240170.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K24_155_5-240170.png",
+          "279",
+          "35"
         ],
         ["Extraordinary Form – Hel Bow",
           "Active Skill",
           "Fire a beam that turns into a stream of bullet raining from above to an area in front, dealing 9*59.8% attack power and inflict freeze status for 5 seconds (EP consumption: 16 – Cooldown:18s)",
           "Passive Skill",
           "Increase critical rate increased by 5.0%, increase physical damage against stun and freeze status enemy by 40.0%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Pistol_K26_184_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Pistol_K26_184_5.png",
+          "287",
+          "31"
         ],
         ["Fire Spark – Holy Judgement",
           "Active Skill",
           "Fires off holy fire dealing 100% attack power + 2*1978 fire elemental damage. Apply a debuff that lowers enemy’s attack and movement speed by 30% and increase receiving all-damage by 15%. Holy fire deals 265 fire elemental damage per second with a 10% chance of apply stun status for 2.5 seconds. \nDuring release, wielder get 80% all-damage reduction. Performing skill consumes 13% of maximum HP per each second, last for 5 seconds. If HP reaches 1, the character will not die as a result. When HP below 33%, skill will be unusable (EP Consumption: 20 – Cooldown: 35s)",
           "Passive Skill",
           "10% chance to inflict burn status per each 1.0 second to surrounding enemy, dealing  298 damage per each 0.5 second, last for 3.5 second. Increase all damage against burn status enemies by 18% \nWeapon Buff – God’s Key: When weapon’s level increase, the weapon will give buff to users.\nThis skill is activated automatically and cannot be turn on or off. Has a time limit.\nLv 30: Increase all Pistol-users DEF by 40 \nLv 35: Increase all Pistol-users ATK by 10 \nLv 40: Increase all Pistol-users HP by 75 \nLv 45: Increase all Pistol-users CRI by 10 \nLv 50: Increase all Pistol-users ATK by 30",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Pistol_K23_153_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Pistol_K23_153_5.png",
+          "260",
+          "45"
         ]
       ],
       threestar: [
@@ -128,98 +162,126 @@ var equipment = {
           "Increase physical damage against float status enemy by 40%",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K3_05_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K3_05_4.png",
+          "169",
+          "29"
         ],
         [ "Water Spirit Type-II",
           "Active Skill",
           "Fire a ball of ice, on hit inflict AOE freeze status to enemy, last for 3.79 seconds (EP Consumption: 9 – Cooldown: 13s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K4_08_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K4_08_4.png",
+          "169",
+          "29"
         ],
         [ "Fire Spirit Type-I",
           "Passive Skill",
           "10% chance on hit to inflict burn status, deal 119 fire elemental damage per each 0.5 second, last for 2.06 second",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K3_06_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K3_06_4.png",
+          "188",
+          "3"
         ],
         [ "Fire Spirit Type-II",
           "Active Skill",
           "Fire a ball of fire, on hit deal physical damage 250% based on attack power, additionally inflict AOE burn status to enemy, deal 113 fire elemental damage per each 0.5 second, last for 3 second. Have 2 charges (EP Consumption: 18 – Cooldown: 12 seconds)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K4_07_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K4_07_4.png",
+          "182",
+          "12"
         ],
         [ "Pulse Pistol Prototype",
           "Active Skill",
           "Enhance weapon, increase physical damage basic attack (branch attack and charge attack included) by 32%, last for 5 second (EP Consumption: 8 – Cooldown: 15s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K8_61_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K8_61_4.png",
+          "146",
+          "29"
         ],
         [ "Artemis' Guardian",
           "Active Skill",
           "Inflict AOE float status to target while also apply space-time lock, last for 3.30 seconds (EP Consumption: 12 – Cooldown: 12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K11_65_4-182270.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K11_65_4-182270.png",
+          "169",
+          "29"
         ],
         [ "Mosin Nagant",
           "Active Skill",
           "Create a ring of fire around self, dealing 317 fire elemental damage per each 0.25 second, last for 6 seconds (EP Consumption: 12 – Cooldown: 18s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K11_66_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K11_66_4.png",
+          "180",
+          "13"
         ],
         [ "Burning Feather",
           "Passive Skill",
           "6% on hit to deal an explosive attack, deal 476 AOE fire elemental damage",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K16_120_4-259420.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K16_120_4-259420.png",
+          "176",
+          "20"
         ],
         [ "Xuanyuan: Gun",
           "Active Skill",
           "Fire 6 electronic bullets to the front, each deal 232 lightning damage, on hit inflict vulnerable status to the enemy, reducing their defense by 60%, last for 4 seconds (EP Consumption: 25 – Cooldown: 20s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K19_139_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K19_139_5.png",
+          "165",
+          "16"
         ],
         [ "Dark Actor Pistol",
           "Passive Skill",
           "Increase physical ranged attack by 30%. Reduce damage dealt based on distance, each 1m further away, reduce 10% damage dealt, up to 80%",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K18_135_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K18_135_4.png",
+          "179",
+          "16"
         ],
         [ "Phoenix Gun",
           "Passive Skill",
           "24.9% on hit to inflict burn status to target. deal 160 fire elemental damage per each 0.5 second, last for 2.5 seconds, cooldown 7 seconds.\nIf team has Mei Valkyrja, burn status applies to a small AOE on target",
           "Active Skill",
           "Increase charge speed by 100%, last for 11.98 seconds (EP Consumption: 20 – Cooldown: 120 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K20_143_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K20_143_4.png",
+          "158",
+          "25"
         ],
         [ "Holy Guns - Kallen",
           "Passive Skill",
           "When hit, absorb 40% damage, release a holy light, cooldown 15 seconds. Holy light deal physical damage 290% based on attack power, reduce enemy attack speed by 75% for 4.5 seconds.",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K22_152_4-199440.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K22_152_4-199440.png",
+          "183",
+          "10"
         ],
         [ "Alloy Hurricane Revolver",
           "Active Skill",
           "Summon a whirlwind around self, dealing rapid attack to surrounding enemy, each attack deals 174 ice elemental damage. The whirlwind exlode when expires, dealing 240% physical damage (EP Consumption: 15 – Cooldown: 20s)",
           "-",
           "-",
-          "link"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K10_110_4.png",
+          "149",
+          "24"
         ],
         [ "Alloy Dominator's Pistol",
           "Active Skill",
           "Form a number of rising punches from the ground, each deals physical damage 40% based on attack power + 95 fire elemental damage to the targeted enemy surrounding (EP Consumption: 19 – Cooldown: 10s)",
           "-",
           "-",
-          "link"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K12_111_4.png",
+          "160",
+          "10"
         ],
       ],
       twostar: [
@@ -228,35 +290,45 @@ var equipment = {
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K1_02_2.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K1_02_2.png",
+          "121",
+          "14"
         ],
         [ "M1911",
           "-",
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K2_03_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K2_03_3.png",
+          "94",
+          "59"
         ],
         [ "Desert Eagle",
           "Active Skill",
           "Fire one bullet at target deal physical damage 339% based on attack power. Has 2 charges (EP Consumption: 10 – Cooldown: 10 seconds)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K2_04_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K2_04_3.png",
+          "128",
+          "2"
         ],
         [ "Colt Peacemaker",
           "Active Skill",
           "Fire one bullet that inflict small AOE stun status, last for 2.99 seconds (EP Consumption: 7 – Cooldown: 12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K9_63_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K9_63_3.png",
+          "114",
+          "25"
         ],
         [ "Colt Anaconda EX",
           "Active Skill",
           "Fire one bullet that inflict small AOE 60% attack speed and movement speed reduction, last for 4.48 seconds (EP Consumption: 5 – Cooldown: 10s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K9_62_3-222460.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K9_62_3-222460.png",
+          "128",
+          "2"
         ]
       ],
       onestar: [
@@ -265,7 +337,9 @@ var equipment = {
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K1_01_2.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K1_01_2.png",
+          "76",
+          "8"
         ]
       ]
     },
@@ -276,133 +350,171 @@ var equipment = {
           "Combo at 20/50/100, damage increase by 20%/30%/40%",
           "Passive Skill",
           "During Burst Mode, Physical Damage +30%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M5_22_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M5_22_5.png",
+          "254",
+          "59"
         ],
         ["Raikiri",
           "Active Skill",
           "Grant the protection of the spirit sword to all ally members (including alter ego) and increase defense strength 50%, deal 318 lightning damage every 0.25 seconds to the enemies touched, duration 5.99 seconds (EP Consumption: 18 – Cooldown: 25s)",
           "Passive Skill",
           "40% chance to reduce damage taken by 597",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M4_21_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M4_21_5.png",
+          "264",
+          "45"
         ],
         ["MagStorm",
           "Active Skill",
           "Slash twice dealing 1911 lightning damage every time, bringing to paralysis for 2.5 seconds (EP Consumption: 20 – Cooldown: 15s)",
           "Passive Skill",
           "Increase lightning damage 40%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M6_24_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M6_24_5.png",
+          "298",
+          "6"
         ],
         ["Plasma Kagehide",
           "Active Skill",
           "Release a wave of cold air, freeze enemy upon touched for 0.9 seconds, dealing 876.0588 ice elemental damge, wave last for 4.99 seconds (EP Consumption: 20 – Cooldown: 25s)",
           "Passive Skill",
           "Add 23 ice elemental damage for each attack",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M4_23_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M4_23_5.png",
+          "269",
+          "18"
         ],
         ["Vorpal Sword Type-11",
           "Active Skill",
           "Creates a red black hole, deal physical damage equal to 80% attack power to the enemies within the range, inflict bleed deals 298 damage per every 0.5 seconds for 4.59 seconds. When the black hole explode deal physical damage equal to 20% damage of attack power (EP Consumption: 20 – Cooldown: 20s).",
           "Passive Skill",
           "Increase 20% physical damage to enemies got space-time decelerated",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M12_77_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M12_77_5.png",
+          "282",
+          "26"
         ],
         ["Void Blade",
           "Active Skill",
           "Create a space-time distortion around self, last for 6 seconds. Within the space-time distortion of the active skill, increase critical rate of normal attack by 29.9% (EP Consumption: 15 – Cooldown: 20s)",
           "Passive Skill",
           "Increase Physical damage by 15 / 30 / 45 % for 8 seconds every time 10/40/70 EP is used (count only once upon immediately used, doesn’t count multiple times, for example 10 + 30 = 40) , effect cannot be stacked",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M13_78_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M13_78_5.png",
+          "272",
+          "38"
         ],
         ["Nuwa's Sword",
           "Active Skill",
           "Summon 1 flaming soul that shoot fire at target enemy, one soul last for 10 seconds, have 2 charges. Each flaming soul’s attack deal 955 small AOE fire elemental damage (EP Consumption: 15 – Cooldown: 12s)",
           "Passive Skill",
           "When attacking, 5% to create a flaming sword, inflict burn status to enemies, dealing 187 fire elemental damage per every 0.5 second, last for 3 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M15_124_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M15_124_5.png",
+          "272",
+          "38"
         ],
         ["Sky Breaker",
           "Active Skill",
           "Perform a series of multiple strikes, in total deals 400% damage to the surrounding enemies, inflict weaken status to the enemy that receive the last blow, decreasing defense power by 100%, for 5.99 seconds (EP Consumption: 20 – Cooldown: 18s)",
           "Passive Skill",
           "When attacked, strike lightning at attacking enemy, dealing 150% electric elemetal damage, paralyze for 1 second, cooldown 10 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M16_125_5-228290.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M16_125_5-228290.png",
+          "289",
+          "17"
         ],
         ["High Frequency Cutter",
           "Active Skill",
           "Teleport to target enemy and inflict a small AOE bind, last for 4 seconds, reduce bound enemies’ defense power by 80%, dealing 233 electric elemental damage per every 0.5 second (EP Consumption: 14 – Cooldown: 11s)",
           "Passive Skill",
           "When performing a critical, 50.0% chance to inflict knock up and lock time-space to enemy, last for 3 seconds,  6.02 seconds cooldown",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M17_129_5-222210.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M17_129_5-222210.png",
+          "272",
+          "38"
         ],
         ["Ice Epiphyllum",
           "Active Skill",
           "Create a 3.5m freezing AOE under wielder, last for 10.0 seconds, increase friendly unit’s ice elemental damage by 39.8%, enemies inside the area will be exploded with frostbite after 6 seconds, receive 975 ice elemetal damage (EP Consumption: 20 – Cooldown: 18s)",
           "Passive Skill",
           "Increase elemental damage by 14.9%. Every 5 seconds, the next attack will deal 1260 ice elemental damage within 5m radius. When equipped on Sakura – Unfogotten, performing a critical attack will gain 200KP",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M21_147_5-256030.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M21_147_5-256030.png",
+          "265",
+          "46"
         ],
         ["Sakura Blossom",
           "Active Skill",
           "Slash forward, dealing physical damage 398.8% based on attack power. Additionally inflict stun status against enemy with Sakura mark, last for 3.5 seconds. When equipped on Sakura – Heretic Miko, perform skill will increase 1 Sakura Counter to enemy. Has 2 charges  (EP Consumption: 15 – Cooldown: 12s)",
           "Passive Skill",
           "On hit have 99.7% chance to perform a forward air slash attack, deal physcial damage 199.4% based on attack power, has 5.5 seconds cooldown. When equipped on Sakura – Heretic Miko, air slash attack increase 1 Sakura Counter to target enemy. Enemies already inflicted with Sakura Mark receive additional 1911 physical damage",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M22_154_5-187180.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M22_154_5-187180.png",
+          "288",
+          "17"
         ],
         ["Gluttony Scimitar",
           "Active Skill",
           "Release a whirlwind that interupt the enemies and pull them forward wielder, inflict stun for 1.50 seconds, dealing 448 physical damage (EP Consumption: 18 – Cooldown: 15s)",
           "Passive Skill",
           "Gain 4 EP upon 1 enemy take down",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M9_73_4-257120.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M9_73_4-257120.png",
+          "239",
+          "22"
         ],
         ["Sheathed Blade",
           "Passive Skill",
           "Upon performing a successful evasive move, charge electricity. First enemy on-hit remove electric charge, deal AOE 3982 physical damage and AOE 3982 lightning elemental damage. After charging electricity, cannot charge again after 1.5 second",
           "Passive Skill",
           "On hit,  8.0% chance to inflict AOE paralysis status, last for 3 seconds, cooldown 6 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M18_132_5-250800.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M18_132_5-250800.png",
+          "287",
+          "27"
         ],
         ["Wind Wielder",
           "Active Skill",
           "Create a tornado, inflict knock-up to enemies upon touched, dealing 224 ice elemetal damage, reduce 80% attack speed and movement speed, tornado last for 1.80 seconds (EP Consumption: 20 – Cooldown: 25s)",
           "Passive Skill",
           "On hit,  5.0% chance to increase movement speed by 100% for 4.5 seconds, 10 seconds cooldown",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M11_76_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M11_76_5.png",
+          "224",
+          "39"
         ],
         ["Fairy Sword Silven",
           "Active Skill",
           "Create a field that grant squad member attack speed by 25%, movement speed by 20%, attack all-damage by 10%. Field last for 20 seconds (EP Consumption: 17 – Cooldown: 38s)",
           "Passive Skill",
           "For each 10% extra movement speed, increase attack all-damage by 5%, stack up to 50%.  Increase movement speed by 30%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M23_171_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M23_171_5.png",
+          "275",
+          "36"
         ],
         ["Pledge of Rain",
           "Active Skill",
           "Summon an umbrella that shoot out crystal in a circular field, dealing physical damage based on 24* 30% attack power, reduce enemy caught in crystal field attack speed and movement speed by 40%, last for 5 seconds (EP Consumption: 16 – Cooldown: 18s)",
           "Passive Skill",
           "Increase 20% physical damage against slowed enemy\nIncrease 20% all-damage when combo reaches 50",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M27_176_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M27_176_5.png",
+          "287",
+          "29"
         ],
         ["Jizou Spirit",
           "Active Skill",
           "Summon Jizou Spirit, last for 39 seconds. When enter the battlefield, Jizou deal physical damage 300% based on attack power to enemy and its surrounding, inflict float status. Jizou’s pattern attack:\nChop down: Deal physical damage 100% based on attack power\nTackle attack: Deal physical damage 200% based on attack power, inflict knock-back\nWide slash: Deal physical damage 100% based on attack power, inflict float",
           "Passive Skill",
           "Increase all-damage against float status enemy by 32%\nWeapon Buff – God’s Key: When weapon’s level increase, the weapon will give buff to users. This skill is activated automatically and cannot be turn on or off. Has a time limit.\nLv 30: Increase all Katana-users defense power by 30\nLv 35: Increase all Katana-users defense power by 40\nLv 40: Increase all Katana-users attack power by 15\nLv 45: Increase all Katana-users HP by 120\nLv 50: Increase all Katana-users attack power by 25",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M28_197_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M28_197_5.png",
+          "289",
+          "24"
         ],
         ["Candy Sword",
           "Passive Skill",
           "On hit critical drop 3 ginger man. Each deal 149.7% physical damage based on attack power. Cooldown 8s",
           "Passive Skill",
           "When combo reaches 10, increase elemental damage by 15%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/38c4e612b07eca8015c2e2a09a2397dda344838d.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/38c4e612b07eca8015c2e2a09a2397dda344838d.png",
+          "221",
+          "26"
         ],
         ["Demon Katana – Red Dyed Cherry Blossoms",
           "Active Skill",
           "Spinning dealing multiple instance, total fire elemental based on 500% attack power. If taken damage during skill activation, deal another 200% fire elemental damage to attacker. Invulnerable during performing skill, grant a shield that can negate 1 instance source of damage after skill animation. Shield last for 5 seconds. (EP Consumption: 20 – Cooldown: 21)\nWhen equiped on Sakura – True Blaze Fortunate God, enemy got hit by the skill get a debuff, take additional 25% fire elemental damage, 15% lightning and ice elemental damage. Debuff last for 15 seconds. True Blaze additional branch skill does not benefit from this debuff (please read  Sakura – True Blaze Fortunate God skill for more information)",
           "Passive Skill",
           "Increase fire elemental damage by Valkyrja by 40%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Katana_M26_193_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Katana_M26_193_5.png",
+          "287",
+          "31"
         ]
       ],
       threestar: [
@@ -411,98 +523,126 @@ var equipment = {
           "Add 42 lightning damage into each attack",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_19_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_19_4.png",
+          "163",
+          "38"
         ],
         [ "Hell Thunder",
           "Active Skill",
           "Summon a whirlwind, deal physical attack 300% based on attack power, reduce hit enemy defense power by 60%, last for 2.99 seconds (EP Consumption: 12 – Cooldown:12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_19_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_19_4.png",
+          "169",
+          "29"
         ],
         [ "Pulse Katana Type-17",
           "Active Skill",
           "Summon 6 phantom blades, each deal 483 ice elemental damage, on hit reduce attack speed and movement speed by 70% last for 2.5 seconds (EP Consumption: 14 – Cooldown: 12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_18_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_18_4.png",
+          "188",
+          "3"
         ],
         [ "Pulse Katana Type-19",
           "Passive Skill",
           "Reduce Skill EP Activation Cost by 22% ",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_20_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_20_4.png",
+          "182",
+          "12"
         ],
         [ "Pulse Tachi Prototype",
           "Active Skill",
           "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32%, last for 5 seconds (EP Consumption: 8 – Cooldown: 15s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M7_70_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M7_70_4.png",
+          "146",
+          "29"
         ],
         [ "Crystal Edge",
           "Active Skill",
           "Slash using crystal energy, inflict AOE freeze status to enemy, last for 3.99 seconds (EP Consumption: 10 – Cooldown: 18 seconds)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M10_74_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M10_74_4.png",
+          "169",
+          "29"
         ],
         [ "Thermal Cutter",
           "Active Skill",
           "Slash using heat energy, dealing physical damage 270% based on attack power while inflict burn status to enemy, deal 372 fire elemental damage per each 0.5 second, last for 4 seconds (EP Consumption: 14- Cooldown: 10s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M10_75_4-238310.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M10_75_4-238310.png",
+          "178",
+          "17"
         ],
         [ "Vermillion Edge",
           "Active Skill",
           "Slash 7-strike slash to enemy and its surrounding, each strike deal physical damage 50% based on attack power, apply bind status to enemy at center (EP Consumption: 18 – Cooldown: 10s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M14_98_5-189840.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M14_98_5-189840.png",
+          "163",
+          "19"
         ],
         [ "Thunderstorms",
           "Active Skill",
           "Slash using electricity, deal small AOE 744 lightning damage, inflict paralysis status, last for 2 seconds (EP Consumption: 10 – Cooldown: 15s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M16_126_4-219780.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M16_126_4-219780.png",
+          "180",
+          "13"
         ],
         [ "Xuanyuan: Katana",
           "Active Skill",
           "Slash using ice energy, form a force field in front that when explode dealing 1017 ice elemental damage. Force field reduce enemy movement speed by 60%, last for 5 seconds (EP Consumption: 14 – Cooldown: 18s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M19_140_5-208900.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M19_140_5-208900.png",
+          "165",
+          "16"
         ],
         [ "Endotherm Tachi",
           "Passive Skill",
           "When current EP is below 20%, increase physical damage by 17%. When current EP is above 80%, add 71 fire elemental into each attack",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M18_136_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M18_136_4.png",
+          "175",
+          "15"
         ],
         [ "Phoenix Blade",
           "Passive Skill",
           "On hit add 36 fire elemental damage into each attack. When Kiana in squad, increase enemy burn status fire elemental damage by 18%",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M20_144_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M20_144_4.png",
+          "158",
+          "25"
         ],
         [ "Alloy Gluttony Scimitar",
           "Active Skill",
           "Summon a whirlwind that pull enemy towards wielder, dealing 317 physical damage each hit (EP Consumption: 10 – Cooldown: 15)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M9_112_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M9_112_4.png",
+          "166",
+          "14"
         ],
         [ "Alloy Wind Wielder",
           "Active Skill",
           "Summon a tornado, each hit deal 178 ice elemental damage (SP Consumption: 14 – Cooldown: 15 seconds)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M11_113_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M11_113_4.png",
+          "157",
+          "26"
         ]
       ],
       twostar: [
@@ -511,35 +651,45 @@ var equipment = {
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_14_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_14_3.png",
+          "121",
+          "14"
         ],
         [ "Amemura Bloodlust",
           "-",
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_15_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_15_3.png",
+          "94",
+          "59"
         ],
         [ "Murasama Bloodlust",
           "Active Skill",
           "Attack using spirit sword, deal physical damage 50% based on attack power, while also inflict bleed, deal 61 physical damage per each 0.5 second, last for 3 second. Skill have 3 charges (EP Consumption: 3 – Cooldown: 4s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_16_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_16_3.png",
+          "128",
+          "2"
         ],
         [ "Rosefinch",
           "Active Skill",
           "Summon a wave of flame, deal physical damage 100% based on attack power + 284 fire elemental damage to enemy (EP Consumption 10 – Cooldown 7)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M8_72_3-153340.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M8_72_3-153340.png",
+          "114",
+          "25"
         ],
         [ "Willow",
           "Active Skill",
           "Perform a slash in a wide angle, deal physical damage 249% based on attack power (EP Consumption: 9 – Cooldown: 7s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M8_71_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M8_71_3.png",
+          "128",
+          "2"
         ]
       ],
       onestar: [
@@ -548,7 +698,9 @@ var equipment = {
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_13_2.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_13_2.png",
+          "76",
+          "8"
         ]
       ]
     },
@@ -559,112 +711,144 @@ var equipment = {
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nWhen combo above 15, increase 20% physical damage",
           "Passive Skill",
           "Based on charging level, when missle explode, create 2/4/9 mini bombs, each dealing 30% physical damage",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B6_46_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B6_46_5.png",
+          "254",
+          "59"
         ],
         ["Cyclops PRI",
           "Rocket Launcher",
           "Slow charge type, increase physical damage when performing normal attack by 100%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nWhen enemy on field less than 2, increase all-damage by 20%",
           "Passive Skill",
           "On hit, imbue a mark that will explode on-death, dealing 399% AOE physical damage mark last for 5 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B5_45_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B5_45_5.png",
+          "248",
+          "43"
         ],
         ["Briareus PRI",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles\nOn hit, has 10% chance to inflict stun/paralyze/freeze status to enemies for 2 seconds, dealing 1328 fire/electric/ice elemental damage",
           "Active Skill",
           "Set a space-time trap area in front. Enemies caught within trap will be time-space decelerated, reduce def power by 50%, trap last for 6.19 seconds (EP Consumption: 18 – Cooldown: 24 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B5_47_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B5_47_5.png",
+          "298",
+          "6"
         ],
         ["Project Bunny 19C",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius\nWhen perform normal attack, increase 60% all damage",
           "Passive Skill",
           "On kill, has 60% chance to increase all damage by 75% for 3 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B7_48_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B7_48_5.png",
+          "287",
+          "19"
         ],
         ["Core Evoker Delta",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius\nIncrease outgoing all-attack  against enemies inflicted with paralyze status by 16%",
           "Active Skill",
           "Release a ball of energy slowly moving forward, damage enemy in-contact multiple times, each dealing 636 electric elemental damage, inflict paralyze status for 3.59 seconds (EP Consumption: 20 – Cooldown: 20 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B13_86_5-204480.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B13_86_5-204480.png",
+          "282",
+          "26"
         ],
         ["Ymir's Wrist",
           "Rocket Launcher",
           "Charge 1 time: Shoot 1 normal missile\nCharge 2 times: Shoot 2 strong missiles\nCharge 3 times: Shoot 3 very strong missiles\nFor each 1m further away from the enemy, increase physical damage by 4%, stack up to 8 times",
           "Active Skill",
           "Inflict knock back to surrounding enemies and apply shockwave to a wide frontal area, dealing 12*40% physical damage, reduce enemy movement speed and attack speed by 70% for 3 seconds (SP Consumption: 18 – Cooldown: 14 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B14_87_5-261900.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B14_87_5-261900.png",
+          "294",
+          "11"
         ],
         ["Fuxi Scroll",
           "Active Skill",
           "Fire Mode: Charge and shoot fire ball. On hit, has 30% chance to inflict burn, dealing 298 fire elemental damage per every 0.5 second, last for 3 seconds (works like Rocket Launcher)\n\nElectric Mode: Charge and shoot homing electric ball. On hit, has 15% chance to deal extra 150% electric elemental damage and inflict vulnerable status, reduce 60% defense power for 3 seconds (works like Cluster Missile Pod)\n\nIce Mode: Shoot ice fog​ continuously. On hit, has 5% chance to reduce 50% movement speed and attack speed for 3  seconds *(works like Particle Beam Cannon)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B15_121_5-177770.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B15_121_5-177770.png",
+          "272",
+          "38"
         ],
         ["Chiyou Cannon",
           "Rocket Launcher",
           "Slow charge type, increase physical damage when performing normal attack by 100%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nFor every enemy inflict with freeze status, increase charge speed by 20.0%, stackable up to 10 times",
           "Active Skill",
           "Release a strong rupture, seal caught enemies in black ice status, inflict freeze status on to them, dealing 956 ice elemental damage while wielder heal 99 HP per every 0.9 second, black ice last for 4 seconds (EP Consumption: 25 – Cooldown: 20s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B16_122_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B16_122_5.png",
+          "294",
+          "11"
         ],
         ["Hellfire Type-III",
           "Rocket Launcher",
           "Fast charge type, reduce physical damage when performing normal attack by 30%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nIncrease all-damage against enemy inflicted freeze, time-space deceleration status by 20%",
           "Active Skill",
           "Shoot fire, dealing 12*60% fire elemental damage and 12*60% physical damage based on attack power (EP Consumption: 49 – Cooldown: 36s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B18_133_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B18_133_5.png",
+          "285",
+          "22"
         ],
         ["Flint Sanada",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles\nOn hit missile, add 55 fire elemental damage, then explode dealing 490 AOE fire elemental damage",
           "Active Skill",
           "Increase charge speed by 100%, last for 11.98 seconds (EP Consumption: 20 – Cooldown: 120 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B21_149_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B21_149_5.png",
+          "275",
+          "34"
         ],
         ["Tyr Wrist",
           "Rocket Launcher",
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nIncrease 30% physical damage to broken shield enemies when perform normal attack or charge attack",
           "Active Skill",
           "Perform a 3-times-charge shoot at the enemies, damaged enemies will be put into bleed state, taking 313 physical damage per every 0.5 second, last for 7 seconds (SP Consumption: 19 – Cooldown: 9 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B23_173_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B23_173_5.png",
+          "282",
+          "26"
         ],
         ["Quantum Destroyer Type-II",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius\nIncrease 35% physical damage to space-time decelerated status enemies  ",
           "Active Skill",
           "Jump backwards, set up a Decelerate Black Hole at previous location that suck enemies in and reduce their movement speed by 60% , deal 188 ice elemental damage per every 0.6 second",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B17_130_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B17_130_5.png",
+          "280",
+          "27"
         ],
         ["Lurker's Cannon",
           "Rocket Launcher",
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Active Skill",
           "Slam a mechanical arm on the ground, dealing multiple instance of damage, each equal to 120% attack power, inflict stun for 2.55 seconds. After performing skill, increase wielder movement speed for a period (SP Consumption: 18 – Cooldown: 12 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B10_82_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B10_82_4.png",
+          "234",
+          "28"
         ],
         ["Devourer's Laser",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
           "Active Skill",
           "Slam a mechanical arm on the ground, dealing multiple instance of damage, knock back enemies, dealing 214 fire elemental damage, inflict burn status, dealing 134 fire elemtal damage and increase wielder movement speed for a period (EP Consumption: 18 – Cooldown: 12 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B12_85_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B12_85_5.png",
+          "239",
+          "22"
         ],
         ["Star Destroyer 19C",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 2 missiles\nCharge 2 times: Shoot 5 missiles\nCharge 3 times: Shoot 11 missiles\nOn hit missile from the back, each missile add 399 fire elemental damage",
           "Active Skill",
           "Shoot 18 missiles straight forward. Each missile deal physical damage 74.9% based on attack power and inflict float status. Furthermore inflict burn status to enemy, deal 599 fire elemental damage per each 0.5 second, last for 4 seconds (EP Consumption: 25 – Cooldown: 12 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B25_177_5-198870.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B25_177_5-198870.png",
+          "283",
+          "31"
         ],
         ["M134 Vulcan",
           "Particle Beam Cannon",
           "Rapid-fire weapon\nContinuously deal damage to targets in a straight line.\nOverheat if keep firing without break\nThe nearer approach to enemy, the more damage dealt. Deal highest damage to all enemies within 3m radius",
           "Active Skill",
           "[EP consumption: 5] [Cooldown: 15 seconds]\nIncreases critical rate by 10%, critical damage by 25% for 10 seconds and consume 2% of Valkyrja own max HP per second to keep weapon away from overheat\n\nPassive Skill\nDeal 50% physical damage based on attack power to any enemy surrounding the target upon critical charge attack, cooldown 0.3 second",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/M134-Vulcan_thumb.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/M134-Vulcan_thumb.png",
+          "281",
+          "35"
         ]
       ],
       threestar: [
@@ -673,91 +857,117 @@ var equipment = {
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Passive Skill",
           "on hit 60% chance to inflict burn status, dealing 149 fire elemental damage per each 0.5 second, last for 4.08 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B3_41_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B3_41_4.png",
+          "163",
+          "38"
         ],
         [ "Markov Type C",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles",
           "Active Skill",
           "Enhance weapon, increase attack speed by 75%, last for 4.99 seconds (EP Consumption: 12 – Cooldown: 20s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B3_42_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B3_42_4.png",
+          "169",
+          "29"
         ],
         [ "Cathode Type-07",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
           "Active Skill",
           "Create a field around self, reduce enemy attack speed and movement speed by 80%, last for 8 seconds (EP Consumption: 7 – Cooldown: 20 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B4_44_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B4_44_4.png",
+          "188",
+          "3"
         ],
         [ "Cathode Type-09",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
           "Passive Skill",
           "On hit 1.5% chance to inflict paralysis status to enemy, causing immobilize and unable to attack, last for 2.99 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B4_43_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B4_43_4.png",
+          "182",
+          "12"
         ],
         [ "Pulse Cannon Prototype",
           "Rocket Launcher",
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Active Skill",
           "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32% last for 5 seconds (EP Consumption: 8 – Cooldown: 15s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B8_79_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B8_79_4.png",
+          "146",
+          "29"
         ],
         [ "Raider Missiles",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles",
           "Active Skill",
           "Increase wielder movement speed by 100%, last for 5.98 seconds (EP Consumption: 6 – Cooldown: 15s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B11_83_4-259660.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B11_83_4-259660.png",
+          "169",
+          "29"
         ],
         [ "X-01 Azure Eye",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles",
           "Active Skill",
           "Enhance own attack for 6.47 seconds duration, each attack reduce enemy attack speed and movement speed by 60% for 3.5 seconds (EP Consumption: 12 – Cooldown: 20s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B11_84_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B11_84_4.png",
+          "178",
+          "17"
         ],
         [ "Frost Rain",
           "Rocket Launcher",
           "Slow charge type, increase physical damage when performing normal attack by 100%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Passive Skill",
           "Knock down attack inflict frost debuff, slow enemy and its surrounding attack speed and movement speed by 70%, last for 6 seconds, cooldown 15 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B18_137_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B18_137_4.png",
+          "176",
+          "20"
         ],
         [ "Ice Roar",
           "Rocket Launcher",
           "Fast charge type, reduce physical damage when performing normal attack by 30%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Passive Skill",
           "On hit 39.8% chance to inflict freeze status, last for 3 seconds, cooldown 9.07 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B16_123_4-180330.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B16_123_4-180330.png",
+          "166",
+          "34"
         ],
         [ "Alloy Lurker's Cannon",
           "Rocket Launcher",
           "Fast charge type, reduce physical damage when performing normal attack by 30%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Active Skill",
           "Slam mechanical arm on the ground, creating shock waves. Shock wave deal many damage instance, each deal physical damage 90% based on attack power (EP Consumption: 12 – Cooldown: 9s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B10_114_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B10_114_4.png",
+          "163",
+          "17"
         ],
         [ "Alloy Devourer's Cannon",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
           "Active Skill",
           "Slam mechanical arm on the ground, create a shock wave that deal many damage instance and inflict knock back. Each instance deal 158 fire elemental damage (EP Consumption: 20 – Cooldown: 15 seconds)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B12_115_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B12_115_4.png",
+          "166",
+          "14"
         ],
         [ "AI Chan's Cannon",
           "Rocket Launcher",
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Passive Skill",
           "On 3rd charge phase, on hit 66.3% chance to inflict vulnerable status, reduce enemy movement speed, does not stack with other movement speed reducing status",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B20_145_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B20_145_4.png",
+          "174",
+          "3"
         ],
         [ "Xuanyuan: Cannon",
           "Rocket Launcher",
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
           "Active Skill",
           "Fire a big fireball, on hit explode deal 419% fire elemental damage based on attack power, inflict burn status, dealing 18% fire elemental damage based on attack power per every 0.5 second, last for 3 seconds (EP Consumption: 18 – Cooldown:10s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B19_141_4-171780.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B19_141_4-171780.png",
+          "165",
+          "16"
         ]
       ],
       twostar: [
@@ -766,35 +976,45 @@ var equipment = {
           "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nIncrease non-charge basic attack non-charge by 50%",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B1_38_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B1_38_3.png",
+          "121",
+          "14"
         ],
         [ "MiG-11",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 2 missiles\nCharge 2 times: Shoot 5 missiles\nCharge 3 times: Shoot 11 missiles",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B2_40_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B2_40_3.png",
+          "94",
+          "59"
         ],
         [ "MiG-13",
           "Cluster Missile Pod",
           "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B2_39_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B2_39_3.png",
+          "128",
+          "2"
         ],
         [ "Fury Cannon",
           "Particle Beam Cannon",
           "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B9_81_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B9_81_3.png",
+          "128",
+          "2"
         ],
         [ "MiG-7",
           "Rocket Launcher",
           "Slow charge type, increase physical damage when performing normal attack by 100%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nIncrease non-charge basic attack non-charge by 100%",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B9_80_3-160040.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B9_80_3-160040.png",
+          "114",
+          "25"
         ]
       ],
       onestar: [
@@ -803,7 +1023,9 @@ var equipment = {
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B1_37_2.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B1_37_2.png",
+          "76",
+          "8"
         ]
       ]
     },
@@ -814,91 +1036,117 @@ var equipment = {
           "Use chainsaw to cut the enemy, deal small AOE physical damage 24*32%  based on attack power, flip up the chainsaw at the end, deal physical damage 325% based on attack power. Wielder is invulnerable during skill animation. (EP Consumption: 25 – Cooldown: 12s)",
           "Passive Skill",
           "On hit, 10% chance to inflict bleed status, dealing 151 physical attack per every 0.5 seconds for 3 seconds.",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H5_57_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H5_57_5.png",
+          "272",
+          "38"
         ],
         [ "7th Sacred Relic",
           "Active Skill",
           "Fire 2 air slashes one after another, dealing physical damage continuously, each time equal to 25% attack power, damage deal up to 8 times. When 2 slashes meet and create an X cross, create an explosion deal physical damage  349% based on attack power and inflict stun status to enemy for 5.99 seconds. (EP Consumption: 18 – Cooldown: 24s)",
           "Passive Skill",
           "When attacking enemies inflicted with stun status, increase attack speed by 49.9%, last for 4 seconds, cooldown 12 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H6_58_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H6_58_5.png",
+          "263",
+          "48"
         ],
         [ "Blood Dance",
           "Active Skill",
           "Summon a Fresh Blood Tornado, dealing 9*35% physical damage, and put enemies in a berserk state for 8.98 seconds – increase attack speed by 2 times, but take more 60% incoming elemental damage (EP Consumption: 20 – Cooldown: 15s)",
           "Passive Skill",
           "When combo above 15, increase 30% outgoing physical damage\nWhen HP below 50%, heal 30 HP per every 0.5 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H7_59_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H7_59_5.png",
+          "289",
+          "17"
         ],
         [ "Sunfire Greatsword",
           "Active Skill",
           "Jump at targeted enemy and AOE apply knock-up status, dealing 2877 fire elemental damage, while also inflict burn status, dealing 306 fire elemental damage per every 0.5 sec, last for 6 second (EP Consumption: 20 – Cooldown: 12s)",
           "Passive Skill",
           "Increase Fire elemental damage by 30%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H8_60_5-227240.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H8_60_5-227240.png",
+          "280",
+          "27"
         ],
         [ "Dragon Spine",
           "Active Skill",
           "Jump at target enemy, dealing 249% AOE physical damage based on attack power, inflict bind status to damaged enemy for 4.5 seconds. Also inflict bleed status, dealing  238 damage per 0.5 second (EP Consumption: 25 – Cooldown: 25s)",
           "Passive Skill",
           "Attacking bleed inflicted enemy heal for 39 HP",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H15_96_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H15_96_5.png",
+          "271",
+          "16"
         ],
         [ "Schwert Gewehr",
           "Active Skill",
           "Emit a electromagnetic wind slash towards the front, dealing 2324 electric damage, inflict electric shock status to caught enemy for 7 seconds. Enemy in electric shock state receive extra 50% electric elemental damage (EP Consumption: 20 – Cooldown: 18s)",
           "Passive Skill",
           "Add 79 electric elemental damage for each attack",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H14_95_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H14_95_5.png",
+          "289",
+          "16"
         ],
         [ "Xuanyuan Sword",
           "Active Skill",
           "Has 3 skill charges, each skill attack uses electric/fire/ice elemental damage in following order, dealing 239% physical damage and 239% elemental damage, inflict paralyze/burn/freeze status to enemies. After using the skill, within (electric: 4, fire: 7, ice: 10) seconds, further add 448 elemental damage into each attack, elemental imbued attack can’t be stacked (EP Consumption: 15 – Cooldown: 12s)",
           "Passive Skill",
           "When attacked, fire 2 spirit sword at 2 random enemy, inflict knock back enemy on its path, dealing 160% physical damage based on attack power, cool down 5.03 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H16_97_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H16_97_5.png",
+          "276",
+          "32"
         ],
         [ "Dawn Judgement",
           "Active Skill",
           "Increase saw speed thus increase attack speed by 50%, increase critical rate by 25% for normal attack, attack can’t be interrupted, last for 8 seconds (EP Consumption: 18 – Cooldown: 24s)",
           "Passive Skill",
           "When performing a critical hit, has 24.9% chance to explode 1792 electric elemental damage under wielder, inflict weaken status to caught enemy for 4 seconds, reducing their defense power by 50%, has 7 seconds cooldown",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H18_134_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H18_134_5.png",
+          "268",
+          "41"
         ],
         [ "Dark Xuanyuan Sword",
           "Active Skill",
           "Increase physical damage by 35% for 8 seconds. Within skill period, killing the first enemy will apply all area space-time distortion for 8 seconds, also prolong 35% physical damage buff until the end of space-time distortion. (EP Consumption: 22 – Cooldown: 25s)",
           "Passive Skill",
           "On-hit enemy will apply all area space-time distortion for 4.5 seconds, cooldown 60 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H16_142_5-239640.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H16_142_5-239640.png",
+          "250",
+          "25"
         ],
         [ "Ghostslayer Nagamitsu",
           "Passive Skill",
           "Charge energy while dashing, getting interrupted or stop dashing will reset the charging process. For every 0.5/1.5/3 seconds dashing duration, performing tackle attack will create an explosion to the first enemy in contact, dealing 399/599/799 % physical damage",
           "Passive Skill",
           "While combo is below 5, increase physical damage by 32%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H21_150_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H21_150_5.png",
+          "289",
+          "17"
         ],
         [ "Godfather's Greatsword",
           "Active Skill",
           "Shoot laser at a small frontal area, each laser beam deals 89 fire elemental damage and explode, dealing 717 fire elemental damage to enemies caught within radius, and inflict burn status, dealing 89 fire elemental damage per every 0.5 seconds for 3 seconds (EP Consumption: 24 – Cooldown: 18s)",
           "Passive Skill",
           "Add 95 fire elemental damage into each attack",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H11_91_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H11_91_5.png",
+          "234",
+          "28"
         ],
         [ "The Betrayer's Greatsword",
           "Active Skill",
           "Fire 6 homing missile, each deals 200% small AOE physical damage based on attack power, inflict stun status to enemies caught within radius for 2.50 seconds (EP Consumption: 18 – Cooldown: 12s)",
           "Passive Skill",
           "When attacked has 50% chance to deal 160% physical damage back at enemy",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H13_94_5-153140.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H13_94_5-153140.png",
+          "245",
+          "15"
         ],
         [ "Balmung",
           "Passive Skill",
           "On hit release a Time Essence Slash, with physical damage 80% based on attack power, cooldown 0.8 seconds. Each Time Essence Slash has 15% chance to be enhanced, deal physical damage 159% based on attack power",
           "Active Skill",
           "Increase physical damage deal by wielder by 24,9%, enhance all Time Essence Slash, last for 8 seconds (EP Consumption: 20 – Cooldown: 25s)",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H22_174_5-254590.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H22_174_5-254590.png",
+          "285",
+          "32"
         ]
       ],
       threestar: [
@@ -907,84 +1155,108 @@ var equipment = {
           "On hit 8% chance to inflict freeze status, last for 2.14 seconds",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H3_53_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H3_53_4.png",
+          "168",
+          "31"
         ],
         [ "Vanguard",
           "Active Skill",
           "Slam at enemy, inflict float status, deal physical damage 449% based on attack power (EP Consumption: 15 – Cooldown:8s )",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H4_54_4-260010.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H4_54_4-260010.png",
+          "183",
+          "10"
         ],
         [ "Ion Resonance",
           "Active Skill",
           "Attack enemy with electric energy, deal AOE 3*743 lightning damage to enemy and its surrounding, inflict paralysis status, last for 2 seconds (EP Consumption: 15 – Cooldown: 10s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H3_55_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H3_55_4.png",
+          "171",
+          "27"
         ],
         [ "King Cobra",
           "Passive Skill",
           "Give 19 EP when starting battle",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H4_56_4-219600.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H4_56_4-219600.png",
+          "185",
+          "7"
         ],
         [ "Pulse Claymore Prototype",
           "Active Skill",
           "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32%, last for 5 seconds (EP Consumption: 8 – Cooldown: 32s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H9_88_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H9_88_4.png",
+          "153",
+          "19"
         ],
         [ "Violet Knight",
           "Active Skill",
           "Perform air slash towards target enemy location, air slash deal physical damage 3*145% based on attack power to enemy on its path(SP Consumption: 18 – Cooldown: 14 seconds)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H12_92_4-205860.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H12_92_4-205860.png",
+          "178",
+          "17"
         ],
         [ "Crimson Queen",
           "Passive Skill",
           "Increase out going physical damage by 0.6% for each 1% HP loss",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H12_93_4-214680.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H12_93_4-214680.png",
+          "120",
+          "15"
         ],
         [ "Sprocket Claymore",
           "Active Skill",
           "Increase chainsaw speed, increase attack speed by 39.9%, increase basic attack critical chance (charge attack included) by 10%, last for 6 seconds (EP Consumption: 14 – Cooldown: 18s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H18_138_4-206810.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H18_138_4-206810.png",
+          "173",
+          "24"
         ],
         [ "Alloy Godfather's Greatsword",
           "Active Skill",
           "Shoot lazer in front, explode enemy on hit, deal small AOE 536 fire elemental damage (EP Consumption: 18 – Cooldown: 16s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H11_116_4-176720.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H11_116_4-176720.png",
+          "155",
+          "17"
         ],
         [ "Alloy Betrayer's Claymore",
           "Active Skill",
           "Shoot out 6 missiles, each deal small AOE physical damage 199% based on attack power (EP Consumption: 12 – Cooldown: 10s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H13_117_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H13_117_4.png",
+          "160",
+          "10"
         ],
         [ "AI-chan Hammer",
           "Active Skill",
           "Slam AI-hammer on the ground, creating a shock wave that inflict knock back, deal physical damage 299% based on attack power, have 50% chance to inflict stun status, last for 3 seconds (EP Consumption: 15 – Cooldown: 15s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/Weapon_Claymore_H26_196_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/Weapon_Claymore_H26_196_4.png",
+          "182",
+          "19"
         ],
         [ "Inquisition Torch",
           "Passive Skill",
           "On hit have 11.11% to deal 302 fire elemental damage to target and its surroundings",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H17_127_4-213850.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H17_127_4-213850.png",
+          "165",
+          "16"
         ]
       ],
       twostar: [
@@ -993,35 +1265,45 @@ var equipment = {
           "Launch enemy into mid-air, deal physical damage 348% based on attack power (EP Consumption: 12 – Cooldown: 10s) ",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H10_90_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H10_90_3.png",
+          "126",
+          "5"
         ],
         [ "Energy Greatsword",
           "-",
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H1_51_3-259860.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H1_51_3-259860.png",
+          "122",
+          "12"
         ],
         [ "Fusion Sword EX",
           "Active Skill",
           "Perform a chop cut, inflict knock down, deal physical damage 398% based on attack power (EP Consumption: 10 – Cooldown: 9 seconds)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H2_52_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H2_52_3.png",
+          "124",
+          "9"
         ],
         [ "Nuclear PRI",
           "-",
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H2_50_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H2_50_3.png",
+          "121",
+          "14"
         ],
         [ "Hybrid Type-16",
           "Passive Skill",
           "Increase all-damage against stun, bind, space-time decelerated enemy by 20%",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H10_89_3-245330.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H10_89_3-245330.png",
+          "126",
+          "5"
         ]
       ],
       onestar: [
@@ -1030,7 +1312,9 @@ var equipment = {
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H1_49_2.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H1_49_2.png",
+          "76",
+          "8"
         ]
       ]
     },
@@ -1041,42 +1325,54 @@ var equipment = {
           "Summon cross and deploy: inflict 6 seconds shackle status to the surrounding enemies and fire 13 holy javelins, that will drop from above on random target, each dealing lightning elemental damage based on 281% attack power (EP Consumption: 16 – Cooldown: 13s)",
           "Passive Skill",
           "20% on-hit chance to imbue a 6 second-timed holy light seal that on-hit deal 650 electric elemental damage, cooldown 13s",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T6_166_5-163430.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T6_166_5-163430.png",
+          "276",
+          "32"
         ],
         [ "Bloody Embrace",
           "Active Skill",
           "Summon cross and deploy: inflict 2 seconds float status to surrounding enemies, cross spin dealing 200.6% physical damage based on attack power per every 0.25 second, inflict 5 seconds bleeding status to caught enemies, dealing 757 physical damage per every 0.5 second (EP Consumption: 24 – Cooldown: 10s)",
           "Passive Skill",
           "Increase physical damage against bleeding status enemy by 40%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T7_167_5-220900.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T7_167_5-220900.png",
+          "264",
+          "45"
         ],
         [ "Pledge of Sakura",
           "Active Skill",
           "Summon cross and deploy: summon a 3.5 seconds field that attack surrounding enemies with sakura blade, dealing 179.9% physical attack based on attack power per every 0.3 second, have 21.2% on-hit chance to put 1 Sakura Mark Counter on enemy. When target enemy’s Sakura Mark Counter go higher than 3, the Counter will be reset and put a Sakura Mark on target enemy (EP Consumption: 20 – Cooldown: 12s)",
           "Passive Skill",
           "Have 59.9% on-hit chance to summon a circular field that attack enemy with sakura petals at enemy location, dealing 199.5% physical attack based on power, have 6 seconds cooldown. Deal further 440 fire elemental damage against enemy having a Sakura Mark or Sakura Mark Counter. When equipped on Sakurahi Rondo, sakura petals increase Sakura Mark Counter by 1",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T9_169_5-244540.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T9_169_5-244540.png",
+          "257",
+          "53"
         ],
         [ "Silver Cleaver",
           "Active Skill",
           "Summon cross and deploy: summon a 6 seconds field, cut 3 times per every 1 second randomly to enemies in field, each cut deal 664 physical damage, inflict 5 second weaken status, reduce their attack power by 50% ",
           "Passive Skill",
           "Increase physical damage against weaken status enemy by 35%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T4_163_4-205270.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T4_163_4-205270.png",
+          "268",
+          "29"
         ],
         [ "11th Sacred Relic",
           "Active Skill",
           "Summon cross and deploy: summon a 10 seconds field, increase allies Valkyrja & Summon unit critical chance by 10%. Attack enemy inside field and its small surrounding per each 1.0 second, dealing 5*50% physical damage based on attack power (EP Consumption: 18 – Cooldown:15s)",
           "Passive Skill",
           "On hit against vulnerable status enemy, have 39.9% chance to heal whole squad by 74 HP, 3 seconds cooldown",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/11-Sacred-Relic.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/11-Sacred-Relic.png",
+          "274",
+          "41"
         ],
         [ "Eliudnir",
           "Active Skill",
           "Summon cross and deploy: summon a 10 seconds field, every 1.5 second shoots a light beam to a random enemy within range that deals physical damage based on 320.1% attack power, apply stun status to enemy. Last for 6s. Stun status enemy take extra 30% physical damage (EP Consumption: 20 – Cooldown:18s)",
           "Passive Skill",
           "Increase  all-damage against stun status enemy by 40.0%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Cross_T13_183_5.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Cross_T13_183_5.png",
+          "275",
+          "36"
         ],
       ],
       threestar: [
@@ -1085,35 +1381,45 @@ var equipment = {
           "Summon cross and deploy: for 6 seconds, per each 1.5 seconds deal 1077 fire elemental damage in cross field (EP Consumption: 18 – Cooldown: 12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T4_162_4-201140.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T4_162_4-201140.png",
+          "182",
+          "12"
         ],
         [ "Fire Angel",
           "Active Skill",
           "Summon cross and deploy: for 7 seconds, per each 0.8 second fire a wave of flame toward one random enemy in cross field, deal 675 fire elemental damage, inflict burn status, dealing 160 fire elemental damage per each 0.5 second, last for 3 seconds (EP Consumption: 20 – Cooldown: 15s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T5_164_4-247820.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T5_164_4-247820.png",
+          "185",
+          "10"
         ],
         [ "Lightning Angel",
           "Active Skill",
           "Summon cross and deploy: for 6 seconds, per each 1.5 seconds deal 834 lightning elemental damage in cross field, inflict 0.7 second paralysis status (EP Consumption: 15 – Cooldown: 15s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T5_165_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T5_165_4.png",
+          "168",
+          "31"
         ],
         [ "Pulse Cross Prototype",
           "Active Skill",
           "Summon cross and deploy: for 7 seconds, enhance all allies physical damage basic attack in cross field(branch attack and charge attack included) by 28.4% (EP Consumption: 17 – Cooldown: 12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T8_168_4.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T8_168_4.png",
+          "163",
+          "22"
         ],
         [ "AI Chan's Candy",
           "Active Skill",
           "Summon cross and deploy: for 8 seconds, per each 0.8 second drop candy to one random enemy in cross field, deal small AOE 662 physical damage (EP Consumption: 15 – Cooldown: 15s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T11_175_4-234700.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T11_175_4-234700.png",
+          "178",
+          "17"
         ],
       ],
       twostar: [
@@ -1122,35 +1428,45 @@ var equipment = {
           "Summon cross and deploy: for 8 seconds, per each 1.0 second fire an ice shell at one random enemy inside cross field, shell explode deal small AOE 514 ice elemental damage and slow target attack speed by 50%, last for 0.8 second (EP Consumption: 14 – Cooldown: 13s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T1_157_3-187060.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T1_157_3-187060.png",
+          "121",
+          "14"
         ],
         [ "Penetrating Bullets Launcher",
           "Active Skill",
           "Summon cross and deploy: for 8 seconds, per each 0/9 second fire a bomb shell at one random enemy inside cross field, shell explode deal small AOE 740 physical damage (EP Consumption: 15 – Cooldown: 13s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T2_159_3-201830.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T2_159_3-201830.png",
+          "148",
+          "2"
         ],
         [ "Flame Bullets Launcher",
           "Active Skill",
           "Summon cross and deploy: for 8 seconds, per each 0.6 second fire a flaming shell at one random enemy inside cross field, shell explode deal small AOE 476 fire elemental damage (EP Consumption: 15 – Cooldown: 13s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T2_158_3-261120.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T2_158_3-261120.png",
+          "102",
+          "55"
         ],
         [ "Fire Oath",
           "Active Skill",
           "Summon cross and deploy: for 8 seconds, inflict burn status to enemy inside cross field, deal 445 fire elemental damage per each 0.5 second (EP Consumption: 20 – Cooldown: 12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T3_161_3.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T3_161_3.png",
+          "123",
+          "10"
         ],
         [ "Ice Oath",
           "Active Skill",
           "Summon cross and deploy: for 8 seconds, add 118 ice elemental damage for allies inside cross field (EP Consumption: 18 – Cooldown: 12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T3_160_3-198840.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T3_160_3-198840.png",
+          "116",
+          "50"
         ],
       ],
       onestar: [
@@ -1159,7 +1475,9 @@ var equipment = {
             "-",
             "-",
             "-",
-            "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T1_156_2.png"
+            "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T1_156_2.png",
+            "76",
+            "8"
           ]
       ]
     },
@@ -1170,28 +1488,36 @@ var equipment = {
           "[EP consumption: 5] [Cooldown: 16 seconds] Grant a enhancement buff. While the effect is active, increase all squad members recovery effect by 30%, increase Valkyrja own attack speed by 40%, last for 8 seconds",
           "Passive Skill",
           "Increase EP gained via attack by 25%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/sky-query-thousand-bird_thumb.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/sky-query-thousand-bird_thumb.png",
+          "268",
+          "40"
         ],
         [ "CAS-IV Rampage",
           "Active Skill",
           "[EP consumption: 14] [Cooldown: 20 seconds] Pull the target in front of Valkyrja, deal 450% physical damage based on attack power, slow its speed by 80%, last for 5 seconds",
           "Passive Skill",
           "When hitting an enemy with branch attack, deals 2500 physical damage to the surrounding enemies, cooldown 1.5 seconds",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/cas-iv-rampage_thumb.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/cas-iv-rampage_thumb.png",
+          "257",
+          "23"
         ],
         [ "Fist of Taixu",
           "Active Skill",
           "[EP consumption: 17] [Cooldown: 25 seconds] Summon 3 projectile Xuanyuan swords. Each projectile deals 1500 fire elemental damage, and spacetime lock on-hit enemy for 4.5 seconds",
           "Passive Skill",
           "Increase all-damage dealt by Valkyrja by 8% upon hitting an enemy with normal, branch, ultimate, tag-in/QTE attack, last for 8 seconds. The effect can be overlapped itself by re-activating it via different type of attack. If overlapping is successful, refresh the duration",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/fist-of-taixu_thumb.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/fist-of-taixu_thumb.png",
+          "268",
+          "35"
         ],
         [ "Darken Nuada",
           "Active Skill",
           "[EP consumption: 15] [Cooldown: 20 seconds] Deal 600% physical damage based on attack power to enemy in front, inflict bleed status on on-hit enemy, deal 500 physical damage based on attack power per 0.5 second, last for 8 seconds",
           "Passive Skill",
           "Increase lightning elemental damage dealt through attack by 40%",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/blue-gauntlet.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/blue-gauntlet.png",
+          "279",
+          "32"
         ]
       ],
       threestar: [
@@ -1200,7 +1526,9 @@ var equipment = {
           "[EP Consumption: 10] [Cooldown: 10 seconds] Release a shockwave, deal 450% physical damage based on attack power to enemy in front",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/5c5da13e8794a4c2b9afd6fa05f41bd5af6e39ad.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/5c5da13e8794a4c2b9afd6fa05f41bd5af6e39ad.png",
+          "166",
+          "13"
         ]
       ],
       twostar: [
@@ -1209,7 +1537,9 @@ var equipment = {
           "-",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/7aca4f282df5e0fe1294b8d0576034a85cdf72ad.png"
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/7aca4f282df5e0fe1294b8d0576034a85cdf72ad.png",
+          "78",
+          "8"
         ]
       ]
     },

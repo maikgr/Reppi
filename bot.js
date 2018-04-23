@@ -358,7 +358,7 @@ function connectClient(memeFileTotal) {
             "title": "``Weapon list``",
             "fields": [{
               "name": "----------------",
-              "value": "Gun \n`!weapon gun` \n\nKatana \n`!weapon katana \n\nCannon \n`!weapon cannon \n\ngreatsword \n`!weapon greatsword` \n\nCross \n`!weapon cross` \n\nGauntlet \n`!weapon gauntlet`"
+              "value": "Gun \n`!weapon gun` \n\nKatana \n`!weapon katana` \n\nCannon \n`!weapon cannon` \n\ngreatsword \n`!weapon greatsword` \n\nCross \n`!weapon cross` \n\nGauntlet \n`!weapon gauntlet`"
             }]
           }
         });
@@ -780,8 +780,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[0][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[0][1],
-                  "value": weaponArrayWhole[0][2]
+                  "name": weaponArrayWhole[0][3],
+                  "value": weaponArrayWhole[0][4]
                 }
               } else {
                 field2 = {
@@ -848,8 +848,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[1][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[1][1],
-                  "value": weaponArrayWhole[1][2]
+                  "name": weaponArrayWhole[1][3],
+                  "value": weaponArrayWhole[1][4]
                 }
               } else {
                 field2 = {
@@ -916,8 +916,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[2][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[2][1],
-                  "value": weaponArrayWhole[2][2]
+                  "name": weaponArrayWhole[2][3],
+                  "value": weaponArrayWhole[2][4]
                 }
               } else {
                 field2 = {
@@ -984,8 +984,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[3][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[3][1],
-                  "value": weaponArrayWhole[3][2]
+                  "name": weaponArrayWhole[3][3],
+                  "value": weaponArrayWhole[3][4]
                 }
               } else {
                 field2 = {
@@ -1052,8 +1052,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[4][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[4][1],
-                  "value": weaponArrayWhole[4][2]
+                  "name": weaponArrayWhole[4][3],
+                  "value": weaponArrayWhole[4][4]
                 }
               } else {
                 field2 = {
@@ -1120,8 +1120,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[5][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[5][1],
-                  "value": weaponArrayWhole[5][2]
+                  "name": weaponArrayWhole[5][3],
+                  "value": weaponArrayWhole[5][4]
                 }
               } else {
                 field2 = {
@@ -1188,8 +1188,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[6][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[6][1],
-                  "value": weaponArrayWhole[6][2]
+                  "name": weaponArrayWhole[6][3],
+                  "value": weaponArrayWhole[6][4]
                 }
               } else {
                 field2 = {
@@ -1256,8 +1256,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[7][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[7][1],
-                  "value": weaponArrayWhole[7][2]
+                  "name": weaponArrayWhole[7][3],
+                  "value": weaponArrayWhole[7][4]
                 }
               } else {
                 field2 = {
@@ -1324,8 +1324,8 @@ function connectClient(memeFileTotal) {
 
               if (weaponArrayWhole[8][3] != "-") {
                 field2 = {
-                  "name": weaponArrayWhole[8][1],
-                  "value": weaponArrayWhole[8][2]
+                  "name": weaponArrayWhole[8][3],
+                  "value": weaponArrayWhole[8][4]
                 }
               } else {
                 field2 = {

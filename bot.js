@@ -53,7 +53,6 @@ function connectClient(memeFileTotal) {
       }
     }
 
-
     if (msg.content.startsWith("!valkyrie")) {
 
       if (msg.content === "!valkyrie") {
@@ -350,6 +349,7 @@ function connectClient(memeFileTotal) {
       }
 
     }
+
     if (msg.content.startsWith("!weapon")) {
       if (msg.content === "!weapon") {
         msg.reply({
@@ -758,628 +758,91 @@ function connectClient(memeFileTotal) {
               weaponMenu(currentMessage, currentPage - 1, getSelectedWeapon);
             }
 
-          } else if (chosen === "1⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
+          }
 
-              if (weaponArrayWhole[0][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[0][1],
-                  "value": weaponArrayWhole[0][2]
-                }
+
+          for (i = 0; i < 9; i++){
+            emoji = reactionNumberArray[i];
+            if (chosen === emoji){
+              newMessage.delete();
+              if (weaponArrayWhole.length < 1) {
+                msg.reply("please do not add reaction by yourself.")
               } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
+                field1 = "";
+                field2 = "";
 
-              if (weaponArrayWhole[0][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[0][3],
-                  "value": weaponArrayWhole[0][4]
+                if (weaponArrayWhole[i][1] != "-") {
+                  field1 = {
+                    "name": weaponArrayWhole[i][1],
+                    "value": weaponArrayWhole[i][2]
+                  }
+                } else {
+                  field1 = {
+                    "name": "Skill",
+                    "value": "None"
+                  }
                 }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
 
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[0][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[0][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[0][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[0][7],
-                  "inline": true
-                },field1, field2]
+                if (weaponArrayWhole[i][3] != "-") {
+                  field2 = {
+                    "name": weaponArrayWhole[i][3],
+                    "value": weaponArrayWhole[i][4]
+                  }
+                } else {
+                  field2 = {
+                    "name": "Skill",
+                    "value": "None"
+                  }
+                }
+
+                embed = {
+                  "author": {
+                    "name": titleForEmbed,
+                    "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
+                  },
+                  "color": 6332693,
+                  "title": weaponArrayWhole[i][0],
+                  "thumbnail": {
+                    "url": weaponArrayWhole[i][5]
+                  },
+                  "footer": {
+                    "icon_url": "attachment://attentionicon.PNG",
+                    "text": "All information from http://houkai3rd.arthobbylab.com/"
+                  },
+                  "fields": [{
+                    "name": "Attack",
+                    "value": weaponArrayWhole[i][6],
+                    "inline": true
+                  }, {
+                    "name": "Critical",
+                    "value": weaponArrayWhole[i][7],
+                    "inline": true
+                  }, field1, field2]
+                }
+                msg.reply({
+                  embed,
+                  files: [{
+                    attachment: authorImageAttachmentForEmbed,
+                    name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
+                  }, {
+                    attachment: "images/attentionicon.PNG",
+                    name: "attentionicon.PNG"
+                  }]
+                })
               }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
             }
+          }
 
-          } else if (chosen === "2⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[1][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[1][1],
-                  "value": weaponArrayWhole[1][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[1][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[1][3],
-                  "value": weaponArrayWhole[1][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[1][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[1][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[1][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[1][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "3⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[2][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[2][1],
-                  "value": weaponArrayWhole[2][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[2][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[2][3],
-                  "value": weaponArrayWhole[2][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[2][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[2][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[2][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[2][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "4⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[3][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[3][1],
-                  "value": weaponArrayWhole[3][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[3][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[3][3],
-                  "value": weaponArrayWhole[3][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[3][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[3][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[3][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[3][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "5⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[4][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[4][1],
-                  "value": weaponArrayWhole[4][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[4][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[4][3],
-                  "value": weaponArrayWhole[4][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[4][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[4][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[4][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[4][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "6⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[5][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[5][1],
-                  "value": weaponArrayWhole[5][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[5][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[5][3],
-                  "value": weaponArrayWhole[5][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[5][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[5][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[5][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[5][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "7⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[6][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[6][1],
-                  "value": weaponArrayWhole[6][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[6][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[6][3],
-                  "value": weaponArrayWhole[6][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[6][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[6][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[6][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[6][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "8⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[7][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[7][1],
-                  "value": weaponArrayWhole[7][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[7][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[7][3],
-                  "value": weaponArrayWhole[7][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[7][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[7][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[7][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[7][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "9⃣") {
-            newMessage.delete();
-            if (weaponArrayWhole.length < 1) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              field1 = "";
-              field2 = "";
-
-              if (weaponArrayWhole[8][1] != "-") {
-                field1 = {
-                  "name": weaponArrayWhole[8][1],
-                  "value": weaponArrayWhole[8][2]
-                }
-              } else {
-                field1 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              if (weaponArrayWhole[8][3] != "-") {
-                field2 = {
-                  "name": weaponArrayWhole[8][3],
-                  "value": weaponArrayWhole[8][4]
-                }
-              } else {
-                field2 = {
-                  "name": "Skill",
-                  "value": "None"
-                }
-              }
-
-              embed = {
-                "author": {
-                  "name": titleForEmbed,
-                  "icon_url": "attachment://" + authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                },
-                "color": 6332693,
-                "title": weaponArrayWhole[8][0],
-                "thumbnail": {
-                  "url": weaponArrayWhole[8][5]
-                },
-                "footer": {
-                  "icon_url": "attachment://attentionicon.PNG",
-                  "text": "All information from http://houkai3rd.arthobbylab.com/"
-                },
-                "fields": [{
-                  "name": "Attack",
-                  "value": weaponArrayWhole[8][6],
-                  "inline": true
-                },{
-                  "name": "Critical",
-                  "value": weaponArrayWhole[8][7],
-                  "inline": true
-                },field1, field2]
-              }
-              msg.reply({
-                embed,
-                files: [{
-                  attachment: authorImageAttachmentForEmbed,
-                  name: authorImageAttachmentForEmbed.replace("images/equipment/weapon/", "")
-                }, {
-                  attachment: "images/attentionicon.PNG",
-                  name: "attentionicon.PNG"
-                }]
-              })
-            }
-
-          } else if (chosen === "▶") {
+          if (chosen === "▶") {
             newMessage.delete();
             if (weaponArrayWhole.length <= 9) {
               msg.reply("please do not add reaction by yourself.")
             } else {
               weaponMenu(currentMessage, currentPage + 1, getSelectedWeapon);
             }
+          }
 
-
-          } else if (chosen === "❌") {
+          if (chosen === "❌") {
             newMessage.delete();
           }
           collector.stop();
@@ -1407,6 +870,13 @@ function connectClient(memeFileTotal) {
 
       });
     }
+
+
+
+
+
+
+
 
 
   });

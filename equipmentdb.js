@@ -532,7 +532,7 @@ var equipment = {
           "Summon a whirlwind, deal physical attack 300% based on attack power, reduce hit enemy defense power by 60%, last for 2.99 seconds (EP Consumption: 12 – Cooldown:12s)",
           "-",
           "-",
-          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_19_4.png",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_17_4.png",
           "169",
           "29"
         ],
@@ -1544,9 +1544,3190 @@ var equipment = {
       ]
     },
   },
+  stigmata: {
+    twostar: [
+      [
+        [
+          "Hanna (Top)",
+          "Increase tag-in attack physical damage by 7 / 8 / 10 % (QTE included)",
+          "248",
+          "40",
+          "5",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Hanna-1_thumb.png"
+        ],
+        [
+          "Hanna (Middle)",
+          "Increase tag-in attack physical damage by 7 / 8 / 10 % (QTE included)",
+          "248",
+          "0",
+          "0",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Hanna-2_thumb.png"
+        ],
+        [
+          "Hanna (Bottom)",
+          "Increase tag-in attack physical damage by 7 / 8 / 10 % (QTE included)",
+          "248",
+          "20",
+          "5",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Hanna-3_thumb.png"
+        ],
+        [
+          "Hanna",
+          "2",
+          "Increase melee physical damage by 15%\nWhen equipped on Kiana, increase maximum HP by 5% while in combat",
+          "3",
+          "Increase moving speed by 15%"
+        ]
+      ],
+      [
+        [
+          "Viola (Top)",
+          "Increase maximum HP by 6 / 9 % while in combat",
+          "245",
+          "39",
+          "16",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Viola-1_thumb.png"
+        ],
+        [
+          "Viola (Middle)",
+          "Increase maximum HP by 6 / 9 % while in combat",
+          "245",
+          "0",
+          "16",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Viola-2_thumb.png"
+        ],
+        [
+          "Viola (Bottom)",
+          "Increase maximum HP by 6 / 9 % while in combat",
+          "245",
+          "19",
+          "16",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Viola-3_thumb.png"
+        ],
+        [
+          "Viola",
+          "2",
+          "When HP above 80%, increase physical damage by 15%",
+          "3",
+          "Increase moving speed by 25%"
+        ]
+      ],
+      [
+        [
+          "Octavia (Top)",
+          "Increase branch attack physical damage by 5 / 7 %",
+          "235",
+          "40",
+          "50",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Vera-1_thumb.png"
+        ],
+        [
+          "Octavia (Middle)",
+          "Increase branch attack physical damage by 5 / 7 %",
+          "0",
+          "0",
+          "50",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Vera-2_thumb.png"
+        ],
+        [
+          "Octavia (Bottom)",
+          "Increase branch attack physical damage by 5 / 7 %",
+          "235",
+          "20",
+          "50",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Vera-3_thumb.png"
+        ],
+        [
+          "Octavia",
+          "2",
+          "Increase critical damage by 23%\nWhen equipped on Mei or Sakura, increase maximum HP by 5% while in combat",
+          "3",
+          "Enlarge loot range by 150%"
+        ]
+      ],
+      [
+        [
+          "Victoria (Top)",
+          "Increase melee physical damage by 3 / 4 %",
+          "242",
+          "40",
+          "27",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Victoria-1_thumb.png"
+        ],
+        [
+          "Victoria (Middle)",
+          "Increase melee physical damage by 3 / 4 %",
+          "242",
+          "20",
+          "27",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Victoria-2_thumb.png"
+        ],
+        [
+          "Victoria (Bottom)",
+          "Increase melee physical damage by 3 / 4 %",
+          "242",
+          "40",
+          "27",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Victoria-3_thumb.png"
+        ],
+        [
+          "Victoria",
+          "2",
+          "50% chance on-killed to recover 10 SP\nWhen equipped on Himeko, increase maximum HP by 8% while in combat",
+          "3",
+          "Increase critical rate against creature-type enemies by 10%"
+        ]
+      ],
+      [
+        [
+          "Lucia (Top)",
+          "Increase charge attack physical damage by 3 / 5 %",
+          "238",
+          "40",
+          "38",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Lucia-1_thumb.png"
+        ],
+        [
+          "Lucia (Middle)",
+          "Increase charge attack physical damage by 3 / 5 %",
+          "238",
+          "0",
+          "38",
+          "2",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Lucia-2_thumb.png"
+        ],
+        [
+          "Lucia (Bottom)",
+          "Increase charge attack physical damage by 3 / 5 %",
+          "238",
+          "20",
+          "38",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Lucia-3_thumb.png"
+        ],
+        [
+          "Lucia",
+          "2",
+          "Increase ranged physical damage by 15%\nWhen equipped on Bronya, increase maximum HP by 5% while in combat",
+          "3",
+          "Increase defense by 15% while in combat"
+        ]
+      ]
+    ],
+    threestar: [
+      [
+        [
+          "Bathory Elizabeth (Top)",
+          "When HP above 80%, increase defense by 19 / 31 %",
+          "351",
+          "58",
+          "40",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Elizabeth-1_thumb.png"
+        ],
+        [
+          "Bathory Elizabeth (Middle)",
+          "When HP above 80%, increase physical damage by 13 / 16 / 20 %",
+          "351",
+          "0",
+          "40",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Elizabeth-2_thumb.png"
+        ],
+        [
+          "Bathory Elizabeth (Bottom)",
+          "When HP above 80%, increase moving speed by 25 / 33 / 41 %",
+          "351",
+          "29",
+          "40",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Elizabeth-3_thumb.png"
+        ],
+        [
+          "Bathory Elizabeth",
+          "2",
+          "Increase melee physical damage by 20%\nWhen equipped on biological-type Valkyrja, increase maximum SP by 10% while in combat",
+          "3",
+          "10% chance on-hit to recover 3% HP, with 2.0 seconds proc cooldown"
+        ]
+      ],
+      [
+        [
+          "Wang Zhaojun (Top)",
+          "Increase maximum HP by 15 / 26 % while in combat",
+          "363",
+          "57",
+          "6",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Zhaojun-1_thumb.png"
+        ],
+        [
+          "Wang Zhaojun (Middle)",
+          "Increase defense by 11 / 21 % while in combat",
+          "363",
+          "0",
+          "6",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Zhaojun-2_thumb.png"
+        ],
+        [
+          "Wang Zhaojun (Bottom)",
+          "Increase maximum SP by 6 / ? / 10 % while in combat",
+          "363",
+          "28",
+          "6",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Zhaojun-3_thumb.png"
+        ],
+        [
+          "Wang Zhaojun",
+          "2",
+          "Increase ranged physical damage by 20%\nWhen equipped on extraordinary-type Valkyrja, increase maximum SP by 10% while in combat",
+          "3",
+          "Reduce SP consumption of skills by 15%"
+        ]
+      ],
+      [
+        [
+          "Attila (Top)",
+          "When over 10 consecutive hits, increase moving speed by 11 / 15 %",
+          "338",
+          "59",
+          "75",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Attila-1_thumb.png"
+        ],
+        [
+          "Attila (Middle)",
+          "When over 20 consecutive hits, increase defense by 25 / 41 %",
+          "338",
+          "0",
+          "75",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Attila-2_thumb.png"
+        ],
+        [
+          "Attila (Bottom)",
+          "When over 30 consecutive hits, increase physical damage by 19 / 31 %",
+          "338",
+          "29",
+          "75",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Attila-3_thumb.png"
+        ],
+        [
+          "Attila",
+          "2",
+          "Increase critical damage by 30%\nWhen equipped on mechanical-type Valkyrja, increase maximum SP by 10% while in combat",
+          "3",
+          "Increase CRI stat by 40% while in combat"
+        ]
+      ],
+      [
+        [
+          "Sakamoto Ryouma (Top)",
+          "Increase charge attack physical damage by 11 / 18 %\n(Bronya’s and Himeko’s charge attack)",
+          "344",
+          "58",
+          "57",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ryoma-1_thumb.png"
+        ],
+        [
+          "Sakamoto Ryouma (Middle)",
+          "Increase tag-in attack physical damage by 22 / 41 %\n(QTE included)",
+          "344",
+          "0",
+          "57",
+          "8",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ryoma-2_thumb.png"
+        ],
+        [
+          "Sakamoto Ryouma (Bottom)",
+          "Increase branch attack physical damage by 15 / 26 %",
+          "344",
+          "29",
+          "57",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ryoma-3_thumb.png"
+        ],
+        [
+          "Sakamoto Ryouma",
+          "2",
+          "Increase all-damage dealt against shield-intact status elites by 10%",
+          "3",
+          "Shorten the status ailments duration by 35%"
+        ]
+      ],
+      [
+        [
+          "Tesla Nikola (Top)",
+          "Increase all-damage dealt against paralysis status enemies by 32 / 51 %",
+          "357",
+          "58",
+          "23",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Tesla-1_thumb.png"
+        ],
+        [
+          "Tesla Nikola (Middle)",
+          "Increase all-damage dealt against freeze status enemies by 32 / 51 %",
+          "357",
+          "0",
+          "23",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Tesla-2_thumb.png"
+        ],
+        [
+          "Tesla Nikola (Bottom)",
+          "Increase all-damage dealt against faint status enemies by 32 / 51 %",
+          "357",
+          "29",
+          "25",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Tesla-3_thumb.png"
+        ],
+        [
+          "Tesla Nikola",
+          "2",
+          "Increase all-damage dealt against barrier-broken status elites by 15%",
+          "3",
+          "Increase lightning elemental damage by 30%"
+        ]
+      ],
+      [
+        [
+          "Ji Xuanyuan - Aquaphile (Top)",
+          "Increase branch attack physical damage by 9 / 15 %",
+          "325",
+          "54",
+          "37",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-4_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan - Aquaphile (Middle)",
+          "Increase charge attack physical damage by 8 / 15 %\n(Bronya’s and Himeko’s charge attack)",
+          "325",
+          "0",
+          "37",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-5_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan - Aquaphile (Bottom)",
+          "Increase tag attack physical damage by 19 / 31 %\n(QTE included)",
+          "325",
+          "54",
+          "27",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-6_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan - Aquaphile",
+          "2",
+          "Increase all-damage dealt against shield-broken status elites by 10%",
+          "3",
+          "Increase moving speed by 10%"
+        ]
+      ],
+      [
+        [
+          "Edison (Top)",
+          "Gain a proc every 9.0 / 6.0 seconds, next basic attack (branch attack and charge attack included) deals additional 324 / 510 lightning elemental damage",
+          "351",
+          "58",
+          "38",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Edison-1_thumb.png"
+        ],
+        [
+          "Edison (Middle)",
+          "Grant a barrier every 9.0 / 6.0 seconds, reduce next incoming damage by 63 / 102",
+          "351",
+          "0",
+          "38",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Edison-2_thumb.png"
+        ],
+        [
+          "Edison (Bottom)",
+          "Gain a proc every 9.0 / 6.0 seconds, next basic attack (branch attack and charge attack included) reduces enemy’s moving speed by 23 / 30 %, last for 4.0 seconds",
+          "351",
+          "29",
+          "38",
+          "2",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Edison-3_thumb.png"
+        ],
+        [
+          "Edison",
+          "2",
+          "Gain a proc every 7.0 seconds, next basic attack (branch attack and charge attack included) gains increase physical damage by 60%",
+          "3",
+          "Increase defense by 30%\nWhen equipped on Himeko, increase maximum HP by 20% while in combat"
+        ]
+      ],
+      [
+        [
+          "Bronya - Mysterious Charm (Top)",
+          "Increase charge attack physical damage by 13 / 20 %\n(Bronya’s and Himeko’s charge attack)",
+          "325",
+          "55",
+          "72",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-4_thumb.png"
+        ],
+        [
+          "Bronya - Mysterious Charm (Middle)",
+          "Increase ranged physical damage by 11 / 15 %\nWhen equipped on Bronya, increase maximum HP by 6 / 10 % while in combat",
+          "325",
+          "0",
+          "72",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-5_thumb.png"
+        ],
+        [
+          "Bronya - Mysterious Charm (Bottom)",
+          "Increase fire elemental damage by 13 / 20 %",
+          "325",
+          "27",
+          "72",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-6_thumb.png"
+        ],
+        [
+          "Bronya - Mysterious Charm",
+          "2",
+          "Increase all-damage by 10%\nWhen equipped on Bronya, increase tag-in attack (QTE included) all-damage by 10%",
+          "3",
+          "Increase moving speed by 15%"
+        ]
+      ],
+      [
+        [
+          "Roland (Top)",
+          "Recover 22 / 46 HP per every 3.0 seconds",
+          "343",
+          "58",
+          "61",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Roland-1_thumb.png"
+        ],
+        [
+          "Roland (Middle)",
+          "When inflicted with status ailments, 35 / 51 % chance to instantly cleanse the status ailments",
+          "343",
+          "0",
+          "61",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Roland-2_thumb.png"
+        ],
+        [
+          "Roland (Bottom)",
+          "When HP over 80%, increase defense by 19 / 31 %",
+          "343",
+          "29",
+          "61",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Roland-3_thumb.png"
+        ],
+        [
+          "Roland",
+          "2",
+          "Reduce incoming damage from extraordinary-type enemies by 20%\nWhen equipped on Kiana, increase maximum HP by 20% while in combat",
+          "3",
+          "Increase physical damage dealt against extraordinary-type enemies by 20%\nWhen equipped on Kiana, increase critical rate by 10% while in combat"
+        ]
+      ],
+      [
+        [
+          "Himeko - Christmas (Top)",
+          "Increase moving speed by 5 / 8 %. When equipped on Himeko, further increase moving speed by 5 / 8 %",
+          "325",
+          "55",
+          "72",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Himeko-1_thumb.png"
+        ],
+        [
+          "Himeko - Christmas (Middle)",
+          "When equipped on Himeko, reduce surrounding enemies attack speed by 5 / 15 %, moving speed by 5 / 15 %",
+          "325",
+          "0",
+          "72",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Himeko-2_thumb.png"
+        ],
+        [
+          "Himeko - Christmas (Bottom)",
+          "On-hit drops a Christmas bell, that will restore 1 / 3 SP when looted. When equipped on Himeko, the effect is doubled\n5.0 seconds drop cooldown, and will disappear after 8.0 seconds if not looted",
+          "325",
+          "27",
+          "72",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Himeko-3_thumb.png"
+        ],
+        [
+          "Himeko - Christmas",
+          "2",
+          "Increase charge attack physical damage by 15% (Bronya’s and Himeko’s charge attack)",
+          "3",
+          "Increase melee physical damage dealt against mechanical-type enemies by 10%\nWhen equipped on Himeko, increase physical damage by 10%"
+        ]
+      ],
+      [
+        [
+          "Charlemagne (Top)",
+          "When SP above 70%, each additional 5% SP increase basic attack (branch attack and charge attack included) physical damage by 2 / 4 %",
+          "200",
+          "50",
+          "50",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Charlemagne-1_thumb.png"
+        ],
+        [
+          "Charlemagne (Middle)",
+          "When SP above 70%, increase defense by 50 / 75 %",
+          "400",
+          "0",
+          "150",
+          "20",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Charlemagne-2_thumb.png"
+        ],
+        [
+          "Charlemagne (Bottom)",
+          "When SP above 70%, increase moving speed by 15 / 25 %",
+          "300",
+          "50",
+          "100",
+          "20",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Charlemagne-3_thumb.png"
+        ],
+        [
+          "Charlemagne",
+          "2",
+          "When SP above 70%, reduce surrounding enemies damage by 20%, defense by 20%",
+          "3",
+          "	Increase physical damage dealt against mechanical-type enemies by 20%\nWhen equipped on Mei or Sakura, increase maximum HP by 25% while in combat"
+        ]
+      ],
+      [
+        [
+          "Ogier (Top)",
+          "When SP below 20%, increase basic attack (branch attack and charge attack included) physical damage by 10 / 20 %",
+          "100",
+          "58",
+          "40",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ogier-1_thumb.png"
+        ],
+        [
+          "Ogier (Middle)",
+          "When SP below 20%, reduce incoming physical damage by 15 / 25 %",
+          "200",
+          "0",
+          "40",
+          "10",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ogier-2_thumb.png"
+        ],
+        [
+          "Ogier (Bottom)",
+          "When SP below 20%, increase moving speed by 15 / ? / 25 %",
+          "300",
+          "30",
+          "100",
+          "20",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ogier-3_thumb.png"
+        ],
+        [
+          "Ogier",
+          "2",
+          "Increase maximum HP by 15% while in combat\nWhen SP below 20%, deal physical damage based on 35% attack power per every 0.5 seconds to the surrounding enemies",
+          "3",
+          "Increase physical damage dealt against biological-type enemies by 20%\nWhen equipped on Bronya, increase critical damage by 40%"
+        ]
+      ],
+      [
+        [
+          "Chacha Asai (Top)",
+          "Upon tag-out, grant squad members with 14 / 26 % fire elemental resistance (not stackable)\nUpon tag-in, increase own melee physical damage by 11 / 15 %",
+          "health",
+          "attack",
+          "defend",
+          "crit",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Chacha-1_thumb.png"
+        ],
+        [
+          "Chacha Asai (Middle)",
+          "Increase outgoing fire elemental damage by 19 / 31 %, reduce incoming fire elemental damage by 20%",
+          "health",
+          "attack",
+          "defend",
+          "crit",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Chacha-2_thumb.png"
+        ],
+        [
+          "Chacha Asai (Bottom)",
+          "While in combat, each 1 enemy on field increase own moving speed by 6 / 8 %, defense by 6 / 8 %, up to 5 times multiplier",
+          "health",
+          "attack",
+          "defend",
+          "crit",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Chacha-3_thumb.png"
+        ],
+        [
+          "Chacha Asai",
+          "2",
+          "Unleash a 4 meter radius flame wave upon tag-out, dealing fire elemental damage based on 200% attack power to the surrounding enemies, with 30.0 seconds cooldown\nWhen equipped on Kiana, 2 flame waves will be unleashed",
+          "3",
+          "Increase flame wave’s radius by 2 meter, and add additional fire elemental damage based on 200% attack power, each flame wave inflict 5.0 seconds burn status, dealing 30% fire elemental damage per every 0.5 seconds."
+        ]
+      ],
+      [
+        [
+          "Shigure Kira (Top)",
+          "Increase fire, lightning, ice elemental damage by 8 / 15 %",
+          "307",
+          "55",
+          "83",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/shigure-top_thumb.png"
+        ],
+        [
+          "Shigure Kira (Middle)",
+          "Increase on-field HP by 8 / 15 %, defense power by 8 / 15 %",
+          "353",
+          "0",
+          "90",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/shigure-center_thumb.png"
+        ],
+        [
+          "Shigure Kira (Bottom)",
+          "When perform a perfect evasion skill, increase fire / lightning / ice elemental damage by 8 / 20 %, last for 5 seconds. Re-perform during buff still active will reset the buff duration",
+          "338",
+          "31",
+          "28",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/shigure-bottom_thumb.png"
+        ],
+        [
+          "Shigure Kira",
+          "2",
+          "Reduce receiving physical damage by 15%",
+          "3",
+          "Increase all damage by 15%"
+        ]
+      ],
+      [
+        [
+          "Naoe Kanetsugu (Top)",
+          "Increase all-damage dealt against barrier-intact status elites by 15 / 25 %, and increase critical rate against barrier-broken status elites by 8 / 15 %",
+          "386",
+          "58",
+          "40",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kanetsugu-1_thumb.png"
+        ],
+        [
+          "Naoe Kanetsugu (Middle)",
+          "Grant 10 / 25 % fire elemental resistance\nAfter received fire elemental damage increase self-physical damage by 20 / 40 %, last for 4.0 seconds, with 10.0 seconds cooldown",
+          "386",
+          "0",
+          "40",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kanetsugu-2_thumb.png"
+        ],
+        [
+          "Naoe Kanetsugu (Bottom)",
+          "When surrounding has enemies, recover 2% HP per every 6.0 / 4.0 seconds",
+          "386",
+          "29",
+          "40",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kanetsugu-3_thumb.png"
+        ],
+        [
+          "Naoe Kanetsugu",
+          "2",
+          "Reduce incoming frontal physical damage by 80% in exchange increase incoming non-frontal physical damage by 40%, the frontal damage reduction lost its effect for 20.0 seconds after perfect evasive move is triggered",
+          "3",
+          "Entering combat grant Vajrayana’s Blessing, that increase physical damage by 40%, and defense by 60%, last for 20.0 seconds, with 60.0 seconds cooldown"
+        ]
+      ],
+      [
+        [
+          "Dragon Boat Festival (Top)",
+          "Increase branch attack physical damage by 10 / 20 %, and branch attack critical rate by 3 / 5 %",
+          "343",
+          "55",
+          "43",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/DragonBoatFestival2017-1_thumb.png"
+        ],
+        [
+          "Dragon Boat Festival (Middle)",
+          "10% chance on-hit to inflict 2.0 seconds paralysis status to the enemies, with 8.0 / 5.0 seconds cooldown",
+          "343",
+          "0",
+          "37",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/DragonBoatFestival2017-2_thumb.png"
+        ],
+        [
+          "Dragon Boat Festival (Bottom)",
+          "Shorten the status ailments duration by 15 / 30 %\nIncrease tag-in attack (QTE included) physical damage by 15 / 25 %",
+          "343",
+          "27",
+          "37",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/DragonBoatFestival2017-3_thumb.png"
+        ],
+        [
+          "Dragon Boat Festival",
+          "2",
+          "Increase maximum SP by 10% while in combat\nIncrease maximum HP by 10% while in combat",
+          "3",
+          "When HP above 70%, each additional 5% HP increase physical damage by 6%"
+        ]
+      ],
+      [
+        [
+          "Rinaldo (Top)",
+          "Critical hit additionally deal physical damage based on 80 / 150 % attack power to the target and enemies within 2.0 meter radius, with 5.0 seconds cooldown",
+          "329",
+          "64",
+          "32",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Rinaldo-1_thumb.png"
+        ],
+        [
+          "Rinaldo (Middle)",
+          "Critical hit inflict 1.5 seconds paralysis status to the target and enemies within 2.0 meter radius, with 8.0 / 5.0 seconds cooldown",
+          "394",
+          "0",
+          "87",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Rinaldo-2_thumb.png"
+        ],
+        [
+          "Rinaldo (Bottom)",
+          "Critical hit restore 60 / 120 HP, with 8.0 seconds cooldown",
+          "285",
+          "31",
+          "43",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Rinaldo-3_thumb.png"
+        ],
+        [
+          "Rinaldo",
+          "2",
+          "Increase critical rate by 15%",
+          "3",
+          "After an enemy on-killed, increase critical damage by 50%, last for 6.0 seconds, consecutive trigger refresh the duration"
+        ]
+      ],
+      [
+        [
+          "Theresa – Origin (Top)",
+          "After activating weapon skill, increase all-damage by 15 / 30 %, last for 6.0 seconds",
+          "329",
+          "62",
+          "43",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-4_thumb.png"
+        ],
+        [
+          "Theresa – Origin (Middle)",
+          "Reduce weapon skill cooldown by 15 / 30 %",
+          "416",
+          "0",
+          "98",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-5_thumb.png"
+        ],
+        [
+          "Theresa – Origin (Bottom)",
+          "After activating weapon skill, increase attack speed by 10 / 25 %, last for 4.0 seconds",
+          "307",
+          "23",
+          "65",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-6_thumb.png"
+        ],
+        [
+          "Theresa – Origin",
+          "2",
+          "Reduce allied (teammates / Valkyria) incoming frontal physical damage by 20%\nWhen equipped on Theresa, increase maximum SP by 20% while in combat",
+          "3",
+          "Increase allied (teammates / Valkyria) basic attack (branch attack and charge attack included) physical damage by 15% (This skill does not stack with other buff effect)\nWhen equipped on Theresa, further increase self-basic attack (branch attack and charge attack included) physical damage by 15%"
+        ]
+      ],
+      [
+        [
+          "Homu (Top)",
+          "30 / 50 % chance basic attack (branch attack and charged attack included) on-hit drops a Homu coin (4.0 seconds cooldown), that each Homu coin will increase self all-damage by 5 / 10 % (last for 10 seconds), up to 3 times multiplier",
+          "307",
+          "69",
+          "38",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Homu-1_thumb.png"
+        ],
+        [
+          "Homu (Middle)",
+          "Enlarge loot range by 0.5 / 1.5",
+          "368",
+          "0",
+          "87",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Homu-2_thumb.png"
+        ],
+        [
+          "Homu (Bottom)",
+          "Increase moving speed by 10 / 20 %",
+          "330",
+          "26",
+          "54",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Homu-3_thumb.png"
+        ],
+        [
+          "Homu",
+          "2",
+          "After consecutive looting 1 Homu coin, will materialize a suicide explosive Homu, dealing physical damage based on 400% attack power to the surrounding enemies within 4.0 meter radius",
+          "3",
+          "After consecutive looting 3 Homu coin, will restore self HP by 10%, SP by 10%"
+        ]
+      ],
+      [
+        [
+          "Winter Princess (Top)",
+          "Increase melee physical damage by 13 / 20 %\nWhen equipped on Kiana, 13 / 20 % chance on-hit to inflict freeze status to an enemy, last for 3.0 seconds, with 16.0 seconds proc cooldown",
+          "337",
+          "56",
+          "37",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kiana-1_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Himeko – Noel (Middle)",
+          "Increase HP while on battle field by 10 / 15 %. When equipped on Himeko, basic attack (branch attack & charge attack included) has 20 / 40 % chance to inflict slow / burn / vulnerable / weaken status. Last for 2 / 5 seconds. Cooldown 10 seconds",
+          "338",
+          "41",
+          "109",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/2206881e4134970a8e62cb689ecad1c8a6865dbf.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Mei – Birthday Dress (Middle)",
+          "When equipped on Mei, reduce incoming all-elemental damage by 14 / 26 %\nWhen surrounding has enemies, increase moving speed by 19 / 31 %",
+          "327",
+          "0",
+          "40",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Mei-5_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Himeko – Bride (Middle)",
+          "Increase charge attack physical damage by 5 / 10 %\nWhen equipped on Himeko, increase critical damage by 5 / 10 %",
+          "394",
+          "0",
+          "76",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Himeko-8_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Theresa – Magical Girl (Middle)",
+          "Increase fire elemental damage by 30%.\nWhen equipped on Theresa, increase all-damage of cross type weapon by 15%",
+          "307",
+          "0",
+          "83",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/theresa-magical-girl_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Theresa – Macaron Eating Contest (Middle)",
+          "While on-target, reduce incoming physical damage from all enemies other than the target by 20 / 36 %",
+          "346",
+          "0",
+          "37",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-2_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Mei – Songstress (Middle)",
+          "Increase critical damage by 10 / 20%\nWhen equipped on Mei, further increase critical damage by 10 / 20%",
+          "307",
+          "0",
+          "90",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/mei-songstress_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Kiana – Happy New Year (Bottom)",
+          "Increase attack speed by 8  / 15 %. When used on Kiana or Kallen Valkyrja, after tag-in has 5 charges, each charge gives 5 / 10 % critical chance. You loose a charge per each 2.0 seconds. This skill has a 25 / 15 seconds cooldown",
+          "246",
+          "26",
+          "44",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/kiana-happy-new-year.jpg"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Sakura – Blistering Summer (Bottom)",
+          "Upon tag-in, increase basic attack (branch attack and charged attack included) all-damage by 10 / 15 %\nUpon tag-out, grant squad members with 10 / 25 % ice elemental resistance (not stackable).",
+          "353",
+          "26",
+          "54",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-9_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+    ],
+    fourstar: [
+      [
+        [
+          "Cleopatra (Top)",
+          "Increase all-damage dealt against shield-break enemy by 28 / 41 %",
+          "552",
+          "92",
+          "65",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Keriopiela-1_thumb.png"
+        ],
+        [
+          "Cleopatra (Middle)",
+          "Increase all-damage dealt against stunned enemy by 48 / 82 %",
+          "552",
+          "0",
+          "65",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Keriopiela-2_thumb.png"
+        ],
+        [
+          "Cleopatra (Bottom)",
+          "Increase all-damage dealt against shield-break enemy by 28 / 41%",
+          "552",
+          "46",
+          "65",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Keriopiela-3_thumb.png"
+        ],
+        [
+          "Cleopatra",
+          "2",
+          "Increase movement speed by 25%\nWhen equipped on Kiana or Kallen, increase max HP by 20% during combat",
+          "3",
+          "Increase physical damage by 5% per meter away from enemy, stack up 10 times"
+        ]
+      ],
+      [
+        [
+          "Ji Xuanyuan (Top)",
+          "Increase tag-in attack physical damage by 36 / 62 % (QTE included)",
+          "541",
+          "93",
+          "92",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-1_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan (Middle)",
+          "Increase charge attack physical damage by 23 / 36 %",
+          "541",
+          "0",
+          "92",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-2_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan (Bottom)",
+          "Increase weapon skill all-damage by 24 / 41 %",
+          "574",
+          "47",
+          "12",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-3_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan",
+          "2",
+          "Reduce debuff duration by 50%.\nWhen equipped on Mei or Sakura, increase max HP by 20% while in combat",
+          "3",
+          "Charge for 5 seconds, increase physical damage by 80%, critical rate by 50% for next basic attack (branch attack and charge attack included) and a short duration afterwards"
+        ]
+      ],
+      [
+        [
+          "Shakespeare (Top)",
+          "Increase lighting elemental damage by 34 / 51 %",
+          "530",
+          "91",
+          "118",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shakespeare-1_thumb.png"
+        ],
+        [
+          "Shakespeare (Middle)",
+          "Increase fire elemental damage by 34 / 51 %",
+          "530",
+          "0",
+          "118",
+          "15",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shakespeare-2_thumb.png"
+        ],
+        [
+          "Shakespeare (Bottom)",
+          "Increase ice elemental damage by 34 / 51 %",
+          "530",
+          "45",
+          "118",
+          "10",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shakespeare-3_thumb.png"
+        ],
+        [
+          "Shakespeare",
+          "2",
+          "Reduce evasion (defense) skill cooldown by 35%.\nWhen equipped on Extraordinary type Valkyrja, increase max EP by 15% while in combat",
+          "3",
+          "Reduce EP consumption when activating skill by 20%"
+        ]
+      ],
+      [
+        [
+          "Catherine (Top)",
+          "When combo is above 25 hits, increase defense power by 44 / 61 %",
+          "541",
+          "93",
+          "91",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ekaterina-1_thumb.png"
+        ],
+        [
+          "Catherine (Middle)",
+          "When combo is above 40 hits, increase physical damage by 32 / 41 %",
+          "541",
+          "0",
+          "91",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ekaterina-2_thumb.png"
+        ],
+        [
+          "Catherine (Bottom)",
+          "When combo is above 10 hits, increase movement speed by 18 / 31%",
+          "541",
+          "46",
+          "91",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ekaterina-3_thumb.png"
+        ],
+        [
+          "Catherine",
+          "2",
+          "Increase CRI by 15% during battle\nWhen equipped on Mechanical type Valkyrja, increase max EP by 15% during battle",
+          "3",
+          "When combo is above 70 hits, increase critical damage by 120%"
+        ]
+      ],
+      [
+        [
+          "Li Er (Top)",
+          "When HP is above 80%, increase defense power by 60 / 103 %",
+          "563",
+          "91",
+          "38",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-1_thumb.png"
+        ],
+        [
+          "Li Er (Middle)",
+          "When HP is above 60%, increase movement speed by 23 / 36 %",
+          "563",
+          "0",
+          "38",
+          "13",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-2_thumb.png"
+        ],
+        [
+          "Li Er (Bottom)",
+          "When HP is at 100%, increase physical damage by 29 / 46 %",
+          "563",
+          "45",
+          "38",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-3_thumb.png"
+        ],
+        [
+          "Li Er",
+          "2",
+          "When hit an enemy, 15% chance to restore HP by 5%, cooldown 2 seconds.\nWhen equipped on Biological type Valkyrja, increase max EP by 15% while in combat",
+          "3",
+          "Guard one interruptible hit, knock back enemy, cooldown 5 seconds"
+        ]
+      ],
+      [
+        [
+          "Einstein (Top)",
+          "When HP below 33%, increase all-damage by 28 / 41 %",
+          "496",
+          "85",
+          "110",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-1_thumb.png"
+        ],
+        [
+          "Einstein (Middle)",
+          "When HP below 33%, reduce recevied ranged damage by 28 /41 %",
+          "496",
+          "0",
+          "110",
+          "14",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-2_thumb.png"
+        ],
+        [
+          "Einstein (Bottom)",
+          "When HP below 33%, increase defense power by 22 / 31 %",
+          "496",
+          "43",
+          "110",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-3_thumb.png"
+        ],
+        [
+          "Einstein",
+          "2",
+          "The further away from enemy, the less damage will be received, stack up to 4%*10",
+          "3",
+          "The nearer approach, the more damage can be dealed, stack up to 25%"
+        ]
+      ],
+      [
+        [
+          "Fuxi (Top)",
+          "Increase elemental damage dealt against frozen enemy by 58 / 92 %",
+          "569",
+          "91",
+          "25",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/FuXi-1_thumb.png"
+        ],
+        [
+          "Fuxi (Middle)",
+          "Increase elemental damage dealt against paralyzed enemy by 58 / 92%",
+          "569",
+          "0",
+          "25",
+          "14",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/FuXi-2_thumb.png"
+        ],
+        [
+          "Fuxi (Bottom)",
+          "Increase elemental damage dealt against burned enemy by 51%",
+          "569",
+          "45",
+          "25",
+          "8",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/FuXi-3_thumb.png"
+        ],
+        [
+          "Fuxi",
+          "2",
+          "Increase max HP by 15% while in combat.\nReduce Valkyrja own ultimate skill and evasion skill cooldown by 20%",
+          "3",
+          "When enemy on field is equal or greater than 3, reduce received elemental damage by 50% and increase elemental damage by 60%"
+        ]
+      ],
+      [
+        [
+          "Nuwa (Top)",
+          "Cause an explosion when hit a burned enemy, deal 48 / 82 % fire elemental damage based on attack power to the surrounding enemy, cooldown 1.5 seconds",
+          "535",
+          "93",
+          "105",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nuwa-1_thumb.png"
+        ],
+        [
+          "Nuwa (Middle)",
+          "Increase fire elemental damage by 1% per hit in combo chain, stack up to 60 / 102 times",
+          "535",
+          "0",
+          "105",
+          "8",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nuwa-2_thumb.png"
+        ],
+        [
+          "Nuwa (Bottom)",
+          "Increase fire elemental damage of burn debuff by 60 / 103 % and increase the duration by 60 / 103 %",
+          "535",
+          "46",
+          "105",
+          "2",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nuwa-3_thumb.png"
+        ],
+        [
+          "Nuwa",
+          "2",
+          "Increase Valkyrja own summoned unit all–damage by 50%",
+          "3",
+          "When tag-in, increase Valkryja own all-damage by 20% per allied summoned unit (friend‘s included) stack up to 5 times"
+        ]
+      ],
+      [
+        [
+          "Shennong (Top)",
+          "When picking up EP item, increase physical damage by 44 / 61 %, defense power by 44 / 61 %, last for 10.0 seconds, cooldown 15 seconds",
+          "558",
+          "92",
+          "78",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shennong-1_thumb.png"
+        ],
+        [
+          "Shennong (Middle)",
+          "When picking up coin, increase attack speed by 34 / 51 %, movement speed by 34 / 51 %, last for 7.0 seconds, cooldown 10 seconds",
+          "557",
+          "0",
+          "78",
+          "10",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shennong-2_thumb.png"
+        ],
+        [
+          "Shennong (Bottom)",
+          "After being attacked, grant a shield that can take all–damage based on 18 / 31 % of Valkyrja own max HP, last for 5 seconds, cooldown 12 seconds",
+          "558",
+          "46",
+          "78",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shennong-3_thumb.png"
+        ],
+        [
+          "Shennong",
+          "2",
+          "When being attacked by weaken enemy, 40% chance to ignore its damage (elemental damage excluded)",
+          "3",
+          "Increase the effect of HP and EP item by 50%"
+        ]
+      ],
+      [
+        [
+          "Jingwei (Top)",
+          "When enemy on field is 1, increase all-damage by 18 / 31 %",
+          "523",
+          "87",
+          "49",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Jingwei-1_thumb.png"
+        ],
+        [
+          "Jingwei (Middle)",
+          "When enemy on-field not more than 3, increase moving speed by 18 / 31 %",
+          "523",
+          "0",
+          "49",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Jingwei-2_thumb.png"
+        ],
+        [
+          "Jingwei (Bottom)",
+          "When enemy on field is equal or less than 2, increase defense 24 / 41 %",
+          "523",
+          "43",
+          "48",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Jingwei-3_thumb.png"
+        ],
+        [
+          "Jingwei",
+          "2",
+          "Increase attack speed by 10% per burned enemy, stack up to 5 times",
+          "3",
+          "During lock on, reduce received damage from other enemy by 70%"
+        ]
+      ],
+      [
+        [
+          "Issac Newton (Top)",
+          "Increase physical damage of melee attack by 29 / 46%. After being attacked twice, the effect wears off and enters 10 seconds cooldown",
+          "548",
+          "92",
+          "76",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Newton-1_thumb.png"
+        ],
+        [
+          "Issac Newton (Middle)",
+          "After being attacked or received damage, increase movement speed by 24 / 41%, and grant a shield that can absorb 12 / 21% physical damage based on Valkyrja own max HP, last for 4 seconds, cooldown 15 seconds",
+          "548",
+          "0",
+          "76",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Newton-2_thumb.png"
+        ],
+        [
+          "Issac Newton (Bottom)",
+          "Inflict Dare status on on-hit enemy, last for 5 seconds. During Dare status, increase enemy all-damage by 28 / 41%, however, also increase its received all-damage by 22 / 31%, cooldown 10 seconds",
+          "548",
+          "46",
+          "76",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Newton-3_thumb.png"
+        ],
+        [
+          "Issac Newton",
+          "2",
+          "10% chance to paralyze/freeze/stun/slow/burn/impair/weaken on-hit enemy for 6 seconds upon basic attack (branch attack and charge attack included), cooldown 2 seconds",
+          "3",
+          "Increase all-damage of the next basic attack (branch attack and charge attack included) by 20% per second, stack up to 5 seconds. The effect wears off upon attacking and enters 7 seconds cooldown"
+        ]
+      ],
+      [
+        [
+          "Schrodinger Cat (Top)",
+          "Charge for 6 seconds, next basic attack (branch attack and charge attack included) and a short duration afterwards have 50% chance to increase all–damage by 120 / 205 %, otherwise increase by 26 / 52 %",
+          "552",
+          "92",
+          "65",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Schrodinger-1_thumb.png"
+        ],
+        [
+          "Schrodinger Cat (Middle)",
+          "After activated ultimate skill or evasion skill, 50% chance to reduce cooldown by 34 / 51 %, otherwise increase by 20%",
+          "552",
+          "0",
+          "65",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Schrodinger-2_thumb.png"
+        ],
+        [
+          "Schrodinger Cat (Bottom)",
+          "Charge for 4.0 seconds, next basic attack (branch attack and charge attack included) has 50% chance to increase gained EP by 180 / 308 %, otherwise reduce gain by 100%",
+          "552",
+          "46",
+          "65",
+          "3",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Schrodinger-3_thumb.png"
+        ],
+        [
+          "Schrodinger Cat",
+          "2",
+          "	After being attacked, 50% chance reduce received damage by 70%, otherwise increase received damage by 40%",
+          "3",
+          "Increase good effect triggered chance of all Stigmata in this Stigmata set by 10%. When equipped on Himeko, further increase by 10%"
+        ]
+      ],
+      [
+        [
+          "Schrodinger – Band (Top)",
+          "Every attack gains one stack (cooldown 0.3 second), each stack increases physical damage by 1 / 2 %. After gained 7 stacks, enter Passionate mode for 5 seconds. Under Passionate mode, increase all-damage by 10 / 25 %. After Passionate mode ended, reset all effects. During Passionate Mode, damage up effect is not added",
+          "411",
+          "106",
+          "89",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/schrodinger-band-top_thumb.png"
+        ],
+        [
+          "Schrodinger – Band (Middle)",
+          "Every attack gains one stack (cooldown 0.3 second), each stack increases critical rate by 1 / 2 %. After gained 7 stacks, enter Passionate Mode for 5 seconds. Under Passionate Mode, immune to immobile effect, and reduce received all-damage by 5 / 15 %. After Passionate Mode ended, reset all effects. During Passionate Mode, critical rate up effect is not added",
+          "507",
+          "0",
+          "177",
+          "8",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/schrodinger-band-center_thumb.png"
+        ],
+        [
+          "Schrodinger – Band (Bottom)",
+          "Every attack gains one stack (cooldown 0.3 second), each stack increases attack speed by 1 / 2 %. After gained 7 stacks, enter Passionate Mode for 5 seconds. Under Passionate Mode, every attack gains additional 0.5 / 2 EP (cooldown 0.9). After Passionate Mode ended, reset all effects. During Passionate Mode, attack speed up effect is not added",
+          "507",
+          "53",
+          "44",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/schrodinger-band-bottom_thumb.png"
+        ],
+        [
+          "Schrodinger – Band",
+          "2",
+          "Increase Passionate mode duration by 2 seconds, and stack effect of all Stigmata in this Stigmata set by 1%\nUnder Passionate mode, increase physical damage of next branch attack and all branch attacks in short duration afterwards by 50%",
+          "3",
+          "Increase physical damage dealt against frozen enemy by 20%\nWhen equipped on Kiana or Kallen, increase all-damage of branch attack by 20%"
+        ]
+      ],
+      [
+        [
+          "Max Planck (Top)",
+          "Increase all damage by 3.6 / 6.2 % per 10.0% HP lost",
+          "556",
+          "93",
+          "54",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/MaxPlanck-1_thumb.png"
+        ],
+        [
+          "Max Planck (Middle)",
+          "Increase physical damage of basic attack (branch attack and charge attack included) by 34 / 51 %, however, received damage will also increase by 46 / 72 %",
+          "556",
+          "0",
+          "65",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/MaxPlanck-2_thumb.png"
+        ],
+        [
+          "Max Planck (Bottom)",
+          "Increase attack speed by 22 / 31 %, however, movement speed will also be reduced by 32 / 41 %",
+          "556",
+          "46",
+          "54",
+          "2",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/MaxPlanck-3_thumb.png"
+        ],
+        [
+          "Max Planck",
+          "2",
+          "When being attacked, if the damage is less than 15*Valkyrja level, it will still be calculated but Valkyrja action will not be interrupted.\nWhen equipped on Bronya, increase all–damage of ranged attack by 15%",
+          "3",
+          "Restore 5% HP when hit an enemy, cooldown 5.0 seconds.\nWhen equipped on Bronya, increase EP gained via attack by 30%"
+        ]
+      ],
+      [
+        [
+          "Zhuge Liang (Top)",
+          "Reduce evasion (defense) skill cooldown by 17 / 26 %",
+          "552",
+          "92",
+          "65",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhugeLiang-1_thumb.png"
+        ],
+        [
+          "Zhuge Liang (Middle)",
+          "When being attacked, 31% chance to reduce received damge by 120 / 418",
+          "552",
+          "0",
+          "65",
+          "10",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhugeLiang-2_thumb.png"
+        ],
+        [
+          "Zhuge Liang (Bottom)",
+          "When combo is above 20, increase defense by 24 / 41 %\nWhen combo is above 50, increase defense by 48 / 82 %\nWhen combo is above 100, increase defense by 72 /123%",
+          "552",
+          "46",
+          "65",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhugeLiang-3_thumb.png"
+        ],
+        [
+          "Zhuge Liang",
+          "2",
+          "After being attacked, increase endurance, last for 4 seconds, cooldown 10 seconds. When equipped on Kiana or Kallen, increase max HP by 30% while in combat",
+          "3",
+          "When being attacked, 20% chance to knock back the surrounding enemy with 3m, cooldown 6 seconds"
+        ]
+      ],
+      [
+        [
+          "Li Er – Red (Top)",
+          "Increase all–damage of basic attack (branch attack and charge attack included) by 23 / 36 %, however, max HP will also be reduced by 20%",
+          "532",
+          "93",
+          "68",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-4_thumb.png"
+        ],
+        [
+          "Li Er – Red (Middle)",
+          "When around enemy, deal 60 / 103 % physical damage based on attack power to that enemy per second, and restore Valkyrja own HP by 12 / 20 per 3 seconds, however, max HP will also be reduced by 15%",
+          "532",
+          "0",
+          "68",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-5_thumb.png"
+        ],
+        [
+          "Li Er – Red (Bottom)",
+          "Increase Valkyrja own movement speed by 11 /15 %, attack speed by 16 / 20 %, however, max HP will also be reduced by 15%",
+          "532",
+          "57",
+          "68",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-6_thumb.png"
+        ],
+        [
+          "Li Er – Red",
+          "2",
+          "Reduce received physical damage by 25%, received indirect physical damage (bleeding, etc.) by 70%",
+          "3",
+          "Activate when HP is below 5%, last for 6.0 seconds, cooldown 60 seconds. While this effect is activating, immune to death, increase critical rate and critical damage by 80%"
+        ]
+      ],
+      [
+        [
+          "Ji Xuanyuan – Dark (Top)",
+          "When activating space-time distortion, deal 300 / 450 % physical damage based on attack power to surrounding enemy and knockback it, cooldown 20 seconds",
+          "500",
+          "50",
+          "30",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-7_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan – Dark (Middle)",
+          "Increase critical rate by 15 / 30 % during space-time distortion",
+          "550",
+          "0",
+          "180",
+          "29",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-8_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan – Dark (Bottom)",
+          "Increase movement speed by 15 / 30 %, attack speed by 10 / 25 % during space-time distortion",
+          "552",
+          "46",
+          "74",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-9_thumb.png"
+        ],
+        [
+          "Ji Xuanyuan – Dark",
+          "2",
+          "Increase physical damage by 40% during completed space-time distortion.\nWhen equipped on Kiana or Kallen, increase EP gained via basic attack (branch attack and charged attack included) by 4, cooldown 2 seconds",
+          "3",
+          "Reduce EP consumption when activating skill by 30% during space-time distortion"
+        ]
+      ],
+      [
+        [
+          "Sin Mal (Top)",
+          "Increase all-damage by 15%, during stealth mode, further increase all-damage by 15% per second, stack up to 3 times, the effect continues for 4 seconds after broke out from stealth mode",
+          "338",
+          "117",
+          "53",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shin-Maaru-Top.png"
+        ],
+        [
+          "Sin Mal (Middle)",
+          "Reduce received all-damage by 20%, during stealth mode, further reduce received all-damage by 10%, increase movement speed by 30%, the effect continues for 6 seconds after broke out from stealth mode",
+          "483",
+          "0",
+          "140",
+          "13",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shin-Maaru-Center.png"
+        ],
+        [
+          "Sin Mal (Bottom)",
+          "During stealth mode, increase attack speed by 25%, critical rate by 20%, the effect continues for 6 seconds after broke out from stealth mode",
+          "411",
+          "53",
+          "57",
+          "16",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shin-Maaru-Bottom.png"
+        ],
+        [
+          "Sin Mal",
+          "2",
+          "After entered stealth mode, grant a charge\nAfter broke out from stealth mode, deal 200% physical damage based on attack power to all enemies\nNext basic attack (branch attack and charge attack included) and short duration afterwards, inflict 3 seconds shackle status on the target",
+          "3",
+          "During stealth mode, restore Valkyrja own HP by 2%, EP by 2% per 0.9 second"
+        ]
+      ],
+      [
+        [
+          "Otto Apocalypse (Top)",
+          "Increase basic attack skill (not include charge attack, branch attack) physical damage by 20 / 35 %. Each basic attack skill gain 1 charge layer (cooldown 0.8s). When have 3 charge layer, increase the next charge attack all-damage by 45 / 75 %",
+          "411",
+          "113",
+          "53",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AI_1.png"
+        ],
+        [
+          "Otto Apocalypse (Middle)",
+          "Basic attack skill (not include charge attack, branch attack) inflict weaken status to enemy, reduce their attack power by 20 / 30 %, last for 2 / 4 seconds, cooldown 2 seconds",
+          "507",
+          "0",
+          "158",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AI_2-212380.png"
+        ],
+        [
+          "Otto Apocalypse (Bottom)",
+          "Increase lightning damage by 35 / 55 % when your summoned unit is on the field",
+          "483",
+          "57",
+          "53",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AI_3-202690.png"
+        ],
+        [
+          "Otto Apocalypse",
+          "2",
+          "Each basic attack gain a charge layer (cooldown 0.8s). After reaching to 3 layers, on-hit charge attack will create a 3 m radius electric shock field, enemy inside the field take extra 40 % lightning damage",
+          "3",
+          "Gain a charge every 5 seconds, enemy hit by the next charge attack, after a short period will be imbued with Azure Mark. Azure mark activate after 0.5 second, deal 80% lightning damage to enemy and its surrounding"
+        ]
+      ],
+      [
+        [
+          "Nagamitsu (Top)",
+          "Create a force field around self, that deal lightning elemental damage based on 70 / 125 % attack power per every 1.0 seconds, to any enemies within the force field more than 3.0 seconds, but effect wear-off when leaving force field more than 2.0 seconds",
+          "531",
+          "94",
+          "70",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/BizenNagamitsu-1-thumb.png"
+        ],
+        [
+          "Nagamitsu (Middle)",
+          "Create a force field around self, that increase lightning elemental damage dealt by 15 / 30 % to any enemies within the force field more than 3.0 seconds, but effect wear-off when leaving force field more than 2.0 seconds",
+          "604",
+          "0",
+          "175",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/BizenNagamitsu-2-thumb.png"
+        ],
+        [
+          "Nagamitsu (Bottom)",
+          "Create a force field around self, that reduce incoming all-damage by 15 / 30 %, by any enemies within the force field more than 3.0 seconds, but effect wear-off when leaving force field more than 2.0 seconds",
+          "604",
+          "34",
+          "105",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/BizenNagamitsu-3-thumb.png"
+        ],
+        [
+          "Nagamitsu",
+          "2",
+          "Inflict 20% slow moving and attack speed, to any enemies within the force field more than 5.0 seconds, last for 4.0 seconds (trigger time reset after debuff expired), but trigger time reset when leaving force field more than 2.0 seconds",
+          "3",
+          "Inflict 2.0 seconds freeze status (trigger time reset after debuff expired), to to any enemies within the force field more than 5.0 seconds, but trigger time reset when leaving force field more than 2.0 seconds"
+        ]
+      ],
+      [
+        [
+          "Cacalia (Top)",
+          "Increase basic attack (branch attack and charge attack included) physical damage by 11 / 20 %, when present of own summoned-units on-field, increase self critical damage by 10 / 25 %",
+          "495",
+          "79",
+          "53",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cacalia-1.png"
+        ],
+        [
+          "Cacalia (Middle)",
+          "Increase maximum HP by 4 / 10 % while in combat, reduce incoming all-damage by 9 / 15 %",
+          "507",
+          "0",
+          "114",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cacalia-2.png"
+        ],
+        [
+          "Cacalia (Bottom)",
+          "Increase self attack speed by 7 / 9 / 11 / 13 %, Increase own summoned-units physical damage by 19 / ? / ? / 40 % after evasive move, last for 6.0 seconds, with 8.0 seconds cooldown",
+          "459",
+          "34",
+          "61",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cacalia-3.png"
+        ],
+        [
+          "Cacalia",
+          "2",
+          "Allied summoned-units while being-hit gain a barrier, during the barrier duration reduce incoming all-damage by 50%, last for 7.0 seconds, with 21.0 seconds cooldown",
+          "3",
+          "	When the barrier destroyed, create an explosion, dealing physical damage based on 500% attack power to the surrounding enemies"
+        ]
+      ],
+      [
+        [
+          "Kallen – Gratia (Top)",
+          "Self Valkyria & self summoned-units: Increase physical damage by 15 / 20 %, further increase physical damage by 6 / 12 % against enemies inflicted with weaken status",
+          "435",
+          "109",
+          "61",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-10.png"
+        ],
+        [
+          "Kallen – Gratia (Middle)",
+          "Grant Evangelium barrier when entering combat, after withstanding incoming damage by 150 / 400, the barrier dematerialized and enter 6.0 seconds cooldown. During the present of Evangelium barrier, reduce self incoming damage by 20 / 30 %",
+          "531",
+          "0",
+          "175",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-11.png"
+        ],
+        [
+          "Kallen – Gratia (Bottom)",
+          "Increase self attack speed by 3 / 6 % and critical damage by 5%, per 1 enemy on-field inflicted with weaken status, up to 4 times multiplier",
+          "459",
+          "42",
+          "70",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-12.png"
+        ],
+        [
+          "Kallen – Gratia",
+          "2",
+          "One-time EP consumption at least 15, 70, 125, increase allied (teammates / Valkyria) all-damage by 8%, 15%, 22%, last for 7.0 seconds, not stackable",
+          "3",
+          "On-hit against enemies inflicted with weaken status, instantly recover 8% HP and 5% EP, with 8.0 seconds cooldown"
+        ]
+      ],
+      [
+        [
+          "Sirin (Top)",
+          "Increase melee physical damage by 15 / 25 %, increase physical damage against float status enemies additionally by 10 / 20 %",
+          "362",
+          "125",
+          "35",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Sirin-1-1.png"
+        ],
+        [
+          "Sirin (Middle)",
+          "Reduce incoming all-elemental damage by 15 / 30 %, when inflicted with status ailments 20% chance to instantly cleanse the status ailments",
+          "531",
+          "0",
+          "158",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Sirin-2-1.png"
+        ],
+        [
+          "Sirin (Bottom)",
+          "Gain a proc after perfect evasive move, next basic attack and the following 5 seconds, increase all-damage by 20 / 35 %, with 1.5 seconds cooldown",
+          "386",
+          "42",
+          "70",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Sirin-3-1.png"
+        ],
+        [
+          "Sirin",
+          "2",
+          "When equipped on Mei or Sakura, hitting the same target (reset target if not attacking within 2.5 seconds), each hit increase critical chance by 3%, critical damage by 8%, maximum up to 15% bonus critical chance, 40% bonus critical damage",
+          "3",
+          "When the Valkyria is on-field and HP above 60%, debuff on-field enemies outgoing with damage reduction by 15% and incoming damage amplification by 10%. This effect can’t be stacked"
+        ]
+      ],
+      [
+        [
+          "Mary Shelley (Top)",
+          "Increases maximum HP in combat by 15%. Give the next attack instance additional physical damage based on 40 / 50 % maximum HP, has 5 / 3 seconds cooldown",
+          "495",
+          "81",
+          "70",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Mary-1-1.png"
+        ],
+        [
+          "Mary Shelley (Middle)",
+          "Increases maximum HP in combat by 5%. Creates a shield that can absorb all-damage. The shield destroyed only when the attack is greater than 15 / 25 % of holder maximum health. Shield re-activation after destruction takes 40 / 30 seconds",
+          "507",
+          "0",
+          "128",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Mary-2-1.png"
+        ],
+        [
+          "Mary Shelley (Bottom)",
+          "Increases maximum HP in combat by 10%. At the start of the match, while on-field and not-on-field, give entire squad 20 / 40 DEF stat per each 5 seconds. Stack up to 5 times. Effect last till the end of the match",
+          "507",
+          "42",
+          "18",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Mary-3-1.png"
+        ],
+        [
+          "Mary Shelley",
+          "2",
+          "When there is an enemy nearby,  creates a beacon around self per every 4 seconds, deal lightning damage equal to 40% attack power to all nearby enemies",
+          "3",
+          "When there are 7 beacons on field, wielder will go into Frankenstein mode: Increases basic attack (charge attack and branch attack included) all-damage by 40%, heal the whole squad for 1% of their max HP per 1.0 second. Last for 10 seconds. Consumes all of the beacon when Frankenstein mode duration runs out"
+        ]
+      ],
+      [
+        [
+          "Tesla – Band (Top)",
+          "During tag-out, increase physical damage by 5 / 10 % for all members in squad (cannot be stacked with other skill)\nDuring tag-in, increase Valkyrja own physical damage by 5 / 15 % and attack speed by 5 / 20 %",
+          "483",
+          "106",
+          "70",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AW_1.png"
+        ],
+        [
+          "Tesla – Band (Middle)",
+          "During tag-out, increase lightning resistance by 5 / 15 % and lightning damage by 5 / 15 % for all members in squad (cannot be stacked with other skill)\nDuring tag-in, when being attacked, reduce received physical damage by 10 / 25%",
+          "507",
+          "0",
+          "158",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AW_2.png"
+        ],
+        [
+          "Tesla – Band (Bottom)",
+          "During tag-out, increase movement speed by 5 / 10 % for all members in squad (cannot be stacked with other skill)\nDuring tag-in, increase Valkyrja own lightning elemental damage by 20 / 35 % and movement speed by 5 / 10 %",
+          "483",
+          "53",
+          "53",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AW_3.png"
+        ],
+        [
+          "Tesla – Band",
+          "2",
+          "Each basic attack (branch attack and charge attack included) gains a Chord charge, cooldown 1 second. After gained 4 charges, release a Chain of Lightning and remove all charges. Chain of Lightning hits randomly 4 targets, paralyzes those targets for 5 seconds and deals 600%, 580%, 560% and 540% lightning damage based on attack power respectively to each target. Chain of Lighting does not hit same target twice, cooldown 15 seconds",
+          "3",
+          "Increase max HP by 20% during battle and lightning damage by 40% Chain of Lightning deals 600% lightning damage based on attack power to all 4 targets"
+        ]
+      ],
+      [
+        [
+          "One Year Anniversary (Top)",
+          "While on-field HP is above 800, for each additional 400 HP, increase physical damage by 1 / 4 %, stack up to 7 times",
+          "411",
+          "83",
+          "66",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/kiana-one-year-anniversary_thumb.png"
+        ],
+        [
+          "One Year Anniversary (Middle)",
+          "While on-field HP is above 800, for each additional 400 HP, reduce receiving physical damage from direct attack by 1 / 4 %, stack up to 7 times",
+          "411",
+          "0",
+          "199",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/mei-one-year-anniversary_thumb.png"
+        ],
+        [
+          "One Year Anniversary (Bottom)",
+          "While on-field HP is above 800, for each additional 400 HP, increase attack speed by 1 / 2%, stack up to 7 times",
+          "459",
+          "42",
+          "44",
+          "8",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/bronya-one-year-anniversary_thumb.png"
+        ],
+        [
+          "One Year Anniversary",
+          "2",
+          "Increase CRIT stat by 30\nIncrease critical damage by 40%",
+          "3",
+          "Increase on-field HP by 15%\nReduce skill-activation cost by 30%"
+        ]
+      ],
+      [
+        [
+          "Kallen – Oath (Top)",
+          "Basic attack (branch attack and charge attack included) 26 / 52 % chance on-hit to deal physical damage based on 72 / 123 % attack power to the target and surrounding enemies, with 2.0 seconds cooldown",
+          "547",
+          "91",
+          "75",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Karen-1_thumb.png"
+        ],
+        [
+          "Kallen – Oath (Middle)",
+          "Increase maximum HP by 20% while in combat\nWhen inflicted with status ailments, 18 / 31 % chance to instantly cleanse the status ailments",
+          "547",
+          "0",
+          "75",
+          "10",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Karen-2_thumb.png"
+        ],
+        [
+          "Kallen – Oath (Bottom)",
+          "Increase physical damage dealt against elites by 12 / 21 %, and reduce incoming damage from elites by 12 / 21 %",
+          "547",
+          "46",
+          "75",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Karen-3_thumb.png"
+        ],
+        [
+          "Kallen – Oath",
+          "2",
+          "Increase critical rate by 8%, per 1 elite on-field, up to 4 times multiplier",
+          "3",
+          "Increase basic attack (branch attack and charge attack included) physical damage by 15%, per 1 elite on-killed, up to 3 times multiplier, last for 120 seconds (increase stack will not reset the lasting duration)"
+        ]
+      ],
+      [
+        [
+          "Sanada Yukimura (Top)",
+          "Engage in combat increase basic attack (branch attack and charge attack included) physical damage by 20 / 35 %, last for 15.0seconds, with 30.0 seconds cooldown",
+          "200",
+          "119",
+          "50",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Yukimura-1_thumb.png"
+        ],
+        [
+          "Sanada Yukimura (Middle)",
+          "Engage in combat increase critical rate by 10 / 25 %, last for 15.0 seconds, with 30.0 seconds",
+          "500",
+          "19",
+          "200",
+          "19",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Yukimura-2_thumb.png"
+        ],
+        [
+          "Sanada Yukimura (Bottom)",
+          "Engage in combat increase defense by 150 / 300 %, last for 15 seconds, with 30.0 seconds",
+          "300",
+          "50",
+          "74",
+          "14",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Yukimura-3_thumb.png"
+        ],
+        [
+          "Sanada Yukimura",
+          "2",
+          "Negate one single incoming damage more than 20% HP, with 25.0 seconds cooldown",
+          "3",
+          "Increase this set all stigmata’s effect by 10%\nWhen equipped on Mei, increase maximum HP by 20% while in combat"
+        ]
+      ],
+      [
+        [
+          "Siegfried – Kaslana (Top)",
+          "Reduce weapon skill SP consumption by 10 / 25 %\nAfter activating weapon skill, increase attack speed by 20 / 35 %, last for 6.0 seconds",
+          "469",
+          "119",
+          "65",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Siegfried-1_thumb.png"
+        ],
+        [
+          "Siegfried – Kaslana (Middle)",
+          "Reduce weapon skill cooldown by 10 / 40 %\nAfter activating weapon skill, increase defense by 30 / 50 %, last for 6.0 seconds",
+          "469",
+          "0",
+          "170",
+          "24",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Siegfried-2_thumb.png"
+        ],
+        [
+          "Siegfried – Kaslana (Bottom)",
+          "Increase weapon skill all-damage by 20 / 35 %\nAfter activating weapon skill, increase moving speed by 10 / 20 %, last for 6.0 seconds",
+          "496",
+          "59",
+          "65",
+          "14",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Siegfried-3_thumb.png"
+        ],
+        [
+          "stigmata",
+          "2",
+          "Activate another weapon skill within 10.0 seconds increase the next weapon skill for all-damage by 20%, up to 5 times multiplier, increase stack will reset the lasting duration",
+          "3",
+          "Activate weapon skill 6 times gains a 20.0 seconds hero status (60.0 seconds cooldown), increase physical damage by 70%, attack speed and moving speed by 25%, and immune to most status ailments"
+        ]
+      ],
+      [
+        [
+          "Cecilia Shania (Top)",
+          "A pair of black-white orbs float above Valkyrja (Require 2 stigmata pieces to illuminate the orbs): When black orbs are illuminated, increase basic attack physical damage by 20 / 45 %; else when white orbs are illuminated, increase branch attack physical damage by 20 / 45 %",
+          "607",
+          "96",
+          "75",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cecilia-1_thumb.png"
+        ],
+        [
+          "Cecilia Shania (Middle)",
+          "A pair of black-white orbs float above Valkyrja (Require 2 stigmata pieces to illuminate the orbs): When black orbs are illuminated, basic attack gains additional 1 / 4 EP, with 2.0 seconds cooldown; else when white orbs are illuminated, branch attack recover 0.5 / 2.0 % own HP, with 2.0 seconds cooldown",
+          "607",
+          "0",
+          "75",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cecilia-2_thumb.png"
+        ],
+        [
+          "Cecilia Shania (Bottom)",
+          "A pair of black-white orbs float above Valkyrja (Require 2 stigmata pieces to illuminate the orbs): When black orbs are illuminated, increase attack speed by 15 / 30 %; else when white orbs are illuminated, reduce incoming all-damage by 20 / 40 %",
+          "607",
+          "48",
+          "75",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cecilia-3_thumb.png"
+        ],
+        [
+          "Cecilia Shania",
+          "2",
+          "Illuminate the pair of black-white orbs: When black orbs are illuminated, basic attack 10% chance on-hit against non-BOSS enemy to deal additional physical damage based on 1,000% attack power, with 5.0 seconds cooldown; else when white orbs are illuminated, increase branch attack critical rate by 30%",
+          "3",
+          "While on-field, each times the pair of black-white orbs alternate between black and white, increase own all-damage by 12%, up to 3 times multiplier, tag-out will reset the stack."
+        ]
+      ],
+      [
+        [
+          "Nouhime (Top)",
+          "Basic attack (branch attack and charge attack included) 10 / 15 % chance on-hit to inflict freeze status to an enemy, last for 4.0 seconds, with 8.0 seconds proc cooldown\nIncrease basic attack (branch attack and charge attack included) all-damage dealt against freeze status enemies by 20 / 40 %",
+          "607",
+          "73",
+          "112",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nouhime-1_thumb.png"
+        ],
+        [
+          "Nouhime (Middle)",
+          "Add additional ice elemental damage based on 50 / 80 % attack power on-hit, with 1.0 seconds cooldown",
+          "590",
+          "0",
+          "112",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nouhime-2_thumb.png"
+        ],
+        [
+          "Nouhime (Bottom)",
+          "Increase moving speed by 5 / 10 % and ice elemental damage by 15 / 25 %, per 1 enemy on-field inflicted with slow-moving or freeze status, up to 3 times multiplier",
+          "590",
+          "36",
+          "112",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nouhime-3_thumb.png"
+        ],
+        [
+          "Nouhime",
+          "2",
+          "When surrounding has enemies, dealing ice elemental damage based on 60% attack power per every 1.0 seconds to them, and 30% chance to inflict slow-moving status to them, last for 4.0 seconds",
+          "3",
+          "Increase maximum HP by 20% while in combat\nIncrease ice elemental damage by 80%"
+        ]
+      ],
+      [
+        [
+          "Yae Sakura (Top)",
+          "40% chance being-hit by enemies inflicted with Cherry Blossoms Mark to reduce physical damage by 40 / 80 %, and inflict 1.0 seconds stun status to them",
+          "469",
+          "119",
+          "65",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-1_thumb.png"
+        ],
+        [
+          "Yae Sakura (Middle)",
+          "Basic attack (branch attack and charge attack included against enemies inflicted with Cherry Blossoms Mark deals additional lightning elemental damage based on 50 / 80 % attack power, with 1.0 seconds cooldown, and 20% chance, to deal the same amount of lightning elemental damage to the surrounding enemies",
+          "469",
+          "0",
+          "170",
+          "24",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-2_thumb.png"
+        ],
+        [
+          "Yae Sakura (Bottom)",
+          "Increase all-damage by 4 / 7 %, per 1 enemies on-field inflicted with Cherry Blossoms Mark, up to 5 times multiplier",
+          "469",
+          "59",
+          "65",
+          "14",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-3_thumb.png"
+        ],
+        [
+          "Yae Sakura",
+          "2",
+          "Increase maximum HP by 20% while in combat\nIncrease lightning elemental damage dealt against enemies inflicted with Cherry Blossoms Mark by 50%",
+          "3",
+          "On-killed 1 elite restore 30% HP, with 10.0 seconds cooldown"
+        ]
+      ],
+      [
+        [
+          "Seele Vollerei (Top)",
+          "When maximum EP is more than 150 while in combat, each additional 20 EP increase physical damage by 3 / 6 %, up to 6 times multiplier",
+          "276",
+          "91",
+          "43",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Seele-1_thumb.png"
+        ],
+        [
+          "Seele Vollerei (Middle)",
+          "When maximum EP is more than 150 while in combat, each additional 20 SP reduce incoming physical damage by 2 / 5 %, up to 6 times multiplier",
+          "526",
+          "0",
+          "91",
+          "10",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Seele-2_thumb.png"
+        ],
+        [
+          "Seele Vollerei (Bottom)",
+          "When maximum EP is more than 150 while in combat, each additional 20 EP increase attack speed by 1 / 4 %, up to 6 times multiplier",
+          "552",
+          "59",
+          "62",
+          "5",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Seele-3_thumb.png"
+        ],
+        [
+          "Seele Vollerei",
+          "2",
+          "Increase moving speed by 30%.\nRight before being-hit will randomly teleport Valkyrja to nearest location, with 10.0 seconds cooldown",
+          "3",
+          "The 3.0 seconds after activate ultimate, or weapon skill’s instant damage, gains increase all-damage based on how many remaining EP, gain 15% all-damage for each 20% remaining EP"
+        ]
+      ],
+      [
+        [
+          "Einstein – Band (Top)",
+          "Summon an AI combat assistant and unlock its particle charge attack perk, that will deal huge amount of physical damage\nWhen enemy on-field not less than 2, increase Valkyrja all-damage by 10 / 25 %",
+          "448",
+          "101",
+          "70",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-4_thumb.png"
+        ],
+        [
+          "Einstein – Band (Middle)",
+          "Summon an AI combat assistant and unlock its particle shockwave attack perk, that will deal AoE physical damage and knockdown the enemies\nWhen enemy on-field not less than 3, randomly inflict 1.0 / 3.0 seconds float and space-time slow status to an enemy per every 6.0 seconds",
+          "621",
+          "0",
+          "175",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-5_thumb.png"
+        ],
+        [
+          "Einstein – Band (Bottom)",
+          "Summon an AI combat assistant and unlock its particle beam attack perk, that will deal rapid physical damage\nWhen enemy not on-field less than 4, Valkyrja 10 / 25 % chance to nullify incoming damage",
+          "414",
+          "45",
+          "87",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-6_thumb.png"
+        ],
+        [
+          "Einstein – Band",
+          "2",
+          "AI combat assistant’s particle charge, shockwave, and beam attack has 30% chance to deal double damage",
+          "3",
+          "Remove this set all stigmata’s enemy on-field trigger condition\nincrease Valkyrja all-damage by 15 %"
+        ]
+      ],
+      [
+        [
+          "Kepler (Top)",
+          "Critical hit additionally deal physical damage based on 110 / 200 % attack power to the target and enemies within 3.0 meter radius, with 3.0 seconds cooldown",
+          "345",
+          "116",
+          "35",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kepler-1_thumb.png"
+        ],
+        [
+          "Kepler (Middle)",
+          "Critical hit inflict 2.0 seconds paralysis status to the target and enemies within 3.0 meter radius, with 7.0 / 4.0 seconds cooldown",
+          "517",
+          "0",
+          "122",
+          "15",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kepler-2_thumb.png"
+        ],
+        [
+          "Kepler (Bottom)",
+          "Critical hit restore 130 / 250 HP, with 6.0 seconds cooldown",
+          "414",
+          "52",
+          "70",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kepler-3_thumb.png"
+        ],
+        [
+          "Kepler",
+          "2",
+          "Increase critical damage by 55%",
+          "3",
+          "Critical hit inflict trial status to non-BOSS enemies. Trial status deal 15% physical damage based on attack power per second, last for 30.0 seconds, 5 seconds cooldown\nIncrease critical rate by 6%, per 1 enemy on-field inflicted with trial status, stack up to 5 times"
+        ]
+      ],
+      [
+        [
+          "Bikini Party (Top)",
+          "On-killed normal enemies restore 5 / 8 EP, on-killed elites and BOSS restore 15 / 24 EP",
+          "517",
+          "98",
+          "70",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-4_thumb.png"
+        ],
+        [
+          "Bikini Party (Middle)",
+          "Increase outgoing all-damage by 12 / 18 %\nOn-hit enemies increase their receiving all-damage by 10 / 15 % within the next 4.0 seconds, with 8.0 seconds cooldown",
+          "655",
+          "0",
+          "140",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-5_thumb.png"
+        ],
+        [
+          "Bikini Party (Bottom)",
+          "All on-field squad members have 10 / 15 % chance on-hit to inflict 30 / 60 % moving speed slow, last for 3.0 seconds, with 10.0 seconds cooldown, not stackable",
+          "483",
+          "45",
+          "78",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-6_thumb.png"
+        ],
+        [
+          "Bikini Party",
+          "2",
+          "12% chance on-hit to summon a Homu King knockdown the surrounding enemies and dealing physical damage based on 450% attack power, with 16.0 seconds cooldown",
+          "3",
+          "When Homu King appear all squad members (clone units included) gain a fire barrier, dealing 893 fire elemental damage per every 0.5 seconds to the surrounding enemies, fire barrier last for 6.0 seconds"
+        ]
+      ],
+      [
+        [
+          "Zhang Heng (Top)",
+          "When consecutive hit less than 20, increase non-tag-in attack all-damage by 10 / 25 %",
+          "386",
+          "116",
+          "52",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhangHeng-1_thumb.png"
+        ],
+        [
+          "Zhang Heng (Middle)",
+          "When consecutive hit less than 20, reduce incoming physical damage from enemies by 18 / 30 %",
+          "458",
+          "0",
+          "157",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhangHeng-2_thumb.png"
+        ],
+        [
+          "Zhang Heng (Bottom)",
+          "When consecutive hit less than 20, within the 2.0 seconds after perfect evasive move, increase lightning elemental damage by 80 / 120 %",
+          "458",
+          "49",
+          "70",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhangHeng-3_thumb.png"
+        ],
+        [
+          "Zhang Heng",
+          "2",
+          "When surrounding have enemies, with self as center cause a 3.0 meter radius shockwave every 5.0 seconds, for each 3 shockwave: the 1st & 2nd shockwave knockdown non-BOSS enemies, the 3rd shockwave inflict 3.0 seconds faint status to the non-BOSS enemies",
+          "3",
+          "When enemy on-field equal or more than 3, increase allied (teammates / Valkyria) physical damage by 15%, critical damage by 25%, not stackable."
+        ]
+      ],
+      [
+        [
+          "Dracula (Top)",
+          "Increase physical damage against bleeding status enemies by 25 / 40 %",
+          "434",
+          "90",
+          "87",
+          "8",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Dracula-1_thumb.png"
+        ],
+        [
+          "Dracula (Middle)",
+          "On-hit bleeding status enemies, restore own 1.5 / 3.0 % HP, 1.5 / 3.0 % SP, with 4.o seconds cooldown",
+          "434",
+          "0",
+          "175",
+          "13",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Dracula-2_thumb.png"
+        ],
+        [
+          "Dracula (Bottom)",
+          "Increase attack speed by 6 / ? / ? / 12 % and critical rate by 2.0 / 4.0 %, per 1 enemy on-field inflicted with bleeding status, up to 3 times multiplier",
+          "434",
+          "37",
+          "122",
+          "13",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Dracula-3_thumb.png"
+        ],
+        [
+          "Dracula",
+          "2",
+          "On-killed enemy summon a vampire bat with 60.0 seconds duration, at the same time refresh all vampire bats duration;\nVampire bat deal physical damage based on 50% attack power from the equipped Valkyrja, and also inherit buff from the equipped Valkyrja;\nMaximum 3 vampire bats on-field, each vampire bats increase the equipped Valkyrja critical damage by 15%",
+          "3",
+          "Instant trigger resurrection when HP below 1%, during resurrection period gain reduce incoming all-damage by 100%, but unable to attack or move, each seconds recover the equipped Valkyrja 20% HP, upon resurrection completed knockback and inflict 5.0 seconds bleeding status to the surrounding enemies, dealing physical damage based on 20% attack power per every 1.0 seconds, with 300.0 seconds cooldown"
+        ]
+      ],
+      [
+        [
+          "Bronya – Dark (Top)",
+          "Increase ranged basic attack (branch attack and charged attack included) physical damage by 20 / 38 %",
+          "386",
+          "113",
+          "35",
+          "6",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-10_thumb.png"
+        ],
+        [
+          "Bronya – Dark (Middle)",
+          "Grant whole squad members an one-time dark domain, reduce ranged all-damage inside dark domain by 11 / 20 %. Skill doesn’t stack with itself",
+          "458",
+          "0",
+          "122",
+          "17",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-11_thumb.png"
+        ],
+        [
+          "Bronya – Dark (Bottom)",
+          "Create a dark field after stay within a small radius for 3.0 seconds, increase attack speed inside the dark field by 20 / 30 %, and will lose the effect if move outside of the dark field (Only affected dark field creator Valkyrja)",
+          "410",
+          "60",
+          "52",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-12_thumb.png"
+        ],
+        [
+          "Bronya – Dark",
+          "2",
+          "When equipped Rocket Launcher or Cluster Missile Pod, after charged attack, within the 1.0 ~ 4.0 seconds duration, the next charged attack all-damage increase by 15%, buff stackable and duration refresh upon new stack, up to 3 times multiplier",
+          "3",
+          "When equipped on Bronya, increase critical damage by 60%"
+        ]
+      ],
+      [
+        [
+          "Transcendental Figure (Top)",
+          "When perform perfect evasive move, create an explosion around self deal physical damage 90 / 180 % based on attack power, cooldown 8 / 4 seconds",
+          "495",
+          "79",
+          "61",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AK_1.png"
+        ],
+        [
+          "Transcendental Figure (Middle)",
+          "Reduce incoming physical damage from enemy with lower %HP (compared to your own current %HP) by 15 / 30 %",
+          "507",
+          "0",
+          "123",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AK_2-185650.png"
+        ],
+        [
+          "Transcendental Figure (Bottom)",
+          "Increase critical damage by 20 / 50 % against enemy with lower %HP (compared to your current %HP)",
+          "459",
+          "34",
+          "70",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AK_3.png"
+        ],
+        [
+          "Transcendental Figure",
+          "2",
+          "There are 3 separate effects that tied in with each stigmata piece, all share the same 10 second cooldown:\nKiana Stigmata: After performing a perfect evasive move, increase out going physical damage by 45% for 5 seconds\nMei Stigmata: After using branch attack, regenerate 30 HP per second, last for 5 seconds\nBronya Stigmata: When receiving an attack, reduce that attack all-damage by 30%, increase attack speed by 25% for 5 seconds",
+          "3",
+          "Increase total HP by 15%, critical chance by 10% while in battle"
+        ]
+      ],
+      [
+        [
+          "Picasso (Top)",
+          "Passive 1: Basic normal attack (charge attack + branch attack included) applies 1 charge of Red Pigment (cooldown 1 second). When reaches 4 charges, increase physical damage by 15 / 32 % for 3 / 6 seconds. Reset duration if re-activated again while under Red Pigment effect\nPassive 2: Can save pigment color on enemy",
+          "411",
+          "94",
+          "35",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/PabloPicasso-1thumb.png"
+        ],
+        [
+          "Picasso (Middle)",
+          "Passive 1: Basic normal attack (charge attack + branch attack included) applies 1 charge of Yellow Pigment (cooldown 1 second). When reaches 4 charges, reduce physical damage directly coming from that enemy by 10 / 25 % and reduce physical damage indirectly coming from that enemy by 20 / 40 %. Last for 3 / ? / ? / 6 seconds. Reset duration if re-activated again while under Yellow Pigment effect\nPassive 2: Can save pigment color on enemy",
+          "483",
+          "0",
+          "123",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/PabloPicasso-2thumb.png"
+        ],
+        [
+          "Picasso (Bottom)",
+          "Passive 1: Basic normal attack (charge attack + branch attack included) applies 1 charge of Blue Pigment (cooldown 1 second). When reaches 4 charges, increase attack speed by 10 / 20 % for 3 / 6 seconds. Reset duration if re-activated again while under Blue Pigment effect\nPassive 2: Can save pigment color on enemy",
+          "435",
+          "42",
+          "53",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/PabloPicasso-3thumb.png"
+        ],
+        [
+          "Picasso",
+          "2",
+          "Basic normal attack (charge attack + branch attack included) per each every 1 second, applies 1 Color Pigment you have to the enemy, last for 10 seconds. Color Pigment rotates every 3 seconds, two different colors mixing together creates mixed color:\nRed + Yellow = Orange: Target receives extra 25% physical damage\nRed + Blue = Purple: Deal physical damage 120% based on attack power at ranged distance\nYellow + Blue = Green: Immediately recover your HP by 4%\nMixed color effect lasts for 4 seconds. Other colors cannot be painted",
+          "3",
+          "None"
+        ]
+      ],
+      [
+        [
+          "Higyokumaru (Top)",
+          "Increase Valkyria own fire elemental damage by 30 / 45 %, When basic attack (branch attack and charge attack included) on-hit break enemies barrier (shield), the Higokumaru servant with attack power of 200 / 600, cast a fire blast for 6.0 seconds, dealing fire elemental damage based on Higokumaru 320% attack power, with Higokumaru 10.0 seconds global cooldown.",
+          "495",
+          "106",
+          "70",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/b0529c51352ac65cbdf2f95cf0f2b21192138a05.png"
+        ],
+        [
+          "Higyokumaru (Middle)",
+          "Reduce incoming physical damage by 15 / 30 %, After perfect evasive movet he Higokumaru servant with attack power of 200 / 600, cast a fire pillar, dealing fire elemental damage based on Higokumaru 500% attack power, with Higokumaru 10.0 seconds global cooldown.",
+          "507",
+          "0",
+          "158",
+          "7",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/a2ed6a31e924b899c122e71765061d950b7bf6de.png"
+        ],
+        [
+          "Higyokumaru (Bottom)",
+          "Increase attack speed by 3 / 6 %, per 1 enemy on-field inflicted with burn status, up to 3 times multiplier, when surrounding has enemies, dealing fire elemental damage based on 30 / 60 % attack power per every 1.0 seconds to them.",
+          "507",
+          "42",
+          "53",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/dbdaacf8d72a6059b9027f352334349b023bbae2.png"
+        ],
+        [
+          "Higyokumaru",
+          "2",
+          "Increase Valkyria and Higokumaru fire elemental damage by 1%, per 1 consecutive hits, up to 40 times multiplier",
+          "3",
+          "When entering combat mode, if the consecutive hits less than 50, instantly raise to 50, with 30.0 seconds cooldown, Raise 2-set bonus consecutive hits capped limit by another 40"
+        ]
+      ],
+      [
+        [
+          "Fresh Summer (Top)",
+          "Grant on-hit to materialize a 3.0 seconds timed explosive water ball (9.0 / 5.0 seconds cooldown), dealing ice elemental damage based on 150 / 300 % self attack power",
+          "607",
+          "96",
+          "75",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-1_thumb.png"
+        ],
+        [
+          "Fresh Summer (Middle)",
+          "(Require top stigmata piece) When water ball explode, any own ally units hit by water ball blast wave gain increase fire, ice, and lightning elemental damage by 18 / 30 % within the next 4.5 / 6.0 seconds, not stackable",
+          "health",
+          "attack",
+          "defend",
+          "crit",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-2_thumb.png"
+        ],
+        [
+          "Fresh Summer (Bottom)",
+          "(Require top stigmata piece) Squad members within the water ball blast wave restore ? / 500 HP",
+          "health",
+          "attack",
+          "defend",
+          "crit",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-3_thumb.png"
+        ],
+        [
+          "Fresh Summer",
+          "2",
+          "Increase timed explosive water ball by 2.0 meter radius, and inflict 1.5 seconds freeze status to enemies within the explosion",
+          "3",
+          "Timed explosive water ball deal additional 200% ice elemental damage, and reduce cooldown time by 2.0 seconds"
+        ]
+      ],
+      [
+        [
+          "Michelangelo (Top)",
+          "Increase physical damage by 3.6 / 7.2% upon basic attack (charge attack and branch attack included), last for 3 seconds, stack up to 5 times, if effect is re-activated while being active, refresh its duration",
+          "435",
+          "109",
+          "44",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/michelangelo-top_thumb.png"
+        ],
+        [
+          "Michelangelo (Middle)",
+          "Increase critical rate by 1.5 / 3% upon basic attack (charge attack and branch attack included), last for 3 seconds, stack up to 5 times, if effect is re-activated while being active, refresh its duration",
+          "531",
+          "0",
+          "155",
+          "8",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/michelangelo-center_thumb.png"
+        ],
+        [
+          "Michelangelo (Bottom)",
+          "Increase critical damage by 8 / 14% upon basic attack (charge attack and branch attack included), last for 3 seconds, stack up to 5 times, if effect is re-activated while being active, refresh its duration",
+          "435",
+          "42",
+          "133",
+          "16",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/michelangelo-bottom_thumb.png"
+        ],
+        [
+          "Michelangelo",
+          "2",
+          "Increase all-damage by 15%\nWhen tag-in, increase all-damage by 15%, last for 15 seconds, cooldown 30 seconds",
+          "3",
+          "After tag-out, restore 2% of Valkyrja own max HP per second, last for 10 seconds. Also, put a trial attack on all enemies on battlefield, deal 300% physical damage based on attack power to them, if enemy has less than 10% of its max HP, deal additional 300% physical damage based on attack power, cooldown 30 seconds"
+        ]
+      ],
+      [
+        [
+          "Nuwa – Puppeteer (Top)",
+          "Stun enemy for 2 / 5 seconds when breaking its shield\nIncrease all-damage dealt against shield-break enemy by 10 / 20%",
+          "423",
+          "108",
+          "66",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/nuwa-doll-teacher-top_thumb-1.png"
+        ],
+        [
+          "Nuwa – Puppeteer (Middle)",
+          "Increase physical damage of branch attack by 15 / 30%\nAfter performing branch attack 3 times, grants Valkyrja a shield that reduces received damage by 10 / 15% for 5 seconds, cooldown 6 seconds",
+          "471",
+          "0",
+          "188",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/nuwa-doll-teacher-center_thumb-1.png"
+        ],
+        [
+          "Nuwa – Puppeteer (Bottom)",
+          "After performing ultimate skill, increase all-damage dealt by Valkyrja by 6 / 12%, last for 8 / 15 seconds, stack up to 4 times, cooldown 3 seconds. If effect is re-activated while being active, refresh its duration",
+          "423",
+          "53",
+          "122",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/nuwa-doll-teacher-bottom_thumb-1.png"
+        ],
+        [
+          "Nuwa – Puppeteer",
+          "2",
+          "After performing ultimate skill 2 times, generate a 5m radius Puppet boundary, shackle enemy stands within the boundary, and increase its received physical damage by 20%. After 6 seconds, Puppet boundary disappears and enters 18 seconds cooldown. This skill cannot be stacked with other skill",
+          "3",
+          "Reduce debuff duration against Valkyrja by 30%\nIncrease all-damage dealt against enemy under debuff by 30%"
+        ]
+      ],
+      [
+        [
+          "Theresa – Gluttony (Top)",
+          "10% chance on-hit drops a candy, that will increase 9 / 18 % all-damage when looted, last for 5.0 seconds, 2.0 seconds drop cooldown, and will disappear after 8.0 seconds if not looted",
+          "386",
+          "94",
+          "70",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-7.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "Bronya – Doll (Top)",
+          "Increase range damage by 10 / 15 %\nWhen equipped on Bronya, 20 / 40 % chance to shackle the target upon attacking, last for 4 seconds, cooldown 10 seconds",
+          "338",
+          "94",
+          "66",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/bronya-doll_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "Murata Ouji (Top)",
+          "Increase melee physical damage by 11 / 20 %\nWhen equipped on Himeko, charge attack has 5 / 10 % chance to deal additional 100 / 300 % physical damage based on attack power, cooldown 12 seconds",
+          "314",
+          "102",
+          "53",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Himeko-10.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Kiana – Songstress (Middle)",
+          "After performing perfect evasion skill, all members of team receive HP regen by 6 / 12  per each 1.0 second, last for 7 seconds. Triggered again will refresh effect duration. When equipped on Kiana, increase own HP regen by 4 / 12.7 per each 1.0 second, active even when not in play",
+          "508",
+          "0",
+          "127",
+          "4",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/3d9036a88226cffc0fb46c1fb2014a90f403eadc.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Mei – Wrath (Middle)",
+          "Convert all incoming damage into a wave of wrath, reflect back as damage, dealing 280% / 408% * original damage to the surrounding enemies",
+          "528",
+          "0",
+          "36",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Mei-2_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Sakura – Tanabata (Bottom)",
+          "Increase branch attack physical damage by 10 / 20 %\nWhen equipped on Sakura, further increase branch attack physical damage by 5 / 10 %",
+          "434",
+          "45",
+          "70",
+          "15",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-6_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Bronya – Sloth (Bottom)",
+          "Ability 1: Lose all EP when tag-out, but recover 1.2 / 2.1 EP every 1.0 second before tag-in\nAbility 2: Gradually lose EP after tag-in and staying on-field, when EP below 20%, become fatigued and no battle morale (inflicted slow debuff)",
+          "538",
+          "41",
+          "11",
+          "13",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-3_thumb.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Fuka – Pride (Bottom)",
+          "Increase melee physical damage by 15 / 30 %. However on-killed 1 enemies, increase own incoming all-damage by 7%, last for 30.0 seconds, up to 10 times multiplier",
+          "435",
+          "34",
+          "88",
+          "9",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Fuka-1.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      [
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Ottoria (Bottom)",
+          "Increase movement speed by 4 / 10 %\nWhen equipped on Theresa, increase attack speed by  4 / 10 %, EP gain speed by 10%",
+          "386",
+          "42",
+          "70",
+          "11",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Otto-6.png"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    ]
+  }
 };
 
 /*
+
+
+
+[
+  [
+    "stigmata (Top)",
+    "effect",
+    "health",
+    "attack",
+    "defend",
+    "crit",
+    "link"
+  ],
+  [
+    "stigmata (Middle)",
+    "effect",
+    "health",
+    "attack",
+    "defend",
+    "crit",
+    "link"
+  ],
+  [
+    "stigmata (Bottom)",
+    "effect",
+    "health",
+    "attack",
+    "defend",
+    "crit",
+    "link"
+  ],
+  [
+    "stigmata",
+    "2",
+    "effect",
+    "3",
+    "effect"
+  ]
+],
+
+
 
 [ "wep",
   "Skill",

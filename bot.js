@@ -988,11 +988,8 @@ function connectClient(memeFileTotal) {
       currentPageDisplay = currentPage + 1;
 
       embed = {
-        "author": {
-          "name": "test"
-        },
         "color": 6332693,
-        "title": "Select a weapon",
+        "title": "Select a stigmata",
         "footer": {
           "icon_url": "attachment://attentionicon.PNG",
           "text": "Page " + currentPageDisplay + " of " + totalPageNumber + " | Please press the number below (reaction) to select"

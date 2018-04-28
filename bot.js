@@ -663,8 +663,6 @@ function connectClient(memeFileTotal) {
 
       //===
 
-      var weaponArrayNameTemp = weaponArrayName;
-
       var weaponArrayName = [];
       var weaponArrayWhole = [];
       for (var i = 0; i < selectedWeapon.length; i++) {
@@ -761,9 +759,9 @@ function connectClient(memeFileTotal) {
           }
 
 
-          for (i = 0; i < 9; i++){
+          for (i = 0; i < 9; i++) {
             emoji = reactionNumberArray[i];
-            if (chosen === emoji){
+            if (chosen === emoji) {
               newMessage.delete();
               if (weaponArrayWhole.length < 1) {
                 msg.reply("please do not add reaction by yourself.")
@@ -871,13 +869,379 @@ function connectClient(memeFileTotal) {
       });
     }
 
+    if (msg.content.startsWith("!stigmata")) {
+      if (msg.content === "!stigmata") {
+        stigmataMenu();
+      }
+    }
+
+    function stigmataMenu() {
+      embed = {
+        "author": {
+          "name": "Stigmata"
+        },
+        "color": 6332693,
+        "title": "Select rarity",
+        "footer": {
+          "icon_url": "attachment://attentionicon.PNG",
+          "text": "Please press the number below (reaction) to select"
+        },
+        "fields": [{
+          "name": "----------------",
+          "value": "1. ★★★★☆\n2. ★★★☆\n3. ★★☆\n4. ★☆"
+        }]
+      }
+      msg.reply({
+        embed,
+        files: [{
+          attachment: "images/attentionicon.PNG",
+          name: "attentionicon.PNG"
+        }]
+      }).then(async function(newMessage) {
+        const collector = newMessage.createReactionCollector((reaction, user) =>
+          user.id === msg.author.id &&
+          reaction.emoji.name === "1⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "2⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "3⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "4⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "▶" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "❌"
+        ).once("collect", reaction => {
+          const chosen = reaction.emoji.name;
+          if (chosen === "1⃣") {
+            newMessage.delete();
+            stigmataMenuSelected(4, 0);
+          } else if (chosen === "2⃣") {
+            newMessage.delete();
+            stigmataMenuSelected(3, 0);
+          } else if (chosen === "3⃣") {
+            newMessage.delete();
+            stigmataMenuSelected(2, 0);
+          } else if (chosen === "4⃣") {
+            newMessage.delete();
+            stigmataMenuSelected(1, 0);
+          } else if (chosen === "❌") {
+            newMessage.delete();
+          }
+          collector.stop();
+        });
+        await newMessage.react("1⃣").catch((error) => {});
+        await newMessage.react("2⃣").catch((error) => {});
+        await newMessage.react("3⃣").catch((error) => {});
+        await newMessage.react("4⃣").catch((error) => {});
+        await newMessage.react("❌").catch((error) => {});
+      });
+    }
+
+    function stigmataMenuSelected(star, page) {
+      var selectedStarStigmata = "";
+      var currentStar = star;
+      var currentPage = page;
+      if (currentStar == 4) {
+        var selectedStarStigmata = require('./equipmentdb').equipment.stigmata.fourstar;
+      }
+      if (currentStar == 3) {
+        var selectedStarStigmata = require('./equipmentdb').equipment.stigmata.threestar;
+      }
+      if (currentStar == 2) {
+        var selectedStarStigmata = require('./equipmentdb').equipment.stigmata.twostar;
+      }
+      if (currentStar == 1) {
+        var selectedStarStigmata = require('./equipmentdb').equipment.stigmata.onestar;
+      }
+
+      var stigmataArrayName = [];
+      var stigmataArrayWhole = [];
+      for (var i = 0; i < selectedStarStigmata.length; i++) {
+        stigmataArrayName.push(selectedStarStigmata[i]);
+        stigmataArrayWhole.push(selectedStarStigmata[i]);
+      }
+
+      stigmataArrayNameTemp = stigmataArrayName;
+
+      for (var i = 0; i < page; i++) {
+        stigmataArrayNameTemp.splice(0, 9);
+        stigmataArrayWhole.splice(0, 9);
+      }
+
+      reactionNumberArray = ["1⃣", "2⃣", "3⃣", "4⃣", "5⃣", "6⃣", "7⃣", "8⃣", "9⃣"];
+
+
+
+      var embedStigmataNames = "";
+      if (stigmataArrayNameTemp.length > 9) {
+        for (i = 0; i < 9; i++) {
+          embedStigmataNames += i + 1 + ". " + stigmataArrayNameTemp[i][3][0] + "\n";
+        }
+      } else {
+        for (i = 0; i < stigmataArrayNameTemp.length; i++) {
+          embedStigmataNames += i + 1 + ". " + stigmataArrayNameTemp[i][3][0] + "\n";
+        }
+      }
+
+      totalPageNumber = Math.floor(selectedStarStigmata.length / 9) + 1;
+      currentPageDisplay = currentPage + 1;
+
+      embed = {
+        "author": {
+          "name": "test"
+        },
+        "color": 6332693,
+        "title": "Select a weapon",
+        "footer": {
+          "icon_url": "attachment://attentionicon.PNG",
+          "text": "Page " + currentPageDisplay + " of " + totalPageNumber + " | Please press the number below (reaction) to select"
+        },
+        "fields": [{
+          "name": "----------------",
+          "value": "" + embedStigmataNames
+        }]
+      }
+      msg.reply({
+        embed
+      }).then(async function(newMessage) {
+        const collector = newMessage.createReactionCollector((reaction, user) =>
+          user.id === msg.author.id &&
+          reaction.emoji.name === "◀" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "1⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "2⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "3⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "4⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "5⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "6⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "7⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "8⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "9⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "▶" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "❌"
+        ).once("collect", async reaction => {
+          const chosen = reaction.emoji.name;
+          if (chosen === "◀") {
+            newMessage.delete();
+            if (currentPage == 0) {
+              msg.reply("please do not add reaction by yourself.")
+            } else {
+              stigmataMenuSelected(currentStar, currentPage - 1);
+            }
+          }
+
+          for (i = 0; i < 9; i++) {
+            emoji = reactionNumberArray[i];
+            stigmataChosen = i;
+            if (chosen === await emoji) {
+              newMessage.delete();
+              if (stigmataArrayWhole.length < 1) {
+                msg.reply("please do not add reaction by yourself.")
+              } else {
+
+
+
+                if (stigmataArrayWhole[stigmataChosen][0][0] != "-"){
+                  //Top
+                  await msg.reply({embed: {
+                      "author": {
+                        "icon_url": "attachment://top.PNG",
+                        "name": stigmataArrayWhole[stigmataChosen][0][0]
+                      },
+                      "color": 16748921,
+                      "thumbnail": {
+                        "url": stigmataArrayWhole[stigmataChosen][0][6]
+                      },
+                      "fields": [{
+                        "name": "HP",
+                        "value": stigmataArrayWhole[stigmataChosen][0][2],
+                        "inline": true
+                      }, {
+                        "name": "ATK",
+                        "value": stigmataArrayWhole[stigmataChosen][0][3],
+                        "inline": true
+                      }, {
+                        "name": "DEF",
+                        "value": stigmataArrayWhole[stigmataChosen][0][4],
+                        "inline": true
+                      }, {
+                        "name": "CRI",
+                        "value": stigmataArrayWhole[stigmataChosen][0][5],
+                        "inline": true
+                      }, {
+                        "name": "Effect",
+                        "value": stigmataArrayWhole[stigmataChosen][0][1]
+                      }, ]
+                    },
+                    files: [{
+                      attachment: "images/equipment/stigmata/top.PNG",
+                      name: "top.PNG"
+                    }]
+                  })
+                }
+
+                if (stigmataArrayWhole[stigmataChosen][1][0] != "-"){
+                  //Middle
+                  await msg.channel.send({embed: {
+                      "author": {
+                        "icon_url": "attachment://middle.PNG",
+                        "name": stigmataArrayWhole[stigmataChosen][1][0]
+                      },
+                      "color": 10070783,
+                      "thumbnail": {
+                        "url": stigmataArrayWhole[stigmataChosen][1][6]
+                      },
+                      "fields": [{
+                        "name": "HP",
+                        "value": stigmataArrayWhole[stigmataChosen][1][2],
+                        "inline": true
+                      }, {
+                        "name": "ATK",
+                        "value": stigmataArrayWhole[stigmataChosen][1][3],
+                        "inline": true
+                      }, {
+                        "name": "DEF",
+                        "value": stigmataArrayWhole[stigmataChosen][1][4],
+                        "inline": true
+                      }, {
+                        "name": "CRI",
+                        "value": stigmataArrayWhole[stigmataChosen][1][5],
+                        "inline": true
+                      }, {
+                        "name": "Effect",
+                        "value": stigmataArrayWhole[stigmataChosen][1][1]
+                      }, ]
+                    },
+                    files: [{
+                      attachment: "images/equipment/stigmata/middle.PNG",
+                      name: "middle.PNG"
+                    }]
+                  });
+                }
+
+                if (stigmataArrayWhole[stigmataChosen][2][0] != "-"){
+                  //Bottom
+                  await msg.channel.send({embed: {
+                      "author": {
+                        "icon_url": "attachment://bottom.PNG",
+                        "name": stigmataArrayWhole[stigmataChosen][2][0]
+                      },
+                      "color": 11716965,
+                      "thumbnail": {
+                        "url": stigmataArrayWhole[stigmataChosen][2][6]
+                      },
+                      "fields": [{
+                        "name": "HP",
+                        "value": stigmataArrayWhole[stigmataChosen][2][2],
+                        "inline": true
+                      }, {
+                        "name": "ATK",
+                        "value": stigmataArrayWhole[stigmataChosen][2][3],
+                        "inline": true
+                      }, {
+                        "name": "DEF",
+                        "value": stigmataArrayWhole[stigmataChosen][2][4],
+                        "inline": true
+                      }, {
+                        "name": "CRI",
+                        "value": stigmataArrayWhole[stigmataChosen][2][5],
+                        "inline": true
+                      }, {
+                        "name": "Effect",
+                        "value": stigmataArrayWhole[stigmataChosen][2][1]
+                      }, ]
+                    },
+                    files: [{
+                      attachment: "images/equipment/stigmata/bottom.PNG",
+                      name: "bottom.PNG"
+                    }]
+                  });
+                }
+
+
+                if (stigmataArrayWhole[stigmataChosen][3][1] != "-"){
+                  //Set
+                  await msg.channel.send({embed: {
+                      "author": {
+                        "name": stigmataArrayWhole[stigmataChosen][3][0] + " Set Effect"
+                      },
+                      "color": 16777215,
+                      "footer": {
+                        "icon_url": "attachment://attentionicon.PNG",
+                        "text": "All information from http://houkai3rd.arthobbylab.com/"
+                      },
+                      "fields": [{
+                        "name": "2 Sets",
+                        "value": stigmataArrayWhole[stigmataChosen][3][2]
+                      }, {
+                        "name": "3 Sets",
+                        "value": stigmataArrayWhole[stigmataChosen][3][4]
+                      }]
+                    },
+                    files: [{
+                      attachment: "images/attentionicon.PNG",
+                      name: "attentionicon.PNG"
+                    }]
+                  });
+                }
 
 
 
 
 
+              }
+            }
+          }
 
+          if (chosen === "▶") {
+            newMessage.delete();
+            if (stigmataArrayNameTemp.length <= 9) {
+              msg.reply("please do not add reaction by yourself.")
+            } else {
+              stigmataMenuSelected(currentStar, currentPage + 1);
+            }
+          }
 
+          if (chosen === "❌") {
+            newMessage.delete();
+          }
+          collector.stop();
+        });
+
+        if (page > 0) {
+          await newMessage.react("◀").catch((error) => {});
+        }
+
+        if (stigmataArrayNameTemp.length <= 9) {
+          for (i = 0; i < stigmataArrayNameTemp.length; i++) {
+            await newMessage.react(reactionNumberArray[i]).catch((error) => {});
+          }
+        } else {
+          for (i = 0; i < 9; i++) {
+            await newMessage.react(reactionNumberArray[i]).catch((error) => {});
+          }
+        }
+
+        if (stigmataArrayNameTemp.length > 9) {
+          await newMessage.react("▶").catch((error) => {});
+        }
+
+        await newMessage.react("❌").catch((error) => {});
+
+      });
+
+    }
 
   });
 }

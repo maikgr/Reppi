@@ -1545,6 +1545,81 @@ var equipment = {
     },
   },
   stigmata: {
+    onestar: [
+      [
+        [
+          "Salerno (Top)",
+          "-",
+          "156",
+          "25",
+          "3",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Salerno-1_thumb.png"
+        ],
+        [
+          "Salerno (Middle)",
+          "-",
+          "156",
+          "0",
+          "3",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Salerno-2_thumb.png"
+        ],
+        [
+          "Salerno (Bottom)",
+          "-",
+          "156",
+          "12",
+          "3",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Salerno-3_thumb.png"
+        ],
+        [
+          "Salerno",
+          "2",
+          "Increase melee physical damage by 10%",
+          "3",
+          "Increase maximum HP by 8% while in combat"
+        ]
+      ],
+      [
+        [
+          "Charlotte (Top)",
+          "-",
+          "149",
+          "25",
+          "30",
+          "0",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Charlotte-1_thumb.png"
+        ],
+        [
+          "Charlotte (Middle)",
+          "-",
+          "149",
+          "0",
+          "30",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Charlotte-2_thumb.png"
+        ],
+        [
+          "Charlotte (Bottom)",
+          "-",
+          "149",
+          "12",
+          "30",
+          "1",
+          "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Charlotte-3_thumb.png"
+        ],
+        [
+          "Charlotte",
+          "2",
+          "Increase physical damage by 8%",
+          "3",
+          "Increase defense by 20% while in combat"
+        ]
+      ]
+
+    ],
     twostar: [
       [
         [
@@ -2441,7 +2516,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Winter Princess",
           "-",
           "-",
           "-",
@@ -2477,7 +2552,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Himeko – Noel",
           "-",
           "-",
           "-",
@@ -2513,7 +2588,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Mei – Birthday Dress",
           "-",
           "-",
           "-",
@@ -2549,7 +2624,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Himeko – Bride",
           "-",
           "-",
           "-",
@@ -2585,7 +2660,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Theresa – Magical Girl",
           "-",
           "-",
           "-",
@@ -2621,7 +2696,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Theresa – Macaron Eating Contest",
           "-",
           "-",
           "-",
@@ -2657,7 +2732,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Mei – Songstress",
           "-",
           "-",
           "-",
@@ -2693,7 +2768,7 @@ var equipment = {
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/kiana-happy-new-year.jpg"
         ],
         [
-          "-",
+          "Kiana – Happy New Year",
           "-",
           "-",
           "-",
@@ -2729,7 +2804,7 @@ var equipment = {
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-9_thumb.png"
         ],
         [
-          "-",
+          "Sakura – Blistering Summer",
           "-",
           "-",
           "-",
@@ -3775,7 +3850,7 @@ var equipment = {
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Siegfried-3_thumb.png"
         ],
         [
-          "stigmata",
+          "Siegfried",
           "2",
           "Activate another weapon skill within 10.0 seconds increase the next weapon skill for all-damage by 20%, up to 5 times multiplier, increase stack will reset the lasting duration",
           "3",
@@ -4387,7 +4462,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Theresa – Gluttony",
           "-",
           "-",
           "-",
@@ -4423,7 +4498,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Bronya – Doll",
           "-",
           "-",
           "-",
@@ -4459,7 +4534,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Murata Ouji",
           "-",
           "-",
           "-",
@@ -4495,7 +4570,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Kiana – Songstress",
           "-",
           "-",
           "-",
@@ -4531,7 +4606,7 @@ var equipment = {
           "-"
         ],
         [
-          "-",
+          "Mei – Wrath (Middle)",
           "-",
           "-",
           "-",
@@ -4567,7 +4642,7 @@ var equipment = {
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-6_thumb.png"
         ],
         [
-          "-",
+          "Sakura – Tanabata (Bottom)",
           "-",
           "-",
           "-",
@@ -4603,7 +4678,7 @@ var equipment = {
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-3_thumb.png"
         ],
         [
-          "-",
+          "Bronya – Sloth (Bottom)",
           "-",
           "-",
           "-",
@@ -4639,7 +4714,7 @@ var equipment = {
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Fuka-1.png"
         ],
         [
-          "-",
+          "Fuka – Pride (Bottom)",
           "-",
           "-",
           "-",
@@ -4675,7 +4750,7 @@ var equipment = {
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Otto-6.png"
         ],
         [
-          "-",
+          "Ottoria (Bottom)",
           "-",
           "-",
           "-",

@@ -375,317 +375,309 @@ function connectClient(memeFileTotal) {
     }
 
     if (msg.content.startsWith("!weapon")) {
-      if (msg.content === "!weapon") {
-        msg.reply({
-          embed: {
-            "color": 6332693,
-            "title": "``Weapon list``",
-            "fields": [{
-              "name": "----------------",
-              "value": "Gun \n`!weapon gun` \n\nKatana \n`!weapon katana` \n\nCannon \n`!weapon cannon` \n\ngreatsword \n`!weapon greatsword` \n\nCross \n`!weapon cross` \n\nGauntlet \n`!weapon gauntlet`"
-            }]
-          }
-        });
-
-      } else if (msg.content.startsWith("!weapon gun")) {
-        if (msg.content === "!weapon gun") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Gun``",
-              "fields": [{
-                "name": "----------------",
-                "value": "4★ Gun  \n`!weapon gun 4star` \n\n3★ Gun  \n`!weapon gun 3star` \n\n2★ Gun  \n`!weapon gun 2star` \n\n1★ Gun  \n`!weapon gun 1star`"
-              }]
-            }
-          });
-        }
-        if (msg.content === "!weapon gun 4star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.gun.fourstar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon gun 3star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.gun.threestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon gun 2star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.gun.twostar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon gun 1star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.gun.onestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-      } else if (msg.content.startsWith("!weapon katana")) {
-        if (msg.content === "!weapon katana") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Katana``",
-              "fields": [{
-                "name": "----------------",
-                "value": "4★ Katana  \n`!weapon katana 4star` \n\n3★ Katana  \n`!weapon katana 3star` \n\n2★ Katana  \n`!weapon katana 2star` \n\n1★ Katana  \n`!weapon katana 1star`"
-              }]
-            }
-          });
-        }
-        if (msg.content === "!weapon katana 4star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.katana.fourstar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon katana 3star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.katana.threestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon katana 2star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.katana.twostar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon katana 1star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.katana.onestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-      } else if (msg.content.startsWith("!weapon cannon")) {
-        if (msg.content === "!weapon cannon") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Cannon``",
-              "fields": [{
-                "name": "----------------",
-                "value": "4★ Cannon  \n`!weapon cannon 4star` \n\n3★ Cannon  \n`!weapon cannon 3star` \n\n2★ Cannon  \n`!weapon cannon 2star` \n\n1★ Cannon  \n`!weapon cannon 1star`"
-              }]
-            }
-          });
-        }
-        if (msg.content === "!weapon cannon 4star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.fourstar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon cannon 3star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.threestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon cannon 2star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.twostar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon cannon 1star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.onestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        //select star
-      } else if (msg.content.startsWith("!weapon greatsword")) {
-        if (msg.content === "!weapon greatsword") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``greatsword``",
-              "fields": [{
-                "name": "----------------",
-                "value": "4★ greatsword  \n`!weapon greatsword 4star` \n\n3★ greatsword  \n`!weapon greatsword 3star` \n\n2★ greatsword  \n`!weapon greatsword 2star` \n\n1★ greatsword  \n`!weapon greatsword 1star`"
-              }]
-            }
-          });
-        }
-        if (msg.content === "!weapon greatsword 4star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.fourstar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon greatsword 3star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.threestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon greatsword 2star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.twostar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon greatsword 1star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.onestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        //select star
-      } else if (msg.content.startsWith("!weapon cross")) {
-        if (msg.content === "!weapon cross") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Cross``",
-              "fields": [{
-                "name": "----------------",
-                "value": "4★ Cross  \n`!weapon cross 4star` \n\n3★ Cross  \n`!weapon cross 3star` \n\n2★ Cross  \n`!weapon cross 2star` \n\n1★ Cross  \n`!weapon cross 1star`"
-              }]
-            }
-          });
-        }
-        if (msg.content === "!weapon cross 4star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cross.fourstar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon cross 3star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cross.threestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon cross 2star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cross.twostar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon cross 1star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.cross.onestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        //select star
-      } else if (msg.content.startsWith("!weapon gauntlet")) {
-        if (msg.content === "!weapon gauntlet") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Gauntlet``",
-              "fields": [{
-                "name": "----------------",
-                "value": "4★ Gauntlet  \n`!weapon gauntlet 4star` \n\n3★ Gauntlet  \n`!weapon gauntlet 3star` \n\n2★ Gauntlet  \n`!weapon gauntlet 2star`"
-              }]
-            }
-          });
-        }
-        if (msg.content === "!weapon gauntlet 4star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.fourstar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon gauntlet 3star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.threestar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        if (msg.content === "!weapon gauntlet 2star") {
-          var selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.twostar;
-          weaponMenu(msg.content, 0, selectedWeapon);
-        }
-        //select star
-      } else {
-        //reply unknown weapon
+      embed = {
+        "author": {
+          "name": "Weapon List"
+        },
+        "color": 6332693,
+        "title": "Please select a weapon type",
+        "footer": {
+          "icon_url": "attachment://attentionicon.PNG",
+          "text": "Please press the number below (reaction) to select"
+        },
+        "fields": [{
+          "name": "----------------",
+          "value": "1. Gun\n2. Katana\n3. Cannon\n4. Greatsword\n5. Cross\n6. Gauntlet"
+        }]
       }
+
+      msg.reply({
+        embed,
+        files: [{
+          attachment: "images/attentionicon.PNG",
+          name: "attentionicon.PNG"
+        }]
+      }).then(async function(newMessage) {
+        const collector = newMessage.createReactionCollector((reaction, user) =>
+          user.id === msg.author.id &&
+          reaction.emoji.name === "1⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "2⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "3⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "4⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "5⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "6⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "▶" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "❌"
+        ).once("collect", reaction => {
+          const chosen = reaction.emoji.name;
+          if (chosen === "1⃣") {
+            newMessage.delete();
+            weaponRarity(1);
+          } else if (chosen === "2⃣") {
+            newMessage.delete();
+            weaponRarity(2);
+          } else if (chosen === "3⃣") {
+            newMessage.delete();
+            weaponRarity(3);
+          } else if (chosen === "4⃣") {
+            newMessage.delete();
+            weaponRarity(4);
+          } else if (chosen === "5⃣") {
+            newMessage.delete();
+            weaponRarity(5);
+          } else if (chosen === "6⃣") {
+            newMessage.delete();
+            weaponRarity(6);
+          } else if (chosen === "❌") {
+            newMessage.delete();
+          }
+          collector.stop();
+        });
+        await newMessage.react("1⃣").catch((error) => {});
+        await newMessage.react("2⃣").catch((error) => {});
+        await newMessage.react("3⃣").catch((error) => {});
+        await newMessage.react("4⃣").catch((error) => {});
+        await newMessage.react("5⃣").catch((error) => {});
+        await newMessage.react("6⃣").catch((error) => {});
+        await newMessage.react("❌").catch((error) => {});
+      });
     }
 
-    function weaponMenu(message, page, getSelectedWeapon) {
-      currentMessage = message;
+    function weaponRarity(weaponType){
+
+      var weaponTypeString = "";
+      if (weaponType == 1){
+        weaponTypeString = "Gun";
+      }
+      if (weaponType == 2){
+        weaponTypeString = "Katana";
+      }
+      if (weaponType == 3){
+        weaponTypeString = "Cannon";
+      }
+      if (weaponType == 4){
+        weaponTypeString = "Greatsword";
+      }
+      if (weaponType == 5){
+        weaponTypeString = "Cross";
+      }
+      if (weaponType == 6){
+        weaponTypeString = "Gauntlet";
+      }
+
+      embed = {
+        "author": {
+          "name": weaponTypeString
+        },
+        "color": 6332693,
+        "title": "Select rarity",
+        "footer": {
+          "icon_url": "attachment://attentionicon.PNG",
+          "text": "Please press the number below (reaction) to select"
+        },
+        "fields": [{
+          "name": "----------------",
+          "value": "1. ★★★★☆\n2. ★★★☆\n3. ★★☆\n4. ★☆"
+        }]
+      }
+      msg.reply({
+        embed,
+        files: [{
+          attachment: "images/attentionicon.PNG",
+          name: "attentionicon.PNG"
+        }]
+      }).then(async function(newMessage) {
+        const collector = newMessage.createReactionCollector((reaction, user) =>
+          user.id === msg.author.id &&
+          reaction.emoji.name === "1⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "2⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "3⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "4⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "▶" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "❌"
+        ).once("collect", reaction => {
+          const chosen = reaction.emoji.name;
+          if (chosen === "1⃣") {
+            newMessage.delete();
+            weaponMenu(0, 1, weaponType);
+          } else if (chosen === "2⃣") {
+            newMessage.delete();
+            weaponMenu(0, 2, weaponType);
+          } else if (chosen === "3⃣") {
+            newMessage.delete();
+            weaponMenu(0, 3, weaponType);
+          } else if (chosen === "4⃣") {
+            newMessage.delete();
+            if (weaponType != 6){
+              weaponMenu(0, 4, weaponType);
+            } else {
+              msg.reply("There is no 1★ Gauntlet");
+            }
+          } else if (chosen === "❌") {
+            newMessage.delete();
+          }
+          collector.stop();
+        });
+        await newMessage.react("1⃣").catch((error) => {});
+        await newMessage.react("2⃣").catch((error) => {});
+        await newMessage.react("3⃣").catch((error) => {});
+        await newMessage.react("4⃣").catch((error) => {});
+        await newMessage.react("❌").catch((error) => {});
+      });
+    }
+
+    function weaponMenu(page, rarity, weaponType) {
       currentPage = page;
-      var selectedWeapon = getSelectedWeapon;
+      currentRarity = rarity;
+      currentWeaponType = weaponType;
       titleForEmbed = "";
       authorImageForEmbed = "";
       authorImageAttachmentForembed = "";
+      var selectedWeapon = "";
 
-      if (message.includes("4star")) {
-        if (message.includes("gun")) {
+      if (rarity == 1){
+        if (weaponType == 1){
           titleForEmbed = "4★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gun.fourstar;
         }
-        if (message.includes("katana")) {
+        if (weaponType == 2){
           titleForEmbed = "4★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.katana.fourstar;
         }
-        if (message.includes("cannon")) {
+        if (weaponType == 3){
           titleForEmbed = "4★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.fourstar;
         }
-        if (message.includes("greatsword")) {
-          titleForEmbed = "4★ greatsword";
+        if (weaponType == 4){
+          titleForEmbed = "4★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.fourstar;
         }
-        if (message.includes("cross")) {
+        if (weaponType == 5){
           titleForEmbed = "4★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cross.fourstar;
         }
-        if (message.includes("gauntlet")) {
+        if (weaponType == 6){
           titleForEmbed = "4★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.fourstar;
         }
-
-
-
       }
 
-      if (message.includes("3star")) {
-        if (message.includes("gun")) {
+      if (rarity == 2){
+        if (weaponType == 1){
           titleForEmbed = "3★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gun.threestar;
         }
-        if (message.includes("katana")) {
+        if (weaponType == 2){
           titleForEmbed = "3★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.katana.threestar;
         }
-        if (message.includes("cannon")) {
+        if (weaponType == 3){
           titleForEmbed = "3★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.threestar;
         }
-        if (message.includes("greatsword")) {
-          titleForEmbed = "3★ greatsword";
+        if (weaponType == 4){
+          titleForEmbed = "3★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.threestar;
         }
-        if (message.includes("cross")) {
+        if (weaponType == 5){
           titleForEmbed = "3★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cross.threestar;
         }
-        if (message.includes("gauntlet")) {
+        if (weaponType == 6){
           titleForEmbed = "3★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.threestar;
         }
       }
 
-      if (message.includes("2star")) {
-        if (message.includes("gun")) {
+      if (rarity == 3){
+        if (weaponType == 1){
           titleForEmbed = "2★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gun.twostar;
         }
-        if (message.includes("katana")) {
+        if (weaponType == 2){
           titleForEmbed = "2★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.katana.twostar;
         }
-        if (message.includes("cannon")) {
+        if (weaponType == 3){
           titleForEmbed = "2★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.twostar;
         }
-        if (message.includes("greatsword")) {
-          titleForEmbed = "2★ greatsword";
+        if (weaponType == 4){
+          titleForEmbed = "2★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.twostar;
         }
-        if (message.includes("cross")) {
+        if (weaponType == 5){
           titleForEmbed = "2★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cross.twostar;
         }
-        if (message.includes("gauntlet")) {
+        if (weaponType == 6){
           titleForEmbed = "2★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.twostar;
         }
       }
 
-      if (message.includes("1star")) {
-        if (message.includes("gun")) {
+      if (rarity == 4){
+        if (weaponType == 1){
           titleForEmbed = "1★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gun.onestar;
         }
-        if (message.includes("katana")) {
+        if (weaponType == 2){
           titleForEmbed = "1★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.katana.onestar;
         }
-        if (message.includes("cannon")) {
+        if (weaponType == 3){
           titleForEmbed = "1★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.onestar;
         }
-        if (message.includes("greatsword")) {
-          titleForEmbed = "1★ greatsword";
+        if (weaponType == 4){
+          titleForEmbed = "1★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.onestar;
         }
-        if (message.includes("cross")) {
+        if (weaponType == 5){
           titleForEmbed = "1★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.cross.onestar;
         }
-        if (message.includes("gauntlet")) {
+        if (weaponType == 6){
           titleForEmbed = "1★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
+          selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.onestar;
         }
       }
-
-      //===
 
       var weaponArrayName = [];
       var weaponArrayWhole = [];
@@ -777,12 +769,10 @@ function connectClient(memeFileTotal) {
             if (currentPage == 0) {
               msg.reply("please do not add reaction by yourself.")
             } else {
-              weaponMenu(currentMessage, currentPage - 1, getSelectedWeapon);
+              weaponMenu(currentPage - 1, currentRarity, currentWeaponType);
             }
 
           }
-
-
           for (i = 0; i < 9; i++) {
             emoji = reactionNumberArray[i];
             if (chosen === emoji) {
@@ -860,7 +850,7 @@ function connectClient(memeFileTotal) {
             if (weaponArrayWhole.length <= 9) {
               msg.reply("please do not add reaction by yourself.")
             } else {
-              weaponMenu(currentMessage, currentPage + 1, getSelectedWeapon);
+              weaponMenu(currentPage + 1, currentRarity, currentWeaponType);
             }
           }
 
@@ -1263,6 +1253,7 @@ function connectClient(memeFileTotal) {
       });
 
     }
+
 
   });
 }

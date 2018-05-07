@@ -53,328 +53,401 @@ function connectClient(memeFileTotal) {
       }
     }
 
-    if (msg.content.startsWith("!valkyrie") || msg.content.startsWith("!valk") || msg.content.startsWith("!v")) {
-
-      if (msg.content === "!valkyrie" || msg.content === "!valk" || msg.content === "!v") {
-        msg.reply({
-          embed: {
-            "color": 6332693,
-            "title": "``Valkyrie list``",
-            "footer": {
-              "text": "You can also you !valk or !v"
-            },
-            "fields": [{
-              "name": "----------------",
-              "value": "Kiana Kaslana \n`!valkyrie kiana` \n\nMei Raiden \n`!valkyrie mei` \n\nBronya Zaychik \n`!valkyrie bronya` \n\nHimeko Murata \n`!valkyrie himeko` \n\nSakura Yae  \n`!valkyrie sakura` \n\nTheresa Apocalypse  \n`!valkyrie theresa` \n\nKallen Kaslana  \n`!valkyrie kallen` \n\nFu Hua  \n`!valkyrie fuhua`"
-            }]
+    if (msg.content === "!reppi") {
+      embed = {
+        "color": 6332693,
+        "title": "Reppi Menu",
+        "footer": {
+          "icon_url": "attachment://attentionicon.PNG",
+          "text": "Please press the number below (reaction) to select"
+        },
+        "fields": [{
+          "name": "----------------",
+          "value": "1. Weapon\n2. Stigmata\n3. Valkyrie"
+        }]
+      }
+      msg.reply({
+        embed,
+        files: [{
+          attachment: "images/attentionicon.PNG",
+          name: "attentionicon.PNG"
+        }]
+      }).then(async function(newMessage) {
+        const collector = newMessage.createReactionCollector((reaction, user) =>
+          user.id === msg.author.id &&
+          reaction.emoji.name === "1⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "2⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "3⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "❌"
+        ).once("collect", reaction => {
+          const chosen = reaction.emoji.name;
+          if (chosen === "1⃣") {
+            newMessage.delete();
+            weaponList();
+          } else if (chosen === "2⃣") {
+            newMessage.delete();
+            stigmataMenu();
+          } else if (chosen === "3⃣") {
+            valkyrieList();
+            newMessage.delete();
+          } else if (chosen === "❌") {
+            newMessage.delete();
           }
+          collector.stop();
         });
-      } else
+        await newMessage.react("1⃣").catch((error) => {});
+        await newMessage.react("2⃣").catch((error) => {});
+        await newMessage.react("3⃣").catch((error) => {});
+        await newMessage.react("❌").catch((error) => {});
+      });
+    }
 
-        //Kiana =========================================
-        if (msg.content === "!valkyrie kiana" || msg.content === "!valk kiana" || msg.content === "!v kiana") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Kiana Kaslana``",
-              "footer": {
-                "text": "You can also you !valk or !v"
-              },
-              "fields": [{
-                "name": "------",
-                "value": "White Comet \n`!valkyrie wc` \n\nRanger \n`!valkyrie ranger / vr` \n\nDivine Prayer \n`!valkyrie dp` \n\nMoonbeam/Moonlight \n`!valkyrie mb / moonbeam`"
-              }]
-            }
-          });
-        } else
-
-      if (msg.content === "!valkyrie wc" || msg.content === "!valk wc" || msg.content === "!v wc") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/whitecomet.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie mb" || msg.content === "!valk mb" || msg.content === "!v mb" || msg.content === "!valkyrie moonbeam" || msg.content === "!valk moonbeam" || msg.content === "!v moonbeam") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/moonbeam.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie dp" || msg.content === "!valk dp" || msg.content === "!v dp") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/divineprayer.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie ranger" || msg.content === "!valk ranger" || msg.content === "!v ranger" || msg.content === "!valkyrie vr" || msg.content === "!valk vr" || msg.content === "!v vr") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/ranger.PNG"
-        });
-      } else
-        //Kiana =========================================
-
-
-
-        //Mei =========================================
-        if (msg.content === "!valkyrie mei" || msg.content === "!valk mei" || msg.content === "!v mei") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Mei Raiden``",
-              "footer": {
-                "text": "You can also you !valk or !v"
-              },
-              "fields": [{
-                "name": "------",
-                "value": "Crimson Impulse \n`!valkyrie ci` \n\nShadow Dash \n`!valkyrie sd` \n\nBladestrike \n`!valkyrie bs` \n\nLightning Empress \n`!valkyrie le`"
-              }]
-            }
-          });
-        } else
-
-      if (msg.content === "!valkyrie ci" || msg.content === "!valk ci" || msg.content === "!v ci") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/crimsonimpulse.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie sd" || msg.content === "!valk sd" || msg.content === "!v sd") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/shadowdash.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie bs" || msg.content === "!valk bs" || msg.content === "!v bs") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/striker.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie le" || msg.content === "!valk le" || msg.content === "!v le") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/lightningempress.PNG"
-        });
-      } else
-        //Mei =========================================
-
-        //Bronya =========================================
-        if (msg.content === "!valkyrie bronya" || msg.content === "!valk bronya" || msg.content === "!v bronya") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Bronya Zaychik``",
-              "footer": {
-                "text": "You can also you !valk or !v"
-              },
-              "fields": [{
-                "name": "------",
-                "value": "Chariot \n`!valkyrie chariot / vc` \n\nYamabuki Armor \n`!valkyrie yama` \n\nSnowy Sniper \n`!valkyrie snowy` \n\nDimensional Break \n`!valkyrie db` \n\nSilver Wolf \n`!valkyrie wolf` \n\nBlack Nucleus \n`!valkyrie bn`"
-              }]
-            }
-          });
-        } else
-
-      if (msg.content === "!valkyrie chariot" || msg.content === "!valk chariot" || msg.content === "!v chariot" || msg.content === "!valkyrie vc" || msg.content === "!valk vc" || msg.content === "!v vc") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/chariot.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie yama" || msg.content === "!valk yama" || msg.content === "!v yama") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/yamabuki.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie snowy" || msg.content === "!valk snowy" || msg.content === "!v snowy") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/snowy.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie db" || msg.content === "!valk db" || msg.content === "!v db") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/dimensionalbreak.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie wolf" || msg.content === "!valk wolf" || msg.content === "!v wolf") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/wolf.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie bn" || msg.content === "!valk bn" || msg.content === "!v bn") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/blacknucleus.PNG"
-        });
-      } else
-        //Bronya =========================================
-
-        //Himeko =========================================
-        if (msg.content === "!valkyrie himeko" || msg.content === "!valk himeko" || msg.content === "!v himeko") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Himeko Murata``",
-              "footer": {
-                "text": "You can also you !valk or !v"
-              },
-              "fields": [{
-                "name": "------",
-                "value": "Battle Storm \n`!valkyrie bstorm` \n\nTriumph \n`!valkyrie triumph` \n\nScarlet Fusion \n`!valkyrie sf / nexus` \n\nBlood Rose \n`!valkyrie br`"
-              }]
-            }
-          });
-        } else
-
-      if (msg.content === "!valkyrie bstorm" || msg.content === "!valk bstorm" || msg.content === "!v bstorm") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/battlestorm.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie triumph" || msg.content === "!valk triumph" || msg.content === "!v triumph") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/triumph.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie sf" || msg.content === "!valk sf" || msg.content === "!v sf" || msg.content === "!valkyrie nexus" || msg.content === "!valk nexus" || msg.content === "!v nexus") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/scarletfusion.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie br" || msg.content === "!valk br" || msg.content === "!v br") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/bloodrose.PNG"
-        });
-      } else
-        //Himeko =========================================
-
-        //Sakura =========================================
-        if (msg.content === "!valkyrie sakura" || msg.content === "!valk sakura" || msg.content === "!v sakura") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Sakura Yae``",
-              "footer": {
-                "text": "You can also you !valk or !v"
-              },
-              "fields": [{
-                "name": "------",
-                "value": "Miko \n`!valkyrie miko` \n\nFire Sakura \n`!valkyrie firesaku` \n\nUnforgotten Apostle \n`!valkyrie ua`"
-              }]
-            }
-          });
-        } else
-
-      if (msg.content === "!valkyrie miko" || msg.content === "!valk miko" || msg.content === "!v miko") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/miko.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie firesaku" || msg.content === "!valk firesaku" || msg.content === "!v firesaku") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/firesaku.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie ua" || msg.content === "!valk ua" || msg.content === "!v ua") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/unforgottenapostle.PNG"
-        });
-      } else
-        //Sakura =========================================
-
-        //Theresa =========================================
-        if (msg.content === "!valkyrie theresa" || msg.content === "!valk theresa" || msg.content === "!v theresa") {
-          msg.reply({
-            embed: {
-              "color": 6332693,
-              "title": "``Theresa Apocalypse``",
-              "footer": {
-                "text": "You can also you !valk or !v"
-              },
-              "fields": [{
-                "name": "------",
-                "value": "Pledge \n`!valkyrie pledge / vp` \n\nSakuno Rondo \n`!valkyrie rondo` \n\nViolet Executer \n`!valkyrie ve` \n\nGod Blessing Anthem \n`!valkyrie anthem`"
-              }]
-            }
-          });
-        } else
-
-      if (msg.content === "!valkyrie pledge" || msg.content === "!valk pledge" || msg.content === "!v pledge" || msg.content === "!valkyrie vp" || msg.content === "!valk vp" || msg.content === "!v vp") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/pledge.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie rondo" || msg.content === "!valk rondo" || msg.content === "!v rondo") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/rondo.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie ve" || msg.content === "!valk ve" || msg.content === "!v ve") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/violetexecuter.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie anthem" || msg.content === "!valk anthem" || msg.content === "!v anthem") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/anthem.PNG"
-        });
-      } else
-        //Theresa =========================================
-
-        //Kallen =========================================
-        if (msg.content === "!valkyrie kallen" || msg.content === "!valk kallen" || msg.content === "!v kallen") {
-          msg.reply("", {
-            file: "./images/valkyriedetails/kallen.PNG"
-          });
-        } else
-          //Kallen =========================================
-
-          //Fuhua =========================================
-          if (msg.content === "!valkyrie fuhua" || msg.content === "!valk fuhua" || msg.content === "!v fuhua") {
-            msg.reply({
-              embed: {
-                "color": 6332693,
-                "title": "``Fu Hua``",
-                "footer": {
-                  "text": "You can also you !valk or !v"
-                },
-                "fields": [{
-                  "name": "------",
-                  "value": "Swift Wing \n`!valkyrie sw` \n\nBlack Knight Full Moon \n`!valkyrie bk`"
-                }]
-              }
-            });
-          } else
-
-      if (msg.content === "!valkyrie sw" || msg.content === "!valk sw" || msg.content === "!v sw") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/swiftwing.PNG"
-        });
-      } else
-
-      if (msg.content === "!valkyrie bk" || msg.content === "!valk bk" || msg.content === "!v bk") {
-        msg.reply("", {
-          file: "./images/valkyriedetails/blackknight.PNG"
-        });
+    function valkyrieList() {
+      reactionNumberArrayValkyrie = ["1⃣", "2⃣", "3⃣", "4⃣", "5⃣", "6⃣", "7⃣", "8⃣", "9⃣"];
+      embed = {
+        "color": 6332693,
+        "title": "Valkyrie List",
+        "footer": {
+          "icon_url": "attachment://attentionicon.PNG",
+          "text": "Please press the number below (reaction) to select"
+        },
+        "fields": [{
+          "name": "----------------",
+          "value": "1. Kiana Kaslana\n2. Mei Raiden\n3. Bronya Zaychik\n4. Himeko Murata\n5. Sakura Yae\n6. Theresa Apocalypse\n7. Kallen Kaslana\n8. Fu Hua"
+        }]
       }
-      //Fuhua =========================================
-      else {
-        msg.reply("Valkyrie not found. Please do `!valkyrie` / `!valk` / `!v`");
+      msg.reply({
+        embed,
+        files: [{
+          attachment: "images/attentionicon.PNG",
+          name: "attentionicon.PNG"
+        }]
+      }).then(async function(newMessage) {
+        const collector = newMessage.createReactionCollector((reaction, user) =>
+          user.id === msg.author.id &&
+          reaction.emoji.name === "1⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "2⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "3⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "4⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "5⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "6⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "7⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "8⃣" ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === "❌"
+        ).once("collect", async reaction => {
+          const chosen = reaction.emoji.name;
+          for (i = 0; i < 8; i++) {
+            emoji = reactionNumberArrayValkyrie[i];
+            valkyrieChosen = i;
+            if (chosen === await emoji) {
+              newMessage.delete();
+              valkyrieSelected(i + 1);
+            }
+          }
+
+          if (chosen === "❌") {
+            newMessage.delete();
+          }
+          collector.stop();
+        });
+        await newMessage.react("1⃣").catch((error) => {});
+        await newMessage.react("2⃣").catch((error) => {});
+        await newMessage.react("3⃣").catch((error) => {});
+        await newMessage.react("4⃣").catch((error) => {});
+        await newMessage.react("5⃣").catch((error) => {});
+        await newMessage.react("6⃣").catch((error) => {});
+        await newMessage.react("7⃣").catch((error) => {});
+        await newMessage.react("8⃣").catch((error) => {});
+        await newMessage.react("❌").catch((error) => {});
+      });
+    }
+
+    function valkyrieSelected(valkyrieNum){
+      currentValkyrieNum = valkyrieNum;
+      embed = "";
+      total = 0;
+      if (currentValkyrieNum == 1){
+        embed = {
+          "color": 6332693,
+          "title": "Kiana Kaslana",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. White Comet\n2. Ranger\n3. Divine Prayer\n4. Moonbeam"
+          }]
+        }
+        total = 4;
+      } else if (currentValkyrieNum == 2){
+        embed = {
+          "color": 6332693,
+          "title": "Mei Raiden",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. Crimson Impulse\n2. Shadow Dash\n3. Bladestrike\n4. Lightning Empress"
+          }]
+        }
+        total = 4;
+      } else if (currentValkyrieNum == 3){
+        embed = {
+          "color": 6332693,
+          "title": "Bronya Zaychik",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. Chariot\n2. Yamabuki Armor\n3. Snowy Sniper\n4. Dimensional Break\n5. Wolf Dawn\n6. Black Nucleus"
+          }]
+        }
+        total = 6;
+      } else if (currentValkyrieNum == 4){
+        embed = {
+          "color": 6332693,
+          "title": "Himeko Murata",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. Battle Storm\n2. Triumph\n3. Scarlet Fusion\n4. Blood Rose"
+          }]
+        }
+        total = 4;
+      } else if (currentValkyrieNum == 5){
+        embed = {
+          "color": 6332693,
+          "title": "Sakura Yae",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. Miko\n2. Fire Goddess\n3. Unforgotten Apostle"
+          }]
+        }
+        total = 3;
+      } else if (currentValkyrieNum == 6){
+        embed = {
+          "color": 6332693,
+          "title": "Theresa Apocalypse",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. Pledge\n2. Rondo\n3. Violet Executer\n4. Divine Blessing Anthem"
+          }]
+        }
+        total = 4;
+      } else if (currentValkyrieNum == 7){
+        embed = {
+          "color": 6332693,
+          "title": "Kallen Kaslana",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. Holy Ceremony"
+          }]
+        }
+        total = 1;
+      } else if (currentValkyrieNum == 8){
+        embed = {
+          "color": 6332693,
+          "title": "Fu Hua",
+          "footer": {
+            "icon_url": "attachment://attentionicon.PNG",
+            "text": "Please press the number below (reaction) to select"
+          },
+          "fields": [{
+            "name": "----------------",
+            "value": "1. Swift Wing\n2. Black Knight"
+          }]
+        }
+        total = 2;
       }
+
+      reactionNumberArrayValkyrie = ["1⃣", "2⃣", "3⃣", "4⃣", "5⃣", "6⃣", "7⃣", "8⃣", "9⃣"];
+
+      msg.reply({
+        embed,
+        files: [{
+          attachment: "images/attentionicon.PNG",
+          name: "attentionicon.PNG"
+        }]
+      }).then(async function(newMessage) {
+        const collector = newMessage.createReactionCollector((reaction, user) =>
+        user.id === msg.author.id &&
+        reaction.emoji.name === "◀" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "1⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "2⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "3⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "4⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "5⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "6⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "7⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "8⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "9⃣" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "▶" ||
+        user.id === msg.author.id &&
+        reaction.emoji.name === "❌"
+      ).once("collect", async reaction => {
+          const chosen = reaction.emoji.name;
+          for (i = 0; i < total; i++) {
+            emoji = reactionNumberArrayValkyrie[i];
+            valkyrieChosenClass = i;
+            if (chosen === await emoji) {
+              newMessage.delete();
+              valkyrieSelectedClass(valkyrieNum, valkyrieChosenClass + 1);
+            }
+          }
+          if (chosen === "❌") {
+            newMessage.delete();
+          }
+          collector.stop();
+        });
+        for (i = 0; i < total; i++) {
+          emoji = reactionNumberArrayValkyrie[i];
+          await newMessage.react(emoji).catch((error) => {});
+        }
+        await newMessage.react("❌").catch((error) => {});
+      });
 
     }
 
+    if (msg.content.startsWith("!valkyrie") || msg.content.startsWith("!valk") || msg.content.startsWith("!v")) {
+      valkyrieList();
+    }
+
+    function valkyrieSelectedClass(valkyrieNum, valkyrieChosenClass){
+      if (valkyrieNum == 1){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/whitecomet.PNG"});
+        } if (valkyrieChosenClass == 2){
+          msg.reply("", {file: "./images/valkyriedetails/ranger.PNG"});
+        } if (valkyrieChosenClass == 3){
+          msg.reply("", {file: "./images/valkyriedetails/divineprayer.PNG"});
+        } if (valkyrieChosenClass == 4){
+          msg.reply("", {file: "./images/valkyriedetails/moonbeam.PNG"});
+        }
+      }
+
+      if (valkyrieNum == 2){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/crimsonimpulse.PNG"});
+        } if (valkyrieChosenClass == 2){
+          msg.reply("", {file: "./images/valkyriedetails/shadowdash.PNG"});
+        } if (valkyrieChosenClass == 3){
+          msg.reply("", {file: "./images/valkyriedetails/striker.PNG"});
+        } if (valkyrieChosenClass == 4){
+          msg.reply("", {file: "./images/valkyriedetails/lightningempress.PNG"});
+        }
+      }
+
+      if (valkyrieNum == 3){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/chariot.PNG"});
+        } if (valkyrieChosenClass == 2){
+          msg.reply("", {file: "./images/valkyriedetails/yamabuki.PNG"});
+        } if (valkyrieChosenClass == 3){
+          msg.reply("", {file: "./images/valkyriedetails/snowy.PNG"});
+        } if (valkyrieChosenClass == 4){
+          msg.reply("", {file: "./images/valkyriedetails/dimensionalbreak.PNG"});
+        } if (valkyrieChosenClass == 5){
+          msg.reply("", {file: "./images/valkyriedetails/wolf.PNG"});
+        } if (valkyrieChosenClass == 6){
+          msg.reply("", {file: "./images/valkyriedetails/blacknucleus.PNG"});
+        }
+      }
+
+      if (valkyrieNum == 4){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/battlestorm.PNG"});
+        } if (valkyrieChosenClass == 2){
+          msg.reply("", {file: "./images/valkyriedetails/triumph.PNG"});
+        } if (valkyrieChosenClass == 3){
+          msg.reply("", {file: "./images/valkyriedetails/scarletfusion.PNG"});
+        } if (valkyrieChosenClass == 4){
+          msg.reply("", {file: "./images/valkyriedetails/bloodrose.PNG"});
+        }
+      }
+
+      if (valkyrieNum == 5){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/miko.PNG"});
+        } if (valkyrieChosenClass == 2){
+          msg.reply("", {file: "./images/valkyriedetails/firesaku.PNG"});
+        } if (valkyrieChosenClass == 3){
+          msg.reply("", {file: "./images/valkyriedetails/unforgottenapostle.PNG"});
+        }
+      }
+
+      if (valkyrieNum == 6){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/pledge.PNG"});
+        } if (valkyrieChosenClass == 2){
+          msg.reply("", {file: "./images/valkyriedetails/rondo.PNG"});
+        } if (valkyrieChosenClass == 3){
+          msg.reply("", {file: "./images/valkyriedetails/violetexecuter.PNG"});
+        } if (valkyrieChosenClass == 4){
+          msg.reply("", {file: "./images/valkyriedetails/anthem.PNG"});
+        }
+      }
+
+      if (valkyrieNum == 7){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/kallen.PNG"});
+        }
+      }
+
+      if (valkyrieNum == 8){
+        if (valkyrieChosenClass == 1){
+          msg.reply("", {file: "./images/valkyriedetails/swiftwing.PNG"});
+        } if (valkyrieChosenClass == 2){
+          msg.reply("", {file: "./images/valkyriedetails/blackknight.PNG"});
+        }
+      }
+    }
+
     if (msg.content.startsWith("!weapon")) {
+      weaponList();
+    }
+
+    function weaponList() {
       embed = {
         "author": {
           "name": "Weapon List"
@@ -450,25 +523,25 @@ function connectClient(memeFileTotal) {
       });
     }
 
-    function weaponRarity(weaponType){
+    function weaponRarity(weaponType) {
 
       var weaponTypeString = "";
-      if (weaponType == 1){
+      if (weaponType == 1) {
         weaponTypeString = "Gun";
       }
-      if (weaponType == 2){
+      if (weaponType == 2) {
         weaponTypeString = "Katana";
       }
-      if (weaponType == 3){
+      if (weaponType == 3) {
         weaponTypeString = "Cannon";
       }
-      if (weaponType == 4){
+      if (weaponType == 4) {
         weaponTypeString = "Greatsword";
       }
-      if (weaponType == 5){
+      if (weaponType == 5) {
         weaponTypeString = "Cross";
       }
-      if (weaponType == 6){
+      if (weaponType == 6) {
         weaponTypeString = "Gauntlet";
       }
 
@@ -520,7 +593,7 @@ function connectClient(memeFileTotal) {
             weaponMenu(0, 3, weaponType);
           } else if (chosen === "4⃣") {
             newMessage.delete();
-            if (weaponType != 6){
+            if (weaponType != 6) {
               weaponMenu(0, 4, weaponType);
             } else {
               msg.reply("There is no 1★ Gauntlet");
@@ -547,132 +620,132 @@ function connectClient(memeFileTotal) {
       authorImageAttachmentForembed = "";
       var selectedWeapon = "";
 
-      if (rarity == 1){
-        if (weaponType == 1){
+      if (rarity == 1) {
+        if (weaponType == 1) {
           titleForEmbed = "4★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gun.fourstar;
         }
-        if (weaponType == 2){
+        if (weaponType == 2) {
           titleForEmbed = "4★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.katana.fourstar;
         }
-        if (weaponType == 3){
+        if (weaponType == 3) {
           titleForEmbed = "4★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.fourstar;
         }
-        if (weaponType == 4){
+        if (weaponType == 4) {
           titleForEmbed = "4★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.fourstar;
         }
-        if (weaponType == 5){
+        if (weaponType == 5) {
           titleForEmbed = "4★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cross.fourstar;
         }
-        if (weaponType == 6){
+        if (weaponType == 6) {
           titleForEmbed = "4★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.fourstar;
         }
       }
 
-      if (rarity == 2){
-        if (weaponType == 1){
+      if (rarity == 2) {
+        if (weaponType == 1) {
           titleForEmbed = "3★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gun.threestar;
         }
-        if (weaponType == 2){
+        if (weaponType == 2) {
           titleForEmbed = "3★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.katana.threestar;
         }
-        if (weaponType == 3){
+        if (weaponType == 3) {
           titleForEmbed = "3★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.threestar;
         }
-        if (weaponType == 4){
+        if (weaponType == 4) {
           titleForEmbed = "3★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.threestar;
         }
-        if (weaponType == 5){
+        if (weaponType == 5) {
           titleForEmbed = "3★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cross.threestar;
         }
-        if (weaponType == 6){
+        if (weaponType == 6) {
           titleForEmbed = "3★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.threestar;
         }
       }
 
-      if (rarity == 3){
-        if (weaponType == 1){
+      if (rarity == 3) {
+        if (weaponType == 1) {
           titleForEmbed = "2★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gun.twostar;
         }
-        if (weaponType == 2){
+        if (weaponType == 2) {
           titleForEmbed = "2★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.katana.twostar;
         }
-        if (weaponType == 3){
+        if (weaponType == 3) {
           titleForEmbed = "2★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.twostar;
         }
-        if (weaponType == 4){
+        if (weaponType == 4) {
           titleForEmbed = "2★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.twostar;
         }
-        if (weaponType == 5){
+        if (weaponType == 5) {
           titleForEmbed = "2★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cross.twostar;
         }
-        if (weaponType == 6){
+        if (weaponType == 6) {
           titleForEmbed = "2★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.twostar;
         }
       }
 
-      if (rarity == 4){
-        if (weaponType == 1){
+      if (rarity == 4) {
+        if (weaponType == 1) {
           titleForEmbed = "1★ Gun";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gunicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gun.onestar;
         }
-        if (weaponType == 2){
+        if (weaponType == 2) {
           titleForEmbed = "1★ Katana";
           authorImageAttachmentForEmbed = "images/equipment/weapon/katanaicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.katana.onestar;
         }
-        if (weaponType == 3){
+        if (weaponType == 3) {
           titleForEmbed = "1★ Cannon";
           authorImageAttachmentForEmbed = "images/equipment/weapon/cannonicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cannon.onestar;
         }
-        if (weaponType == 4){
+        if (weaponType == 4) {
           titleForEmbed = "1★ Greatsword";
           authorImageAttachmentForEmbed = "images/equipment/weapon/greatswordicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.greatsword.onestar;
         }
-        if (weaponType == 5){
+        if (weaponType == 5) {
           titleForEmbed = "1★ Cross";
           authorImageAttachmentForEmbed = "images/equipment/weapon/crossicon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.cross.onestar;
         }
-        if (weaponType == 6){
+        if (weaponType == 6) {
           titleForEmbed = "1★ Gauntlet";
           authorImageAttachmentForEmbed = "images/equipment/weapon/gauntleticon.PNG";
           selectedWeapon = require('./equipmentdb').equipment.weapon.gauntlet.onestar;
@@ -1063,9 +1136,10 @@ function connectClient(memeFileTotal) {
 
 
 
-                if (stigmataArrayWhole[stigmataChosen][0][0] != "-"){
+                if (stigmataArrayWhole[stigmataChosen][0][0] != "-") {
                   //Top
-                  await msg.reply({embed: {
+                  await msg.reply({
+                    embed: {
                       "author": {
                         "icon_url": "attachment://top.PNG",
                         "name": stigmataArrayWhole[stigmataChosen][0][0]
@@ -1102,9 +1176,10 @@ function connectClient(memeFileTotal) {
                   })
                 }
 
-                if (stigmataArrayWhole[stigmataChosen][1][0] != "-"){
+                if (stigmataArrayWhole[stigmataChosen][1][0] != "-") {
                   //Middle
-                  await msg.channel.send({embed: {
+                  await msg.channel.send({
+                    embed: {
                       "author": {
                         "icon_url": "attachment://middle.PNG",
                         "name": stigmataArrayWhole[stigmataChosen][1][0]
@@ -1141,9 +1216,10 @@ function connectClient(memeFileTotal) {
                   });
                 }
 
-                if (stigmataArrayWhole[stigmataChosen][2][0] != "-"){
+                if (stigmataArrayWhole[stigmataChosen][2][0] != "-") {
                   //Bottom
-                  await msg.channel.send({embed: {
+                  await msg.channel.send({
+                    embed: {
                       "author": {
                         "icon_url": "attachment://bottom.PNG",
                         "name": stigmataArrayWhole[stigmataChosen][2][0]
@@ -1181,9 +1257,10 @@ function connectClient(memeFileTotal) {
                 }
 
 
-                if (stigmataArrayWhole[stigmataChosen][3][1] != "-"){
+                if (stigmataArrayWhole[stigmataChosen][3][1] != "-") {
                   //Set
-                  await msg.channel.send({embed: {
+                  await msg.channel.send({
+                    embed: {
                       "author": {
                         "name": stigmataArrayWhole[stigmataChosen][3][0] + " Set Effect"
                       },

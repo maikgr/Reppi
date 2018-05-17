@@ -437,12 +437,12 @@ var equipment = {
         ],
         ["Sakura Blossom",
           "Active Skill",
-          "Slash forward, dealing physical damage 398.8% based on attack power. Additionally inflict stun status against enemy with Sakura mark, last for 3.5 seconds. When equipped on Sakura – Heretic Miko, perform skill will increase 1 Sakura Counter to enemy. Has 2 charges  (EP Consumption: 15 – Cooldown: 12s)",
+          "Sprints forward to attack, dealing physical damage equal to 400.0% of ATK to enemies hit along the way and stunning those who have a Sakura Brand for 3.5 seconds. Adds a Sakura count when equipped on Grakushinn Miko (EP Consumption: 15 – Cooldown: 12s)",
           "Passive Skill",
-          "On hit have 99.7% chance to perform a forward air slash attack, deal physcial damage 199.4% based on attack power, has 5.5 seconds cooldown. When equipped on Sakura – Heretic Miko, air slash attack increase 1 Sakura Counter to target enemy. Enemies already inflicted with Sakura Mark receive additional 1911 physical damage",
+          "Upon attacking a target, there's a 100.0% chance of unleashing a blade wave, dealing physical damage equal to 200.0% of ATK. Blade waves deal an additional 1,920 physical damage if target has a Sakura Brand or count. Blade wave's cooldown: 4.8 seconds. Blade waves add a Sakura count when equipped on Gyakushinn Miko. When the returning blade hits an enemy, the blade wave's cooldown will be immediately reset.",
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M22_154_5-187180.png",
-          "288",
-          "17"
+          "289",
+          "29"
         ],
         ["Gluttony Scimitar",
           "Active Skill",

@@ -547,7 +547,7 @@ var equipment = {
         ],
         [ "Pulse Katana Type-19",
           "Passive Skill",
-          "Reduce Skill EP Activation Cost by 22% ",
+          "Reduce Skill EP Activation Cost by 23% ",
           "-",
           "-",
           "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_20_4.png",

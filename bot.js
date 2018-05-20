@@ -844,8 +844,17 @@ function connectClient(memeFileTotal) {
             } else {
               weaponMenu(currentPage - 1, currentRarity, currentWeaponType);
             }
-
           }
+
+          if (chosen === "▶") {
+            newMessage.delete();
+            if (weaponArrayWhole.length <= 9) {
+              msg.reply("please do not add reaction by yourself.")
+            } else {
+              weaponMenu(currentPage + 1, currentRarity, currentWeaponType);
+            }
+          }
+
           for (i = 0; i < 9; i++) {
             emoji = reactionNumberArray[i];
             if (chosen === emoji) {
@@ -918,15 +927,6 @@ function connectClient(memeFileTotal) {
             }
           }
 
-          if (chosen === "▶") {
-            newMessage.delete();
-            if (weaponArrayWhole.length <= 9) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              weaponMenu(currentPage + 1, currentRarity, currentWeaponType);
-            }
-          }
-
           if (chosen === "❌") {
             newMessage.delete();
           }
@@ -937,6 +937,10 @@ function connectClient(memeFileTotal) {
           await newMessage.react("◀").catch((error) => {});
         }
 
+        if (weaponArrayNameTemp.length > 9) {
+          await newMessage.react("▶").catch((error) => {});
+        }
+
         if (weaponArrayNameTemp.length <= 9) {
           for (i = 0; i < weaponArrayNameTemp.length; i++) {
             await newMessage.react(reactionNumberArray[i]).catch((error) => {});
@@ -945,10 +949,6 @@ function connectClient(memeFileTotal) {
           for (i = 0; i < 9; i++) {
             await newMessage.react(reactionNumberArray[i]).catch((error) => {});
           }
-        }
-
-        if (weaponArrayNameTemp.length > 9) {
-          await newMessage.react("▶").catch((error) => {});
         }
 
         await newMessage.react("❌").catch((error) => {});
@@ -1125,6 +1125,15 @@ function connectClient(memeFileTotal) {
             }
           }
 
+          if (chosen === "▶") {
+            newMessage.delete();
+            if (stigmataArrayNameTemp.length <= 9) {
+              msg.reply("please do not add reaction by yourself.")
+            } else {
+              stigmataMenuSelected(currentStar, currentPage + 1);
+            }
+          }
+
           for (i = 0; i < 9; i++) {
             emoji = reactionNumberArray[i];
             stigmataChosen = i;
@@ -1133,8 +1142,6 @@ function connectClient(memeFileTotal) {
               if (stigmataArrayWhole.length < 1) {
                 msg.reply("please do not add reaction by yourself.")
               } else {
-
-
 
                 if (stigmataArrayWhole[stigmataChosen][0][0] != "-") {
                   //Top
@@ -1149,22 +1156,6 @@ function connectClient(memeFileTotal) {
                         "url": stigmataArrayWhole[stigmataChosen][0][6]
                       },
                       "fields": [{
-                        "name": "HP",
-                        "value": stigmataArrayWhole[stigmataChosen][0][2],
-                        "inline": true
-                      }, {
-                        "name": "ATK",
-                        "value": stigmataArrayWhole[stigmataChosen][0][3],
-                        "inline": true
-                      }, {
-                        "name": "DEF",
-                        "value": stigmataArrayWhole[stigmataChosen][0][4],
-                        "inline": true
-                      }, {
-                        "name": "CRI",
-                        "value": stigmataArrayWhole[stigmataChosen][0][5],
-                        "inline": true
-                      }, {
                         "name": "Effect",
                         "value": stigmataArrayWhole[stigmataChosen][0][1]
                       }, ]
@@ -1189,22 +1180,6 @@ function connectClient(memeFileTotal) {
                         "url": stigmataArrayWhole[stigmataChosen][1][6]
                       },
                       "fields": [{
-                        "name": "HP",
-                        "value": stigmataArrayWhole[stigmataChosen][1][2],
-                        "inline": true
-                      }, {
-                        "name": "ATK",
-                        "value": stigmataArrayWhole[stigmataChosen][1][3],
-                        "inline": true
-                      }, {
-                        "name": "DEF",
-                        "value": stigmataArrayWhole[stigmataChosen][1][4],
-                        "inline": true
-                      }, {
-                        "name": "CRI",
-                        "value": stigmataArrayWhole[stigmataChosen][1][5],
-                        "inline": true
-                      }, {
                         "name": "Effect",
                         "value": stigmataArrayWhole[stigmataChosen][1][1]
                       }, ]
@@ -1229,22 +1204,6 @@ function connectClient(memeFileTotal) {
                         "url": stigmataArrayWhole[stigmataChosen][2][6]
                       },
                       "fields": [{
-                        "name": "HP",
-                        "value": stigmataArrayWhole[stigmataChosen][2][2],
-                        "inline": true
-                      }, {
-                        "name": "ATK",
-                        "value": stigmataArrayWhole[stigmataChosen][2][3],
-                        "inline": true
-                      }, {
-                        "name": "DEF",
-                        "value": stigmataArrayWhole[stigmataChosen][2][4],
-                        "inline": true
-                      }, {
-                        "name": "CRI",
-                        "value": stigmataArrayWhole[stigmataChosen][2][5],
-                        "inline": true
-                      }, {
                         "name": "Effect",
                         "value": stigmataArrayWhole[stigmataChosen][2][1]
                       }, ]
@@ -1292,14 +1251,7 @@ function connectClient(memeFileTotal) {
             }
           }
 
-          if (chosen === "▶") {
-            newMessage.delete();
-            if (stigmataArrayNameTemp.length <= 9) {
-              msg.reply("please do not add reaction by yourself.")
-            } else {
-              stigmataMenuSelected(currentStar, currentPage + 1);
-            }
-          }
+
 
           if (chosen === "❌") {
             newMessage.delete();
@@ -1311,6 +1263,10 @@ function connectClient(memeFileTotal) {
           await newMessage.react("◀").catch((error) => {});
         }
 
+        if (stigmataArrayNameTemp.length > 9) {
+          await newMessage.react("▶").catch((error) => {});
+        }
+
         if (stigmataArrayNameTemp.length <= 9) {
           for (i = 0; i < stigmataArrayNameTemp.length; i++) {
             await newMessage.react(reactionNumberArray[i]).catch((error) => {});
@@ -1319,10 +1275,6 @@ function connectClient(memeFileTotal) {
           for (i = 0; i < 9; i++) {
             await newMessage.react(reactionNumberArray[i]).catch((error) => {});
           }
-        }
-
-        if (stigmataArrayNameTemp.length > 9) {
-          await newMessage.react("▶").catch((error) => {});
         }
 
         await newMessage.react("❌").catch((error) => {});

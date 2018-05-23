@@ -2,6 +2,9 @@
   "name": "reppi",
   "version": "1.0.0",
   "description": "Repulsion Bot",
+  "engines": {
+    "node": "8.11.2"
+  },
   "main": "bot.js",
   "dependencies": {
     "count-files": "^2.6.2",

@@ -308,10 +308,12 @@ function connectClient(memeFileTotal) {
             if (chosen === await emoji) {
               newMessage.delete();
               valkyrieSelectedClass(valkyrieNum, valkyrieChosenClass + 1);
+              collector.stop();
             }
           }
           if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });
@@ -373,11 +375,13 @@ function connectClient(memeFileTotal) {
             if (chosen === await emoji) {
               newMessage.delete();
               valkyrieSelected(i + 1);
+              collector.stop();
             }
           }
 
           if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });
@@ -711,11 +715,13 @@ function connectClient(memeFileTotal) {
                   }],
                 });
               }
+              collector.stop();
             }
           }
 
           if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });
@@ -807,21 +813,27 @@ function connectClient(memeFileTotal) {
           if (chosen === '1⃣') {
             newMessage.delete();
             weaponMenu(0, 1, weaponType);
+            collector.stop();
           } else if (chosen === '2⃣') {
             newMessage.delete();
             weaponMenu(0, 2, weaponType);
+            collector.stop();
           } else if (chosen === '3⃣') {
             newMessage.delete();
             weaponMenu(0, 3, weaponType);
+            collector.stop();
           } else if (chosen === '4⃣') {
             newMessage.delete();
             if (weaponType !== 6) {
               weaponMenu(0, 4, weaponType);
+              collector.stop();
             } else {
               msg.reply('There is no 1★ Gauntlet');
+              collector.stop();
             }
           } else if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });
@@ -881,23 +893,30 @@ function connectClient(memeFileTotal) {
           if (chosen === '1⃣') {
             newMessage.delete();
             weaponRarity(1);
+            collector.stop();
           } else if (chosen === '2⃣') {
             newMessage.delete();
             weaponRarity(2);
+            collector.stop();
           } else if (chosen === '3⃣') {
             newMessage.delete();
             weaponRarity(3);
+            collector.stop();
           } else if (chosen === '4⃣') {
             newMessage.delete();
             weaponRarity(4);
+            collector.stop();
           } else if (chosen === '5⃣') {
             newMessage.delete();
             weaponRarity(5);
+            collector.stop();
           } else if (chosen === '6⃣') {
             newMessage.delete();
             weaponRarity(6);
+            collector.stop();
           } else if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });
@@ -1136,12 +1155,14 @@ function connectClient(memeFileTotal) {
 
 
               }
+              collector.stop();
             }
           }
 
 
           if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });
@@ -1213,17 +1234,22 @@ function connectClient(memeFileTotal) {
           if (chosen === '1⃣') {
             newMessage.delete();
             stigmataMenuSelected(4, 0);
+            collector.stop();
           } else if (chosen === '2⃣') {
             newMessage.delete();
             stigmataMenuSelected(3, 0);
+            collector.stop();
           } else if (chosen === '3⃣') {
             newMessage.delete();
             stigmataMenuSelected(2, 0);
+            collector.stop();
           } else if (chosen === '4⃣') {
             newMessage.delete();
             stigmataMenuSelected(1, 0);
+            collector.stop();
           } else if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });
@@ -1277,14 +1303,18 @@ function connectClient(memeFileTotal) {
           if (chosen === '1⃣') {
             newMessage.delete();
             weaponList();
+            collector.stop();
           } else if (chosen === '2⃣') {
             newMessage.delete();
             stigmataMenu();
+            collector.stop();
           } else if (chosen === '3⃣') {
             valkyrieList();
             newMessage.delete();
+            collector.stop();
           } else if (chosen === '❌') {
             newMessage.delete();
+            collector.stop();
           }
           collector.stop();
         });

@@ -9,7 +9,7 @@ const equipmentDatabase = require('./equipmentdb.js');
 
 let memeFileName;
 
-client.login('NDQ5NTk0OTg0MTYxNjA3NzAw.Dem9fA.QACuQ6iKVSfpuR0hVmSs4pUhjys');
+client.login(process.env.DISCORD_API_KEY);
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -32,8 +32,7 @@ function connectClient(memeFileTotal) {
       }
     }
 
-    const channel = client.channels.get('378748690095013919');
-    // 378748690095013919 for Repulsion
+    const channel = client.channels.get(process.env.REPULSION_BOT_SPAM);
     if (msg.content === '!gacha') {
       if (msg.channel.name !== 'bot-spam') {
         msg.reply(`Does this looks like ${channel} channel to you? 

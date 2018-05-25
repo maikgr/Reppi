@@ -5,7 +5,7 @@ var channelId
 
 const args = process.argv[2];
 
-client.login('NDI0ODA4NDA2NDcwMzYxMDg4.DY-RqQ.X32wbXehoOMzDurLGal26z_l-GM');
+client.login('NDQ5NTk0OTg0MTYxNjA3NzAw.Dem9fA.QACuQ6iKVSfpuR0hVmSs4pUhjys');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   //var channel = client.channels.get('378748690095013919'); //bot-spam

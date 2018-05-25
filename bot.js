@@ -9,7 +9,7 @@ const equipmentDatabase = require('./equipmentdb.js');
 
 let memeFileName;
 
-client.login('NDI0ODA4NDA2NDcwMzYxMDg4.DZk4lw.TJzxym6ET6Hg8uGGd_wdHWZYWqQ');
+client.login('NDQ5NTk0OTg0MTYxNjA3NzAw.Dem9fA.QACuQ6iKVSfpuR0hVmSs4pUhjys');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });

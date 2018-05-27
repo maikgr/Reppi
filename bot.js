@@ -6,6 +6,7 @@ const countFiles = require('count-files');
 const standardGacha = require('./standardGacha.js');
 
 const equipmentDatabase = require('./equipmentdb.js');
+const weaponDB = require('./equipmentdb2.json').weapon;
 
 let memeFileName;
 

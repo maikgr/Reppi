@@ -181,7 +181,7 @@
             "rarity": 4
         },
         {
-            "name": "Extraordinary Form – Hel Bow",
+            "name": "Mutated - Bow of Hel",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Fire a beam that turns into a stream of bullet raining from above to an area in front, dealing 9*59.8% attack power and inflict freeze status for 5 seconds (EP consumption: 16 – Cooldown:18s)",
             "skilltwotitle": "Passive Skill",
@@ -661,7 +661,7 @@
             "rarity": 4
         },
         {
-            "name": "Demon Katana – Red Dyed Cherry Blossoms",
+            "name": "Demon Blade – Florid Sakura",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Spinning dealing multiple instance, total fire elemental based on 500% attack power. If taken damage during skill activation, deal another 200% fire elemental damage to attacker. Invulnerable during performing skill, grant a shield that can negate 1 instance source of damage after skill animation. Shield last for 5 seconds. (EP Consumption: 20 – Cooldown: 21)\nWhen equiped on Sakura – True Blaze Fortunate God, enemy got hit by the skill get a debuff, take additional 25% fire elemental damage, 15% lightning and ice elemental damage. Debuff last for 15 seconds. True Blaze additional branch skill does not benefit from this debuff (please read  Sakura – True Blaze Fortunate God skill for more information)",
             "skilltwotitle": "Passive Skill",

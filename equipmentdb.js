@@ -1548,7 +1548,7 @@ const equipment = {
     onestar: [
       [
         [
-          'Salerno (Top)',
+          'Selena (Top)',
           '-',
           '156',
           '25',
@@ -1557,7 +1557,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Salerno-1_thumb.png',
         ],
         [
-          'Salerno (Middle)',
+          'Selena (Middle)',
           '-',
           '156',
           '0',
@@ -1566,7 +1566,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Salerno-2_thumb.png',
         ],
         [
-          'Salerno (Bottom)',
+          'Selena (Bottom)',
           '-',
           '156',
           '12',
@@ -1575,7 +1575,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Salerno-3_thumb.png',
         ],
         [
-          'Salerno',
+          'Selena',
           '2',
           'Increase melee physical damage by 10%',
           '3',
@@ -1623,7 +1623,7 @@ const equipment = {
     twostar: [
       [
         [
-          'Hanna (Top)',
+          'Hannah (Top)',
           'Increase tag-in attack physical damage by 7 / 8 / 10 % (QTE included)',
           '248',
           '40',
@@ -1632,7 +1632,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Hanna-1_thumb.png',
         ],
         [
-          'Hanna (Middle)',
+          'Hannah (Middle)',
           'Increase tag-in attack physical damage by 7 / 8 / 10 % (QTE included)',
           '248',
           '0',
@@ -1641,7 +1641,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Hanna-2_thumb.png',
         ],
         [
-          'Hanna (Bottom)',
+          'Hannah (Bottom)',
           'Increase tag-in attack physical damage by 7 / 8 / 10 % (QTE included)',
           '248',
           '20',
@@ -1650,7 +1650,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Hanna-3_thumb.png',
         ],
         [
-          'Hanna',
+          'Hannah',
           '2',
           'Increase melee physical damage by 15%\nWhen equipped on Kiana, increase maximum HP by 5% while in combat',
           '3',
@@ -1949,7 +1949,7 @@ const equipment = {
       ],
       [
         [
-          'Tesla Nikola (Top)',
+          'Nikola Tesla (Top)',
           'Increase all-damage dealt against paralysis status enemies by 32 / 51 %',
           '357',
           '58',
@@ -1958,7 +1958,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Tesla-1_thumb.png',
         ],
         [
-          'Tesla Nikola (Middle)',
+          'Nikola Tesla (Middle)',
           'Increase all-damage dealt against freeze status enemies by 32 / 51 %',
           '357',
           '0',
@@ -1967,7 +1967,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Tesla-2_thumb.png',
         ],
         [
-          'Tesla Nikola (Bottom)',
+          'Nikola Tesla (Bottom)',
           'Increase all-damage dealt against faint status enemies by 32 / 51 %',
           '357',
           '29',
@@ -1976,7 +1976,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Tesla-3_thumb.png',
         ],
         [
-          'Tesla Nikola',
+          'Nikola Tesla',
           '2',
           'Increase all-damage dealt against barrier-broken status elites by 15%',
           '3',
@@ -1985,7 +1985,7 @@ const equipment = {
       ],
       [
         [
-          'Ji Xuanyuan - Aquaphile (Top)',
+          'Ji Xuanyuan - Aqua (Top)',
           'Increase branch attack physical damage by 9 / 15 %',
           '325',
           '54',
@@ -1994,7 +1994,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-4_thumb.png',
         ],
         [
-          'Ji Xuanyuan - Aquaphile (Middle)',
+          'Ji Xuanyuan - Aqua (Middle)',
           'Increase charge attack physical damage by 8 / 15 %\n(Bronya’s and Himeko’s charge attack)',
           '325',
           '0',
@@ -2003,7 +2003,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-5_thumb.png',
         ],
         [
-          'Ji Xuanyuan - Aquaphile (Bottom)',
+          'Ji Xuanyuan - Aqua (Bottom)',
           'Increase tag attack physical damage by 19 / 31 %\n(QTE included)',
           '325',
           '54',
@@ -2012,7 +2012,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-6_thumb.png',
         ],
         [
-          'Ji Xuanyuan - Aquaphile',
+          'Ji Xuanyuan - Aqua',
           '2',
           'Increase all-damage dealt against shield-broken status elites by 10%',
           '3',
@@ -2093,7 +2093,7 @@ const equipment = {
       ],
       [
         [
-          'Roland (Top)',
+          'Rowland (Top)',
           'Recover 22 / 46 HP per every 3.0 seconds',
           '343',
           '58',
@@ -2102,7 +2102,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Roland-1_thumb.png',
         ],
         [
-          'Roland (Middle)',
+          'Rowland (Middle)',
           'When inflicted with status ailments, 35 / 51 % chance to instantly cleanse the status ailments',
           '343',
           '0',
@@ -2111,7 +2111,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Roland-2_thumb.png',
         ],
         [
-          'Roland (Bottom)',
+          'Rowland (Bottom)',
           'When HP over 80%, increase defense by 19 / 31 %',
           '343',
           '29',
@@ -2120,7 +2120,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Roland-3_thumb.png',
         ],
         [
-          'Roland',
+          'Rowland',
           '2',
           'Reduce incoming damage from extraordinary-type enemies by 20%\nWhen equipped on Kiana, increase maximum HP by 20% while in combat',
           '3',
@@ -2237,7 +2237,7 @@ const equipment = {
       ],
       [
         [
-          'Chacha Asai (Top)',
+          'Yodo Dono (Top)',
           'Upon tag-out, grant squad members with 14 / 26 % fire elemental resistance (not stackable)\nUpon tag-in, increase own melee physical damage by 11 / 15 %',
           'health',
           'attack',
@@ -2246,7 +2246,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Chacha-1_thumb.png',
         ],
         [
-          'Chacha Asai (Middle)',
+          'Yodo Dono (Middle)',
           'Increase outgoing fire elemental damage by 19 / 31 %, reduce incoming fire elemental damage by 20%',
           'health',
           'attack',
@@ -2255,7 +2255,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Chacha-2_thumb.png',
         ],
         [
-          'Chacha Asai (Bottom)',
+          'Yodo Dono (Bottom)',
           'While in combat, each 1 enemy on field increase own moving speed by 6 / 8 %, defense by 6 / 8 %, up to 5 times multiplier',
           'health',
           'attack',
@@ -2264,7 +2264,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Chacha-3_thumb.png',
         ],
         [
-          'Chacha Asai',
+          'Yodo Dono',
           '2',
           'Unleash a 4 meter radius flame wave upon tag-out, dealing fire elemental damage based on 200% attack power to the surrounding enemies, with 30.0 seconds cooldown\nWhen equipped on Kiana, 2 flame waves will be unleashed',
           '3',
@@ -2489,6 +2489,42 @@ const equipment = {
       ],
       [
         [
+          'Galileo (Top)',
+          'After performed perfect evasion skill, increase all-damage by 5 / 15 %, last for 3 / 5 seconds. If effect is re-activated during activation, refresh its duration',
+          '230',
+          '58',
+          '41',
+          '0',
+          'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/galileo-top_thumb.png',
+        ],
+        [
+          'Galileo (Middle)',
+          'Increase all-damage by 3 / 5 % Further increase all-damage dealt against floating enemy by 5 / 10 %',
+          '276',
+          '0',
+          '83',
+          '7',
+          'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/galieo-bottom_thumb.png',
+        ],
+        [
+          'Galileo (Bottom)',
+          'If keep hitting same target (reset the target if not keep hitting it within 2.5 seconds), increase critical rate by 1% per hit, stack up to 5 / 10 % critical rate',
+          '246',
+          '24',
+          '41',
+          '10',
+          'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/galileo-center_thumb.pngg',
+        ],
+        [
+          'Galileo',
+          '2',
+          'Increase critical damage of melee attack by 30%',
+          '3',
+          'Reduce received indirect physical damage (bleeding, etc.) by 40%',
+        ],
+      ],
+      [
+        [
           'Winter Princess (Top)',
           'Increase melee physical damage by 13 / 20 %\nWhen equipped on Kiana, 13 / 20 % chance on-hit to inflict freeze status to an enemy, last for 3.0 seconds, with 16.0 seconds proc cooldown',
           '337',
@@ -2570,7 +2606,7 @@ const equipment = {
           '-',
         ],
         [
-          'Mei – Birthday Dress (Middle)',
+          'Mei – Bride (Middle)',
           'When equipped on Mei, reduce incoming all-elemental damage by 14 / 26 %\nWhen surrounding has enemies, increase moving speed by 19 / 31 %',
           '327',
           '0',
@@ -2588,7 +2624,7 @@ const equipment = {
           '-',
         ],
         [
-          'Mei – Birthday Dress',
+          'Mei – Bride',
           '-',
           '-',
           '-',
@@ -2678,7 +2714,7 @@ const equipment = {
           '-',
         ],
         [
-          'Theresa – Macaron Eating Contest (Middle)',
+          'Teri Teri (Middle)',
           'While on-target, reduce incoming physical damage from all enemies other than the target by 20 / 36 %',
           '346',
           '0',
@@ -2696,7 +2732,7 @@ const equipment = {
           '-',
         ],
         [
-          'Theresa – Macaron Eating Contest',
+          'Teri Teri',
           '-',
           '-',
           '-',
@@ -2851,7 +2887,7 @@ const equipment = {
       ],
       [
         [
-          'Ji Xuanyuan (Top)',
+          'Jixuanyuan (Top)',
           'Increase tag-in attack physical damage by 36 / 62 % (QTE included)',
           '541',
           '93',
@@ -2860,7 +2896,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-1_thumb.png',
         ],
         [
-          'Ji Xuanyuan (Middle)',
+          'Jixuanyuan (Middle)',
           'Increase charge attack physical damage by 23 / 36 %',
           '541',
           '0',
@@ -2869,7 +2905,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-2_thumb.png',
         ],
         [
-          'Ji Xuanyuan (Bottom)',
+          'Jixuanyuan (Bottom)',
           'Increase weapon skill all-damage by 24 / 41 %',
           '574',
           '47',
@@ -2878,7 +2914,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-3_thumb.png',
         ],
         [
-          'Ji Xuanyuan',
+          'Jixuanyuan',
           '2',
           'Reduce debuff duration by 50%.\nWhen equipped on Mei or Sakura, increase max HP by 20% while in combat',
           '3',
@@ -2923,7 +2959,7 @@ const equipment = {
       ],
       [
         [
-          'Catherine (Top)',
+          'Ekaterina (Top)',
           'When combo is above 25 hits, increase defense power by 44 / 61 %',
           '541',
           '93',
@@ -2932,7 +2968,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ekaterina-1_thumb.png',
         ],
         [
-          'Catherine (Middle)',
+          'Ekaterina (Middle)',
           'When combo is above 40 hits, increase physical damage by 32 / 41 %',
           '541',
           '0',
@@ -2941,7 +2977,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ekaterina-2_thumb.png',
         ],
         [
-          'Catherine (Bottom)',
+          'Ekaterina (Bottom)',
           'When combo is above 10 hits, increase movement speed by 18 / 31%',
           '541',
           '46',
@@ -2950,7 +2986,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Ekaterina-3_thumb.png',
         ],
         [
-          'Catherine',
+          'Ekaterina',
           '2',
           'Increase CRI by 15% during battle\nWhen equipped on Mechanical type Valkyrja, increase max EP by 15% during battle',
           '3',
@@ -2959,7 +2995,7 @@ const equipment = {
       ],
       [
         [
-          'Li Er (Top)',
+          'Lier (Top)',
           'When HP is above 80%, increase defense power by 60 / 103 %',
           '563',
           '91',
@@ -2968,7 +3004,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-1_thumb.png',
         ],
         [
-          'Li Er (Middle)',
+          'Lier (Middle)',
           'When HP is above 60%, increase movement speed by 23 / 36 %',
           '563',
           '0',
@@ -2977,7 +3013,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-2_thumb.png',
         ],
         [
-          'Li Er (Bottom)',
+          'Lier (Bottom)',
           'When HP is at 100%, increase physical damage by 29 / 46 %',
           '563',
           '45',
@@ -2986,7 +3022,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-3_thumb.png',
         ],
         [
-          'Li Er',
+          'Lier',
           '2',
           'When hit an enemy, 15% chance to restore HP by 5%, cooldown 2 seconds.\nWhen equipped on Biological type Valkyrja, increase max EP by 15% while in combat',
           '3',
@@ -3175,7 +3211,7 @@ const equipment = {
       ],
       [
         [
-          'Issac Newton (Top)',
+          'Isaac Newton (Top)',
           'Increase physical damage of melee attack by 29 / 46%. After being attacked twice, the effect wears off and enters 10 seconds cooldown',
           '548',
           '92',
@@ -3184,7 +3220,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Newton-1_thumb.png',
         ],
         [
-          'Issac Newton (Middle)',
+          'Isaac Newton (Middle)',
           'After being attacked or received damage, increase movement speed by 24 / 41%, and grant a shield that can absorb 12 / 21% physical damage based on Valkyrja own max HP, last for 4 seconds, cooldown 15 seconds',
           '548',
           '0',
@@ -3193,7 +3229,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Newton-2_thumb.png',
         ],
         [
-          'Issac Newton (Bottom)',
+          'Isaac Newton (Bottom)',
           'Inflict Dare status on on-hit enemy, last for 5 seconds. During Dare status, increase enemy all-damage by 28 / 41%, however, also increase its received all-damage by 22 / 31%, cooldown 10 seconds',
           '548',
           '46',
@@ -3202,7 +3238,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Newton-3_thumb.png',
         ],
         [
-          'Issac Newton',
+          'Isaac Newton',
           '2',
           '10% chance to paralyze/freeze/stun/slow/burn/impair/weaken on-hit enemy for 6 seconds upon basic attack (branch attack and charge attack included), cooldown 2 seconds',
           '3',
@@ -3283,7 +3319,7 @@ const equipment = {
       ],
       [
         [
-          'Max Planck (Top)',
+          'Planck (Top)',
           'Increase all damage by 3.6 / 6.2 % per 10.0% HP lost',
           '556',
           '93',
@@ -3292,7 +3328,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/MaxPlanck-1_thumb.png',
         ],
         [
-          'Max Planck (Middle)',
+          'Planck (Middle)',
           'Increase physical damage of basic attack (branch attack and charge attack included) by 34 / 51 %, however, received damage will also increase by 46 / 72 %',
           '556',
           '0',
@@ -3301,7 +3337,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/MaxPlanck-2_thumb.png',
         ],
         [
-          'Max Planck (Bottom)',
+          'Planck (Bottom)',
           'Increase attack speed by 22 / 31 %, however, movement speed will also be reduced by 32 / 41 %',
           '556',
           '46',
@@ -3310,7 +3346,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/MaxPlanck-3_thumb.png',
         ],
         [
-          'Max Planck',
+          'Planck',
           '2',
           'When being attacked, if the damage is less than 15*Valkyrja level, it will still be calculated but Valkyrja action will not be interrupted.\nWhen equipped on Bronya, increase all–damage of ranged attack by 15%',
           '3',
@@ -3319,7 +3355,7 @@ const equipment = {
       ],
       [
         [
-          'Zhuge Liang (Top)',
+          'Zhuge Kongming (Top)',
           'Reduce evasion (defense) skill cooldown by 17 / 26 %',
           '552',
           '92',
@@ -3328,7 +3364,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhugeLiang-1_thumb.png',
         ],
         [
-          'Zhuge Liang (Middle)',
+          'Zhuge Kongming (Middle)',
           'When being attacked, 31% chance to reduce received damge by 120 / 418',
           '552',
           '0',
@@ -3337,7 +3373,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhugeLiang-2_thumb.png',
         ],
         [
-          'Zhuge Liang (Bottom)',
+          'Zhuge Kongming (Bottom)',
           'When combo is above 20, increase defense by 24 / 41 %\nWhen combo is above 50, increase defense by 48 / 82 %\nWhen combo is above 100, increase defense by 72 /123%',
           '552',
           '46',
@@ -3346,7 +3382,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/ZhugeLiang-3_thumb.png',
         ],
         [
-          'Zhuge Liang',
+          'Zhuge Kongming',
           '2',
           'After being attacked, increase endurance, last for 4 seconds, cooldown 10 seconds. When equipped on Kiana or Kallen, increase max HP by 30% while in combat',
           '3',
@@ -3355,7 +3391,7 @@ const equipment = {
       ],
       [
         [
-          'Li Er – Red (Top)',
+          'Lier Scarlet (Top)',
           'Increase all–damage of basic attack (branch attack and charge attack included) by 23 / 36 %, however, max HP will also be reduced by 20%',
           '532',
           '93',
@@ -3364,7 +3400,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-4_thumb.png',
         ],
         [
-          'Li Er – Red (Middle)',
+          'Lier Scarlet (Middle)',
           'When around enemy, deal 60 / 103 % physical damage based on attack power to that enemy per second, and restore Valkyrja own HP by 12 / 20 per 3 seconds, however, max HP will also be reduced by 15%',
           '532',
           '0',
@@ -3373,7 +3409,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-5_thumb.png',
         ],
         [
-          'Li Er – Red (Bottom)',
+          'Lier Scarlet (Bottom)',
           'Increase Valkyrja own movement speed by 11 /15 %, attack speed by 16 / 20 %, however, max HP will also be reduced by 15%',
           '532',
           '57',
@@ -3382,7 +3418,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-6_thumb.png',
         ],
         [
-          'Li Er – Red',
+          'Lier Scarlet',
           '2',
           'Reduce received physical damage by 25%, received indirect physical damage (bleeding, etc.) by 70%',
           '3',
@@ -3391,7 +3427,7 @@ const equipment = {
       ],
       [
         [
-          'Ji Xuanyuan – Dark (Top)',
+          'Dark Jixuanyuan (Top)',
           'When activating space-time distortion, deal 300 / 450 % physical damage based on attack power to surrounding enemy and knockback it, cooldown 20 seconds',
           '500',
           '50',
@@ -3400,7 +3436,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-7_thumb.png',
         ],
         [
-          'Ji Xuanyuan – Dark (Middle)',
+          'Dark Jixuanyuan (Middle)',
           'Increase critical rate by 15 / 30 % during space-time distortion',
           '550',
           '0',
@@ -3409,7 +3445,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-8_thumb.png',
         ],
         [
-          'Ji Xuanyuan – Dark (Bottom)',
+          'Dark Jixuanyuan (Bottom)',
           'Increase movement speed by 15 / 30 %, attack speed by 10 / 25 % during space-time distortion',
           '552',
           '46',
@@ -3418,7 +3454,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Xuanyuan-9_thumb.png',
         ],
         [
-          'Ji Xuanyuan – Dark',
+          'Dark Jixuanyuank',
           '2',
           'Increase physical damage by 40% during completed space-time distortion.\nWhen equipped on Kiana or Kallen, increase EP gained via basic attack (branch attack and charged attack included) by 4, cooldown 2 seconds',
           '3',
@@ -3571,7 +3607,7 @@ const equipment = {
       ],
       [
         [
-          'Kallen – Gratia (Top)',
+          'Kallen – Hymn (Top)',
           'Self Valkyria & self summoned-units: Increase physical damage by 15 / 20 %, further increase physical damage by 6 / 12 % against enemies inflicted with weaken status',
           '435',
           '109',
@@ -3580,7 +3616,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-10.png',
         ],
         [
-          'Kallen – Gratia (Middle)',
+          'Kallen – Hymn (Middle)',
           'Grant Evangelium barrier when entering combat, after withstanding incoming damage by 150 / 400, the barrier dematerialized and enter 6.0 seconds cooldown. During the present of Evangelium barrier, reduce self incoming damage by 20 / 30 %',
           '531',
           '0',
@@ -3589,7 +3625,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-11.png',
         ],
         [
-          'Kallen – Gratia (Bottom)',
+          'Kallen – Hymn (Bottom)',
           'Increase self attack speed by 3 / 6 % and critical damage by 5%, per 1 enemy on-field inflicted with weaken status, up to 4 times multiplier',
           '459',
           '42',
@@ -3598,7 +3634,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-12.png',
         ],
         [
-          'Kallen – Gratia',
+          'Kallen – Hymn',
           '2',
           'One-time EP consumption at least 15, 70, 125, increase allied (teammates / Valkyria) all-damage by 8%, 15%, 22%, last for 7.0 seconds, not stackable',
           '3',
@@ -3607,7 +3643,7 @@ const equipment = {
       ],
       [
         [
-          'Sirin (Top)',
+          'Celine (Top)',
           'Increase melee physical damage by 15 / 25 %, increase physical damage against float status enemies additionally by 10 / 20 %',
           '362',
           '125',
@@ -3616,7 +3652,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Sirin-1-1.png',
         ],
         [
-          'Sirin (Middle)',
+          'Celine (Middle)',
           'Reduce incoming all-elemental damage by 15 / 30 %, when inflicted with status ailments 20% chance to instantly cleanse the status ailments',
           '531',
           '0',
@@ -3625,7 +3661,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Sirin-2-1.png',
         ],
         [
-          'Sirin (Bottom)',
+          'Celine (Bottom)',
           'Gain a proc after perfect evasive move, next basic attack and the following 5 seconds, increase all-damage by 20 / 35 %, with 1.5 seconds cooldown',
           '386',
           '42',
@@ -3634,7 +3670,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Sirin-3-1.png',
         ],
         [
-          'Sirin',
+          'Celine',
           '2',
           'When equipped on Mei or Sakura, hitting the same target (reset target if not attacking within 2.5 seconds), each hit increase critical chance by 3%, critical damage by 8%, maximum up to 15% bonus critical chance, 40% bonus critical damage',
           '3',
@@ -3751,7 +3787,7 @@ const equipment = {
       ],
       [
         [
-          'Kallen – Oath (Top)',
+          'Kallen Pledge (Top)',
           'Basic attack (branch attack and charge attack included) 26 / 52 % chance on-hit to deal physical damage based on 72 / 123 % attack power to the target and surrounding enemies, with 2.0 seconds cooldown',
           '547',
           '91',
@@ -3760,7 +3796,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Karen-1_thumb.png',
         ],
         [
-          'Kallen – Oath (Middle)',
+          'Kallen Pledge (Middle)',
           'Increase maximum HP by 20% while in combat\nWhen inflicted with status ailments, 18 / 31 % chance to instantly cleanse the status ailments',
           '547',
           '0',
@@ -3769,7 +3805,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Karen-2_thumb.png',
         ],
         [
-          'Kallen – Oath (Bottom)',
+          'Kallen Pledge (Bottom)',
           'Increase physical damage dealt against elites by 12 / 21 %, and reduce incoming damage from elites by 12 / 21 %',
           '547',
           '46',
@@ -3778,7 +3814,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Karen-3_thumb.png',
         ],
         [
-          'Kallen – Oath',
+          'Kallen Pledge',
           '2',
           'Increase critical rate by 8%, per 1 elite on-field, up to 4 times multiplier',
           '3',
@@ -3823,7 +3859,7 @@ const equipment = {
       ],
       [
         [
-          'Siegfried – Kaslana (Top)',
+          'Siegfried Kaslana (Top)',
           'Reduce weapon skill SP consumption by 10 / 25 %\nAfter activating weapon skill, increase attack speed by 20 / 35 %, last for 6.0 seconds',
           '469',
           '119',
@@ -3832,7 +3868,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Siegfried-1_thumb.png',
         ],
         [
-          'Siegfried – Kaslana (Middle)',
+          'Siegfried Kaslana (Middle)',
           'Reduce weapon skill cooldown by 10 / 40 %\nAfter activating weapon skill, increase defense by 30 / 50 %, last for 6.0 seconds',
           '469',
           '0',
@@ -3841,7 +3877,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Siegfried-2_thumb.png',
         ],
         [
-          'Siegfried – Kaslana (Bottom)',
+          'Siegfried Kaslana (Bottom)',
           'Increase weapon skill all-damage by 20 / 35 %\nAfter activating weapon skill, increase moving speed by 10 / 20 %, last for 6.0 seconds',
           '496',
           '59',
@@ -3850,7 +3886,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Siegfried-3_thumb.png',
         ],
         [
-          'Siegfried',
+          'Siegfried Kaslana',
           '2',
           'Activate another weapon skill within 10.0 seconds increase the next weapon skill for all-damage by 20%, up to 5 times multiplier, increase stack will reset the lasting duration',
           '3',
@@ -3859,7 +3895,7 @@ const equipment = {
       ],
       [
         [
-          'Cecilia Shania (Top)',
+          'Cecilia Schariac (Top)',
           'A pair of black-white orbs float above Valkyrja (Require 2 stigmata pieces to illuminate the orbs): When black orbs are illuminated, increase basic attack physical damage by 20 / 45 %; else when white orbs are illuminated, increase branch attack physical damage by 20 / 45 %',
           '607',
           '96',
@@ -3868,7 +3904,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cecilia-1_thumb.png',
         ],
         [
-          'Cecilia Shania (Middle)',
+          'Cecilia Schariac (Middle)',
           'A pair of black-white orbs float above Valkyrja (Require 2 stigmata pieces to illuminate the orbs): When black orbs are illuminated, basic attack gains additional 1 / 4 EP, with 2.0 seconds cooldown; else when white orbs are illuminated, branch attack recover 0.5 / 2.0 % own HP, with 2.0 seconds cooldown',
           '607',
           '0',
@@ -3877,7 +3913,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cecilia-2_thumb.png',
         ],
         [
-          'Cecilia Shania (Bottom)',
+          'Cecilia Schariac (Bottom)',
           'A pair of black-white orbs float above Valkyrja (Require 2 stigmata pieces to illuminate the orbs): When black orbs are illuminated, increase attack speed by 15 / 30 %; else when white orbs are illuminated, reduce incoming all-damage by 20 / 40 %',
           '607',
           '48',
@@ -3886,7 +3922,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Cecilia-3_thumb.png',
         ],
         [
-          'Cecilia Shania',
+          'Cecilia Schariac',
           '2',
           'Illuminate the pair of black-white orbs: When black orbs are illuminated, basic attack 10% chance on-hit against non-BOSS enemy to deal additional physical damage based on 1,000% attack power, with 5.0 seconds cooldown; else when white orbs are illuminated, increase branch attack critical rate by 30%',
           '3',
@@ -3895,7 +3931,7 @@ const equipment = {
       ],
       [
         [
-          'Nouhime (Top)',
+          'Nohime (Top)',
           'Basic attack (branch attack and charge attack included) 10 / 15 % chance on-hit to inflict freeze status to an enemy, last for 4.0 seconds, with 8.0 seconds proc cooldown\nIncrease basic attack (branch attack and charge attack included) all-damage dealt against freeze status enemies by 20 / 40 %',
           '607',
           '73',
@@ -3904,7 +3940,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nouhime-1_thumb.png',
         ],
         [
-          'Nouhime (Middle)',
+          'Nohime (Middle)',
           'Add additional ice elemental damage based on 50 / 80 % attack power on-hit, with 1.0 seconds cooldown',
           '590',
           '0',
@@ -3913,7 +3949,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nouhime-2_thumb.png',
         ],
         [
-          'Nouhime (Bottom)',
+          'Nohime (Bottom)',
           'Increase moving speed by 5 / 10 % and ice elemental damage by 15 / 25 %, per 1 enemy on-field inflicted with slow-moving or freeze status, up to 3 times multiplier',
           '590',
           '36',
@@ -3922,7 +3958,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Nouhime-3_thumb.png',
         ],
         [
-          'Nouhime',
+          'Nohime',
           '2',
           'When surrounding has enemies, dealing ice elemental damage based on 60% attack power per every 1.0 seconds to them, and 30% chance to inflict slow-moving status to them, last for 4.0 seconds',
           '3',
@@ -4075,7 +4111,7 @@ const equipment = {
       ],
       [
         [
-          'Bikini Party (Top)',
+          'Kiana: Pool Party (Top)',
           'On-killed normal enemies restore 5 / 8 EP, on-killed elites and BOSS restore 15 / 24 EP',
           '517',
           '98',
@@ -4084,7 +4120,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-4_thumb.png',
         ],
         [
-          'Bikini Party (Middle)',
+          'Mei: Pool Party (Middle)',
           'Increase outgoing all-damage by 12 / 18 %\nOn-hit enemies increase their receiving all-damage by 10 / 15 % within the next 4.0 seconds, with 8.0 seconds cooldown',
           '655',
           '0',
@@ -4093,7 +4129,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-5_thumb.png',
         ],
         [
-          'Bikini Party (Bottom)',
+          'Bronya: Pool Party (Bottom)',
           'All on-field squad members have 10 / 15 % chance on-hit to inflict 30 / 60 % moving speed slow, last for 3.0 seconds, with 10.0 seconds cooldown, not stackable',
           '483',
           '45',
@@ -4102,7 +4138,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Summer2017-6_thumb.png',
         ],
         [
-          'Bikini Party',
+          'Pool Party',
           '2',
           '12% chance on-hit to summon a Homu King knockdown the surrounding enemies and dealing physical damage based on 450% attack power, with 16.0 seconds cooldown',
           '3',
@@ -4219,7 +4255,7 @@ const equipment = {
       ],
       [
         [
-          'Transcendental Figure (Top)',
+          'White Comet - Burst Form (Top)',
           'When perform perfect evasive move, create an explosion around self deal physical damage 90 / 180 % based on attack power, cooldown 8 / 4 seconds',
           '495',
           '79',
@@ -4228,7 +4264,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AK_1.png',
         ],
         [
-          'Transcendental Figure (Middle)',
+          'Yamabuki - Iron Wall Form (Middle)',
           'Reduce incoming physical damage from enemy with lower %HP (compared to your own current %HP) by 15 / 30 %',
           '507',
           '0',
@@ -4237,7 +4273,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AK_2-185650.png',
         ],
         [
-          'Transcendental Figure (Bottom)',
+          'Crimson - Transcend Form (Bottom)',
           'Increase critical damage by 20 / 50 % against enemy with lower %HP (compared to your current %HP)',
           '459',
           '34',
@@ -4291,7 +4327,7 @@ const equipment = {
       ],
       [
         [
-          'Higyokumaru (Top)',
+          'Higokumaru (Top)',
           'Increase Valkyria own fire elemental damage by 30 / 45 %, When basic attack (branch attack and charge attack included) on-hit break enemies barrier (shield), the Higokumaru servant with attack power of 200 / 600, cast a fire blast for 6.0 seconds, dealing fire elemental damage based on Higokumaru 320% attack power, with Higokumaru 10.0 seconds global cooldown.',
           '495',
           '106',
@@ -4300,7 +4336,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/b0529c51352ac65cbdf2f95cf0f2b21192138a05.png',
         ],
         [
-          'Higyokumaru (Middle)',
+          'Higokumaru (Middle)',
           'Reduce incoming physical damage by 15 / 30 %, After perfect evasive movet he Higokumaru servant with attack power of 200 / 600, cast a fire pillar, dealing fire elemental damage based on Higokumaru 500% attack power, with Higokumaru 10.0 seconds global cooldown.',
           '507',
           '0',
@@ -4309,7 +4345,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/a2ed6a31e924b899c122e71765061d950b7bf6de.png',
         ],
         [
-          'Higyokumaru (Bottom)',
+          'Higokumaru (Bottom)',
           'Increase attack speed by 3 / 6 %, per 1 enemy on-field inflicted with burn status, up to 3 times multiplier, when surrounding has enemies, dealing fire elemental damage based on 30 / 60 % attack power per every 1.0 seconds to them.',
           '507',
           '42',
@@ -4318,7 +4354,7 @@ const equipment = {
           'http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/dbdaacf8d72a6059b9027f352334349b023bbae2.png',
         ],
         [
-          'Higyokumaru',
+          'Higokumaru',
           '2',
           'Increase Valkyria and Higokumaru fire elemental damage by 1%, per 1 consecutive hits, up to 40 times multiplier',
           '3',
@@ -4633,7 +4669,7 @@ const equipment = {
           '-',
         ],
         [
-          'Sakura – Tanabata (Bottom)',
+          'Yae Sakura - Prayer (Bottom)',
           'Increase branch attack physical damage by 10 / 20 %\nWhen equipped on Sakura, further increase branch attack physical damage by 5 / 10 %',
           '434',
           '45',

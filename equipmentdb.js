@@ -146,7 +146,7 @@ const equipment = {
           '287',
           '31',
         ],
-        ['Fire Spark – Holy Judgement',
+        ['Judgement of Shamash - Gun',
           'Active Skill',
           'Fires off holy fire dealing 100% attack power + 2*1978 fire elemental damage. Apply a debuff that lowers enemy’s attack and movement speed by 30% and increase receiving all-damage by 15%. Holy fire deals 265 fire elemental damage per second with a 10% chance of apply stun status for 2.5 seconds. \nDuring release, wielder get 80% all-damage reduction. Performing skill consumes 13% of maximum HP per each second, last for 5 seconds. If HP reaches 1, the character will not die as a result. When HP below 33%, skill will be unusable (EP Consumption: 20 – Cooldown: 35s)',
           'Passive Skill',

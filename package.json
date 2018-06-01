@@ -1,7 +1,7 @@
 {
-  "name": "reppi",
-  "version": "1.0.0",
-  "description": "Repulsion Bot",
+  "name": "reppu",
+  "version": "0.1.2",
+  "description": "Experimental bot",
   "engines": {
     "node": "8.11.2"
   },

@@ -95,30 +95,30 @@ function fileCount(rareDrawPoints) {
 
 function generateImage(valkyrieChatNumber) {
   let chatBoxNumber = getRandomInt(1, valkyrieChatNumber + 1);
-  return new Promise(((resolve) => {
-    let imageBuilder = images('input.jpg').size(1280, 950);    
+  return new Promise(((resolve) => {     
     let maxCol = 5;
     let maxRow = Math.ceil(resultArray.length / maxCol);  
     let x = 174;
     let y = 386;
     let i = 0;
     let j = 0;
-    
+
+    images('input.jpg').size(1280, 950);   
     for (i; i < maxRow; ++i){
       for(j; j < maxCol; ++j){
         let index = j + (i * maxCol);
-        imageBuilder.draw(images(`images/${resultArray[index]}`).size(160, 160), x * (j + 1), y * (j + 1));
+        images.draw(images(`images/${resultArray[index]}`).size(160, 160), x * (j + 1), y * (j + 1));
       }
     }
   
-    imageBuilder
+    images
         .draw(images(`images/chat/${chatBoxChar}/${getSRankText}/${chatBoxNumber}.PNG`).size(989, 276), 0, 680)
         .draw(images(`images/chat/${chatBoxChar}/${avatarRank}`).size(242, 276), 0, 680)
         .save('output.jpg', {
           quality: 50,
         });
-    if (imageBuilder.getUsedMemory() !== 0) {
-      resolve(imageBuilder.getUsedMemory());
+    if (images.getUsedMemory() !== 0) {
+      resolve(images.getUsedMemory());
     }
   }));
 }

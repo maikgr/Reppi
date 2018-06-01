@@ -4,82 +4,80 @@ const countFiles = require('count-files');
 const standardGachaDatabase = require('./gachadb').standard;
 const chatGacha = require('./chatdb').chat;
 
-let guaranteed = 0;
 let resultArray = [];
-let getSRank = 0;
-let chatBoxNumber = 0;
-let itemNumber = 0;
 let chatBoxChar = '';
 let getSRankText = '';
 let avatarRank = '';
 
+let valkyrieDrawRate = 0.2;
+let rareDrawRate = 0.73;
+let superRareDrawRate = 0.073;
+let superRareDrawRateGuaranteed = 0.1;
+
 function getRandomInt(min, max) {
-  const intMin = parseInt(min);
-  const intMax = parseInt(max);
-  return (Math.floor(Math.random() * (intMax - intMin)) + intMin);
+  return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function drawItem() {
-  itemNumber = 0;
-  itemNumber = getRandomInt(1, 10);
-  resultArray.push(`items/${itemNumber}.PNG`);
+  let itemIndex = getRandomInt(1, 10);
+  resultArray.push(`items/${itemIndex}.PNG`);
+  return 0;
 }
 
 function drawValkyrieSRank() {
-  const rand = getRandomInt(0, standardGachaDatabase.valk.s.length);
-  resultArray.push(`valkyrie/${standardGachaDatabase.valk.s[rand]}`);
+  const valkyrieIndex = getRandomInt(0, standardGachaDatabase.valk.s.length);
+  resultArray.push(`valkyrie/${standardGachaDatabase.valk.s[valkyrieIndex]}`);
+  return 10;
 }
 
 function drawValkyrieARank() {
-  const rand = getRandomInt(0, standardGachaDatabase.valk.a.length);
-  resultArray.push(`valkyrie/${standardGachaDatabase.valk.a[rand]}`);
+  const valkyrieIndex = getRandomInt(0, standardGachaDatabase.valk.a.length);
+  resultArray.push(`valkyrie/${standardGachaDatabase.valk.a[valkyrieIndex]}`);
+  return 1;
 }
 
 function drawValkyrieBRank() {
-  const rand = getRandomInt(0, standardGachaDatabase.valk.b.length);
-  resultArray.push(`valkyrie/${standardGachaDatabase.valk.b[rand]}`);
+  const valkyrieIndex = getRandomInt(0, standardGachaDatabase.valk.b.length);
+  resultArray.push(`valkyrie/${standardGachaDatabase.valk.b[valkyrieIndex]}`);
+  return 1;
 }
 
 function drawValkyrie() {
-  const rate = Math.floor(Math.random() * 100) / 100;
-  if (rate < 0.073) {
-    drawValkyrieSRank();
-    getSRank++;
-  } else if (rate < 0.73) {
-    drawValkyrieARank();
+  const gachaRate = Math.floor(Math.random() * 100) / 100;
+  if (gachaRate < superRareDrawRate) {
+    return drawValkyrieSRank();
+  } else if (rate < rareDrawRate) {
+    return drawValkyrieARank();
   } else {
-    drawValkyrieBRank();
-    guaranteed++;
+    return drawValkyrieBRank();
   }
 }
 
 function drawValkyrieGuaranteed() {
-  const rate = Math.floor(Math.random() * 100) / 100;
-  if (rate < 0.1) {
-    drawValkyrieSRank();
-    getSRank++;
+  const gachaRate = Math.floor(Math.random() * 100) / 100;
+  if (gachaRate < superRareDrawRateGuaranteed) {
+    return drawValkyrieSRank();
   } else {
-    drawValkyrieARank();
+    return drawValkyrieARank();
   }
 }
 
 function gachaDraw() {
   const gachaRate = Math.floor(Math.random() * 100) / 100;
-  if (gachaRate < 0.2) {
-    drawValkyrie();
+  if (gachaRate <= valkyrieDrawRate) {    
+    return drawValkyrie();
   } else {
-    drawItem();
-    guaranteed++;
+    return drawItem();
   }
 }
 
-function fileCount() {
+function fileCount(rareDrawPoints) {
   resultArray.sort().reverse();
   const rand = getRandomInt(0, chatGacha.character.length);
   chatBoxChar = chatGacha.character[rand];
   getSRankText = '';
   avatarRank = '';
-  if (getSRank > 0) {
+  if (rareDrawPoints > 9) {
     getSRankText = 'srank';
     avatarRank = 'Savatar.PNG';
   } else {
@@ -95,50 +93,57 @@ function fileCount() {
   }));
 }
 
-function generateImage(valkyrieChatNumber) {
-  chatBoxNumber = getRandomInt(1, valkyrieChatNumber + 1);
-  return new Promise(((resolve) => {
-    images('input.jpg')
-      .size(1280, 950)
-      .draw(images(`images/${resultArray[0]}`).size(160, 160), 174, 386)
-      .draw(images(`images/${resultArray[1]}`).size(160, 160), 372, 386)
-      .draw(images(`images/${resultArray[2]}`).size(160, 160), 567, 386)
-      .draw(images(`images/${resultArray[3]}`).size(160, 160), 760, 386)
-      .draw(images(`images/${resultArray[4]}`).size(160, 160), 950, 386)
-      .draw(images(`images/${resultArray[5]}`).size(160, 160), 174, 576)
-      .draw(images(`images/${resultArray[6]}`).size(160, 160), 372, 576)
-      .draw(images(`images/${resultArray[7]}`).size(160, 160), 567, 576)
-      .draw(images(`images/${resultArray[8]}`).size(160, 160), 760, 576)
-      .draw(images(`images/${resultArray[9]}`).size(160, 160), 950, 576)
+function generateImage(valkyrieChatNumber) {  
+  let imageBuilder = images('input.jpg').size(1280, 950);
+  let chatBoxNumber = getRandomInt(1, valkyrieChatNumber + 1);
+  let maxCol = 5;
+  let maxRow = Math.ceil(resultArray.length / maxCol);  
+  let x = 174;
+  let y = 386;
+  let i = 0;
+  let j = 0;
+  
+  for (i; i < maxRow; ++i){
+    for(j; j < maxCol; ++j){
+      let index = j + (i * maxCol);
+      imageBuilder.draw(images(`images/${resultArray[index]}`).size(160, 160), x * (j + 1), y * (j + 1));
+    }
+  }
+
+  imageBuilder
       .draw(images(`images/chat/${chatBoxChar}/${getSRankText}/${chatBoxNumber}.PNG`).size(989, 276), 0, 680)
       .draw(images(`images/chat/${chatBoxChar}/${avatarRank}`).size(242, 276), 0, 680)
       .save('output.jpg', {
         quality: 50,
       });
-    if (images.getUsedMemory() !== 0) {
-      resolve(images.getUsedMemory());
+
+  return new Promise(((resolve) => {    
+    if (imageBuilder.getUsedMemory() !== 0) {
+      resolve(imageBuilder.getUsedMemory());
     }
   }));
 }
 
 async function gachaStart() {
-  getSRank = 0;
-  guaranteed = 0;
+  let i = 0;
+  let randomDrawLimit = 9;
+  let rareDrawPoints = 0;
+
   resultArray = [];
-  for (let i = 0; i < 9; i++) {
-    gachaDraw();
+  for (i; i < randomDrawLimit; ++i) {
+    rareDrawPoints += gachaDraw();
   }
-  if (guaranteed === 9) {
-    drawValkyrieGuaranteed();
+  
+  if (rareDrawPoints === 0) {
+    rareDrawPoints += drawValkyrieGuaranteed();
   } else {
-    gachaDraw();
+    rareDrawPoints += gachaDraw();
   }
-  const counted = await fileCount();
+  const counted = await fileCount(rareDrawPoints);
   await generateImage(counted);
   return new Promise(((resolve) => {
     resolve('done');
   }));
-
 }
 
 exports.gachaStart = gachaStart;

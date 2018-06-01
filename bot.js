@@ -25,11 +25,13 @@ function connectClient(memeFileTotal) {
       }
     }
 
-    const channel = client.channels.get(process.env.REPULSION_BOT_SPAM);
+    const gachaChannel = client.channels.get(process.env.REPULSION_BOT_SPAM);
     if (msg.content === '!!gacha') {
-      if (msg.channel.name !== 'bot-spam') {
+      let curentChannel = msg.channel;
+      if (curentChannel !== gachaChannel) {
         let index = Math.floor(Math.random() * refuse.length);
-        msg.reply(refuse[index]);
+        
+        currentChannel.send(refuse[index]);
       } else {
         const memeChance = Math.floor(Math.random() * 100) / 100;
         console.log(`memeChance : ${memeChance}`);

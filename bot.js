@@ -27,10 +27,8 @@ function connectClient(memeFileTotal) {
 
     const gachaChannel = client.channels.get(process.env.REPULSION_BOT_SPAM);
     if (msg.content === '!!gacha') {
-      let curentChannel = msg.channel;
-      if (curentChannel !== gachaChannel) {
-        let index = Math.floor(Math.random() * refuse.length);
-        
+      if (msg.channel.id !== gachaChannel.id) {
+        let index = Math.floor(Math.random() * refuse.length);        
         currentChannel.send(refuse[index]);
       } else {
         const memeChance = Math.floor(Math.random() * 100) / 100;

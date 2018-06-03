@@ -1888,8 +1888,41 @@ function connectClient(memeFileTotal) {
             const emoji = reactionNumberArray[i];
             if (chosen === emoji) {
               newMessage.delete();
-              if (result.length < 1) {
-                msg.reply('please do not add reaction by yourself.');
+              if (stigmataDB[resultIndex[i] + 1] === undefined) {
+                let authorIcon = '';
+                let stigmataColor = '';
+                if (stigmataDB[resultIndex[i]].type === 'top') {
+                  authorIcon = 'top.PNG';
+                  stigmataColor = 16748921;
+                }
+                if (stigmataDB[resultIndex[i]].type === 'mid') {
+                  authorIcon = 'middle.PNG';
+                  stigmataColor = 10070783;
+                }
+                if (stigmataDB[resultIndex[i]].type === 'bottom') {
+                  authorIcon = 'bottom.PNG';
+                  stigmataColor = 11716965;
+                }
+                await msg.channel.send({
+                  embed: {
+                    author: {
+                      icon_url: `attachment://${authorIcon}`,
+                      name: stigmataDB[resultIndex[i]].name,
+                    },
+                    color: stigmataColor,
+                    thumbnail: {
+                      url: stigmataDB[resultIndex[i]].image,
+                    },
+                    fields: [{
+                      name: 'Effect',
+                      value: stigmataDB[resultIndex[i]].skill,
+                    }],
+                  },
+                  files: [{
+                    attachment: `images/equipment/stigmata/${authorIcon}`,
+                    name: authorIcon,
+                  }],
+                });
               } else if (stigmataDB[resultIndex[i]].name === stigmataDB[resultIndex[i] + 1].name) {
                 await msg.channel.send({
                   embed: {

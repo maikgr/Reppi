@@ -1,0 +1,16 @@
+{
+    "weapon":
+    {
+        "focus": ["Ghostslayer Nagamitsu"],
+        "focusRate" : 2.48,
+        "off": ["Hyper Railgun", "Void Blade", "Pledge of Rain", "Briareus PRI", "Quantum Destroyer Type-II", "Oath of Judah"],
+        "offRate": 2.46
+    },
+    "stigmata":
+    {
+        "focus": ["Bronya – Dark"],
+        "focusRate": 3.72,
+        "off": ["Otto Apocalypse", "Celine", "Shakespeare", "Dracula"],
+        "offRate": 3.72
+    }
+}

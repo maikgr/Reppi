@@ -5,12 +5,13 @@
   "engines": {
     "node": "8.11.2"
   },
-  "main": "bot.js",
+  "main": "reppu.js",
   "dependencies": {
     "count-files": "^2.6.2",
     "discord.js": "^11.3.2",
     "express": "^4.16.3",
-    "images": "^3.0.1"
+    "images": "^3.0.1",
+    "seedrandom": "^2.4.3"
   },
   "devDependencies": {},
   "scripts": {

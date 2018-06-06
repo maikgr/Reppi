@@ -1,13 +1,27 @@
-const focused = require('./focusedGachaDb.json');
+const request = require('request');
+const seedRandom = require('seedrandom');
 const weaponList = require('./equipmentdb2.json')["weapon"];
 const stigmataList = require ('./equipmentdb2.json')["stigmata"];
-const seedRandom = require('seedrandom');
+
+let focused;
 
 module.exports = {
+    initialize : initialize,
     startGacha : startGacha
 }
 
-async function startGacha(msg){
+function initialize(){
+    request('https://pastebin.com/raw/PQBdWSr7', function (error, response, body){     
+        if (error !== null) {
+            console.log('Error: ', error);
+            console.log('Status Code: ', response && response.statusCode);
+        }
+
+        focused = JSON.parse(body);
+    });
+}
+
+function startGacha(){
     let gachaResult = [],
         i = 0;
 
@@ -15,20 +29,22 @@ async function startGacha(msg){
         gachaResult.push(drawGacha());
     }
     
-    if(gachaResult.includes(item => item.rarity > 3)){
+    let rareExists = gachaResult.find(function(item){
+            return item["rarity"] > 3;
+        });
+
+    if(rareExists){
         gachaResult.push(drawGacha());
     } else {
         gachaResult.push(drawFocused());
     }
     
-    let resultNames = gachaResult.map(item => item["name"]),
-        message = resultNames.join(', ');
-    msg.reply(message).catch(err => console.log(err));
+    return gachaResult.map(item => item["name"]);
 }
 
 function drawGacha(){
     let dieResult = dieRoll();
-
+    
     if (dieResult <= focusedTotalRate()){
         return drawFocused();
     } else {
@@ -37,7 +53,7 @@ function drawGacha(){
 }
 
 function drawFocused(){
-    let weaponRate = focusedWeaponTotalRate() / focusedTotalRate(),
+    let weaponRate = (focusedWeaponTotalRate() / focusedTotalRate()) * 100,
         dieResult = dieRoll();
 
     if (dieResult <= weaponRate){
@@ -48,51 +64,47 @@ function drawFocused(){
 }
 
 function drawOthers(){
-    return {name: "Item", rarity: 3};
+    return {name: "Item", rarity: 1};
 }
 
 function drawWeapon(){
-    let focusRate = focused["weapon"]["focusRate"] / focusedWeaponTotalRate(),
-        focusWeaponList = focused["weapon"]["focus"],
-        offWeaponList = focused["weapon"]["off"],
+    let focusRate = (focused["weapon"]["focusRate"] / focusedWeaponTotalRate()) * 100,
+        focusWeaponList = getFilteredList(weaponList, focused["weapon"]["focus"]),
+        offWeaponList = getFilteredList(weaponList, focused["weapon"]["off"]),
         dieResult = dieRoll();
 
     if (dieResult <= focusRate){
-        return drawRandomFromList(focusWeaponList, weaponList);
+        return drawRandomFromList(focusWeaponList);
     } else {
-        return drawRandomFromList(offWeaponList, random);
+        return drawRandomFromList(offWeaponList);
     }
 }
 
 function drawStigmata(){
-    let focusRate = focused["stigmata"]["focusRate"] / focusedStigmataTotalRate(),
-        focusStigmataList = getCompleteStigmataList(focused["stigmata"]["focus"]),
-        offStigmataList = getCompleteStigmataList(focused["stigmata"]["off"]),
+    let focusRate = (focused["stigmata"]["focusRate"] / focusedStigmataTotalRate()) * 100,
+        focusStigmataList = getFilteredList(stigmataList, focused["stigmata"]["focus"]),
+        offStigmataList = getFilteredList(stigmataList, focused["stigmata"]["off"]),
         dieResult = dieRoll();
 
     if (dieResult <= focusRate) {
-        return drawRandomFromList(focusStigmataList, stigmataList);
+        return drawRandomFromList(focusStigmataList);
     } else {
-        return drawRandomFromList(offStigmataList, stigmataList);
+        return drawRandomFromList(offStigmataList);
     }    
 }
 
-function drawRandomFromList(filterList, sourceList) {
-    let index = getRandomIndex(filterList),
-        drawnItem = sourceList.find(function(element){            
-            return element["name"] === filterList[index];
-        });
-
-    return {name: drawnItem["name"], rarity: drawnItem["rarity"]};
+function drawRandomFromList(list) {
+    let drawnItem = list[getRandomIndex(list)];
+    return {name: '(' + sentenceCase(drawnItem["type"]) + ') ' + drawnItem["name"], rarity: drawnItem["rarity"]};
 }
 
-function getCompleteStigmataList(stigmataNameList){
-    return stigmataList.filter(stigmata => stigmataNameList.includes(stigmata["name"]));
+function getFilteredList(sourceList, filterList){
+    return sourceList.filter(item => filterList.includes(item["name"]) && item["type"] !== "set");
 }
 
 function dieRoll(){
-    Math.seedRandom();
-    return Math.random();
+    Math.seedrandom();
+    return Math.random() * 100;
 }
 
 function getRandomIndex(array) {
@@ -109,4 +121,8 @@ function focusedWeaponTotalRate(){
 
 function focusedStigmataTotalRate(){
     return focused["stigmata"]["focusRate"] + focused["stigmata"]["offRate"];
+}
+
+function sentenceCase(string){
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }

@@ -11,6 +11,8 @@
     "discord.js": "^11.3.2",
     "express": "^4.16.3",
     "images": "^3.0.1",
+    "jimp": "^0.2.28",
+    "request": "^2.87.0",
     "seedrandom": "^2.4.3"
   },
   "devDependencies": {},

@@ -6,7 +6,7 @@ const weaponList = require('./equipmentdb2.json')["weapon"];
 const stigmataList = require ('./equipmentdb2.json')["stigmata"];
 const seedRandom = require('seedrandom');
 
-client.login("NDUyMTEwNTgwNDMwNjY3Nzgx.DfLnsw.Ilx0ZTwcTCbKzSGjqr_C9LxnOEE");
+client.login(process.env.DISCORD_API_KEY);
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });

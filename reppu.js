@@ -11,7 +11,7 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', (msg) => {    
+client.on('message', (msg) => {
     if (msg.content === '!ping') {
         msg.channel.send('pong!');
     }
@@ -28,7 +28,8 @@ function startGacha(msg){
         gachaResult.push(drawGacha());
     }
     
-    if(gachaResult.includes(item => item.rarity > 3)){
+    let rareResult
+    if(gachaResult.includes(item => item["rarity"] > 3)){
         gachaResult.push(drawGacha());
     } else {
         gachaResult.push(drawFocused());
@@ -41,7 +42,7 @@ function startGacha(msg){
 
 function drawGacha(){
     let dieResult = dieRoll();
-
+    
     if (dieResult <= focusedTotalRate()){
         return drawFocused();
     } else {
@@ -61,51 +62,47 @@ function drawFocused(){
 }
 
 function drawOthers(){
-    return {name: "Item", rarity: 3};
+    return {name: "Item", rarity: 1};
 }
 
 function drawWeapon(){
     let focusRate = focused["weapon"]["focusRate"] / focusedWeaponTotalRate(),
-        focusWeaponList = focused["weapon"]["focus"],
-        offWeaponList = focused["weapon"]["off"],
+        focusWeaponList = getFilteredList(weaponList, focused["weapon"]["focus"]),
+        offWeaponList = getFilteredList(weaponList, focused["weapon"]["off"]),
         dieResult = dieRoll();
 
     if (dieResult <= focusRate){
-        return drawRandomFromList(focusWeaponList, weaponList);
+        return drawRandomFromList(focusWeaponList);
     } else {
-        return drawRandomFromList(offWeaponList, random);
+        return drawRandomFromList(offWeaponList);
     }
 }
 
 function drawStigmata(){
     let focusRate = focused["stigmata"]["focusRate"] / focusedStigmataTotalRate(),
-        focusStigmataList = getCompleteStigmataList(focused["stigmata"]["focus"]),
-        offStigmataList = getCompleteStigmataList(focused["stigmata"]["off"]),
+        focusStigmataList = getFilteredList(stigmataList, focused["stigmata"]["focus"]),
+        offStigmataList = getFilteredList(stigmataList, focused["stigmata"]["off"]),
         dieResult = dieRoll();
 
     if (dieResult <= focusRate) {
-        return drawRandomFromList(focusStigmataList, stigmataList);
+        return drawRandomFromList(focusStigmataList);
     } else {
-        return drawRandomFromList(offStigmataList, stigmataList);
+        return drawRandomFromList(offStigmataList);
     }    
 }
 
-function drawRandomFromList(filterList, sourceList) {
-    let index = getRandomIndex(filterList),
-        drawnItem = sourceList.find(function(element){            
-            return element["name"] === filterList[index];
-        });
-
-    return {name: drawnItem["name"], rarity: drawnItem["rarity"]};
+function drawRandomFromList(list) {
+    let drawnItem = list[getRandomIndex(list)];    
+    return {name: drawnItem["name"] + ' - ' + drawnItem["type"], rarity: drawnItem["rarity"]};
 }
 
-function getCompleteStigmataList(stigmataNameList){
-    return stigmataList.filter(stigmata => stigmataNameList.includes(stigmata["name"]));
+function getFilteredList(sourceList, filterList){
+    return sourceList.filter(item => filterList.includes(item["name"]));
 }
 
 function dieRoll(){
-    Math.seedRandom();
-    return Math.random();
+    Math.seedrandom();
+    return Math.random() * 100;
 }
 
 function getRandomIndex(array) {

@@ -4,6 +4,7 @@ const stigMidIcon = './images/equipment/stigmata/middle.png';
 const stigBotIcon = './images/equipment/stigmata/bottom.png';
 const itemContainer = './images/equipment/container.png';
 
+/*
 module.exports = {
      buildStigmata : buildStigmata
 }
@@ -45,3 +46,4 @@ async function loadJimpFromUrl(url){
         return image.clone();
     });
 }
+*/

@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const focused = require('./focusedGacha');
-const imageBuilder = require('./imageBuilder');
+//const imageBuilder = require('./imageBuilder');
 
 const client = new Discord.Client();
 

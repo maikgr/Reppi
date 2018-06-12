@@ -4337,6 +4337,12 @@
             "rarity": "A"
         },
         {
+            "name": "Himeko Murata - Blood Rose",
+            "image": "./images/valkyriedetails/bloodrose.PNG",
+            "type": "Phychic",
+            "rarity": "S"
+        },
+        {
             "name": "Sakura Yae - Miko",
             "image": "./images/valkyriedetails/miko.PNG",
             "type": "Creature",

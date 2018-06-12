@@ -57,8 +57,12 @@ function connectClient(memeFileTotal) {
       }
     }
 
-    if (msg.content.startsWith('!valkyrie') || msg.content.startsWith('!valk') || msg.content.startsWith('!v')) {
-      valkyrie.valkyrieList(msg);
+    if (msg.content.startsWith('!valkyrie')) {
+      if (msg.content === '!valkyrie') {
+        valkyrie.valkyrieList(msg);
+      } else {
+        valkyrie.valkyrieSearch(msg);
+      }
     }
 
     if (msg.content.startsWith('!weapon')) {

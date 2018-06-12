@@ -1,3 +1,5 @@
+const valkyrieDB = require('./equipmentdb2.json').valkyrie;
+
 function valkyrieSelectedClass(valkyrieNum, valkyrieChosenClass, msg) {
   if (valkyrieNum === 1) {
     if (valkyrieChosenClass === 1) {
@@ -217,29 +219,29 @@ function valkyrieSelected(valkyrieNum, msg) {
   }).then(async (newMessage) => {
     const filter = (reaction, user) =>
       user.id === msg.author.id &&
-          reaction.emoji.name === '◀' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '1⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '2⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '3⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '4⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '5⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '6⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '7⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '8⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '9⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '▶' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '❌';
+      reaction.emoji.name === '◀' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '1⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '2⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '3⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '4⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '5⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '6⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '7⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '8⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '9⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '▶' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '❌';
     const collector = newMessage.createReactionCollector(filter, { time: 30000 });
     newMessage.delete(30000).catch(() => { });
     collector.once('collect', async (reaction) => {
@@ -289,23 +291,23 @@ function valkyrieList(msg) {
   }).then(async (newMessage) => {
     const filter = (reaction, user) =>
       user.id === msg.author.id &&
-          reaction.emoji.name === '1⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '2⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '3⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '4⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '5⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '6⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '7⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '8⃣' ||
-          user.id === msg.author.id &&
-          reaction.emoji.name === '❌';
+      reaction.emoji.name === '1⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '2⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '3⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '4⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '5⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '6⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '7⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '8⃣' ||
+      user.id === msg.author.id &&
+      reaction.emoji.name === '❌';
     const collector = newMessage.createReactionCollector(filter, { time: 30000 });
     newMessage.delete(30000).catch(() => { });
     collector.once('collect', async (reaction) => {
@@ -335,4 +337,119 @@ function valkyrieList(msg) {
   });
 }
 
+function valkyrieSearch(msg) {
+  const query = msg.content.replace('!valkyrie ', '');
+  if (query.length <= 2) {
+    msg.reply('Please search with atleast 3 characters!');
+  } else {
+    const queryConvertedEscapes = query.replace(/[^a-zA-Z0-9]/g, ' ');
+    const queryConvertedSpace = queryConvertedEscapes.replace(/ /g, ')(?=.*');
+    const queryConvertedBeginningEnd = `${queryConvertedSpace.replace(/^/g, '(?=.*')})`;
+
+
+    const regex = new RegExp(queryConvertedBeginningEnd, 'i');
+    const indexes = [];
+    for (let i = 0; i < valkyrieDB.length; i++) {
+      if (JSON.stringify(valkyrieDB[i].name).match(regex)) {
+        indexes.push(i);
+      }
+    }
+    const result = [];
+    for (let i = 0; i < indexes.length; i++) {
+      result.push(valkyrieDB[indexes[i]]);
+    }
+
+    if (result.length < 2 && result.length > 0) {
+      msg.reply('', { file: valkyrieDB[indexes[0]].image });
+    } else if (result.length > 1 && result.length < 10) {
+      const reactionNumberArray = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣'];
+      let embedValkyrieNames = '';
+
+      for (let i = 0; i < result.length; i++) {
+        embedValkyrieNames += `${i + 1}. ${valkyrieDB[indexes[i]].name}\n`;
+      }
+
+      const embed = {
+        author: {
+          name: 'Valkyrie search result',
+        },
+        color: 6332693,
+        title: 'Select a valkyrie',
+        footer: {
+          icon_url: 'attachment://attentionicon.PNG',
+          text: 'Please press the number below (reaction) to select',
+        },
+        fields: [{
+          name: '----------------',
+          value: `${embedValkyrieNames}`,
+        }],
+      };
+
+      msg.reply({
+        embed,
+        files: [{
+          attachment: 'images/attentionicon.PNG',
+          name: 'attentionicon.PNG',
+        }],
+      }).then(async (newMessage) => {
+        const filter = (reaction, user) =>
+          user.id === msg.author.id &&
+          reaction.emoji.name === '1⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '2⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '3⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '4⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '5⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '6⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '7⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '8⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '9⃣' ||
+          user.id === msg.author.id &&
+          reaction.emoji.name === '❌';
+        const collector = newMessage.createReactionCollector(filter, { time: 30000 });
+        newMessage.delete(30000).catch(() => { });
+        collector.once('collect', async (reaction) => {
+          const chosen = reaction.emoji.name;
+          for (let i = 0; i < result.length; i++) {
+            const emoji = reactionNumberArray[i];
+            if (chosen === emoji) {
+              newMessage.delete();
+              if (result.length < 1) {
+                msg.reply('please do not add reaction by yourself.');
+              } else {
+                msg.reply('', { file: valkyrieDB[indexes[i]].image });
+              }
+            }
+          }
+
+          if (chosen === '❌') {
+            newMessage.delete();
+          }
+          collector.stop();
+        });
+
+        for (let i = 0; i < result.length; i++) {
+          await newMessage.react(reactionNumberArray[i]).catch(() => { });
+        }
+
+        await newMessage.react('❌').catch(() => { });
+
+      });
+
+    } else if (result.length > 9) {
+      msg.reply('Too many results! Be specific with your search!');
+    } else if (result.length < 1) {
+      msg.reply('No valkyrie found.');
+    }
+  }
+}
+
 exports.valkyrieList = valkyrieList;
+exports.valkyrieSearch = valkyrieSearch;

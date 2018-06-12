@@ -4232,5 +4232,169 @@
             "type": "bottom",
             "rarity": 4
         }
+    ],
+    "valkyrie": [
+        {
+            "name": "Kiana Kaslana - White Comet",
+            "image": "./images/valkyriedetails/whitecomet.PNG",
+            "type": "Mecha",
+            "rarity": "B"
+        },
+        {
+            "name": "Kiana Kaslana - Divine Prayer",
+            "image": "./images/valkyriedetails/divineprayer.PNG",
+            "type": "Phychic",
+            "rarity": "S"
+        },
+        {
+            "name": "Kiana Kaslana - Ranger",
+            "image": "./images/valkyriedetails/ranger.PNG",
+            "type": "Mecha",
+            "rarity": "A"
+        },
+        {
+            "name": "Kiana Kaslana - Knight Moonbeam",
+            "image": "./images/valkyriedetails/moonbeam.PNG",
+            "type": "Creature",
+            "rarity": "S"
+        },
+        {
+            "name": "Mei Raiden - Crimson Impulse",
+            "image": "./images/valkyriedetails/crimsonimpulse.PNG",
+            "type": "Creature",
+            "rarity": "B"
+        },
+        {
+            "name": "Mei Raiden - Shadow Dash",
+            "image": "./images/valkyriedetails/shadowdash.PNG",
+            "type": "Mecha",
+            "rarity": "A"
+        },
+        {
+            "name": "Mei Raiden - Blade Strike",
+            "image": "./images/valkyriedetails/striker.PNG",
+            "type": "Creature",
+            "rarity": "A"
+        },
+        {
+            "name": "Mei Raiden - Lightning Empress",
+            "image": "./images/valkyriedetails/lightningempress.PNG",
+            "type": "Phychic",
+            "rarity": "S"
+        },
+        {
+            "name": "Bronya Zaychik - Chariot",
+            "image": "./images/valkyriedetails/chariot.PNG",
+            "type": "Phychic",
+            "rarity": "B"
+        },
+        {
+            "name": "Bronya Zaychik - Yamabuki Armor",
+            "image": "./images/valkyriedetails/yamabuki.PNG",
+            "type": "Phychic",
+            "rarity": "A"
+        },
+        {
+            "name": "Bronya Zaychik - Snowy Sniper",
+            "image": "./images/valkyriedetails/snowy.PNG",
+            "type": "Creature",
+            "rarity": "A"
+        },
+        {
+            "name": "Bronya Zaychik - Dimensional Break",
+            "image": "./images/valkyriedetails/dimensionalbreak.PNG",
+            "type": "Mecha",
+            "rarity": "S"
+        },
+        {
+            "name": "Bronya Zaychik - Wolf Dawn",
+            "image": "./images/valkyriedetails/wolf.PNG",
+            "type": "Mecha",
+            "rarity": "S"
+        },
+        {
+            "name": "Bronya Zaychik - Black Nucleus (Dark Bronya)",
+            "image": "./images/valkyriedetails/blacknucleus.PNG",
+            "type": "Mecha",
+            "rarity": "S"
+        },
+        {
+            "name": "Himeko Murata - Battlestorm",
+            "image": "./images/valkyriedetails/battlestorm.PNG",
+            "type": "Creature",
+            "rarity": "B"
+        },
+        {
+            "name": "Himeko Murata - Triumph (Nexus)",
+            "image": "./images/valkyriedetails/triumph.PNG",
+            "type": "Creature",
+            "rarity": "A"
+        },
+        {
+            "name": "Himeko Murata - Scarlet Fusion",
+            "image": "./images/valkyriedetails/scarletfusion.PNG",
+            "type": "Mecha",
+            "rarity": "A"
+        },
+        {
+            "name": "Sakura Yae - Miko",
+            "image": "./images/valkyriedetails/miko.PNG",
+            "type": "Creature",
+            "rarity": "A"
+        },
+        {
+            "name": "Sakura Yae - Flame Sakitama (Fire Sakura)",
+            "image": "./images/valkyriedetails/firesaku.PNG",
+            "type": "Creature",
+            "rarity": "A"
+        },
+        {
+            "name": "Sakura Yae - Goushinnso Memento (Meme)",
+            "image": "./images/valkyriedetails/unforgottenapostle.PNG",
+            "type": "Mecha",
+            "rarity": "S"
+        },
+        {
+            "name": "Theresa Apocalypse - Pledge",
+            "image": "./images/valkyriedetails/pledge.PNG",
+            "type": "Phychic",
+            "rarity": "A"
+        },
+        {
+            "name": "Theresa Apocalypse - Sakuno Rondo",
+            "image": "./images/valkyriedetails/rondo.PNG",
+            "type": "Phychic",
+            "rarity": "A"
+        },
+        {
+            "name": "Theresa Apocalypse - Violet Executer",
+            "image": "./images/valkyriedetails/violetexecuter.PNG",
+            "type": "Mecha",
+            "rarity": "S"
+        },
+        {
+            "name": "Theresa Apocalypse - Celestial Hymn (Anthem)",
+            "image": "./images/valkyriedetails/anthem.PNG",
+            "type": "Creature",
+            "rarity": "S"
+        },
+        {
+            "name": "Kallen Kaslana - Imayoh Ritual",
+            "image": "./images/valkyriedetails/kallen.PNG",
+            "type": "Mecha",
+            "rarity": "A"
+        },
+        {
+            "name": "Fu Hua / Fuuka - Swift Wing",
+            "image": "./images/valkyriedetails/swiftwing.PNG",
+            "type": "Creature",
+            "rarity": "A"
+        },
+        {
+            "name": "Fu Hua / Fuuka - Black Knight",
+            "image": "./images/valkyriedetails/blackknight.PNG",
+            "type": "Mecha",
+            "rarity": "S"
+        }
     ]
 }

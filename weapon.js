@@ -516,7 +516,7 @@ function weaponList(msg) {
 }
 
 function weaponSearch(msg) {
-  const query = msg.content.replace('!weapon ', '');
+  const query = msg.content.substr(msg.content.indexOf(' ') + 1);
   if (query.length <= 2) {
     msg.reply('Please search with atleast 3 characters!');
   } else {

@@ -57,25 +57,27 @@ function connectClient(memeFileTotal) {
       }
     }
 
-    if (msg.content.startsWith('!valkyrie')) {
-      if (msg.content === '!valkyrie') {
+    if (msg.content.startsWith('!v')) {
+      const message = msg.content.substr(msg.content.indexOf(' ') + 1);
+      if (message.startsWith('!v')) {
         valkyrie.valkyrieList(msg);
       } else {
         valkyrie.valkyrieSearch(msg);
       }
     }
 
-    if (msg.content.startsWith('!weapon')) {
-      if (msg.content === '!weapon') {
+    if (msg.content.startsWith('!w')) {
+      const message = msg.content.substr(msg.content.indexOf(' ') + 1);
+      if (message.startsWith('!w')) {
         weapon.weaponList(msg);
       } else {
         weapon.weaponSearch(msg);
       }
-
     }
 
-    if (msg.content.startsWith('!stigmata')) {
-      if (msg.content === '!stigmata') {
+    if (msg.content.startsWith('!s')) {
+      const message = msg.content.substr(msg.content.indexOf(' ') + 1);
+      if (message.startsWith('!s')) {
         stigmata.stigmataMenu(msg);
       } else {
         stigmata.stigmataSearch(msg);

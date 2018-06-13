@@ -572,7 +572,7 @@ async function stigmataSearchMenu(indexes, msg) {
 }
 
 async function stigmataSearch(msg) {
-  const query = msg.content.replace('!stigmata ', '');
+  const query = msg.content.substr(msg.content.indexOf(' ') + 1);
   if (query.length <= 2) {
     msg.reply('Please search with atleast 3 characters!');
   } else {

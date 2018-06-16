@@ -7,7 +7,8 @@ let focused;
 
 module.exports = {
     initialize : initialize,
-    startGacha : startGacha
+    startGacha : startGacha,
+    simpleGacha: startGachaSimple
 }
 
 function initialize(){
@@ -39,7 +40,12 @@ function startGacha(){
         gachaResult.push(drawFocused());
     }
     
-    return gachaResult.map(item => item["name"]);
+    return gachaResult.sort(rarityComparison);
+}
+
+function startGachaSimple(){
+    let gachaResult = startGacha();
+    return gachaResult.map(item => item["name"]); 
 }
 
 function drawGacha(){
@@ -64,7 +70,11 @@ function drawFocused(){
 }
 
 function drawOthers(){
-    return {name: "Item", rarity: 1};
+    return {
+        'name': "Materials",
+        'rarity': 1,
+        'image': "https://i.imgur.com/pVQpLmD.png"
+    };
 }
 
 function drawWeapon(){
@@ -94,8 +104,18 @@ function drawStigmata(){
 }
 
 function drawRandomFromList(list) {
-    let drawnItem = list[getRandomIndex(list)];
-    return {name: '(' + sentenceCase(drawnItem["type"]) + ') ' + drawnItem["name"], rarity: drawnItem["rarity"]};
+    let drawnItem = list[getRandomIndex(list)],
+        itemName;
+    if (drawnItem["type"] === 'top' || drawnItem["type"] === 'mid' || drawnItem["type"] === 'bottom'){
+        itemName = '(' + sentenceCase(drawnItem["type"]) + ') ' + drawnItem["name"];
+    } else {
+        itemName = sentenceCase(drawnItem["name"]);
+    }
+    return {
+        'name': itemName,
+        'rarity': drawnItem["rarity"],
+        'image': drawnItem["image"]
+    };
 }
 
 function getFilteredList(sourceList, filterList){
@@ -125,4 +145,14 @@ function focusedStigmataTotalRate(){
 
 function sentenceCase(string){
     return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function rarityComparison(a, b){
+    if (a['rarity'] > b['rarity']){
+        return -1;
+    } else if (a['rarity'] < b['rarity']){
+        return 1;
+    } else {
+        return 0;
+    }
 }

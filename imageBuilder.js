@@ -3,54 +3,59 @@ const rareContainerPath = './images/equipment/containerrare.png';
 const normalContainerPath = './images/equipment/containernormal.png';
 const gachaBgPath = './images/gachabg.jpg';
 
-let filename = 'test.png';
 module.exports = {
-    gachaBuilder: gachaBuilder
+    gachaBuilder: buildGachaResultImage
 }
 
-function gachaBuilder(msg, gachaArr) {
-    let jimps = [
-        Jimp.read(gachaBgPath)
-    ]
+function buildGachaResultImage(gachaArr) {
+    let gachaAssets = getGachaAssets(gachaArr);
+    return combineImage(gachaAssets, gachaArr);
+}
+
+function getGachaAssets(gachaArr) {
+    let jimps = [];
 
     for (let i = 0; i < gachaArr.length; ++i) {
-        let rarity = gachaArr[i]['rarity'],
-            image = gachaArr[i]['image'],
-            name = gachaArr[i]['name'];
-
-        if (rarity > 3) {
-            jimps.push(createImageLayout(rareContainerPath, image, name));
+        if (gachaArr[i]['rarity'] > 3) {
+            jimps.push(createImageLayout(rareContainerPath, gachaArr[i]['image'], gachaArr[i]['name']));
         } else {
-            jimps.push(createImageLayout(normalContainerPath, image, name));
+            jimps.push(createImageLayout(normalContainerPath, gachaArr[i]['image'], gachaArr[i]['name']));
         }
     }
 
-    Promise.all(jimps)
-        .then(function (jimps) {
-            let background = jimps[0];
+    return jimps;
+}
 
-            let imageMargin = 40,
-                colCount = 3,
-                rowCount = Math.ceil(gachaArr.length / colCount),
-                colWidth = Math.floor(background.bitmap.width / colCount);
+function combineImage (gachaAssets, gachaArr) {
+    gachaAssets.push(Jimp.read(gachaBgPath));
 
-            let jimpsIndex = 1;
-            for (let x = 0; x < colCount; ++x) {
-                for (let y = 0; y < rowCount; ++y) {
-                    if (jimpsIndex < jimps.length) {
-                        let item = jimps[jimpsIndex++],
-                            itemPosX = (x * colWidth),
-                            itemPosY = (y * item.bitmap.height) + imageMargin;
+    return Promise.all(gachaAssets)
+    .then(function (assets) {
+        let assetIndex = 0,
+            assetMaxIndex = assets.length - 1;
+        let background = assets[assetMaxIndex];
+        let imageMargin = 40,
+            colCount = 3,
+            rowCount = Math.ceil(gachaArr.length / colCount),
+            colWidth = Math.floor(background.bitmap.width / colCount);
+        
+        for (let x = 0; x < colCount; ++x) {
+            for (let y = 0; y < rowCount; ++y) {
+                if (assetIndex < assetMaxIndex) {
+                    let item = assets[assetIndex++],
+                        itemPosX = (x * colWidth),
+                        itemPosY = (y * item.bitmap.height) + imageMargin;
 
-                        background.composite(item, itemPosX, itemPosY);
-                    }
+                    background.composite(item, itemPosX, itemPosY);
                 }
             }
+        }
 
-            background.write(filename, function () {
-                msg.reply('', { file: filename });
-            });
-        });
+        return background;
+    })
+    .catch(function (e){
+        console.log(e.message);
+    });
 }
 
 function createImageLayout(containerPath, itemPath, itemName) {
@@ -76,5 +81,8 @@ function createImageLayout(containerPath, itemPath, itemName) {
             .composite(container, leftMargin, 0)
             .composite(itemImage, imageMargin + leftMargin, imageMargin)
             .print(font, textPosX, textPosY, itemName, textWidth);
+    })
+    .catch(function (e){
+        console.log(e.message);
     });
 }

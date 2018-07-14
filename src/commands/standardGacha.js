@@ -72,6 +72,7 @@ function gachaDraw() {
 }
 
 function generateImage() {
+  resultArray.sort().reverse();
   return new Promise(((resolve) => {
     images('src/images/input.jpg')
       .size(1280, 950)

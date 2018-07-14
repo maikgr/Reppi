@@ -141,6 +141,6 @@ function connectClient(memeFileTotal) {
   });
 }
 
-countFiles('images/random', (err, results) => {
+countFiles('./images/random', (err, results) => {
   connectClient(results.files);
 });

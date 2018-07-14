@@ -84,7 +84,7 @@ function connectClient() {
       msg.reply({
         embed,
         files: [{
-          attachment: 'images/attentionicon.PNG',
+          attachment: './images/attentionicon.PNG',
           name: 'attentionicon.PNG',
         }],
       }).then(async (newMessage) => {

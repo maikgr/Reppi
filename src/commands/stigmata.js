@@ -138,7 +138,7 @@ function stigmataMenuSelected(star, page, msg) {
                   }],
                 },
                 files: [{
-                  attachment: 'images/equipment/stigmata/top.PNG',
+                  attachment: './images/equipment/stigmata/top.PNG',
                   name: 'top.PNG',
                 }],
               });
@@ -162,7 +162,7 @@ function stigmataMenuSelected(star, page, msg) {
                   }],
                 },
                 files: [{
-                  attachment: 'images/equipment/stigmata/middle.PNG',
+                  attachment: './images/equipment/stigmata/middle.PNG',
                   name: 'middle.PNG',
                 }],
               });
@@ -186,7 +186,7 @@ function stigmataMenuSelected(star, page, msg) {
                   }],
                 },
                 files: [{
-                  attachment: 'images/equipment/stigmata/bottom.PNG',
+                  attachment: './images/equipment/stigmata/bottom.PNG',
                   name: 'bottom.PNG',
                 }],
               });
@@ -214,7 +214,7 @@ function stigmataMenuSelected(star, page, msg) {
                   }],
                 },
                 files: [{
-                  attachment: 'images/attentionicon.PNG',
+                  attachment: './images/attentionicon.PNG',
                   name: 'attentionicon.PNG',
                 }],
               });
@@ -275,7 +275,7 @@ function stigmataMenu(msg) {
   msg.reply({
     embed,
     files: [{
-      attachment: 'images/attentionicon.PNG',
+      attachment: './images/attentionicon.PNG',
       name: 'attentionicon.PNG',
     }],
   }).then(async (newMessage) => {
@@ -363,7 +363,7 @@ async function stigmataSearchMenu(indexes, msg) {
   msg.reply({
     embed,
     files: [{
-      attachment: 'images/attentionicon.PNG',
+      attachment: './images/attentionicon.PNG',
       name: 'attentionicon.PNG',
     }],
   }).then(async (newMessage) => {
@@ -449,7 +449,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: 'images/equipment/stigmata/top.PNG',
+                attachment: './images/equipment/stigmata/top.PNG',
                 name: 'top.PNG',
               }],
             });
@@ -469,7 +469,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: 'images/equipment/stigmata/middle.PNG',
+                attachment: './images/equipment/stigmata/middle.PNG',
                 name: 'middle.PNG',
               }],
             });
@@ -489,7 +489,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: 'images/equipment/stigmata/bottom.PNG',
+                attachment: './images/equipment/stigmata/bottom.PNG',
                 name: 'bottom.PNG',
               }],
             });
@@ -512,7 +512,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: 'images/attentionicon.PNG',
+                attachment: './images/attentionicon.PNG',
                 name: 'attentionicon.PNG',
               }],
             });
@@ -653,7 +653,7 @@ async function stigmataSearch(msg) {
               }],
             },
             files: [{
-              attachment: 'images/attentionicon.PNG',
+              attachment: './images/attentionicon.PNG',
               name: 'attentionicon.PNG',
             }],
           });

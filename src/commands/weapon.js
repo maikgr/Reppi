@@ -195,7 +195,7 @@ function weaponMenu(page, rarity, weaponType, msg) {
       attachment: authorImageAttachmentForEmbed,
       name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
     }, {
-      attachment: 'images/attentionicon.PNG',
+      attachment: './images/attentionicon.PNG',
       name: 'attentionicon.PNG',
     }],
   }).then(async (newMessage) => {
@@ -310,7 +310,7 @@ function weaponMenu(page, rarity, weaponType, msg) {
                 attachment: authorImageAttachmentForEmbed,
                 name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
               }, {
-                attachment: 'images/attentionicon.PNG',
+                attachment: './images/attentionicon.PNG',
                 name: 'attentionicon.PNG',
               }],
             });
@@ -387,7 +387,7 @@ function weaponRarity(weaponType, msg) {
   msg.reply({
     embed,
     files: [{
-      attachment: 'images/attentionicon.PNG',
+      attachment: './images/attentionicon.PNG',
       name: 'attentionicon.PNG',
     }],
   }).then(async (newMessage) => {
@@ -457,7 +457,7 @@ function weaponList(msg) {
   msg.reply({
     embed,
     files: [{
-      attachment: 'images/attentionicon.PNG',
+      attachment: './images/attentionicon.PNG',
       name: 'attentionicon.PNG',
     }],
   }).then(async (newMessage) => {
@@ -711,7 +711,7 @@ function weaponSearch(msg) {
           attachment: authorImageAttachmentForEmbed,
           name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
         }, {
-          attachment: 'images/attentionicon.PNG',
+          attachment: './images/attentionicon.PNG',
           name: 'attentionicon.PNG',
         }],
       });
@@ -855,7 +855,7 @@ function weaponSearch(msg) {
       msg.reply({
         embed,
         files: [{
-          attachment: 'images/attentionicon.PNG',
+          attachment: './images/attentionicon.PNG',
           name: 'attentionicon.PNG',
         }],
       }).then(async (newMessage) => {
@@ -1061,7 +1061,7 @@ function weaponSearch(msg) {
                     attachment: authorImageAttachmentForEmbed,
                     name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
                   }, {
-                    attachment: 'images/attentionicon.PNG',
+                    attachment: './images/attentionicon.PNG',
                     name: 'attentionicon.PNG',
                   }],
                 });

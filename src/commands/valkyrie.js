@@ -213,7 +213,7 @@ function valkyrieSelected(valkyrieNum, msg) {
   msg.reply({
     embed,
     files: [{
-      attachment: 'images/attentionicon.PNG',
+      attachment: './images/attentionicon.PNG',
       name: 'attentionicon.PNG',
     }],
   }).then(async (newMessage) => {
@@ -285,7 +285,7 @@ function valkyrieList(msg) {
   msg.reply({
     embed,
     files: [{
-      attachment: 'images/attentionicon.PNG',
+      attachment: './images/attentionicon.PNG',
       name: 'attentionicon.PNG',
     }],
   }).then(async (newMessage) => {
@@ -388,7 +388,7 @@ function valkyrieSearch(msg) {
       msg.reply({
         embed,
         files: [{
-          attachment: 'images/attentionicon.PNG',
+          attachment: './images/attentionicon.PNG',
           name: 'attentionicon.PNG',
         }],
       }).then(async (newMessage) => {

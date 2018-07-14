@@ -3,89 +3,89 @@ const valkyrieDB = require('../database/equipmentdb2.json').valkyrie;
 function valkyrieSelectedClass(valkyrieNum, valkyrieChosenClass, msg) {
   if (valkyrieNum === 1) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/whitecomet.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/whitecomet.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: './images/valkyriedetails/ranger.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/ranger.PNG' });
     } if (valkyrieChosenClass === 3) {
-      msg.reply('', { file: './images/valkyriedetails/divineprayer.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/divineprayer.PNG' });
     } if (valkyrieChosenClass === 4) {
-      msg.reply('', { file: './images/valkyriedetails/moonbeam.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/moonbeam.PNG' });
     }
   }
 
   if (valkyrieNum === 2) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/crimsonimpulse.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/crimsonimpulse.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: './images/valkyriedetails/shadowdash.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/shadowdash.PNG' });
     } if (valkyrieChosenClass === 3) {
-      msg.reply('', { file: './images/valkyriedetails/striker.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/striker.PNG' });
     } if (valkyrieChosenClass === 4) {
-      msg.reply('', { file: './images/valkyriedetails/lightningempress.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/lightningempress.PNG' });
     }
   }
 
   if (valkyrieNum === 3) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/chariot.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/chariot.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: './images/valkyriedetails/yamabuki.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/yamabuki.PNG' });
     } if (valkyrieChosenClass === 3) {
-      msg.reply('', { file: './images/valkyriedetails/snowy.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/snowy.PNG' });
     } if (valkyrieChosenClass === 4) {
-      msg.reply('', { file: './images/valkyriedetails/dimensionalbreak.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/dimensionalbreak.PNG' });
     } if (valkyrieChosenClass === 5) {
-      msg.reply('', { file: './images/valkyriedetails/wolf.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/wolf.PNG' });
     } if (valkyrieChosenClass === 6) {
-      msg.reply('', { file: './images/valkyriedetails/blacknucleus.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/blacknucleus.PNG' });
     }
   }
 
   if (valkyrieNum === 4) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/battlestorm.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/battlestorm.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: './images/valkyriedetails/triumph.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/triumph.PNG' });
     } if (valkyrieChosenClass === 3) {
-      msg.reply('', { file: './images/valkyriedetails/scarletfusion.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/scarletfusion.PNG' });
     } if (valkyrieChosenClass === 4) {
-      msg.reply('', { file: './images/valkyriedetails/bloodrose.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/bloodrose.PNG' });
     }
   }
 
   if (valkyrieNum === 5) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/miko.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/miko.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: './images/valkyriedetails/firesaku.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/firesaku.PNG' });
     } if (valkyrieChosenClass === 3) {
-      msg.reply('', { file: './images/valkyriedetails/unforgottenapostle.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/unforgottenapostle.PNG' });
     }
   }
 
   if (valkyrieNum === 6) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/pledge.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/pledge.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: './images/valkyriedetails/rondo.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/rondo.PNG' });
     } if (valkyrieChosenClass === 3) {
-      msg.reply('', { file: './images/valkyriedetails/violetexecuter.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/violetexecuter.PNG' });
     } if (valkyrieChosenClass === 4) {
-      msg.reply('', { file: './images/valkyriedetails/anthem.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/anthem.PNG' });
     }
   }
 
   if (valkyrieNum === 7) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/kallen.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/kallen.PNG' });
     }
   }
 
   if (valkyrieNum === 8) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: './images/valkyriedetails/swiftwing.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/swiftwing.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: './images/valkyriedetails/blackknight.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/blackknight.PNG' });
     }
   }
 }

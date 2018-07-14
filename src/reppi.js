@@ -3,10 +3,10 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 const countFiles = require('count-files');
-const standardGacha = require('./standardGacha.js');
-const valkyrie = require('./valkyrie.js');
-const weapon = require('./weapon.js');
-const stigmata = require('./stigmata.js');
+const standardGacha = require('./commands/standardGacha.js');
+const valkyrie = require('./commands/valkyrie.js');
+const weapon = require('./commands/weapon.js');
+const stigmata = require('./commands/stigmata.js');
 
 let memeFileName;
 
@@ -28,12 +28,12 @@ function connectClient(memeFileTotal) {
       const done = await standardGacha.gachaStart();
       if (done === 'done') {
         msg.reply('', {
-          file: 'output.jpg',
+          file: './images/output.jpg',
         });
       }
     }
 
-    const channel = client.channels.get('424485532794355732');
+    const channel = client.channels.get('378748690095013919');
 
     if (msg.content === '!gacha') {
       if (msg.channel.name !== 'bot-spam') {

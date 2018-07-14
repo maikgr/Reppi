@@ -1,5 +1,5 @@
-const equipmentDatabase = require('./equipmentdb.js');
-const weaponDB = require('./equipmentdb2.json').weapon;
+const equipmentDatabase = require('../database/equipmentdb.js');
+const weaponDB = require('../database/equipmentdb2.json').weapon;
 
 function weaponMenu(page, rarity, weaponType, msg) {
   const currentPage = page;

@@ -1,5 +1,5 @@
-const equipmentDatabase = require('./equipmentdb.js');
-const stigmataDB = require('./equipmentdb2.json').stigmata;
+const equipmentDatabase = require('../database/equipmentdb.js');
+const stigmataDB = require('../database/equipmentdb2.json').stigmata;
 
 function stigmataMenuSelected(star, page, msg) {
   let selectedStarStigmata = '';

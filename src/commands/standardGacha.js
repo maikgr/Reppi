@@ -1,8 +1,8 @@
 const images = require('images');
 const countFiles = require('count-files');
 
-const standardGachaDatabase = require('./gachadb').standard;
-const chatGacha = require('./chatdb').chat;
+const standardGachaDatabase = require('../database/gachadb').standard;
+const chatGacha = require('../database/chatdb').chat;
 
 let guaranteed = 0;
 let resultArray = [];
@@ -98,7 +98,7 @@ function fileCount() {
 function generateImage(valkyrieChatNumber) {
   chatBoxNumber = getRandomInt(1, valkyrieChatNumber + 1);
   return new Promise(((resolve) => {
-    images('input.jpg')
+    images('./images/input.jpg')
       .size(1280, 950)
       .draw(images(`images/${resultArray[0]}`).size(160, 160), 174, 386)
       .draw(images(`images/${resultArray[1]}`).size(160, 160), 372, 386)
@@ -112,7 +112,7 @@ function generateImage(valkyrieChatNumber) {
       .draw(images(`images/${resultArray[9]}`).size(160, 160), 950, 576)
       .draw(images(`images/chat/${chatBoxChar}/${getSRankText}/${chatBoxNumber}.PNG`).size(989, 276), 0, 680)
       .draw(images(`images/chat/${chatBoxChar}/${avatarRank}`).size(242, 276), 0, 680)
-      .save('output.jpg', {
+      .save('./images/output.jpg', {
         quality: 50,
       });
     if (images.getUsedMemory() !== 0) {

@@ -1,15 +1,7 @@
 const images = require('images');
 const standardGachaDatabase = require('../database/gachadb').standard;
-const chatGacha = require('../database/chatdb').chat;
 
 let guaranteed = 0;
-let resultArray = [];
-let getSRank = 0;
-let chatBoxNumber = 0;
-let itemNumber = 0;
-let chatBoxChar = '';
-let getSRankText = '';
-let avatarRank = '';
 
 function getRandomInt(min, max) {
   const intMin = parseInt(min);
@@ -18,74 +10,71 @@ function getRandomInt(min, max) {
 }
 
 function drawItem() {
-  itemNumber = 0;
   itemNumber = getRandomInt(1, 10);
-  resultArray.push(`items/${itemNumber}.PNG`);
+  return `items/${itemNumber}.PNG`;
 }
 
 function drawValkyrieSRank() {
   const rand = getRandomInt(0, standardGachaDatabase.valk.s.length);
-  resultArray.push(`valkyrie/${standardGachaDatabase.valk.s[rand]}`);
+  return `valkyrie/${standardGachaDatabase.valk.s[rand]}`;
 }
 
 function drawValkyrieARank() {
   const rand = getRandomInt(0, standardGachaDatabase.valk.a.length);
-  resultArray.push(`valkyrie/${standardGachaDatabase.valk.a[rand]}`);
+  return `valkyrie/${standardGachaDatabase.valk.a[rand]}`;
 }
 
 function drawValkyrieBRank() {
   const rand = getRandomInt(0, standardGachaDatabase.valk.b.length);
-  resultArray.push(`valkyrie/${standardGachaDatabase.valk.b[rand]}`);
+  return `valkyrie/${standardGachaDatabase.valk.b[rand]}`;
 }
 
 function drawValkyrie() {
   const rate = Math.floor(Math.random() * 100) / 100;
   if (rate < 0.073) {
-    drawValkyrieSRank();
-    getSRank++;
+    return drawValkyrieSRank();
   } else if (rate < 0.73) {
-    drawValkyrieARank();
+    return drawValkyrieARank();
   } else {
-    drawValkyrieBRank();
     guaranteed++;
+    return drawValkyrieBRank();
   }
 }
 
 function drawValkyrieGuaranteed() {
   const rate = Math.floor(Math.random() * 100) / 100;
   if (rate < 0.1) {
-    drawValkyrieSRank();
-    getSRank++;
+    return drawValkyrieSRank();
   } else {
-    drawValkyrieARank();
+    return drawValkyrieARank();
   }
 }
 
 function gachaDraw() {
   const gachaRate = Math.floor(Math.random() * 100) / 100;
   if (gachaRate < 0.2) {
-    drawValkyrie();
+    return drawValkyrie();
   } else {
-    drawItem();
     guaranteed++;
+    return drawItem();
   }
 }
 
-function generateImage() {
+function generateImage(resultArray) {
   resultArray.sort().reverse();
   return new Promise(((resolve) => {
     images('src/images/input.jpg')
       .size(1280, 950)
-      .draw(images(`src/images/${resultArray[0]}`).size(160, 160), 174, 386)
-      .draw(images(`src/images/${resultArray[1]}`).size(160, 160), 372, 386)
-      .draw(images(`src/images/${resultArray[2]}`).size(160, 160), 567, 386)
-      .draw(images(`src/images/${resultArray[3]}`).size(160, 160), 760, 386)
-      .draw(images(`src/images/${resultArray[4]}`).size(160, 160), 950, 386)
-      .draw(images(`src/images/${resultArray[5]}`).size(160, 160), 174, 576)
-      .draw(images(`src/images/${resultArray[6]}`).size(160, 160), 372, 576)
-      .draw(images(`src/images/${resultArray[7]}`).size(160, 160), 567, 576)
-      .draw(images(`src/images/${resultArray[8]}`).size(160, 160), 760, 576)
-      .draw(images(`src/images/${resultArray[9]}`).size(160, 160), 950, 576)
+      .draw(images(`src/images/${resultArray[0]}`).size(180, 180), 177, 452)
+      .draw(images(`src/images/${resultArray[1]}`).size(180, 180), 365, 452)
+      .draw(images(`src/images/${resultArray[2]}`).size(180, 180), 548, 452)
+      .draw(images(`src/images/${resultArray[3]}`).size(180, 180), 738, 452)
+      .draw(images(`src/images/${resultArray[4]}`).size(180, 180), 921, 452)
+      .draw(images(`src/images/${resultArray[5]}`).size(180, 180), 177, 635)
+      .draw(images(`src/images/${resultArray[6]}`).size(180, 180), 365, 635)
+      .draw(images(`src/images/${resultArray[7]}`).size(180, 180), 548, 635)
+      .draw(images(`src/images/${resultArray[8]}`).size(180, 180), 738, 635)
+      .draw(images(`src/images/${resultArray[9]}`).size(180, 180), 921, 635)
       .save('src/images/output.jpg', {
         quality: 50,
       });
@@ -96,18 +85,19 @@ function generateImage() {
 }
 
 async function gachaStart() {
-  getSRank = 0;
   guaranteed = 0;
   resultArray = [];
   for (let i = 0; i < 9; i++) {
-    gachaDraw();
+    resultArray.push(gachaDraw());
   }
   if (guaranteed === 9) {
-    drawValkyrieGuaranteed();
+     resultArray.push(drawValkyrieGuaranteed());
   } else {
-    gachaDraw();
+     resultArray.push(gachaDraw());
   }
-  await generateImage();
+
+  await generateImage(resultArray);
+
   return new Promise(((resolve) => {
     resolve('done');
   }));

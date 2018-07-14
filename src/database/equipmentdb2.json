@@ -4391,14 +4391,14 @@
             "rarity": "A"
         },
         {
-            "name": "Fu Hua / Fuuka - Swift Wing",
-            "image": "src/images/valkyriedetails/swiftwing.PNG",
-            "type": "Creature",
+            "name": "Fu Hua / Fuuka - Accipiter",
+            "image": "src/images/valkyriedetails/accipiter.PNG",
+            "type": "Physchic",
             "rarity": "A"
         },
         {
-            "name": "Fu Hua / Fuuka - Black Knight",
-            "image": "src/images/valkyriedetails/blackknight.PNG",
+            "name": "Fu Hua / Fuuka - Shadow Knight",
+            "image": "src/images/valkyriedetails/shadowknight.PNG",
             "type": "Mecha",
             "rarity": "S"
         }

@@ -22,12 +22,10 @@ function connectClient() {
   client.on('message', (msg) => {
 
     async function start() {
-      const done = await standardGacha.gachaStart();
-      if (done === 'done') {
-        msg.reply('', {
+      await standardGacha.gachaStart();
+      msg.reply('', {
           file: 'src/images/output.jpg',
         });
-      }
     }
 
     const channel = client.channels.get('378748690095013919');

@@ -83,9 +83,9 @@ function valkyrieSelectedClass(valkyrieNum, valkyrieChosenClass, msg) {
 
   if (valkyrieNum === 8) {
     if (valkyrieChosenClass === 1) {
-      msg.reply('', { file: 'src/images/valkyriedetails/swiftwing.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/accipiter.PNG' });
     } if (valkyrieChosenClass === 2) {
-      msg.reply('', { file: 'src/images/valkyriedetails/blackknight.PNG' });
+      msg.reply('', { file: 'src/images/valkyriedetails/shadowknight.PNG' });
     }
   }
 }
@@ -202,7 +202,7 @@ function valkyrieSelected(valkyrieNum, msg) {
       },
       fields: [{
         name: '----------------',
-        value: '1. Swift Wing\n2. Black Knight',
+        value: '1. Accipiter\n2. Shadow Knight',
       }],
     };
     total = 2;

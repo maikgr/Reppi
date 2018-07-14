@@ -2,13 +2,10 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const countFiles = require('count-files');
 const standardGacha = require('./commands/standardGacha.js');
 const valkyrie = require('./commands/valkyrie.js');
 const weapon = require('./commands/weapon.js');
 const stigmata = require('./commands/stigmata.js');
-
-let memeFileName;
 
 client.login(process.env.DISCORD_API_KEY);
 client.on('ready', () => {
@@ -21,7 +18,7 @@ function getRandomInt(min, max) {
   return (Math.floor(Math.random() * (intMax - intMin)) + intMin);
 }
 
-function connectClient(memeFileTotal) {
+function connectClient() {
   client.on('message', (msg) => {
 
     async function start() {
@@ -40,20 +37,7 @@ function connectClient(memeFileTotal) {
         msg.reply(`Does this looks like ${channel} channel to you? 
           If yes, I suggest you to get your eyesight checked.`);
       } else {
-
-        const memeChance = Math.floor(Math.random() * 100) / 100;
-        console.log(`memeChance : ${memeChance}`);
-        memeFileName = getRandomInt(1, memeFileTotal + 1);
-
-        if (memeChance < 0.07) {
-          msg.reply('', {
-            file: `./images/random/${memeFileName}.JPG`,
-          });
-        } else {
           start();
-
-
-        }
       }
     }
 
@@ -141,6 +125,4 @@ function connectClient(memeFileTotal) {
   });
 }
 
-countFiles('./images/random', (err, results) => {
-  connectClient(2);
-});
+connectClient();

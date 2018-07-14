@@ -1,6 +1,4 @@
 const images = require('images');
-const countFiles = require('count-files');
-
 const standardGachaDatabase = require('../database/gachadb').standard;
 const chatGacha = require('../database/chatdb').chat;
 
@@ -73,30 +71,7 @@ function gachaDraw() {
   }
 }
 
-function fileCount() {
-  resultArray.sort().reverse();
-  const rand = getRandomInt(0, chatGacha.character.length);
-  chatBoxChar = chatGacha.character[rand];
-  getSRankText = '';
-  avatarRank = '';
-  if (getSRank > 0) {
-    getSRankText = 'srank';
-    avatarRank = 'Savatar.PNG';
-  } else {
-    getSRankText = 'nosrank';
-    avatarRank = 'avatar.PNG';
-  }
-  return new Promise(((resolve) => {
-    countFiles(`images/chat/${chatBoxChar}/${getSRankText}`, (err, results) => {
-      if (results.files !== 0) {
-        resolve(results.files);
-      }
-    });
-  }));
-}
-
-function generateImage(valkyrieChatNumber) {
-  chatBoxNumber = getRandomInt(1, valkyrieChatNumber + 1);
+function generateImage() {
   return new Promise(((resolve) => {
     images('./images/input.jpg')
       .size(1280, 950)
@@ -110,8 +85,6 @@ function generateImage(valkyrieChatNumber) {
       .draw(images(`images/${resultArray[7]}`).size(160, 160), 567, 576)
       .draw(images(`images/${resultArray[8]}`).size(160, 160), 760, 576)
       .draw(images(`images/${resultArray[9]}`).size(160, 160), 950, 576)
-      .draw(images(`images/chat/${chatBoxChar}/${getSRankText}/${chatBoxNumber}.PNG`).size(989, 276), 0, 680)
-      .draw(images(`images/chat/${chatBoxChar}/${avatarRank}`).size(242, 276), 0, 680)
       .save('./images/output.jpg', {
         quality: 50,
       });
@@ -133,8 +106,7 @@ async function gachaStart() {
   } else {
     gachaDraw();
   }
-  const counted = await fileCount();
-  await generateImage(counted);
+  await generateImage();
   return new Promise(((resolve) => {
     resolve('done');
   }));

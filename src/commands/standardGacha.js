@@ -73,7 +73,7 @@ function gachaDraw() {
 
 function generateImage() {
   return new Promise(((resolve) => {
-    images('./images/input.jpg')
+    images('src/images/input.jpg')
       .size(1280, 950)
       .draw(images(`images/${resultArray[0]}`).size(160, 160), 174, 386)
       .draw(images(`images/${resultArray[1]}`).size(160, 160), 372, 386)
@@ -85,7 +85,7 @@ function generateImage() {
       .draw(images(`images/${resultArray[7]}`).size(160, 160), 567, 576)
       .draw(images(`images/${resultArray[8]}`).size(160, 160), 760, 576)
       .draw(images(`images/${resultArray[9]}`).size(160, 160), 950, 576)
-      .save('./images/output.jpg', {
+      .save('src/images/output.jpg', {
         quality: 50,
       });
     if (images.getUsedMemory() !== 0) {

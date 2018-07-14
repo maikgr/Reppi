@@ -25,7 +25,7 @@ function connectClient() {
       const done = await standardGacha.gachaStart();
       if (done === 'done') {
         msg.reply('', {
-          file: './images/output.jpg',
+          file: 'src/images/output.jpg',
         });
       }
     }

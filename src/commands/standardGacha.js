@@ -75,16 +75,16 @@ function generateImage() {
   return new Promise(((resolve) => {
     images('src/images/input.jpg')
       .size(1280, 950)
-      .draw(images(`images/${resultArray[0]}`).size(160, 160), 174, 386)
-      .draw(images(`images/${resultArray[1]}`).size(160, 160), 372, 386)
-      .draw(images(`images/${resultArray[2]}`).size(160, 160), 567, 386)
-      .draw(images(`images/${resultArray[3]}`).size(160, 160), 760, 386)
-      .draw(images(`images/${resultArray[4]}`).size(160, 160), 950, 386)
-      .draw(images(`images/${resultArray[5]}`).size(160, 160), 174, 576)
-      .draw(images(`images/${resultArray[6]}`).size(160, 160), 372, 576)
-      .draw(images(`images/${resultArray[7]}`).size(160, 160), 567, 576)
-      .draw(images(`images/${resultArray[8]}`).size(160, 160), 760, 576)
-      .draw(images(`images/${resultArray[9]}`).size(160, 160), 950, 576)
+      .draw(images(`src/images/${resultArray[0]}`).size(160, 160), 174, 386)
+      .draw(images(`src/images/${resultArray[1]}`).size(160, 160), 372, 386)
+      .draw(images(`src/images/${resultArray[2]}`).size(160, 160), 567, 386)
+      .draw(images(`src/images/${resultArray[3]}`).size(160, 160), 760, 386)
+      .draw(images(`src/images/${resultArray[4]}`).size(160, 160), 950, 386)
+      .draw(images(`src/images/${resultArray[5]}`).size(160, 160), 174, 576)
+      .draw(images(`src/images/${resultArray[6]}`).size(160, 160), 372, 576)
+      .draw(images(`src/images/${resultArray[7]}`).size(160, 160), 567, 576)
+      .draw(images(`src/images/${resultArray[8]}`).size(160, 160), 760, 576)
+      .draw(images(`src/images/${resultArray[9]}`).size(160, 160), 950, 576)
       .save('src/images/output.jpg', {
         quality: 50,
       });

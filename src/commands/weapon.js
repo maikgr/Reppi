@@ -12,32 +12,32 @@ function weaponMenu(page, rarity, weaponType, msg) {
   if (rarity === 1) {
     if (weaponType === 1) {
       titleForEmbed = '4★ Gun';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gun.fourstar;
     }
     if (weaponType === 2) {
       titleForEmbed = '4★ Katana';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.katana.fourstar;
     }
     if (weaponType === 3) {
       titleForEmbed = '4★ Cannon';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cannon.fourstar;
     }
     if (weaponType === 4) {
       titleForEmbed = '4★ Greatsword';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.greatsword.fourstar;
     }
     if (weaponType === 5) {
       titleForEmbed = '4★ Cross';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cross.fourstar;
     }
     if (weaponType === 6) {
       titleForEmbed = '4★ Gauntlet';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gauntlet.fourstar;
     }
   }
@@ -45,32 +45,32 @@ function weaponMenu(page, rarity, weaponType, msg) {
   if (rarity === 2) {
     if (weaponType === 1) {
       titleForEmbed = '3★ Gun';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gun.threestar;
     }
     if (weaponType === 2) {
       titleForEmbed = '3★ Katana';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.katana.threestar;
     }
     if (weaponType === 3) {
       titleForEmbed = '3★ Cannon';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cannon.threestar;
     }
     if (weaponType === 4) {
       titleForEmbed = '3★ Greatsword';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.greatsword.threestar;
     }
     if (weaponType === 5) {
       titleForEmbed = '3★ Cross';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cross.threestar;
     }
     if (weaponType === 6) {
       titleForEmbed = '3★ Gauntlet';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gauntlet.threestar;
     }
   }
@@ -78,32 +78,32 @@ function weaponMenu(page, rarity, weaponType, msg) {
   if (rarity === 3) {
     if (weaponType === 1) {
       titleForEmbed = '2★ Gun';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gun.twostar;
     }
     if (weaponType === 2) {
       titleForEmbed = '2★ Katana';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.katana.twostar;
     }
     if (weaponType === 3) {
       titleForEmbed = '2★ Cannon';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cannon.twostar;
     }
     if (weaponType === 4) {
       titleForEmbed = '2★ Greatsword';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.greatsword.twostar;
     }
     if (weaponType === 5) {
       titleForEmbed = '2★ Cross';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cross.twostar;
     }
     if (weaponType === 6) {
       titleForEmbed = '2★ Gauntlet';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gauntlet.twostar;
     }
   }
@@ -111,32 +111,32 @@ function weaponMenu(page, rarity, weaponType, msg) {
   if (rarity === 4) {
     if (weaponType === 1) {
       titleForEmbed = '1★ Gun';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gun.onestar;
     }
     if (weaponType === 2) {
       titleForEmbed = '1★ Katana';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.katana.onestar;
     }
     if (weaponType === 3) {
       titleForEmbed = '1★ Cannon';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cannon.onestar;
     }
     if (weaponType === 4) {
       titleForEmbed = '1★ Greatsword';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.greatsword.onestar;
     }
     if (weaponType === 5) {
       titleForEmbed = '1★ Cross';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.cross.onestar;
     }
     if (weaponType === 6) {
       titleForEmbed = '1★ Gauntlet';
-      authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+      authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
       selectedWeapon = equipmentDatabase.equipment.weapon.gauntlet.onestar;
     }
   }
@@ -173,12 +173,12 @@ function weaponMenu(page, rarity, weaponType, msg) {
   let embed = {
     author: {
       name: titleForEmbed,
-      icon_url: `attachment://${authorImageAttachmentForEmbed.replace('images/equipment/weapon/', '')}`,
+      icon_url: `attachment://${authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', '')}`,
     },
     color: 6332693,
     title: 'Select a weapon',
     thumbnail: {
-      url: `attachment://${authorImageAttachmentForEmbed.replace('images/equipment/weapon/', '')}`,
+      url: `attachment://${authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', '')}`,
     },
     footer: {
       icon_url: 'attachment://attentionicon.PNG',
@@ -193,7 +193,7 @@ function weaponMenu(page, rarity, weaponType, msg) {
     embed,
     files: [{
       attachment: authorImageAttachmentForEmbed,
-      name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
+      name: authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', ''),
     }, {
       attachment: 'src/images/attentionicon.PNG',
       name: 'attentionicon.PNG',
@@ -283,7 +283,7 @@ function weaponMenu(page, rarity, weaponType, msg) {
             embed = {
               author: {
                 name: titleForEmbed,
-                icon_url: `attachment://${authorImageAttachmentForEmbed.replace('images/equipment/weapon/', '')}`,
+                icon_url: `attachment://${authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', '')}`,
               },
               color: 6332693,
               title: weaponArrayWhole[i][0],
@@ -308,7 +308,7 @@ function weaponMenu(page, rarity, weaponType, msg) {
               embed,
               files: [{
                 attachment: authorImageAttachmentForEmbed,
-                name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
+                name: authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', ''),
               }, {
                 attachment: 'src/images/attentionicon.PNG',
                 name: 'attentionicon.PNG',
@@ -570,121 +570,121 @@ function weaponSearch(msg) {
       if (weaponDB[indexes[0]].type === 'gun') {
         if (weaponDB[indexes[0]].rarity === 4) {
           titleForEmbed = '4★ Gun';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 3) {
           titleForEmbed = '3★ Gun';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 2) {
           titleForEmbed = '2★ Gun';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 1) {
           titleForEmbed = '1★ Gun';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
         }
       }
 
       if (weaponDB[indexes[0]].type === 'katana') {
         if (weaponDB[indexes[0]].rarity === 4) {
           titleForEmbed = '4★ Katana';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 3) {
           titleForEmbed = '3★ Katana';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 2) {
           titleForEmbed = '2★ Katana';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 1) {
           titleForEmbed = '1★ Katana';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
         }
       }
 
       if (weaponDB[indexes[0]].type === 'cannon') {
         if (weaponDB[indexes[0]].rarity === 4) {
           titleForEmbed = '4★ Cannon';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 3) {
           titleForEmbed = '3★ Cannon';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 2) {
           titleForEmbed = '2★ Cannon';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 1) {
           titleForEmbed = '1★ Cannon';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
         }
       }
 
       if (weaponDB[indexes[0]].type === 'greatsword') {
         if (weaponDB[indexes[0]].rarity === 4) {
           titleForEmbed = '4★ Greatsword';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 3) {
           titleForEmbed = '3★ Greatsword';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 2) {
           titleForEmbed = '2★ Greatsword';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 1) {
           titleForEmbed = '1★ Greatsword';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
         }
       }
 
       if (weaponDB[indexes[0]].type === 'cross') {
         if (weaponDB[indexes[0]].rarity === 4) {
           titleForEmbed = '4★ Cross';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 3) {
           titleForEmbed = '3★ Cross';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 2) {
           titleForEmbed = '2★ Cross';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 1) {
           titleForEmbed = '1★ Cross';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
         }
       }
 
       if (weaponDB[indexes[0]].type === 'gauntlet') {
         if (weaponDB[indexes[0]].rarity === 4) {
           titleForEmbed = '4★ Gauntlet';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 3) {
           titleForEmbed = '3★ Gauntlet';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 2) {
           titleForEmbed = '2★ Gauntlet';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
         }
         if (weaponDB[indexes[0]].rarity === 1) {
           titleForEmbed = '1★ Gauntlet';
-          authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+          authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
         }
       }
 
       const embed = {
         author: {
           name: titleForEmbed,
-          icon_url: `attachment://${authorImageAttachmentForEmbed.replace('images/equipment/weapon/', '')}`,
+          icon_url: `attachment://${authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', '')}`,
         },
         color: 6332693,
         title: weaponDB[indexes[0]].name,
@@ -709,7 +709,7 @@ function weaponSearch(msg) {
         embed,
         files: [{
           attachment: authorImageAttachmentForEmbed,
-          name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
+          name: authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', ''),
         }, {
           attachment: 'src/images/attentionicon.PNG',
           name: 'attentionicon.PNG',
@@ -725,114 +725,114 @@ function weaponSearch(msg) {
         if (weaponDB[indexes[i]].type === 'gun') {
           if (weaponDB[indexes[i]].rarity === 4) {
             titleForEmbed = '4★ Gun';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 3) {
             titleForEmbed = '3★ Gun';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 2) {
             titleForEmbed = '2★ Gun';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 1) {
             titleForEmbed = '1★ Gun';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
           }
         }
 
         if (weaponDB[indexes[i]].type === 'katana') {
           if (weaponDB[indexes[i]].rarity === 4) {
             titleForEmbed = '4★ Katana';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 3) {
             titleForEmbed = '3★ Katana';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 2) {
             titleForEmbed = '2★ Katana';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 1) {
             titleForEmbed = '1★ Katana';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
           }
         }
 
         if (weaponDB[indexes[i]].type === 'cannon') {
           if (weaponDB[indexes[i]].rarity === 4) {
             titleForEmbed = '4★ Cannon';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 3) {
             titleForEmbed = '3★ Cannon';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 2) {
             titleForEmbed = '2★ Cannon';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 1) {
             titleForEmbed = '1★ Cannon';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
           }
         }
 
         if (weaponDB[indexes[i]].type === 'greatsword') {
           if (weaponDB[indexes[i]].rarity === 4) {
             titleForEmbed = '4★ Greatsword';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 3) {
             titleForEmbed = '3★ Greatsword';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 2) {
             titleForEmbed = '2★ Greatsword';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 1) {
             titleForEmbed = '1★ Greatsword';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
           }
         }
 
         if (weaponDB[indexes[i]].type === 'cross') {
           if (weaponDB[indexes[i]].rarity === 4) {
             titleForEmbed = '4★ Cross';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 3) {
             titleForEmbed = '3★ Cross';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 2) {
             titleForEmbed = '2★ Cross';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 1) {
             titleForEmbed = '1★ Cross';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
           }
         }
 
         if (weaponDB[indexes[i]].type === 'gauntlet') {
           if (weaponDB[indexes[i]].rarity === 4) {
             titleForEmbed = '4★ Gauntlet';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 3) {
             titleForEmbed = '3★ Gauntlet';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 2) {
             titleForEmbed = '2★ Gauntlet';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
           }
           if (weaponDB[indexes[i]].rarity === 1) {
             titleForEmbed = '1★ Gauntlet';
-            authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+            authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
           }
         }
         embedWeaponNames += `${i + 1}. ${weaponDB[indexes[i]].name} (${titleForEmbed})\n`;
@@ -888,114 +888,114 @@ function weaponSearch(msg) {
             if (weaponDB[indexes[i]].type === 'gun') {
               if (weaponDB[indexes[i]].rarity === 4) {
                 titleForEmbed = '4★ Gun';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 3) {
                 titleForEmbed = '3★ Gun';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 2) {
                 titleForEmbed = '2★ Gun';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 1) {
                 titleForEmbed = '1★ Gun';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gunicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gunicon.PNG';
               }
             }
 
             if (weaponDB[indexes[i]].type === 'katana') {
               if (weaponDB[indexes[i]].rarity === 4) {
                 titleForEmbed = '4★ Katana';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 3) {
                 titleForEmbed = '3★ Katana';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 2) {
                 titleForEmbed = '2★ Katana';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 1) {
                 titleForEmbed = '1★ Katana';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/katanaicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/katanaicon.PNG';
               }
             }
 
             if (weaponDB[indexes[i]].type === 'cannon') {
               if (weaponDB[indexes[i]].rarity === 4) {
                 titleForEmbed = '4★ Cannon';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 3) {
                 titleForEmbed = '3★ Cannon';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 2) {
                 titleForEmbed = '2★ Cannon';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 1) {
                 titleForEmbed = '1★ Cannon';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/cannonicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/cannonicon.PNG';
               }
             }
 
             if (weaponDB[indexes[i]].type === 'greatsword') {
               if (weaponDB[indexes[i]].rarity === 4) {
                 titleForEmbed = '4★ Greatsword';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 3) {
                 titleForEmbed = '3★ Greatsword';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 2) {
                 titleForEmbed = '2★ Greatsword';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 1) {
                 titleForEmbed = '1★ Greatsword';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/greatswordicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/greatswordicon.PNG';
               }
             }
 
             if (weaponDB[indexes[i]].type === 'cross') {
               if (weaponDB[indexes[i]].rarity === 4) {
                 titleForEmbed = '4★ Cross';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 3) {
                 titleForEmbed = '3★ Cross';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 2) {
                 titleForEmbed = '2★ Cross';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 1) {
                 titleForEmbed = '1★ Cross';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/crossicon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/crossicon.PNG';
               }
             }
 
             if (weaponDB[indexes[i]].type === 'gauntlet') {
               if (weaponDB[indexes[i]].rarity === 4) {
                 titleForEmbed = '4★ Gauntlet';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 3) {
                 titleForEmbed = '3★ Gauntlet';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 2) {
                 titleForEmbed = '2★ Gauntlet';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
               }
               if (weaponDB[indexes[i]].rarity === 1) {
                 titleForEmbed = '1★ Gauntlet';
-                authorImageAttachmentForEmbed = 'images/equipment/weapon/gauntleticon.PNG';
+                authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
               }
             }
             const emoji = reactionNumberArray[i];
@@ -1034,7 +1034,7 @@ function weaponSearch(msg) {
                 embed = {
                   author: {
                     name: titleForEmbed,
-                    icon_url: `attachment://${authorImageAttachmentForEmbed.replace('images/equipment/weapon/', '')}`,
+                    icon_url: `attachment://${authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', '')}`,
                   },
                   color: 6332693,
                   title: weaponDB[indexes[i]].name,
@@ -1059,7 +1059,7 @@ function weaponSearch(msg) {
                   embed,
                   files: [{
                     attachment: authorImageAttachmentForEmbed,
-                    name: authorImageAttachmentForEmbed.replace('images/equipment/weapon/', ''),
+                    name: authorImageAttachmentForEmbed.replace('src/images/equipment/weapon/', ''),
                   }, {
                     attachment: 'src/images/attentionicon.PNG',
                     name: 'attentionicon.PNG',

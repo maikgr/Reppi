@@ -138,7 +138,7 @@ function stigmataMenuSelected(star, page, msg) {
                   }],
                 },
                 files: [{
-                  attachment: 'src/images/equipment/stigmata/top.PNG',
+                  attachment: 'src/src/images/equipment/stigmata/top.PNG',
                   name: 'top.PNG',
                 }],
               });
@@ -162,7 +162,7 @@ function stigmataMenuSelected(star, page, msg) {
                   }],
                 },
                 files: [{
-                  attachment: 'src/images/equipment/stigmata/middle.PNG',
+                  attachment: 'src/src/images/equipment/stigmata/middle.PNG',
                   name: 'middle.PNG',
                 }],
               });
@@ -186,7 +186,7 @@ function stigmataMenuSelected(star, page, msg) {
                   }],
                 },
                 files: [{
-                  attachment: 'src/images/equipment/stigmata/bottom.PNG',
+                  attachment: 'src/src/images/equipment/stigmata/bottom.PNG',
                   name: 'bottom.PNG',
                 }],
               });
@@ -428,7 +428,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: `images/equipment/stigmata/${authorIcon}`,
+                attachment: `src/images/equipment/stigmata/${authorIcon}`,
                 name: authorIcon,
               }],
             });
@@ -449,7 +449,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: 'src/images/equipment/stigmata/top.PNG',
+                attachment: 'src/src/images/equipment/stigmata/top.PNG',
                 name: 'top.PNG',
               }],
             });
@@ -469,7 +469,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: 'src/images/equipment/stigmata/middle.PNG',
+                attachment: 'src/src/images/equipment/stigmata/middle.PNG',
                 name: 'middle.PNG',
               }],
             });
@@ -489,7 +489,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: 'src/images/equipment/stigmata/bottom.PNG',
+                attachment: 'src/src/images/equipment/stigmata/bottom.PNG',
                 name: 'bottom.PNG',
               }],
             });
@@ -547,7 +547,7 @@ async function stigmataSearchMenu(indexes, msg) {
                 }],
               },
               files: [{
-                attachment: `images/equipment/stigmata/${authorIcon}`,
+                attachment: `src/images/equipment/stigmata/${authorIcon}`,
                 name: authorIcon,
               }],
             });
@@ -626,7 +626,7 @@ async function stigmataSearch(msg) {
                 }],
               },
               files: [{
-                attachment: `images/equipment/stigmata/${authorIcon}`,
+                attachment: `src/images/equipment/stigmata/${authorIcon}`,
                 name: authorIcon,
               }],
             });
@@ -697,7 +697,7 @@ async function stigmataSearch(msg) {
             }],
           },
           files: [{
-            attachment: `images/equipment/stigmata/${authorIcon}`,
+            attachment: `src/images/equipment/stigmata/${authorIcon}`,
             name: authorIcon,
           }],
         });

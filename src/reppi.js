@@ -154,6 +154,43 @@ function connectClient() {
       });
     }
 
+    if (msg.content === '!gacha rank') {
+
+
+      async function rank() {
+        let message = '';
+        await sql.all(`SELECT * FROM gachaTotal ORDER BY crystals DESC limit 5`).then(row => {
+          message = row
+        });
+
+        let embedValue = '';
+
+        for (i = 0; i < message.length; i++) {
+          if (msg.guild.members.get(message[i]['userId']).nickname == null) {
+            embedValue += `${i+1}. ${client.users.get(message[i]['userId']).username} (${message[i]['crystals']})\n`
+          } else {
+            embedValue += `${i+1}. ${msg.guild.members.get(message[i]['userId']).nickname} (${message[i]['crystals']})\n`
+          }
+          
+        }
+
+
+        const embed = {
+          color: 6332693,
+          title: 'Standard Gacha Ranking - Top 5',
+          description: 'Crystals spent before getting an S Rank',
+          fields: [{
+            name: '----------------',
+            value: embedValue,
+          }],
+        };
+
+        msg.channel.send({embed});
+      }
+
+      rank();
+    }
+
   });
 }
 

@@ -1,5 +1,8 @@
 const images = require('images');
 const standardGachaDatabase = require('../database/gachadb').standard;
+const standardGachaValkyrieDb = require('../database/standardGachadb').valkyrie;
+const standardGachaItemsDb = require('../database/standardGachadb').item;
+
 
 let guaranteed = 0;
 
@@ -10,23 +13,44 @@ function getRandomInt(min, max) {
 }
 
 function drawItem() {
-  itemNumber = getRandomInt(1, 10);
-  return `items/${itemNumber}.PNG`;
+  itemNumber = getRandomInt(1, standardGachaItemsDb.length);
+  return standardGachaItemsDb[itemNumber];
 }
 
 function drawValkyrieSRank() {
-  const rand = getRandomInt(0, standardGachaDatabase.valk.s.length);
-  return `valkyrie/${standardGachaDatabase.valk.s[rand]}`;
+  let valkyrieArray = [];
+
+  for (i = 0; i < standardGachaValkyrieDb.length; i++){
+    if (standardGachaValkyrieDb[i]['rarity'] === 4){
+      valkyrieArray.push(standardGachaValkyrieDb[i]);
+    }
+  }
+  const rand = getRandomInt(0, valkyrieArray.length);
+  return valkyrieArray[rand];
 }
 
 function drawValkyrieARank() {
-  const rand = getRandomInt(0, standardGachaDatabase.valk.a.length);
-  return `valkyrie/${standardGachaDatabase.valk.a[rand]}`;
+  let valkyrieArray = [];
+
+  for (i = 0; i < standardGachaValkyrieDb.length; i++){
+    if (standardGachaValkyrieDb[i]['rarity'] === 3){
+      valkyrieArray.push(standardGachaValkyrieDb[i]);
+    }
+  }
+  const rand = getRandomInt(0, valkyrieArray.length);
+  return valkyrieArray[rand];
 }
 
 function drawValkyrieBRank() {
-  const rand = getRandomInt(0, standardGachaDatabase.valk.b.length);
-  return `valkyrie/${standardGachaDatabase.valk.b[rand]}`;
+  let valkyrieArray = [];
+
+  for (i = 0; i < standardGachaValkyrieDb.length; i++){
+    if (standardGachaValkyrieDb[i]['rarity'] === 2){
+      valkyrieArray.push(standardGachaValkyrieDb[i]);
+    }
+  }
+  const rand = getRandomInt(0, valkyrieArray.length);
+  return valkyrieArray[rand];
 }
 
 function drawValkyrie() {
@@ -60,21 +84,32 @@ function gachaDraw() {
   }
 }
 
+function rarityComparison(a, b) {
+    if (a['rarity'] > b['rarity']) {
+        return -1;
+    } else if (a['rarity'] < b['rarity']) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
 function generateImage(resultArray) {
-  resultArray.sort().reverse();
+  resultArray.sort(rarityComparison);
   return new Promise(((resolve) => {
     images('src/images/input.jpg')
       .size(1280, 950)
-      .draw(images(`src/images/${resultArray[0]}`).size(180, 180), 177, 452)
-      .draw(images(`src/images/${resultArray[1]}`).size(180, 180), 365, 452)
-      .draw(images(`src/images/${resultArray[2]}`).size(180, 180), 548, 452)
-      .draw(images(`src/images/${resultArray[3]}`).size(180, 180), 738, 452)
-      .draw(images(`src/images/${resultArray[4]}`).size(180, 180), 921, 452)
-      .draw(images(`src/images/${resultArray[5]}`).size(180, 180), 177, 635)
-      .draw(images(`src/images/${resultArray[6]}`).size(180, 180), 365, 635)
-      .draw(images(`src/images/${resultArray[7]}`).size(180, 180), 548, 635)
-      .draw(images(`src/images/${resultArray[8]}`).size(180, 180), 738, 635)
-      .draw(images(`src/images/${resultArray[9]}`).size(180, 180), 921, 635)
+      .draw(images(`${resultArray[0]['imagefull']}`), 0, 0)
+      .draw(images(`${resultArray[5]['image']}`).size(180, 180), 356, 626)
+      .draw(images(`${resultArray[6]['image']}`).size(180, 180), 516, 626)
+      .draw(images(`${resultArray[7]['image']}`).size(180, 180), 676, 626)
+      .draw(images(`${resultArray[8]['image']}`).size(180, 180), 836, 626)
+      .draw(images(`${resultArray[9]['image']}`).size(180, 180), 996, 626)
+      .draw(images(`${resultArray[0]['image']}`).size(180, 180), 356, 465)
+      .draw(images(`${resultArray[1]['image']}`).size(180, 180), 516, 465)
+      .draw(images(`${resultArray[2]['image']}`).size(180, 180), 676, 465)
+      .draw(images(`${resultArray[3]['image']}`).size(180, 180), 836, 465)
+      .draw(images(`${resultArray[4]['image']}`).size(180, 180), 996, 465)
       .save('src/images/output.jpg', {
         quality: 50,
       });

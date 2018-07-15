@@ -1,5 +1,7 @@
-
 const Discord = require('discord.js');
+
+const sql = require("sqlite");
+sql.open("src/database/gachaTotal.sqlite");
 
 const client = new Discord.Client();
 const standardGacha = require('./commands/standardGacha.js');
@@ -22,10 +24,43 @@ function connectClient() {
   client.on('message', (msg) => {
 
     async function start() {
-      await standardGacha.gachaStart();
-      msg.reply('', {
+
+      let crystalSpent = 0;
+
+      await sql.get(`SELECT * FROM gachaTotal WHERE userId ="${msg.author.id}"`).then(row => {
+        if (!row) {
+          sql.run("INSERT INTO gachaTotal (userId, crystals) VALUES (?, ?)", [msg.author.id, 2800]);
+        } else {
+          sql.run(`UPDATE gachaTotal SET crystals = ${row.crystals + 2800} WHERE userId = ${msg.author.id}`);
+          crystalSpent = row.crystals + 2800;
+        }
+      }).catch(() => {
+        console.error;
+        sql.run("CREATE TABLE IF NOT EXISTS gachaTotal (userId TEXT, crystals INTEGER)").then(() => {
+          sql.run("INSERT INTO gachaTotal (userId, crystals) VALUES (?, ?)", [msg.author.id, 2800]);
+        });
+      });
+
+      let rarity = await standardGacha.gachaStart();
+
+      if (rarity < 4) {
+        msg.reply('', {
           file: 'src/images/output.jpg',
         });
+
+      } else {
+
+        await sql.run(`UPDATE gachaTotal SET crystals = 0 WHERE userId = ${msg.author.id}`);
+
+        msg.reply(`you've spent ${crystalSpent} crystals to get an S rank valkyrie`, {
+          file: 'src/images/output.jpg',
+        });
+
+        
+
+      }
+
+
     }
 
     const channel = client.channels.get('378748690095013919');
@@ -35,7 +70,7 @@ function connectClient() {
         msg.reply(`Does this looks like ${channel} channel to you? 
           If yes, I suggest you to get your eyesight checked.`);
       } else {
-          start();
+        start();
       }
     }
 
@@ -95,8 +130,10 @@ function connectClient() {
           reaction.emoji.name === '3⃣' ||
           user.id === msg.author.id &&
           reaction.emoji.name === '❌';
-        const collector = newMessage.createReactionCollector(filter, { time: 30000 });
-        newMessage.delete(30000).catch(() => { });
+        const collector = newMessage.createReactionCollector(filter, {
+          time: 30000
+        });
+        newMessage.delete(30000).catch(() => {});
         collector.once('collect', async (reaction) => {
           const chosen = reaction.emoji.name;
           if (chosen === '1⃣') {
@@ -113,10 +150,10 @@ function connectClient() {
           }
           collector.stop();
         });
-        await newMessage.react('1⃣').catch(() => { });
-        await newMessage.react('2⃣').catch(() => { });
-        await newMessage.react('3⃣').catch(() => { });
-        await newMessage.react('❌').catch(() => { });
+        await newMessage.react('1⃣').catch(() => {});
+        await newMessage.react('2⃣').catch(() => {});
+        await newMessage.react('3⃣').catch(() => {});
+        await newMessage.react('❌').catch(() => {});
       });
     }
 

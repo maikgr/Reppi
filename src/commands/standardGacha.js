@@ -95,7 +95,6 @@ function rarityComparison(a, b) {
 }
 
 function generateImage(resultArray) {
-  resultArray.sort(rarityComparison);
   return new Promise(((resolve) => {
     images('src/images/input.jpg')
       .size(1280, 950)
@@ -131,11 +130,11 @@ async function gachaStart() {
      resultArray.push(gachaDraw());
   }
 
+  await resultArray.sort(rarityComparison);
+
   await generateImage(resultArray);
 
-  return new Promise(((resolve) => {
-    resolve('done');
-  }));
+  return resultArray[0]['rarity'];
 
 }
 

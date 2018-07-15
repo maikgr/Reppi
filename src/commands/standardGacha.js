@@ -55,7 +55,7 @@ function drawValkyrieBRank() {
 
 function drawValkyrie() {
   const rate = Math.floor(Math.random() * 100) / 100;
-  if (rate < 0.8) {
+  if (rate < 0.073) {
     return drawValkyrieSRank();
   } else if (rate < 0.73) {
     return drawValkyrieARank();

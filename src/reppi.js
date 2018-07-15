@@ -25,14 +25,11 @@ function connectClient() {
 
     async function start() {
 
-      let crystalSpent = 0;
-
       await sql.get(`SELECT * FROM gachaTotal WHERE userId ="${msg.author.id}"`).then(row => {
         if (!row) {
           sql.run("INSERT INTO gachaTotal (userId, crystals) VALUES (?, ?)", [msg.author.id, 2800]);
         } else {
           sql.run(`UPDATE gachaTotal SET crystals = ${row.crystals + 2800} WHERE userId = ${msg.author.id}`);
-          crystalSpent = row.crystals + 2800;
         }
       }).catch(() => {
         console.error;
@@ -49,18 +46,18 @@ function connectClient() {
         });
 
       } else {
+        let crystalSpent = 0;
 
-        await sql.run(`UPDATE gachaTotal SET crystals = 0 WHERE userId = ${msg.author.id}`);
+        await sql.get(`SELECT * FROM gachaTotal WHERE userId ="${msg.author.id}"`).then(row => {
+          crystalSpent = row.crystals;
+        })
 
-        msg.reply(`you've spent ${crystalSpent} crystals to get an S rank valkyrie`, {
+        await msg.reply(`you've spent ${crystalSpent} crystals to get an S rank valkyrie`, {
           file: 'src/images/output.jpg',
         });
 
-        
-
+        await sql.run(`UPDATE gachaTotal SET crystals = 0 WHERE userId = ${msg.author.id}`);
       }
-
-
     }
 
     const channel = client.channels.get('378748690095013919');

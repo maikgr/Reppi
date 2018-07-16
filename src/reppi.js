@@ -25,8 +25,6 @@ function getRandomInt(min, max) {
 function connectClient() {
   client.on('message', (msg) => {
 
-
-
     async function start() {
 
       await sql.get(`SELECT * FROM gachaTotal WHERE userId ="${msg.author.id}"`).then(row => {
@@ -48,7 +46,6 @@ function connectClient() {
         msg.reply('', {
           file: 'src/images/output.jpg',
         });
-
       } else {
         let crystalSpent = 0;
 
@@ -166,9 +163,6 @@ function connectClient() {
         await newMessage.react('❌').catch(() => {});
       });
     }
-
-
-
   });
 }
 

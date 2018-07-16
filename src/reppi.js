@@ -9,6 +9,8 @@ const valkyrie = require('./commands/valkyrie.js');
 const weapon = require('./commands/weapon.js');
 const stigmata = require('./commands/stigmata.js');
 
+const talkedRecently = new Set();
+
 client.login(process.env.DISCORD_API_KEY);
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -22,6 +24,8 @@ function getRandomInt(min, max) {
 
 function connectClient() {
   client.on('message', (msg) => {
+
+
 
     async function start() {
 
@@ -67,7 +71,16 @@ function connectClient() {
         msg.reply(`Does this looks like ${channel} channel to you? 
           If yes, I suggest you to get your eyesight checked.`);
       } else {
-        start();
+
+        if (talkedRecently.has(msg.author.id)) {
+          msg.reply("slow down!")
+        } else {
+          talkedRecently.add(msg.author.id);
+          setTimeout(() => {
+            talkedRecently.delete(msg.author.id);
+          }, 7000);
+          start();
+        }
       }
     }
 

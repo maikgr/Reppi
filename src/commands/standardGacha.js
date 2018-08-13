@@ -1,7 +1,9 @@
 const images = require('images');
-const standardGachaDatabase = require('../database/gachadb').standard;
 const standardGachaValkyrieDb = require('../database/standardGachadb').valkyrie;
 const standardGachaItemsDb = require('../database/standardGachadb').item;
+
+const sql = require("sqlite");
+sql.open("src/database/gachaTotal.sqlite");
 
 let guaranteed = 0;
 
@@ -89,7 +91,7 @@ function generateImage(resultArray) {
 
 }
 
-async function gachaStart() {
+async function gachaStart(msg) {
   guaranteed = 0;
   resultArray = [];
   for (let i = 0; i < 9; i++) {
@@ -105,7 +107,38 @@ async function gachaStart() {
 
   await generateImage(resultArray);
 
-  return resultArray[0]['rarity'];
+  await sql.get(`SELECT * FROM gachaTotal WHERE userId ="${msg.author.id}"`).then(row => {
+    if (!row) {
+      sql.run("INSERT INTO gachaTotal (userId, crystals) VALUES (?, ?)", [msg.author.id, 2800]);
+    } else {
+      sql.run(`UPDATE gachaTotal SET crystals = ${row.crystals + 2800} WHERE userId = ${msg.author.id}`);
+    }
+  }).catch(() => {
+    console.error;
+    sql.run("CREATE TABLE IF NOT EXISTS gachaTotal (userId TEXT, crystals INTEGER)").then(() => {
+      sql.run("INSERT INTO gachaTotal (userId, crystals) VALUES (?, ?)", [msg.author.id, 2800]);
+    });
+  });
+
+  let rarity = resultArray[0]['rarity']
+
+  if (rarity < 4) {
+    msg.reply('', {
+      file: 'src/images/output.jpg',
+    });
+  } else {
+    let crystalSpent = 0;
+
+    await sql.get(`SELECT * FROM gachaTotal WHERE userId ="${msg.author.id}"`).then(row => {
+      crystalSpent = row.crystals;
+    })
+
+    await msg.reply(`you've spent ${crystalSpent} crystals to get an S rank valkyrie`, {
+      file: 'src/images/output.jpg',
+    });
+
+    await sql.run(`UPDATE gachaTotal SET crystals = 0 WHERE userId = ${msg.author.id}`);
+  }
 
 }
 

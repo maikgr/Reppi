@@ -205,6 +205,18 @@
             "rarity": 4
         },
         {
+            "name": "Phantom Colored Aria",
+            "skillonetitle": "Passive Skill",
+            "skillonedetail": "Attacking a target having spacetime decelerated status deals an additional 1000 physical damage and 1500 ice elemental damage to it and its the surrounding enemies (Cooldown:5s)",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase character elemental damage dealt by 15%. Additionally, after tag-in, increase character all damage dealt by 50%, last for 5 seconds. This can only be triggered every 30 seconds after character perform tag-in. Performing ultimate attack resets this skill cooldown and the skill will be immediately in effect",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/aria.png",
+            "attack": "275",
+            "critical": "27",
+            "type": "gun",
+            "rarity": 4
+        },
+        {
             "name": "Water Spirit Type-I",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "Increase physical damage against float status enemy by 40%",
@@ -841,172 +853,64 @@
             "rarity": 3
         },
         {
-            "name": "Lightning Soul",
-            "skillonetitle": "Passive Skill",
-            "skillonedetail": "Add 42 lightning damage into each attack",
+            "name": "Horikawa Kunihiro",
+            "skillonetitle": "-",
+            "skillonedetail": "-",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_19_4.png",
-            "attack": "163",
-            "critical": "38",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Hell Thunder",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a whirlwind, deal physical attack 300% based on attack power, reduce hit enemy defense power by 60%, last for 2.99 seconds (EP Consumption: 12 – Cooldown:12s)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_17_4.png",
-            "attack": "169",
-            "critical": "29",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Pulse Katana Type-17",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon 6 phantom blades, each deal 483 ice elemental damage, on hit reduce attack speed and movement speed by 70% last for 2.5 seconds (EP Consumption: 14 – Cooldown: 12s)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_18_4.png",
-            "attack": "188",
-            "critical": "3",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Pulse Katana Type-19",
-            "skillonetitle": "Passive Skill",
-            "skillonedetail": "Reduce Skill EP Activation Cost by 23% ",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_20_4.png",
-            "attack": "182",
-            "critical": "12",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Pulse Tachi Prototype",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32%, last for 5 seconds (EP Consumption: 8 – Cooldown: 15s)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M7_70_4.png",
-            "attack": "146",
-            "critical": "29",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Crystal Edge",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash using crystal energy, inflict AOE freeze status to enemy, last for 3.99 seconds (EP Consumption: 10 – Cooldown: 18 seconds)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M10_74_4.png",
-            "attack": "169",
-            "critical": "29",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Thermal Cutter",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash using heat energy, dealing physical damage 270% based on attack power while inflict burn status to enemy, deal 372 fire elemental damage per each 0.5 second, last for 4 seconds (EP Consumption: 14- Cooldown: 10s)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M10_75_4-238310.png",
-            "attack": "178",
-            "critical": "17",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Vermillion Edge",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash 7-strike slash to enemy and its surrounding, each strike deal physical damage 50% based on attack power, apply bind status to enemy at center (EP Consumption: 18 – Cooldown: 10s)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M14_98_5-189840.png",
-            "attack": "163",
-            "critical": "19",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Thunderstorms",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash using electricity, deal small AOE 744 lightning damage, inflict paralysis status, last for 2 seconds (EP Consumption: 10 – Cooldown: 15s)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M16_126_4-219780.png",
-            "attack": "180",
-            "critical": "13",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Xuanyuan: Katana",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash using ice energy, form a force field in front that when explode dealing 1017 ice elemental damage. Force field reduce enemy movement speed by 60%, last for 5 seconds (EP Consumption: 14 – Cooldown: 18s)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M19_140_5-208900.png",
-            "attack": "165",
-            "critical": "16",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Endotherm Tachi",
-            "skillonetitle": "Passive Skill",
-            "skillonedetail": "When current EP is below 20%, increase physical damage by 17%. When current EP is above 80%, add 71 fire elemental into each attack",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M18_136_4.png",
-            "attack": "175",
-            "critical": "15",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Phoenix Blade",
-            "skillonetitle": "Passive Skill",
-            "skillonedetail": "On hit add 36 fire elemental damage into each attack. When Kiana in squad, increase enemy burn status fire elemental damage by 18%",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M20_144_4.png",
-            "attack": "158",
-            "critical": "25",
-            "type": "katana",
-            "rarity": 3
-        },
-        {
-            "name": "Alloy Gluttony Scimitar",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a whirlwind that pull enemy towards wielder, dealing 317 physical damage each hit (EP Consumption: 10 – Cooldown: 15)",
-            "skilltwotitle": "-",
-            "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M9_112_4.png",
-            "attack": "166",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_14_3.png",
+            "attack": "121",
             "critical": "14",
             "type": "katana",
-            "rarity": 3
+            "rarity": 2
         },
         {
-            "name": "Alloy Wind Wielder",
-            "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a tornado, each hit deal 178 ice elemental damage (SP Consumption: 14 – Cooldown: 15 seconds)",
+            "name": "Demon Katana - Uson",
+            "skillonetitle": "-",
+            "skillonedetail": "-",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M11_113_4.png",
-            "attack": "157",
-            "critical": "26",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_15_3.png",
+            "attack": "94",
+            "critical": "59",
             "type": "katana",
-            "rarity": 3
+            "rarity": 2
+        },
+        {
+            "name": "Demon Katana - Muramasa",
+            "skillonetitle": "Ative Skill",
+            "skillonedetail": "[EP Consumption: 3] [Cooldown: 4s] Attack using spirit sword, deal physical damage 50% based on attack power, while also inflict bleed, deal 61 physical damage per each 0.5 second, last for 3 second. Skill have 3 charges",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M1_16_3.png",
+            "attack": "128",
+            "critical": "2",
+            "type": "katana",
+            "rarity": 2
+        },
+        {
+            "name": "Composite Katana – Vermilion Bird",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "[EP Consumption: 10] [Cooldown: 7s] Summon a wave of flame, deal physical damage 100% based on attack power + 284 fire elemental damage to enemy.",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M8_72_3-153340.png",
+            "attack": "114",
+            "critical": "25",
+            "type": "katana",
+            "rarity": 2
+        },
+        {
+            "name": "Composite Katana – Yanagiba",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "[EP Consumption: 9] [Cooldown: 7s] Perform a slash in a wide angle, deal physical damage 249% based on attack power",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M8_71_3.png",
+            "attack": "128",
+            "critical": "2",
+            "type": "katana",
+            "rarity": 2
         },
         {
             "name": "Seishuu Muramasa",
@@ -1209,6 +1113,18 @@
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/M134-Vulcan_thumb.png",
             "attack": "281",
             "critical": "35",
+            "type": "cannon",
+            "rarity": 4
+        },
+        {
+            "name": "Star of Eden",
+            "skillonetitle": "Rocket Launcher",
+            "skillonedetail": "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nThe last rocket of 3rd stage charge has 20% chance to stun enemy for 3.5 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "When 3 rockets hit an enemy, deal additional 600 physical damage. After 0.5 second, deal additional 200 to enemy surrounding it.\nDuring online Raid, increase critical damage by 40% and critical rate by 5%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/wp_star-of-eden_m.png",
+            "attack": "268",
+            "critical": "36",
             "type": "cannon",
             "rarity": 4
         },
@@ -2029,12 +1945,12 @@
             "rarity": 4
         },
         {
-            "name": "CAS-IV Rampage",
+            "name": "Star Ring Vortex",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP consumption: 14] [Cooldown: 20 seconds] Pull the target in front of Valkyrja, deal 450% physical damage based on attack power, slow its speed by 80%, last for 5 seconds",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When hitting an enemy with branch attack, deals 2500 physical damage to the surrounding enemies, cooldown 1.5 seconds",
-            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/cas-iv-rampage_thumb.png",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/Weapon_Fist_F8_32_5.png",
             "attack": "257",
             "critical": "23",
             "type": "gauntlet",
@@ -2065,6 +1981,42 @@
             "rarity": 4
         },
         {
+            "name": "Ember of Kite",
+            "skillonetitle": "Passive Skill",
+            "skillonedetail": "20% chance to deal extra 300% fire elemental damage against burn enemy or enemy inflicted with Lingering Fire. Can only be triggered every 1.5 second for each enemy",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Negate an attack from a burn enemy or enemy inflicted with Lingering Fire. Cooldown 40 seconds. Increase character elemental damage by 20%, also increase fire elemental damage by 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/Weapon_Fist_F5_29_5.png",
+            "attack": "283",
+            "critical": "24",
+            "type": "gauntlet",
+            "rarity": 4
+        },
+        {
+            "name": "Titan Fist",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "[EP Consumption: 18] [Cooldown: 35 seconds] Pull surrounding enemies towards user, paralyze them for 5 seconds. The next 5 seconds after triggering this skill, the next attack deals extra 1000% physical damage based on attack power to the target and all enemies surrounding it and knocks them back",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "When combo is above 50 hits, increase defense power by 40%\nIncrease all damage dealt against Biological type enemy by 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/wp_titan-fist_m.png",
+            "attack": "230",
+            "critical": "11",
+            "type": "gauntlet",
+            "rarity": 4
+        },
+        {
+            "name": "Twin Wolves of Eternal Twilight",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "[EP Consumption: 11] [Cooldown: 30 seconds] After activating, continuously release shockwave, deal 50% physical damage based on attack power to surrounding enemies every 0.5 second. Plus, decrease damage taken from side, back of user by 65%, last for 10 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Every time the attack hits an enemy, increase user physical damage dealt by 3%, last for 3 seconds, stack up to 10 times, each stack has its own countdown Increase critical rate against spacetime decelerated, slowed enemy by 10%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/wp_twin-wolves_m.png",
+            "attack": "283",
+            "critical": "24",
+            "type": "gauntlet",
+            "rarity": 4
+        },
+        {
             "name": "CAS-II Minako",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP Consumption: 10] [Cooldown: 10 seconds] Release a shockwave, deal 450% physical damage based on attack power to enemy in front",
@@ -2073,6 +2025,30 @@
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/5c5da13e8794a4c2b9afd6fa05f41bd5af6e39ad.png",
             "attack": "166",
             "critical": "13",
+            "type": "gauntlet",
+            "rarity": 3
+        },
+        {
+            "name": "White Star Destroyer",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "[EP Consumption: 12] [Cooldown: 14 seconds] Raise a wave air around self, dealing 450% physical damage to surrounding enemy and inflicts float status on them",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/Weapon_Fist_F8_34_4.png",
+            "attack": "173",
+            "critical": "20",
+            "type": "gauntlet",
+            "rarity": 3
+        },
+        {
+            "name": "CAS-X Saint",
+            "skillonetitle": "Passive Skill",
+            "skillonedetail": "On hit has 17% chance to deal 700 fire elemental damage",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/Weapon_Fist_F7_32_5.png",
+            "attack": "172",
+            "critical": "21",
             "type": "gauntlet",
             "rarity": 3
         },
@@ -2818,7 +2794,7 @@
             "type": "set",
             "rarity": 3
         },
-        {
+                {
             "name": "Galileo",
             "skill": "After performed perfect evasion skill, increase all-damage by 5 / 15 %, last for 3 / 5 seconds. If effect is re-activated during activation, refresh its duration",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/galileo-top_thumb.png",
@@ -2847,9 +2823,72 @@
             "rarity": 3
         },
         {
+            "name": "Akutagawa Ryuunosuke",
+            "skill": "Increase melee physical damage by 10% / 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S3AN_1-1.png",
+            "type": "top",
+            "rarity": 3
+        },
+        {
+            "name": "Akutagawa Ryuunosuke",
+            "skill": "Increase CRI stats by 3 / 5 for every hit in combo chain, stack up to 15 / 25",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S3AN_2-1.png",
+            "type": "mid",
+            "rarity": 3
+        },
+        {
+            "name": "Akutagawa Ryuunosuke",
+            "skill": "Increase attack speed by 1% / 2% for every hit in combo chain, stack up to 5% / 10%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S3AN_3-1.png",
+            "type": "bottom",
+            "rarity": 3
+        },
+        {
+            "name": "Akutagawa Ryuunosuke",
+            "set1": "When tag in, grant a shield that can absorb 15% all damage based on user max HP (up to 1800 damage). The shield regenerates after 15 seconds if it is broken\nWhile the shield is active, increase user critical damage by 40%",
+            "set2": "Increase melee all damage by 20%",
+            "type": "set",
+            "rarity": 3
+        },
+        {
+            "name": "Beach",
+            "skill": "Increase ranged physical damage by 10% / 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_sandy-beach-top.png",
+            "type": "top",
+            "rarity": 3
+        },
+        {
+            "name": "Beach",
+            "skill": "Increase critical damage of ranged attack by 20% / 40%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_sandy-beach-center.png",
+            "type": "mid",
+            "rarity": 3
+        },
+        {
+            "name": "Beach",
+            "skill": "Decrease ranged damage taken by 5% / 15%\nIncrease max HP by 10% / 20% during battle",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_sandy-beach-bottom.png",
+            "type": "bottom",
+            "rarity": 3
+        },
+        {
+            "name": "Beach",
+            "set1": "When hitting an enemy with ranged attack, deal extra 200% physical damage based on user attack power to all enemies surrounding it within 3.5m, cooldown 5 seconds",
+            "set2": "Increase attack speed by 20%",
+            "type": "set",
+            "rarity": 3
+        },
+        {
             "name": "Winter Princess",
             "skill": "Increase melee physical damage by 13 / 20 %\nWhen equipped on Kiana, 13 / 20 % chance on-hit to inflict freeze status to an enemy, last for 3.0 seconds, with 16.0 seconds proc cooldown",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Kiana-1_thumb.png",
+            "type": "top",
+            "rarity": 3
+        },
+        {
+            "name": "Sakura – Cheongsam",
+            "skill": "Increase physical damage dealt by 10%. When equipped on Mei or Sakura, further increase physical damage dealt by 5%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_sakura-cheongsam.png",
             "type": "top",
             "rarity": 3
         },
@@ -2896,6 +2935,20 @@
             "rarity": 3
         },
         {
+            "name": "Himeko – Teacher",
+            "skill": "Increase physical damage of branch and charge attack by 5% / 10%\nWhen equipped on Kiana, increase CRI stats by 9 / 15",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/himeko-teacher_thumb.png",
+            "type": "mid",
+            "rarity": 3
+        },
+        {
+            "name": "Kallen – Everlasting Summer",
+            "skill": "Increase defense power by 20% / 40%\nWhen equipped on Theresa, increase all damage dealt from user summoned unit by 5% / 15%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/kallen-blistering-summer_thumb.png",
+            "type": "mid",
+            "rarity": 3
+        },
+        {
             "name": "Kiana – Happy New Year",
             "skill": "Increase attack speed by 8  / 15 %. When used on Kiana or Kallen Valkyrja, after tag-in has 5 charges, each charge gives 5 / 10 % critical chance. You loose a charge per each 2.0 seconds. This skill has a 25 / 15 seconds cooldown",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/kiana-happy-new-year.jpg",
@@ -2907,6 +2960,27 @@
             "skill": "Upon tag-in, increase basic attack (branch attack and charged attack included) all-damage by 10 / 15 %\nUpon tag-out, grant squad members with 10 / 25 % ice elemental resistance (not stackable).",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-9_thumb.png",
             "type": "bottom",
+            "rarity": 3
+        },
+        {
+            "name": "Fuka – Inspection Tour",
+            "skill": "When equipped on Fuka, increase attack speed by 5% / 15% and movement speed by 10% / 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/fuka-inspection-tour_thumb.png",
+            "type": "bottom",
+            "rarity": 3
+        },
+        {
+            "name": "Valkyrie – Judah",
+            "skill": "When basic attack hit the enemy, drop a Theresa doll in front of the enemy that explodes after 2 second delay, dealing 100% / 200% lightning elemental damage based on attack power in a 4 meter radius. Cooldown 10 / 5 seconds",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/valk-judah.png",
+            "type": "top",
+            "rarity": 3
+        },
+        {
+            "name": "Mei – Demon",
+            "skill": "When kill an enemy, increase movement speed by 3% / 4% and melee physical damage by 4% / 6%, last for 10 seconds, stack up to 5 times.\nWhen equipped on Mei, the effect can be stacked up to 8 times",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S3S_2.png",
+            "type": "mid",
             "rarity": 3
         },
         {
@@ -4170,6 +4244,118 @@
             "rarity": 4
         },
         {
+            "name": "Shinshuu Tour",
+            "skill": "A firecracker trap is setup in front when attacking. The trap explodes 1 time every second, deals 80% / 150% fire elemental damage based on attack power to surrounding enemies, last for 4 / 6 seconds, cooldown 12 seconds",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/05/fuka-new-year_thumb.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Shinshuu Tour",
+            "skill": "(This skill required (T) to trigger) Fortunate Rain starts when firecracker exploded. Recovery surrounding allies’s HP by 1% / 2%, add extra 50 / 100 fire elemental damage to those allies’s attack for 4 / 8 seconds. This skill cannot be stacked with other skill",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/05/himeko-new-year_thumb.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Shinshuu Tour",
+            "skill": "[This skill required (T) to trigger] When firecracker exploded, increase physical, fire elemental damage by 10% / 20% for all team members inside the explosion range, last for 3 / 6 seconds. This skill cannot be stacked with other skill",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/05/theresa-new-year_thumb.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Shinshuu Tour",
+            "set1": "When firecracker set fire, surrounding enemies receive 100 fire elemental damage every 0.5 second due to the explosion, last for 5 seconds. Increase fire elemental damage dealt against burn enemy by 15%. This skill cannot be stacked with other skill",
+            "set2": "Increase fire elemental damage dealt through firecracker by 20%, a big explosion occurs when firecracker disappears, deals 300% physical damage based on attack power to all surrounding enemies and stuns them for 4 seconds",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Monet",
+            "skill": "When attacking, increase lightning elemental damage by 15% / 30%\nFor every hit in combo chain, increase user all damage by 0.5% / 1%, stack up to 15 times",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/monet-top_thumb.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Monet",
+            "skill": "Decrease all damage taken by 10% / 20%\nFor every hit in combo chain, increase user lightning elemental damage by 1% / 2%, stack up to 15 times",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/monet-center_thumb.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Monet",
+            "skill": "For every 10 seconds, next branch/charge attack slows enemy movement speed by 30% / 60% for 6 seconds\nWhen combo is above 30 hits, increase attack speed by 9% / 15%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/monet-bottom_thumb.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Monet",
+            "set1": "Grant a barrier\nWhile barrier is active, increase user lightning elemental damage by 30%\nWhen being attacked, barrier absorbs direct physical damage taken for 0.3 seconds, then disappears. Barrier regenerates after 15 seconds",
+            "set2": "When deceleration effect of (B) Stigmata in this Stigmata set is activated, also slow movement speed of all enemies surrounding the target under deceleration effect within 3m by 30% for 6 seconds, and recover 8% HP for user at the same time",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Ye Caizhang",
+            "skill": "Increase defense power by 20% / 40% during battle\nIncrease all elemental damage dealt by 10% / 15% for all allies standing within Ran field (same skill cannot be stacked)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S4AZ_1.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Ye Caizhang",
+            "skill": "During tag-out, increase ice resistance by 6% / 15% and ice elemental damage by 6% / 15% for all members in squad (same skill cannot be stacked)\nDuring tag-in, increase user ice elemental damage by 20% / 35%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S4AZ_2.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Ye Caizhang",
+            "skill": "Increase attack speed by 6% / 15%\nDecrease all damage taken by 10% / 20% for all allies standing within Ran field (same skill cannot be stacked)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S4AZ_3.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Ye Caizhang",
+            "set1": "Create a Ran field for 6 seconds upon attacking, cooldown 9 seconds (same skill cannot be stacked)\nIncrease all elemental damage dealt by 30% for all allies standing within Ran field\nIncrease enemy all elemental damage taken by 10% when they stand within Ran field",
+            "set2": "Increase duration of Ran field by 3 seconds\nGrant a Frost Protection effect for all allies standing within Ran field. When being attacked, if the damage is less than (10 x Valkyrja’s level), it’s still calculated but Valkyrja action is not interrupted",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Gustav Klimt",
+            "skill": "Increase physical damage by 10% / 20%\nDecrease all damage taken from the enemy has Curse of Bloody Soul by 10% / 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_gustav-top-1.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Gustav Klimt",
+            "skill": "After using weapon skill, increase physical damage by 10% / 20% for all members in the squad, last for 8 seconds, cooldown 8 seconds (same skill cannot be stacked)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_gustav-center-1.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Gustav Klimt",
+            "skill": "When attacking the enemy has Curse of Bloody Soul, 40% / 100% chance to recover 50 / 80 HP for all members in the squad, cooldown 3 seconds",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_gustav-bottom-1.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Gustav Klimt",
+            "set1": "After using weapon skill, put Curse of Bloody Soul on the enemy standing around user within 6m. Increase physical damage taken of the enemy whose has Curse of Bloody Soul by 10%, cooldown 16 seconds",
+            "set2": "Decrease user indirect damage taken by 50%\nIncrease Curse of Bloody Soul duration by 2 seconds",
+            "type": "set",
+            "rarity": 4
+        },
+        {
             "name": "Theresa – Gluttony",
             "skill": "10% chance on-hit drops a candy, that will increase 9 / 18 % all-damage when looted, last for 5.0 seconds, 2.0 seconds drop cooldown, and will disappear after 8.0 seconds if not looted",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-7.png",
@@ -4230,6 +4416,41 @@
             "skill": "Increase movement speed by 4 / 10 %\nWhen equipped on Theresa, increase attack speed by  4 / 10 %, EP gain speed by 10%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Otto-6.png",
             "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Himeko – Evening Drink",
+            "skill": "When there is an enemy nearby, restore 30 HP for user every second",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/himeko-evening-drink_thumb_temp.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Caravaggio",
+            "skill": "Increases all-damage proportionate with increased attack speed, every 5% increase in attack speed will increase all-damage by 6%, up to 40% all-damage increase",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S4AY_1.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Caravaggio",
+            "skill": "Increase defense power proportionate with increased attack speed, every 5% increase in attack speed increase will increase defense power by 10%, up to 60% defense power increase",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S4AY_2.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Caravaggio",
+            "skill": "Increase critical rate proportionate with increased attack speed. every 5% increase in attack speed will increase critical rate by 4%, up to 35% critical rate increase",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S4AY_3.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Caravaggio",
+            "set1": "Increase attack speed by 15%\nWhen inflicted with a debuff, has a 50% chance to nullify it",
+            "set2": "Increase attack speed by 15%\nIncrease max HP by 30% during battle",
+            "type": "set",
             "rarity": 4
         }
     ],

@@ -1,4 +1,4 @@
-const valkyrieDB = require('../database/equipmentdb2.json').valkyrie;
+const valkyrieDB = require('../database/equipmentdb.json').valkyrie;
 
 function valkyrieSelectedClass(valkyrieNum, valkyrieChosenClass, msg) {
   if (valkyrieNum === 1) {

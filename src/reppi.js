@@ -29,8 +29,10 @@ client.on('message', (msg) => {
   if (msg.content.startsWith('!v')) {
     const message = msg.content.substr(msg.content.indexOf(' ') + 1);
     if (message.startsWith('!v')) {
+      valkyrie.setDiscordClient(Discord, client);
       valkyrie.valkyrieList(msg);
     } else {
+      valkyrie.setDiscordClient(Discord, client);
       valkyrie.valkyrieSearch(msg);
     }
   }

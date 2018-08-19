@@ -15,7 +15,7 @@
         {
             "name": "Hyper Railgun",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Deal 2,289 lightning elemental damage to targeted enemy surroundings, inflicting paralysis status to them, last for 4.00 seconds (EP Consumption: 16 – Cooldown: 18s)",
+            "skillonedetail": "Deal 2,289 lightning elemental damage to targeted enemy surroundings, inflicting paralysis status to them, last for 4.00 seconds (EP Consumption: 16 - Cooldown: 18s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "On hit 3% chance to inflict paralysis status to the target, causing immobilize and unable to attack, last for 2.50 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K6_11_5.png",
@@ -27,7 +27,7 @@
         {
             "name": "Shennong's Guardians",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Deal 7 slashes to surrounding enemies, each slash deals physical damage 77% based on attack power, inflict bind status, last for 3.7 seconds (EP Consumption: 21 – Cooldown: 14s)",
+            "skillonedetail": "Deal 7 slashes to surrounding enemies, each slash deals physical damage 77% based on attack power, inflict bind status, last for 3.7 seconds (EP Consumption: 21 - Cooldown: 14s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When performing space-time distortion, inflict bleed to enemy, deal 47% physical damage every 0.5 seconds, last for 5.7 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K15_118_5.png",
@@ -39,7 +39,7 @@
         {
             "name": "Spirit Gun - Yae",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Deal 7 slashes to surrounding enemies, each slash deals physical damage 77% based on attack power, inflict bind status, last for 3.7 seconds (EP Consumption: 21 – Cooldown: 14s)",
+            "skillonedetail": "Deal 7 slashes to surrounding enemies, each slash deals physical damage 77% based on attack power, inflict bind status, last for 3.7 seconds (EP Consumption: 21 - Cooldown: 14s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When performing space-time distortion, inflict bleed to enemy, deal 47% physical damage every 0.5 seconds, last for 5.7 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K22_151_5-204500.png",
@@ -51,7 +51,7 @@
         {
             "name": "Dominator's Pistol",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Forms a number of rising punches from the ground, each deal physical damage 50% based on attack power to the targeted enemy surroundings, inflict burn status to them, dealing 149 fire elemental damage per every 0.5 seconds, last for 2.10 seconds (EP Consumption: 25 – Cooldown: 10s)",
+            "skillonedetail": "Forms a number of rising punches from the ground, each deal physical damage 50% based on attack power to the targeted enemy surroundings, inflict burn status to them, dealing 149 fire elemental damage per every 0.5 seconds, last for 2.10 seconds (EP Consumption: 25 - Cooldown: 10s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Add additional 25 fire elemental damage on-hit",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K12_67_5.png",
@@ -63,7 +63,7 @@
         {
             "name": "Fafnir Flame",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Deals flame wave explosions around self, inflict knock back status, each wave deal physical damage 115% based on attack power and inflict burn status, dealing 159 fire elemental damage every 0.5 seconds, last for 3.00 seconds (EP Consumption: 25 – Cooldown: 20s)",
+            "skillonedetail": "Deals flame wave explosions around self, inflict knock back status, each wave deal physical damage 115% based on attack power and inflict burn status, dealing 159 fire elemental damage every 0.5 seconds, last for 3.00 seconds (EP Consumption: 25 - Cooldown: 20s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase physical damage by 18% during Burst Mode",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K5_09_5.png",
@@ -75,7 +75,7 @@
         {
             "name": "Blaze Destroyer",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Knock back enemies in a small frontal area and inflict float status, deal physical damage 100% based on attack power. Hit enemies then explode, deal 1881 fire elemental damage, inflict surrounding enemies with burn status, dealing 195 fire elemental damage per every 0.5 seconds, lasts for 4.5 seconds(EP Consumption: 20 – Cooldown: 9s)",
+            "skillonedetail": "Knock back enemies in a small frontal area and inflict float status, deal physical damage 100% based on attack power. Hit enemies then explode, deal 1881 fire elemental damage, inflict surrounding enemies with burn status, dealing 195 fire elemental damage per every 0.5 seconds, lasts for 4.5 seconds(EP Consumption: 20 - Cooldown: 9s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Add 40 fire elemental damage for each enemy inflicted with burn, stack up to 5 times",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K13_68_5-262080.png",
@@ -87,7 +87,7 @@
         {
             "name": "Jingwei's Wings",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Call Meteor shower from the sky, last for 12 seconds, when the meteor explodes, deals  physical damage 90% based on attack power, inflict burn status, dealing 96 fire elemental damage pẻ every 0.5 seconds, last for 1.5 seconds (EP Consumption: 30 – Cooldown: 25s)",
+            "skillonedetail": "Call Meteor shower from the sky, last for 12 seconds, when the meteor explodes, deals  physical damage 90% based on attack power, inflict burn status, dealing 96 fire elemental damage pẻ every 0.5 seconds, last for 1.5 seconds (EP Consumption: 30 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Attacking the same target for every 2.5 seconds gives additional 2.0% critical rate and 5.0% critical damage, stacks up to 20% critical rate and 50% critical damage",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K16_119_5-165660.png",
@@ -99,7 +99,7 @@
         {
             "name": "Thunder Kikaku",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Possess a will-o’-the-wisp on enemy, last for 7.99 seconds. Possessed enemies and the surrounding area will receive 637 electric elemental damage every 0.5 seconds (EP Consumption: 16 – Cooldown: 25s)",
+            "skillonedetail": "Possess a will-o’-the-wisp on enemy, last for 7.99 seconds. Possessed enemies and the surrounding area will receive 637 electric elemental damage every 0.5 seconds (EP Consumption: 16 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Gives 30% electric elemental damage. When in Burst mode,  on hit inflict enemy electric shock status​, increase incoming lightning elemental damage 59.8%, last for 7 seconds.",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K21_148_5.png",
@@ -111,7 +111,7 @@
         {
             "name": "Mjolnir",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Smashing Mjolnir to knockdown enemies, dealing physical damage 404%  based on attack power, and inflict vulnerable status to them, reduce defense power by 80%, last for 4.00 seconds (EP Consumption: 18 – Cooldown: 13s)",
+            "skillonedetail": "Smashing Mjolnir to knockdown enemies, dealing physical damage 404%  based on attack power, and inflict vulnerable status to them, reduce defense power by 80%, last for 4.00 seconds (EP Consumption: 18 - Cooldown: 13s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase critical chance by 15%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K5_12_5.png",
@@ -123,7 +123,7 @@
         {
             "name": "Light and Shadow",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Release an ice ball dragging enemies along its path, causing a large scale explosion in the end that inflict freeze status to the enemies within the explosion, dealing 846 ice elemental damage every 0.9 seconds, last for 3.99 seconds (EP Consumption: 20 – Cooldown: 20s)",
+            "skillonedetail": "Release an ice ball dragging enemies along its path, causing a large scale explosion in the end that inflict freeze status to the enemies within the explosion, dealing 846 ice elemental damage every 0.9 seconds, last for 3.99 seconds (EP Consumption: 20 - Cooldown: 20s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Releases cold air when elite’s shield got broken by basic attack (branch attack and charged attack included), reduce movement speed and attack speed to the target and small surrounding enemies by  84%, last for 3.99 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K14_69_5.png",
@@ -135,7 +135,7 @@
         {
             "name": "The Energy Leaper",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Kiana will jump back, leaving a bullet that will explode, deal physical damage 349% based on attack power,  and stun the enemies in the area for 4.49 seconds (EP Consumption: 14 – Cooldown: 16s)",
+            "skillonedetail": "Kiana will jump back, leaving a bullet that will explode, deal physical damage 349% based on attack power,  and stun the enemies in the area for 4.49 seconds (EP Consumption: 14 - Cooldown: 16s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "After performing space-time distortion, increases attack speed by 79.8%, critical rate by 24.9%,  last for 4 seconds. Only last in Space-time distortion",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K17_128_5-253540.png",
@@ -147,7 +147,7 @@
         {
             "name": "Hurricane Revolver",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a whirlwind around self, dealing rapid attack to surrounding enemy, each attack deals 174 ice elemental damage. The whirlwind exlode when expires, dealing 300% physical damage, and inflicting 60% slowing moving speed and attack speed to the enemy, last for 1.50 seconds, Kiana can move during whirlwind duration (EP Consumption: 24 – Cooldown: 30s)",
+            "skillonedetail": "Summon a whirlwind around self, dealing rapid attack to surrounding enemy, each attack deals 174 ice elemental damage. The whirlwind exlode when expires, dealing 300% physical damage, and inflicting 60% slowing moving speed and attack speed to the enemy, last for 1.50 seconds, Kiana can move during whirlwind duration (EP Consumption: 24 - Cooldown: 30s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "5% chance on-hit to increase moving speed by 100%, last for 4.50 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K10_64_4.png",
@@ -159,7 +159,7 @@
         {
             "name": "Usurper Hand Cannon",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Shoot out a low-frequency sound, dealing 379% physical damage based on attack power, inflict 6 seconds weaken status to enemies, reduce their attack power by 60% (EP Consumption: 15 – Cooldown: 15s)",
+            "skillonedetail": "Shoot out a low-frequency sound, dealing 379% physical damage based on attack power, inflict 6 seconds weaken status to enemies, reduce their attack power by 60% (EP Consumption: 15 - Cooldown: 15s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase ranged physical damage by 40%. Reduce damage dealt by 10% per every 1m further away from the enemy, up to 80%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K18_131_5.png",
@@ -171,7 +171,7 @@
         {
             "name": "Proto Spirit Bow",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire 2 wind bullet in a straight line, each deal physical damage 110% based on attack power. On hit against enemy with bleed status regain 10 EP to wielder (EP consumption: 18 – Cooldown:0s)",
+            "skillonedetail": "Fire 2 wind bullet in a straight line, each deal physical damage 110% based on attack power. On hit against enemy with bleed status regain 10 EP to wielder (EP consumption: 18 - Cooldown:0s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Attack speed +25%, Movement speed +25%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K24_155_5-240170.png",
@@ -183,7 +183,7 @@
         {
             "name": "Mutated - Bow of Hel",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire a beam that turns into a stream of bullet raining from above to an area in front, dealing 9*59.8% attack power and inflict freeze status for 5 seconds (EP consumption: 16 – Cooldown:18s)",
+            "skillonedetail": "Fire a beam that turns into a stream of bullet raining from above to an area in front, dealing 9*59.8% attack power and inflict freeze status for 5 seconds (EP consumption: 16 - Cooldown:18s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase critical rate increased by 5.0%, increase physical damage against stun and freeze status enemy by 40.0%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Pistol_K26_184_5.png",
@@ -195,9 +195,9 @@
         {
             "name": "Judgement of Shamash - Gun",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fires off holy fire dealing 100% attack power + 2*1978 fire elemental damage. Apply a debuff that lowers enemy’s attack and movement speed by 30% and increase receiving all-damage by 15%. Holy fire deals 265 fire elemental damage per second with a 10% chance of apply stun status for 2.5 seconds. \nDuring release, wielder get 80% all-damage reduction. Performing skill consumes 13% of maximum HP per each second, last for 5 seconds. If HP reaches 1, the character will not die as a result. When HP below 33%, skill will be unusable (EP Consumption: 20 – Cooldown: 35s)",
+            "skillonedetail": "Fires off holy fire dealing 100% attack power + 2*1978 fire elemental damage. Apply a debuff that lowers enemy’s attack and movement speed by 30% and increase receiving all-damage by 15%. Holy fire deals 265 fire elemental damage per second with a 10% chance of apply stun status for 2.5 seconds. \nDuring release, wielder get 80% all-damage reduction. Performing skill consumes 13% of maximum HP per each second, last for 5 seconds. If HP reaches 1, the character will not die as a result. When HP below 33%, skill will be unusable (EP Consumption: 20 - Cooldown: 35s)",
             "skilltwotitle": "Passive Skill",
-            "skilltwodetail": "10% chance to inflict burn status per each 1.0 second to surrounding enemy, dealing  298 damage per each 0.5 second, last for 3.5 second. Increase all damage against burn status enemies by 18% \nWeapon Buff – God’s Key: When weapon’s level increase, the weapon will give buff to users.\nThis skill is activated automatically and cannot be turn on or off. Has a time limit.\nLv 30: Increase all Pistol-users DEF by 40 \nLv 35: Increase all Pistol-users ATK by 10 \nLv 40: Increase all Pistol-users HP by 75 \nLv 45: Increase all Pistol-users CRI by 10 \nLv 50: Increase all Pistol-users ATK by 30",
+            "skilltwodetail": "10% chance to inflict burn status per each 1.0 second to surrounding enemy, dealing  298 damage per each 0.5 second, last for 3.5 second. Increase all damage against burn status enemies by 18% \nWeapon Buff - God’s Key: When weapon’s level increase, the weapon will give buff to users.\nThis skill is activated automatically and cannot be turn on or off. Has a time limit.\nLv 30: Increase all Pistol-users DEF by 40 \nLv 35: Increase all Pistol-users ATK by 10 \nLv 40: Increase all Pistol-users HP by 75 \nLv 45: Increase all Pistol-users CRI by 10 \nLv 50: Increase all Pistol-users ATK by 30",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Pistol_K23_153_5.png",
             "attack": "260",
             "critical": "45",
@@ -231,7 +231,7 @@
         {
             "name": "Water Spirit Type-II",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire a ball of ice, on hit inflict AOE freeze status to enemy, last for 3.79 seconds (EP Consumption: 9 – Cooldown: 13s)",
+            "skillonedetail": "Fire a ball of ice, on hit inflict AOE freeze status to enemy, last for 3.79 seconds (EP Consumption: 9 - Cooldown: 13s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K4_08_4.png",
@@ -255,7 +255,7 @@
         {
             "name": "Fire Spirit Type-II",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire a ball of fire, on hit deal physical damage 250% based on attack power, additionally inflict AOE burn status to enemy, deal 113 fire elemental damage per each 0.5 second, last for 3 second. Have 2 charges (EP Consumption: 18 – Cooldown: 12 seconds)",
+            "skillonedetail": "Fire a ball of fire, on hit deal physical damage 250% based on attack power, additionally inflict AOE burn status to enemy, deal 113 fire elemental damage per each 0.5 second, last for 3 second. Have 2 charges (EP Consumption: 18 - Cooldown: 12 seconds)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K4_07_4.png",
@@ -267,7 +267,7 @@
         {
             "name": "Pulse Pistol Prototype",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Enhance weapon, increase physical damage basic attack (branch attack and charge attack included) by 32%, last for 5 second (EP Consumption: 8 – Cooldown: 15s)",
+            "skillonedetail": "Enhance weapon, increase physical damage basic attack (branch attack and charge attack included) by 32%, last for 5 second (EP Consumption: 8 - Cooldown: 15s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K8_61_4.png",
@@ -279,7 +279,7 @@
         {
             "name": "Artemis' Guardian",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Inflict AOE float status to target while also apply space-time lock, last for 3.30 seconds (EP Consumption: 12 – Cooldown: 12s)",
+            "skillonedetail": "Inflict AOE float status to target while also apply space-time lock, last for 3.30 seconds (EP Consumption: 12 - Cooldown: 12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K11_65_4-182270.png",
@@ -291,7 +291,7 @@
         {
             "name": "Mosin Nagant",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Create a ring of fire around self, dealing 317 fire elemental damage per each 0.25 second, last for 6 seconds (EP Consumption: 12 – Cooldown: 18s)",
+            "skillonedetail": "Create a ring of fire around self, dealing 317 fire elemental damage per each 0.25 second, last for 6 seconds (EP Consumption: 12 - Cooldown: 18s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K11_66_4.png",
@@ -315,7 +315,7 @@
         {
             "name": "Xuanyuan: Gun",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire 6 electronic bullets to the front, each deal 232 lightning damage, on hit inflict vulnerable status to the enemy, reducing their defense by 60%, last for 4 seconds (EP Consumption: 25 – Cooldown: 20s)",
+            "skillonedetail": "Fire 6 electronic bullets to the front, each deal 232 lightning damage, on hit inflict vulnerable status to the enemy, reducing their defense by 60%, last for 4 seconds (EP Consumption: 25 - Cooldown: 20s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K19_139_5.png",
@@ -341,7 +341,7 @@
             "skillonetitle": "Passive Skill",
             "skillonedetail": "24.9% on hit to inflict burn status to target. deal 160 fire elemental damage per each 0.5 second, last for 2.5 seconds, cooldown 7 seconds.\nIf team has Mei Valkyrja, burn status applies to a small AOE on target",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Increase charge speed by 100%, last for 11.98 seconds (EP Consumption: 20 – Cooldown: 120 seconds)",
+            "skilltwodetail": "Increase charge speed by 100%, last for 11.98 seconds (EP Consumption: 20 - Cooldown: 120 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K20_143_4.png",
             "attack": "158",
             "critical": "25",
@@ -363,7 +363,7 @@
         {
             "name": "Alloy Hurricane Revolver",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a whirlwind around self, dealing rapid attack to surrounding enemy, each attack deals 174 ice elemental damage. The whirlwind exlode when expires, dealing 240% physical damage (EP Consumption: 15 – Cooldown: 20s)",
+            "skillonedetail": "Summon a whirlwind around self, dealing rapid attack to surrounding enemy, each attack deals 174 ice elemental damage. The whirlwind exlode when expires, dealing 240% physical damage (EP Consumption: 15 - Cooldown: 20s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K10_110_4.png",
@@ -375,7 +375,7 @@
         {
             "name": "Alloy Dominator's Pistol",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Form a number of rising punches from the ground, each deals physical damage 40% based on attack power + 95 fire elemental damage to the targeted enemy surrounding (EP Consumption: 19 – Cooldown: 10s)",
+            "skillonedetail": "Form a number of rising punches from the ground, each deals physical damage 40% based on attack power + 95 fire elemental damage to the targeted enemy surrounding (EP Consumption: 19 - Cooldown: 10s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K12_111_4.png",
@@ -411,7 +411,7 @@
         {
             "name": "Desert Eagle",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire one bullet at target deal physical damage 339% based on attack power. Has 2 charges (EP Consumption: 10 – Cooldown: 10 seconds)",
+            "skillonedetail": "Fire one bullet at target deal physical damage 339% based on attack power. Has 2 charges (EP Consumption: 10 - Cooldown: 10 seconds)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K2_04_3.png",
@@ -423,7 +423,7 @@
         {
             "name": "Colt Peacemaker",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire one bullet that inflict small AOE stun status, last for 2.99 seconds (EP Consumption: 7 – Cooldown: 12s)",
+            "skillonedetail": "Fire one bullet that inflict small AOE stun status, last for 2.99 seconds (EP Consumption: 7 - Cooldown: 12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K9_63_3.png",
@@ -435,7 +435,7 @@
         {
             "name": "Colt Anaconda EX",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire one bullet that inflict small AOE 60% attack speed and movement speed reduction, last for 4.48 seconds (EP Consumption: 5 – Cooldown: 10s)",
+            "skillonedetail": "Fire one bullet that inflict small AOE 60% attack speed and movement speed reduction, last for 4.48 seconds (EP Consumption: 5 - Cooldown: 10s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Pistol_K9_62_3-222460.png",
@@ -471,7 +471,7 @@
         {
             "name": "Raikiri",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Grant the protection of the spirit sword to all ally members (including alter ego) and increase defense strength 50%, deal 318 lightning damage every 0.25 seconds to the enemies touched, duration 5.99 seconds (EP Consumption: 18 – Cooldown: 25s)",
+            "skillonedetail": "Grant the protection of the spirit sword to all ally members (including alter ego) and increase defense strength 50%, deal 318 lightning damage every 0.25 seconds to the enemies touched, duration 5.99 seconds (EP Consumption: 18 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "40% chance to reduce damage taken by 597",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M4_21_5.png",
@@ -483,7 +483,7 @@
         {
             "name": "MagStorm",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash twice dealing 1911 lightning damage every time, bringing to paralysis for 2.5 seconds (EP Consumption: 20 – Cooldown: 15s)",
+            "skillonedetail": "Slash twice dealing 1911 lightning damage every time, bringing to paralysis for 2.5 seconds (EP Consumption: 20 - Cooldown: 15s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase lightning damage 40%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M6_24_5.png",
@@ -495,7 +495,7 @@
         {
             "name": "Plasma Kagehide",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Release a wave of cold air, freeze enemy upon touched for 0.9 seconds, dealing 876.0588 ice elemental damge, wave last for 4.99 seconds (EP Consumption: 20 – Cooldown: 25s)",
+            "skillonedetail": "Release a wave of cold air, freeze enemy upon touched for 0.9 seconds, dealing 876.0588 ice elemental damge, wave last for 4.99 seconds (EP Consumption: 20 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Add 23 ice elemental damage for each attack",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M4_23_5.png",
@@ -507,7 +507,7 @@
         {
             "name": "Vorpal Sword Type-11",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Creates a red black hole, deal physical damage equal to 80% attack power to the enemies within the range, inflict bleed deals 298 damage per every 0.5 seconds for 4.59 seconds. When the black hole explode deal physical damage equal to 20% damage of attack power (EP Consumption: 20 – Cooldown: 20s).",
+            "skillonedetail": "Creates a red black hole, deal physical damage equal to 80% attack power to the enemies within the range, inflict bleed deals 298 damage per every 0.5 seconds for 4.59 seconds. When the black hole explode deal physical damage equal to 20% damage of attack power (EP Consumption: 20 - Cooldown: 20s).",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase 20% physical damage to enemies got space-time decelerated",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M12_77_5.png",
@@ -519,7 +519,7 @@
         {
             "name": "Void Blade",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Create a space-time distortion around self, last for 6 seconds. Within the space-time distortion of the active skill, increase critical rate of normal attack by 29.9% (EP Consumption: 15 – Cooldown: 20s)",
+            "skillonedetail": "Create a space-time distortion around self, last for 6 seconds. Within the space-time distortion of the active skill, increase critical rate of normal attack by 29.9% (EP Consumption: 15 - Cooldown: 20s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase Physical damage by 15 / 30 / 45 % for 8 seconds every time 10/40/70 EP is used (count only once upon immediately used, doesn’t count multiple times, for example 10 + 30 = 40) , effect cannot be stacked",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M13_78_5.png",
@@ -531,7 +531,7 @@
         {
             "name": "Nuwa's Sword",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon 1 flaming soul that shoot fire at target enemy, one soul last for 10 seconds, have 2 charges. Each flaming soul’s attack deal 955 small AOE fire elemental damage (EP Consumption: 15 – Cooldown: 12s)",
+            "skillonedetail": "Summon 1 flaming soul that shoot fire at target enemy, one soul last for 10 seconds, have 2 charges. Each flaming soul’s attack deal 955 small AOE fire elemental damage (EP Consumption: 15 - Cooldown: 12s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When attacking, 5% to create a flaming sword, inflict burn status to enemies, dealing 187 fire elemental damage per every 0.5 second, last for 3 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M15_124_5.png",
@@ -543,7 +543,7 @@
         {
             "name": "Sky Breaker",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Perform a series of multiple strikes, in total deals 400% damage to the surrounding enemies, inflict weaken status to the enemy that receive the last blow, decreasing defense power by 100%, for 5.99 seconds (EP Consumption: 20 – Cooldown: 18s)",
+            "skillonedetail": "Perform a series of multiple strikes, in total deals 400% damage to the surrounding enemies, inflict weaken status to the enemy that receive the last blow, decreasing defense power by 100%, for 5.99 seconds (EP Consumption: 20 - Cooldown: 18s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When attacked, strike lightning at attacking enemy, dealing 150% electric elemetal damage, paralyze for 1 second, cooldown 10 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M16_125_5-228290.png",
@@ -555,7 +555,7 @@
         {
             "name": "High Frequency Cutter",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Teleport to target enemy and inflict a small AOE bind, last for 4 seconds, reduce bound enemies’ defense power by 80%, dealing 233 electric elemental damage per every 0.5 second (EP Consumption: 14 – Cooldown: 11s)",
+            "skillonedetail": "Teleport to target enemy and inflict a small AOE bind, last for 4 seconds, reduce bound enemies’ defense power by 80%, dealing 233 electric elemental damage per every 0.5 second (EP Consumption: 14 - Cooldown: 11s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When performing a critical, 50.0% chance to inflict knock up and lock time-space to enemy, last for 3 seconds,  6.02 seconds cooldown",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M17_129_5-222210.png",
@@ -567,9 +567,9 @@
         {
             "name": "Ice Epiphyllum",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Create a 3.5m freezing AOE under wielder, last for 10.0 seconds, increase friendly unit’s ice elemental damage by 39.8%, enemies inside the area will be exploded with frostbite after 6 seconds, receive 975 ice elemetal damage (EP Consumption: 20 – Cooldown: 18s)",
+            "skillonedetail": "Create a 3.5m freezing AOE under wielder, last for 10.0 seconds, increase friendly unit’s ice elemental damage by 39.8%, enemies inside the area will be exploded with frostbite after 6 seconds, receive 975 ice elemetal damage (EP Consumption: 20 - Cooldown: 18s)",
             "skilltwotitle": "Passive Skill",
-            "skilltwodetail": "Increase elemental damage by 14.9%. Every 5 seconds, the next attack will deal 1260 ice elemental damage within 5m radius. When equipped on Sakura – Unfogotten, performing a critical attack will gain 200KP",
+            "skilltwodetail": "Increase elemental damage by 14.9%. Every 5 seconds, the next attack will deal 1260 ice elemental damage within 5m radius. When equipped on Sakura - Unfogotten, performing a critical attack will gain 200KP",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M21_147_5-256030.png",
             "attack": "265",
             "critical": "46",
@@ -579,7 +579,7 @@
         {
             "name": "Sakura Blossom",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Sprints forward to attack, dealing physical damage equal to 400.0% of ATK to enemies hit along the way and stunning those who have a Sakura Brand for 3.5 seconds. Adds a Sakura count when equipped on Grakushinn Miko (EP Consumption: 15 – Cooldown: 12s)",
+            "skillonedetail": "Sprints forward to attack, dealing physical damage equal to 400.0% of ATK to enemies hit along the way and stunning those who have a Sakura Brand for 3.5 seconds. Adds a Sakura count when equipped on Grakushinn Miko (EP Consumption: 15 - Cooldown: 12s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Upon attacking a target, there's a 100.0% chance of unleashing a blade wave, dealing physical damage equal to 200.0% of ATK. Blade waves deal an additional 1,920 physical damage if target has a Sakura Brand or count. Blade wave's cooldown: 4.8 seconds. Blade waves add a Sakura count when equipped on Gyakushinn Miko. When the returning blade hits an enemy, the blade wave's cooldown will be immediately reset.",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M22_154_5-187180.png",
@@ -591,7 +591,7 @@
         {
             "name": "Gluttony Scimitar",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Release a whirlwind that interupt the enemies and pull them forward wielder, inflict stun for 1.50 seconds, dealing 448 physical damage (EP Consumption: 18 – Cooldown: 15s)",
+            "skillonedetail": "Release a whirlwind that interupt the enemies and pull them forward wielder, inflict stun for 1.50 seconds, dealing 448 physical damage (EP Consumption: 18 - Cooldown: 15s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Gain 4 EP upon 1 enemy take down",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M9_73_4-257120.png",
@@ -615,7 +615,7 @@
         {
             "name": "Wind Wielder",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Create a tornado, inflict knock-up to enemies upon touched, dealing 224 ice elemetal damage, reduce 80% attack speed and movement speed, tornado last for 1.80 seconds (EP Consumption: 20 – Cooldown: 25s)",
+            "skillonedetail": "Create a tornado, inflict knock-up to enemies upon touched, dealing 224 ice elemetal damage, reduce 80% attack speed and movement speed, tornado last for 1.80 seconds (EP Consumption: 20 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "On hit,  5.0% chance to increase movement speed by 100% for 4.5 seconds, 10 seconds cooldown",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M11_76_5.png",
@@ -627,7 +627,7 @@
         {
             "name": "Fairy Sword Silven",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Create a field that grant squad member attack speed by 25%, movement speed by 20%, attack all-damage by 10%. Field last for 20 seconds (EP Consumption: 17 – Cooldown: 38s)",
+            "skillonedetail": "Create a field that grant squad member attack speed by 25%, movement speed by 20%, attack all-damage by 10%. Field last for 20 seconds (EP Consumption: 17 - Cooldown: 38s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "For each 10% extra movement speed, increase attack all-damage by 5%, stack up to 50%.  Increase movement speed by 30%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M23_171_5.png",
@@ -639,7 +639,7 @@
         {
             "name": "Pledge of Rain",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon an umbrella that shoot out crystal in a circular field, dealing physical damage based on 24* 30% attack power, reduce enemy caught in crystal field attack speed and movement speed by 40%, last for 5 seconds (EP Consumption: 16 – Cooldown: 18s)",
+            "skillonedetail": "Summon an umbrella that shoot out crystal in a circular field, dealing physical damage based on 24* 30% attack power, reduce enemy caught in crystal field attack speed and movement speed by 40%, last for 5 seconds (EP Consumption: 16 - Cooldown: 18s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase 20% physical damage against slowed enemy\nIncrease 20% all-damage when combo reaches 50",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M27_176_5.png",
@@ -653,7 +653,7 @@
             "skillonetitle": "Active Skill",
             "skillonedetail": "Summon Jizou Spirit, last for 39 seconds. When enter the battlefield, Jizou deal physical damage 300% based on attack power to enemy and its surrounding, inflict float status. Jizou’s pattern attack:\nChop down: Deal physical damage 100% based on attack power\nTackle attack: Deal physical damage 200% based on attack power, inflict knock-back\nWide slash: Deal physical damage 100% based on attack power, inflict float",
             "skilltwotitle": "Passive Skill",
-            "skilltwodetail": "Increase all-damage against float status enemy by 32%\nWeapon Buff – God’s Key: When weapon’s level increase, the weapon will give buff to users. This skill is activated automatically and cannot be turn on or off. Has a time limit.\nLv 30: Increase all Katana-users defense power by 30\nLv 35: Increase all Katana-users defense power by 40\nLv 40: Increase all Katana-users attack power by 15\nLv 45: Increase all Katana-users HP by 120\nLv 50: Increase all Katana-users attack power by 25",
+            "skilltwodetail": "Increase all-damage against float status enemy by 32%\nWeapon Buff - God’s Key: When weapon’s level increase, the weapon will give buff to users. This skill is activated automatically and cannot be turn on or off. Has a time limit.\nLv 30: Increase all Katana-users defense power by 30\nLv 35: Increase all Katana-users defense power by 40\nLv 40: Increase all Katana-users attack power by 15\nLv 45: Increase all Katana-users HP by 120\nLv 50: Increase all Katana-users attack power by 25",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M28_197_5.png",
             "attack": "289",
             "critical": "24",
@@ -673,9 +673,9 @@
             "rarity": 4
         },
         {
-            "name": "Demon Blade – Florid Sakura",
+            "name": "Demon Blade - Florid Sakura",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Spinning dealing multiple instance, total fire elemental based on 500% attack power. If taken damage during skill activation, deal another 200% fire elemental damage to attacker. Invulnerable during performing skill, grant a shield that can negate 1 instance source of damage after skill animation. Shield last for 5 seconds. (EP Consumption: 20 – Cooldown: 21)\nWhen equiped on Sakura – True Blaze Fortunate God, enemy got hit by the skill get a debuff, take additional 25% fire elemental damage, 15% lightning and ice elemental damage. Debuff last for 15 seconds. True Blaze additional branch skill does not benefit from this debuff (please read  Sakura – True Blaze Fortunate God skill for more information)",
+            "skillonedetail": "Spinning dealing multiple instance, total fire elemental based on 500% attack power. If taken damage during skill activation, deal another 200% fire elemental damage to attacker. Invulnerable during performing skill, grant a shield that can negate 1 instance source of damage after skill animation. Shield last for 5 seconds. (EP Consumption: 20 - Cooldown: 21)\nWhen equiped on Sakura - True Blaze Fortunate God, enemy got hit by the skill get a debuff, take additional 25% fire elemental damage, 15% lightning and ice elemental damage. Debuff last for 15 seconds. True Blaze additional branch skill does not benefit from this debuff (please read  Sakura - True Blaze Fortunate God skill for more information)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase fire elemental damage by Valkyrja by 40%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Katana_M26_193_5.png",
@@ -699,7 +699,7 @@
         {
             "name": "Hell Thunder",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a whirlwind, deal physical attack 300% based on attack power, reduce hit enemy defense power by 60%, last for 2.99 seconds (EP Consumption: 12 – Cooldown:12s)",
+            "skillonedetail": "Summon a whirlwind, deal physical attack 300% based on attack power, reduce hit enemy defense power by 60%, last for 2.99 seconds (EP Consumption: 12 - Cooldown:12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M2_17_4.png",
@@ -711,7 +711,7 @@
         {
             "name": "Pulse Katana Type-17",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon 6 phantom blades, each deal 483 ice elemental damage, on hit reduce attack speed and movement speed by 70% last for 2.5 seconds (EP Consumption: 14 – Cooldown: 12s)",
+            "skillonedetail": "Summon 6 phantom blades, each deal 483 ice elemental damage, on hit reduce attack speed and movement speed by 70% last for 2.5 seconds (EP Consumption: 14 - Cooldown: 12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M3_18_4.png",
@@ -735,7 +735,7 @@
         {
             "name": "Pulse Tachi Prototype",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32%, last for 5 seconds (EP Consumption: 8 – Cooldown: 15s)",
+            "skillonedetail": "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32%, last for 5 seconds (EP Consumption: 8 - Cooldown: 15s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M7_70_4.png",
@@ -747,7 +747,7 @@
         {
             "name": "Crystal Edge",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash using crystal energy, inflict AOE freeze status to enemy, last for 3.99 seconds (EP Consumption: 10 – Cooldown: 18 seconds)",
+            "skillonedetail": "Slash using crystal energy, inflict AOE freeze status to enemy, last for 3.99 seconds (EP Consumption: 10 - Cooldown: 18 seconds)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M10_74_4.png",
@@ -771,7 +771,7 @@
         {
             "name": "Vermillion Edge",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash 7-strike slash to enemy and its surrounding, each strike deal physical damage 50% based on attack power, apply bind status to enemy at center (EP Consumption: 18 – Cooldown: 10s)",
+            "skillonedetail": "Slash 7-strike slash to enemy and its surrounding, each strike deal physical damage 50% based on attack power, apply bind status to enemy at center (EP Consumption: 18 - Cooldown: 10s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M14_98_5-189840.png",
@@ -783,7 +783,7 @@
         {
             "name": "Thunderstorms",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash using electricity, deal small AOE 744 lightning damage, inflict paralysis status, last for 2 seconds (EP Consumption: 10 – Cooldown: 15s)",
+            "skillonedetail": "Slash using electricity, deal small AOE 744 lightning damage, inflict paralysis status, last for 2 seconds (EP Consumption: 10 - Cooldown: 15s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M16_126_4-219780.png",
@@ -795,7 +795,7 @@
         {
             "name": "Xuanyuan: Katana",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Slash using ice energy, form a force field in front that when explode dealing 1017 ice elemental damage. Force field reduce enemy movement speed by 60%, last for 5 seconds (EP Consumption: 14 – Cooldown: 18s)",
+            "skillonedetail": "Slash using ice energy, form a force field in front that when explode dealing 1017 ice elemental damage. Force field reduce enemy movement speed by 60%, last for 5 seconds (EP Consumption: 14 - Cooldown: 18s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M19_140_5-208900.png",
@@ -831,7 +831,7 @@
         {
             "name": "Alloy Gluttony Scimitar",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a whirlwind that pull enemy towards wielder, dealing 317 physical damage each hit (EP Consumption: 10 – Cooldown: 15)",
+            "skillonedetail": "Summon a whirlwind that pull enemy towards wielder, dealing 317 physical damage each hit (EP Consumption: 10 - Cooldown: 15)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M9_112_4.png",
@@ -843,7 +843,7 @@
         {
             "name": "Alloy Wind Wielder",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a tornado, each hit deal 178 ice elemental damage (SP Consumption: 14 – Cooldown: 15 seconds)",
+            "skillonedetail": "Summon a tornado, each hit deal 178 ice elemental damage (SP Consumption: 14 - Cooldown: 15 seconds)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Katana_M11_113_4.png",
@@ -889,7 +889,7 @@
             "rarity": 2
         },
         {
-            "name": "Composite Katana – Vermilion Bird",
+            "name": "Composite Katana - Vermilion Bird",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP Consumption: 10] [Cooldown: 7s] Summon a wave of flame, deal physical damage 100% based on attack power + 284 fire elemental damage to enemy.",
             "skilltwotitle": "-",
@@ -901,7 +901,7 @@
             "rarity": 2
         },
         {
-            "name": "Composite Katana – Yanagiba",
+            "name": "Composite Katana - Yanagiba",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP Consumption: 9] [Cooldown: 7s] Perform a slash in a wide angle, deal physical damage 249% based on attack power",
             "skilltwotitle": "-",
@@ -953,7 +953,7 @@
             "skillonetitle": "Cluster Missile Pod",
             "skillonedetail": "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles\nOn hit, has 10% chance to inflict stun/paralyze/freeze status to enemies for 2 seconds, dealing 1328 fire/electric/ice elemental damage",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Set a space-time trap area in front. Enemies caught within trap will be time-space decelerated, reduce def power by 50%, trap last for 6.19 seconds (EP Consumption: 18 – Cooldown: 24 seconds)",
+            "skilltwodetail": "Set a space-time trap area in front. Enemies caught within trap will be time-space decelerated, reduce def power by 50%, trap last for 6.19 seconds (EP Consumption: 18 - Cooldown: 24 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B5_47_5.png",
             "attack": "298",
             "critical": "6",
@@ -977,7 +977,7 @@
             "skillonetitle": "Particle Beam Cannon",
             "skillonedetail": "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius\nIncrease outgoing all-attack  against enemies inflicted with paralyze status by 16%",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Release a ball of energy slowly moving forward, damage enemy in-contact multiple times, each dealing 636 electric elemental damage, inflict paralyze status for 3.59 seconds (EP Consumption: 20 – Cooldown: 20 seconds)",
+            "skilltwodetail": "Release a ball of energy slowly moving forward, damage enemy in-contact multiple times, each dealing 636 electric elemental damage, inflict paralyze status for 3.59 seconds (EP Consumption: 20 - Cooldown: 20 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B13_86_5-204480.png",
             "attack": "282",
             "critical": "26",
@@ -989,7 +989,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal missile\nCharge 2 times: Shoot 2 strong missiles\nCharge 3 times: Shoot 3 very strong missiles\nFor each 1m further away from the enemy, increase physical damage by 4%, stack up to 8 times",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Inflict knock back to surrounding enemies and apply shockwave to a wide frontal area, dealing 12*40% physical damage, reduce enemy movement speed and attack speed by 70% for 3 seconds (SP Consumption: 18 – Cooldown: 14 seconds)",
+            "skilltwodetail": "Inflict knock back to surrounding enemies and apply shockwave to a wide frontal area, dealing 12*40% physical damage, reduce enemy movement speed and attack speed by 70% for 3 seconds (SP Consumption: 18 - Cooldown: 14 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B14_87_5-261900.png",
             "attack": "294",
             "critical": "11",
@@ -1013,7 +1013,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Slow charge type, increase physical damage when performing normal attack by 100%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nFor every enemy inflict with freeze status, increase charge speed by 20.0%, stackable up to 10 times",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Release a strong rupture, seal caught enemies in black ice status, inflict freeze status on to them, dealing 956 ice elemental damage while wielder heal 99 HP per every 0.9 second, black ice last for 4 seconds (EP Consumption: 25 – Cooldown: 20s)",
+            "skilltwodetail": "Release a strong rupture, seal caught enemies in black ice status, inflict freeze status on to them, dealing 956 ice elemental damage while wielder heal 99 HP per every 0.9 second, black ice last for 4 seconds (EP Consumption: 25 - Cooldown: 20s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B16_122_5.png",
             "attack": "294",
             "critical": "11",
@@ -1025,7 +1025,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Fast charge type, reduce physical damage when performing normal attack by 30%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nIncrease all-damage against enemy inflicted freeze, time-space deceleration status by 20%",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Shoot fire, dealing 12*60% fire elemental damage and 12*60% physical damage based on attack power (EP Consumption: 49 – Cooldown: 36s)",
+            "skilltwodetail": "Shoot fire, dealing 12*60% fire elemental damage and 12*60% physical damage based on attack power (EP Consumption: 49 - Cooldown: 36s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B18_133_5.png",
             "attack": "285",
             "critical": "22",
@@ -1037,7 +1037,7 @@
             "skillonetitle": "Cluster Missile Pod",
             "skillonedetail": "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles\nOn hit missile, add 55 fire elemental damage, then explode dealing 490 AOE fire elemental damage",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Increase charge speed by 100%, last for 11.98 seconds (EP Consumption: 20 – Cooldown: 120 seconds)",
+            "skilltwodetail": "Increase charge speed by 100%, last for 11.98 seconds (EP Consumption: 20 - Cooldown: 120 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B21_149_5.png",
             "attack": "275",
             "critical": "34",
@@ -1049,7 +1049,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nIncrease 30% physical damage to broken shield enemies when perform normal attack or charge attack",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Perform a 3-times-charge shoot at the enemies, damaged enemies will be put into bleed state, taking 313 physical damage per every 0.5 second, last for 7 seconds (SP Consumption: 19 – Cooldown: 9 seconds)",
+            "skilltwodetail": "Perform a 3-times-charge shoot at the enemies, damaged enemies will be put into bleed state, taking 313 physical damage per every 0.5 second, last for 7 seconds (SP Consumption: 19 - Cooldown: 9 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B23_173_5.png",
             "attack": "282",
             "critical": "26",
@@ -1073,7 +1073,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Slam a mechanical arm on the ground, dealing multiple instance of damage, each equal to 120% attack power, inflict stun for 2.55 seconds. After performing skill, increase wielder movement speed for a period (SP Consumption: 18 – Cooldown: 12 seconds)",
+            "skilltwodetail": "Slam a mechanical arm on the ground, dealing multiple instance of damage, each equal to 120% attack power, inflict stun for 2.55 seconds. After performing skill, increase wielder movement speed for a period (SP Consumption: 18 - Cooldown: 12 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B10_82_4.png",
             "attack": "234",
             "critical": "28",
@@ -1085,7 +1085,7 @@
             "skillonetitle": "Particle Beam Cannon",
             "skillonedetail": "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Slam a mechanical arm on the ground, dealing multiple instance of damage, knock back enemies, dealing 214 fire elemental damage, inflict burn status, dealing 134 fire elemtal damage and increase wielder movement speed for a period (EP Consumption: 18 – Cooldown: 12 seconds)",
+            "skilltwodetail": "Slam a mechanical arm on the ground, dealing multiple instance of damage, knock back enemies, dealing 214 fire elemental damage, inflict burn status, dealing 134 fire elemtal damage and increase wielder movement speed for a period (EP Consumption: 18 - Cooldown: 12 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B12_85_5.png",
             "attack": "239",
             "critical": "22",
@@ -1097,7 +1097,7 @@
             "skillonetitle": "Cluster Missile Pod",
             "skillonedetail": "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 2 missiles\nCharge 2 times: Shoot 5 missiles\nCharge 3 times: Shoot 11 missiles\nOn hit missile from the back, each missile add 399 fire elemental damage",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Shoot 18 missiles straight forward. Each missile deal physical damage 74.9% based on attack power and inflict float status. Furthermore inflict burn status to enemy, deal 599 fire elemental damage per each 0.5 second, last for 4 seconds (EP Consumption: 25 – Cooldown: 12 seconds)",
+            "skilltwodetail": "Shoot 18 missiles straight forward. Each missile deal physical damage 74.9% based on attack power and inflict float status. Furthermore inflict burn status to enemy, deal 599 fire elemental damage per each 0.5 second, last for 4 seconds (EP Consumption: 25 - Cooldown: 12 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B25_177_5-198870.png",
             "attack": "283",
             "critical": "31",
@@ -1145,7 +1145,7 @@
             "skillonetitle": "Cluster Missile Pod",
             "skillonedetail": "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Enhance weapon, increase attack speed by 75%, last for 4.99 seconds (EP Consumption: 12 – Cooldown: 20s)",
+            "skilltwodetail": "Enhance weapon, increase attack speed by 75%, last for 4.99 seconds (EP Consumption: 12 - Cooldown: 20s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B3_42_4.png",
             "attack": "169",
             "critical": "29",
@@ -1157,7 +1157,7 @@
             "skillonetitle": "Particle Beam Cannon",
             "skillonedetail": "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Create a field around self, reduce enemy attack speed and movement speed by 80%, last for 8 seconds (EP Consumption: 7 – Cooldown: 20 seconds)",
+            "skilltwodetail": "Create a field around self, reduce enemy attack speed and movement speed by 80%, last for 8 seconds (EP Consumption: 7 - Cooldown: 20 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B4_44_4.png",
             "attack": "188",
             "critical": "3",
@@ -1181,7 +1181,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32% last for 5 seconds (EP Consumption: 8 – Cooldown: 15s)",
+            "skilltwodetail": "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32% last for 5 seconds (EP Consumption: 8 - Cooldown: 15s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B8_79_4.png",
             "attack": "146",
             "critical": "29",
@@ -1193,7 +1193,7 @@
             "skillonetitle": "Cluster Missile Pod",
             "skillonedetail": "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Increase wielder movement speed by 100%, last for 5.98 seconds (EP Consumption: 6 – Cooldown: 15s)",
+            "skilltwodetail": "Increase wielder movement speed by 100%, last for 5.98 seconds (EP Consumption: 6 - Cooldown: 15s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B11_83_4-259660.png",
             "attack": "169",
             "critical": "29",
@@ -1205,7 +1205,7 @@
             "skillonetitle": "Cluster Missile Pod",
             "skillonedetail": "Shoot many missiles at multiple target, long charge type, performing critical at one single target damage will reduce its damage\nCharge 1 time: Shoot 3 missiles\nCharge 2 times: Shoot 7 missiles\nCharge 3 times: Shoot 15 missiles",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Enhance own attack for 6.47 seconds duration, each attack reduce enemy attack speed and movement speed by 60% for 3.5 seconds (EP Consumption: 12 – Cooldown: 20s)",
+            "skilltwodetail": "Enhance own attack for 6.47 seconds duration, each attack reduce enemy attack speed and movement speed by 60% for 3.5 seconds (EP Consumption: 12 - Cooldown: 20s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B11_84_4.png",
             "attack": "178",
             "critical": "17",
@@ -1241,7 +1241,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Fast charge type, reduce physical damage when performing normal attack by 30%\nCharge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Slam mechanical arm on the ground, creating shock waves. Shock wave deal many damage instance, each deal physical damage 90% based on attack power (EP Consumption: 12 – Cooldown: 9s)",
+            "skilltwodetail": "Slam mechanical arm on the ground, creating shock waves. Shock wave deal many damage instance, each deal physical damage 90% based on attack power (EP Consumption: 12 - Cooldown: 9s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B10_114_4.png",
             "attack": "163",
             "critical": "17",
@@ -1253,7 +1253,7 @@
             "skillonetitle": "Particle Beam Cannon",
             "skillonedetail": "Fire and charge laser in a straight line. Firing for a longer period will cause the cannon to overheat. Closer enemies receives higher damage, highest damage at 3m radius",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Slam mechanical arm on the ground, create a shock wave that deal many damage instance and inflict knock back. Each instance deal 158 fire elemental damage (EP Consumption: 20 – Cooldown: 15 seconds)",
+            "skilltwodetail": "Slam mechanical arm on the ground, create a shock wave that deal many damage instance and inflict knock back. Each instance deal 158 fire elemental damage (EP Consumption: 20 - Cooldown: 15 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B12_115_4.png",
             "attack": "166",
             "critical": "14",
@@ -1277,7 +1277,7 @@
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Fire a big fireball, on hit explode deal 419% fire elemental damage based on attack power, inflict burn status, dealing 18% fire elemental damage based on attack power per every 0.5 second, last for 3 seconds (EP Consumption: 18 – Cooldown:10s)",
+            "skilltwodetail": "Fire a big fireball, on hit explode deal 419% fire elemental damage based on attack power, inflict burn status, dealing 18% fire elemental damage based on attack power per every 0.5 second, last for 3 seconds (EP Consumption: 18 - Cooldown:10s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Cannon_B19_141_4-171780.png",
             "attack": "165",
             "critical": "16",
@@ -1359,7 +1359,7 @@
         {
             "name": "Nidhogg's Claws",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Use chainsaw to cut the enemy, deal small AOE physical damage 24*32%  based on attack power, flip up the chainsaw at the end, deal physical damage 325% based on attack power. Wielder is invulnerable during skill animation. (EP Consumption: 25 – Cooldown: 12s)",
+            "skillonedetail": "Use chainsaw to cut the enemy, deal small AOE physical damage 24*32%  based on attack power, flip up the chainsaw at the end, deal physical damage 325% based on attack power. Wielder is invulnerable during skill animation. (EP Consumption: 25 - Cooldown: 12s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "On hit, 10% chance to inflict bleed status, dealing 151 physical attack per every 0.5 seconds for 3 seconds.",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H5_57_5.png",
@@ -1371,7 +1371,7 @@
         {
             "name": "7th Sacred Relic",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire 2 air slashes one after another, dealing physical damage continuously, each time equal to 25% attack power, damage deal up to 8 times. When 2 slashes meet and create an X cross, create an explosion deal physical damage  349% based on attack power and inflict stun status to enemy for 5.99 seconds. (EP Consumption: 18 – Cooldown: 24s)",
+            "skillonedetail": "Fire 2 air slashes one after another, dealing physical damage continuously, each time equal to 25% attack power, damage deal up to 8 times. When 2 slashes meet and create an X cross, create an explosion deal physical damage  349% based on attack power and inflict stun status to enemy for 5.99 seconds. (EP Consumption: 18 - Cooldown: 24s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When attacking enemies inflicted with stun status, increase attack speed by 49.9%, last for 4 seconds, cooldown 12 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H6_58_5.png",
@@ -1383,7 +1383,7 @@
         {
             "name": "Blood Dance",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon a Fresh Blood Tornado, dealing 9*35% physical damage, and put enemies in a berserk state for 8.98 seconds – increase attack speed by 2 times, but take more 60% incoming elemental damage (EP Consumption: 20 – Cooldown: 15s)",
+            "skillonedetail": "Summon a Fresh Blood Tornado, dealing 9*35% physical damage, and put enemies in a berserk state for 8.98 seconds - increase attack speed by 2 times, but take more 60% incoming elemental damage (EP Consumption: 20 - Cooldown: 15s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When combo above 15, increase 30% outgoing physical damage\nWhen HP below 50%, heal 30 HP per every 0.5 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H7_59_5.png",
@@ -1395,7 +1395,7 @@
         {
             "name": "Sunfire Greatsword",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Jump at targeted enemy and AOE apply knock-up status, dealing 2877 fire elemental damage, while also inflict burn status, dealing 306 fire elemental damage per every 0.5 sec, last for 6 second (EP Consumption: 20 – Cooldown: 12s)",
+            "skillonedetail": "Jump at targeted enemy and AOE apply knock-up status, dealing 2877 fire elemental damage, while also inflict burn status, dealing 306 fire elemental damage per every 0.5 sec, last for 6 second (EP Consumption: 20 - Cooldown: 12s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase Fire elemental damage by 30%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H8_60_5-227240.png",
@@ -1407,7 +1407,7 @@
         {
             "name": "Dragon Spine",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Jump at target enemy, dealing 249% AOE physical damage based on attack power, inflict bind status to damaged enemy for 4.5 seconds. Also inflict bleed status, dealing  238 damage per 0.5 second (EP Consumption: 25 – Cooldown: 25s)",
+            "skillonedetail": "Jump at target enemy, dealing 249% AOE physical damage based on attack power, inflict bind status to damaged enemy for 4.5 seconds. Also inflict bleed status, dealing  238 damage per 0.5 second (EP Consumption: 25 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Attacking bleed inflicted enemy heal for 39 HP",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H15_96_5.png",
@@ -1419,7 +1419,7 @@
         {
             "name": "Schwert Gewehr",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Emit a electromagnetic wind slash towards the front, dealing 2324 electric damage, inflict electric shock status to caught enemy for 7 seconds. Enemy in electric shock state receive extra 50% electric elemental damage (EP Consumption: 20 – Cooldown: 18s)",
+            "skillonedetail": "Emit a electromagnetic wind slash towards the front, dealing 2324 electric damage, inflict electric shock status to caught enemy for 7 seconds. Enemy in electric shock state receive extra 50% electric elemental damage (EP Consumption: 20 - Cooldown: 18s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Add 79 electric elemental damage for each attack",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H14_95_5.png",
@@ -1431,7 +1431,7 @@
         {
             "name": "Xuanyuan Sword",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Has 3 skill charges, each skill attack uses electric/fire/ice elemental damage in following order, dealing 239% physical damage and 239% elemental damage, inflict paralyze/burn/freeze status to enemies. After using the skill, within (electric: 4, fire: 7, ice: 10) seconds, further add 448 elemental damage into each attack, elemental imbued attack can’t be stacked (EP Consumption: 15 – Cooldown: 12s)",
+            "skillonedetail": "Has 3 skill charges, each skill attack uses electric/fire/ice elemental damage in following order, dealing 239% physical damage and 239% elemental damage, inflict paralyze/burn/freeze status to enemies. After using the skill, within (electric: 4, fire: 7, ice: 10) seconds, further add 448 elemental damage into each attack, elemental imbued attack can’t be stacked (EP Consumption: 15 - Cooldown: 12s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When attacked, fire 2 spirit sword at 2 random enemy, inflict knock back enemy on its path, dealing 160% physical damage based on attack power, cool down 5.03 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H16_97_5.png",
@@ -1443,7 +1443,7 @@
         {
             "name": "Dawn Judgement",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Increase saw speed thus increase attack speed by 50%, increase critical rate by 25% for normal attack, attack can’t be interrupted, last for 8 seconds (EP Consumption: 18 – Cooldown: 24s)",
+            "skillonedetail": "Increase saw speed thus increase attack speed by 50%, increase critical rate by 25% for normal attack, attack can’t be interrupted, last for 8 seconds (EP Consumption: 18 - Cooldown: 24s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When performing a critical hit, has 24.9% chance to explode 1792 electric elemental damage under wielder, inflict weaken status to caught enemy for 4 seconds, reducing their defense power by 50%, has 7 seconds cooldown",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H18_134_5.png",
@@ -1455,7 +1455,7 @@
         {
             "name": "Dark Xuanyuan Sword",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Increase physical damage by 35% for 8 seconds. Within skill period, killing the first enemy will apply all area space-time distortion for 8 seconds, also prolong 35% physical damage buff until the end of space-time distortion. (EP Consumption: 22 – Cooldown: 25s)",
+            "skillonedetail": "Increase physical damage by 35% for 8 seconds. Within skill period, killing the first enemy will apply all area space-time distortion for 8 seconds, also prolong 35% physical damage buff until the end of space-time distortion. (EP Consumption: 22 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "On-hit enemy will apply all area space-time distortion for 4.5 seconds, cooldown 60 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H16_142_5-239640.png",
@@ -1479,7 +1479,7 @@
         {
             "name": "Godfather's Greatsword",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Shoot laser at a small frontal area, each laser beam deals 89 fire elemental damage and explode, dealing 717 fire elemental damage to enemies caught within radius, and inflict burn status, dealing 89 fire elemental damage per every 0.5 seconds for 3 seconds (EP Consumption: 24 – Cooldown: 18s)",
+            "skillonedetail": "Shoot laser at a small frontal area, each laser beam deals 89 fire elemental damage and explode, dealing 717 fire elemental damage to enemies caught within radius, and inflict burn status, dealing 89 fire elemental damage per every 0.5 seconds for 3 seconds (EP Consumption: 24 - Cooldown: 18s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Add 95 fire elemental damage into each attack",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H11_91_5.png",
@@ -1491,7 +1491,7 @@
         {
             "name": "The Betrayer's Greatsword",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Fire 6 homing missile, each deals 200% small AOE physical damage based on attack power, inflict stun status to enemies caught within radius for 2.50 seconds (EP Consumption: 18 – Cooldown: 12s)",
+            "skillonedetail": "Fire 6 homing missile, each deals 200% small AOE physical damage based on attack power, inflict stun status to enemies caught within radius for 2.50 seconds (EP Consumption: 18 - Cooldown: 12s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "When attacked has 50% chance to deal 160% physical damage back at enemy",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H13_94_5-153140.png",
@@ -1505,7 +1505,7 @@
             "skillonetitle": "Passive Skill",
             "skillonedetail": "On hit release a Time Essence Slash, with physical damage 80% based on attack power, cooldown 0.8 seconds. Each Time Essence Slash has 15% chance to be enhanced, deal physical damage 159% based on attack power",
             "skilltwotitle": "Active Skill",
-            "skilltwodetail": "Increase physical damage deal by wielder by 24,9%, enhance all Time Essence Slash, last for 8 seconds (EP Consumption: 20 – Cooldown: 25s)",
+            "skilltwodetail": "Increase physical damage deal by wielder by 24,9%, enhance all Time Essence Slash, last for 8 seconds (EP Consumption: 20 - Cooldown: 25s)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H22_174_5-254590.png",
             "attack": "285",
             "critical": "32",
@@ -1527,7 +1527,7 @@
         {
             "name": "Vanguard",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Slam at enemy, inflict float status, deal physical damage 449% based on attack power (EP Consumption: 15 – Cooldown:8s )",
+            "skillonedetail": "Slam at enemy, inflict float status, deal physical damage 449% based on attack power (EP Consumption: 15 - Cooldown:8s )",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H4_54_4-260010.png",
@@ -1539,7 +1539,7 @@
         {
             "name": "Ion Resonance",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Attack enemy with electric energy, deal AOE 3*743 lightning damage to enemy and its surrounding, inflict paralysis status, last for 2 seconds (EP Consumption: 15 – Cooldown: 10s)",
+            "skillonedetail": "Attack enemy with electric energy, deal AOE 3*743 lightning damage to enemy and its surrounding, inflict paralysis status, last for 2 seconds (EP Consumption: 15 - Cooldown: 10s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H3_55_4.png",
@@ -1563,7 +1563,7 @@
         {
             "name": "Pulse Claymore Prototype",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32%, last for 5 seconds (EP Consumption: 8 – Cooldown: 32s)",
+            "skillonedetail": "Enhance weapon, increase basic attack physical damage (branch attack and charge attack included) by 32%, last for 5 seconds (EP Consumption: 8 - Cooldown: 32s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H9_88_4.png",
@@ -1575,7 +1575,7 @@
         {
             "name": "Violet Knight",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Perform air slash towards target enemy location, air slash deal physical damage 3*145% based on attack power to enemy on its path(SP Consumption: 18 – Cooldown: 14 seconds)",
+            "skillonedetail": "Perform air slash towards target enemy location, air slash deal physical damage 3*145% based on attack power to enemy on its path(SP Consumption: 18 - Cooldown: 14 seconds)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H12_92_4-205860.png",
@@ -1599,7 +1599,7 @@
         {
             "name": "Sprocket Claymore",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Increase chainsaw speed, increase attack speed by 39.9%, increase basic attack critical chance (charge attack included) by 10%, last for 6 seconds (EP Consumption: 14 – Cooldown: 18s)",
+            "skillonedetail": "Increase chainsaw speed, increase attack speed by 39.9%, increase basic attack critical chance (charge attack included) by 10%, last for 6 seconds (EP Consumption: 14 - Cooldown: 18s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H18_138_4-206810.png",
@@ -1611,7 +1611,7 @@
         {
             "name": "Alloy Godfather's Greatsword",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Shoot lazer in front, explode enemy on hit, deal small AOE 536 fire elemental damage (EP Consumption: 18 – Cooldown: 16s)",
+            "skillonedetail": "Shoot lazer in front, explode enemy on hit, deal small AOE 536 fire elemental damage (EP Consumption: 18 - Cooldown: 16s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H11_116_4-176720.png",
@@ -1623,7 +1623,7 @@
         {
             "name": "Alloy Betrayer's Claymore",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Shoot out 6 missiles, each deal small AOE physical damage 199% based on attack power (EP Consumption: 12 – Cooldown: 10s)",
+            "skillonedetail": "Shoot out 6 missiles, each deal small AOE physical damage 199% based on attack power (EP Consumption: 12 - Cooldown: 10s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H13_117_4.png",
@@ -1635,7 +1635,7 @@
         {
             "name": "AI-chan Hammer",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Slam AI-hammer on the ground, creating a shock wave that inflict knock back, deal physical damage 299% based on attack power, have 50% chance to inflict stun status, last for 3 seconds (EP Consumption: 15 – Cooldown: 15s)",
+            "skillonedetail": "Slam AI-hammer on the ground, creating a shock wave that inflict knock back, deal physical damage 299% based on attack power, have 50% chance to inflict stun status, last for 3 seconds (EP Consumption: 15 - Cooldown: 15s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/Weapon_Claymore_H26_196_4.png",
@@ -1659,7 +1659,7 @@
         {
             "name": "Hybrid Type-27",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Launch enemy into mid-air, deal physical damage 348% based on attack power (EP Consumption: 12 – Cooldown: 10s) ",
+            "skillonedetail": "Launch enemy into mid-air, deal physical damage 348% based on attack power (EP Consumption: 12 - Cooldown: 10s) ",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H10_90_3.png",
@@ -1683,7 +1683,7 @@
         {
             "name": "Fusion Sword EX",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Perform a chop cut, inflict knock down, deal physical damage 398% based on attack power (EP Consumption: 10 – Cooldown: 9 seconds)",
+            "skillonedetail": "Perform a chop cut, inflict knock down, deal physical damage 398% based on attack power (EP Consumption: 10 - Cooldown: 9 seconds)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H2_52_3.png",
@@ -1731,7 +1731,7 @@
         {
             "name": "Oath of Judah",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: inflict 6 seconds shackle status to the surrounding enemies and fire 13 holy javelins, that will drop from above on random target, each dealing lightning elemental damage based on 281% attack power (EP Consumption: 16 – Cooldown: 13s)",
+            "skillonedetail": "Summon cross and deploy: inflict 6 seconds shackle status to the surrounding enemies and fire 13 holy javelins, that will drop from above on random target, each dealing lightning elemental damage based on 281% attack power (EP Consumption: 16 - Cooldown: 13s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "20% on-hit chance to imbue a 6 second-timed holy light seal that on-hit deal 650 electric elemental damage, cooldown 13s",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T6_166_5-163430.png",
@@ -1743,7 +1743,7 @@
         {
             "name": "Bloody Embrace",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: inflict 2 seconds float status to surrounding enemies, cross spin dealing 200.6% physical damage based on attack power per every 0.25 second, inflict 5 seconds bleeding status to caught enemies, dealing 757 physical damage per every 0.5 second (EP Consumption: 24 – Cooldown: 10s)",
+            "skillonedetail": "Summon cross and deploy: inflict 2 seconds float status to surrounding enemies, cross spin dealing 200.6% physical damage based on attack power per every 0.25 second, inflict 5 seconds bleeding status to caught enemies, dealing 757 physical damage per every 0.5 second (EP Consumption: 24 - Cooldown: 10s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase physical damage against bleeding status enemy by 40%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T7_167_5-220900.png",
@@ -1755,7 +1755,7 @@
         {
             "name": "Pledge of Sakura",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: summon a 3.5 seconds field that attack surrounding enemies with sakura blade, dealing 179.9% physical attack based on attack power per every 0.3 second, have 21.2% on-hit chance to put 1 Sakura Mark Counter on enemy. When target enemy’s Sakura Mark Counter go higher than 3, the Counter will be reset and put a Sakura Mark on target enemy (EP Consumption: 20 – Cooldown: 12s)",
+            "skillonedetail": "Summon cross and deploy: summon a 3.5 seconds field that attack surrounding enemies with sakura blade, dealing 179.9% physical attack based on attack power per every 0.3 second, have 21.2% on-hit chance to put 1 Sakura Mark Counter on enemy. When target enemy’s Sakura Mark Counter go higher than 3, the Counter will be reset and put a Sakura Mark on target enemy (EP Consumption: 20 - Cooldown: 12s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Have 59.9% on-hit chance to summon a circular field that attack enemy with sakura petals at enemy location, dealing 199.5% physical attack based on power, have 6 seconds cooldown. Deal further 440 fire elemental damage against enemy having a Sakura Mark or Sakura Mark Counter. When equipped on Sakurahi Rondo, sakura petals increase Sakura Mark Counter by 1",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T9_169_5-244540.png",
@@ -1779,7 +1779,7 @@
         {
             "name": "11th Sacred Relic",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: summon a 10 seconds field, increase allies Valkyrja & Summon unit critical chance by 10%. Attack enemy inside field and its small surrounding per each 1.0 second, dealing 5*50% physical damage based on attack power (EP Consumption: 18 – Cooldown:15s)",
+            "skillonedetail": "Summon cross and deploy: summon a 10 seconds field, increase allies Valkyrja & Summon unit critical chance by 10%. Attack enemy inside field and its small surrounding per each 1.0 second, dealing 5*50% physical damage based on attack power (EP Consumption: 18 - Cooldown:15s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "On hit against vulnerable status enemy, have 39.9% chance to heal whole squad by 74 HP, 3 seconds cooldown",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/11-Sacred-Relic.png",
@@ -1791,7 +1791,7 @@
         {
             "name": "Eliudnir",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: summon a 10 seconds field, every 1.5 second shoots a light beam to a random enemy within range that deals physical damage based on 320.1% attack power, apply stun status to enemy. Last for 6s. Stun status enemy take extra 30% physical damage (EP Consumption: 20 – Cooldown:18s)",
+            "skillonedetail": "Summon cross and deploy: summon a 10 seconds field, every 1.5 second shoots a light beam to a random enemy within range that deals physical damage based on 320.1% attack power, apply stun status to enemy. Last for 6s. Stun status enemy take extra 30% physical damage (EP Consumption: 20 - Cooldown:18s)",
             "skilltwotitle": "Passive Skill",
             "skilltwodetail": "Increase  all-damage against stun status enemy by 40.0%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Cross_T13_183_5.png",
@@ -1803,7 +1803,7 @@
         {
             "name": "The Dark Crusher",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 6 seconds, per each 1.5 seconds deal 1077 fire elemental damage in cross field (EP Consumption: 18 – Cooldown: 12s)",
+            "skillonedetail": "Summon cross and deploy: for 6 seconds, per each 1.5 seconds deal 1077 fire elemental damage in cross field (EP Consumption: 18 - Cooldown: 12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T4_162_4-201140.png",
@@ -1815,7 +1815,7 @@
         {
             "name": "Fire Angel",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 7 seconds, per each 0.8 second fire a wave of flame toward one random enemy in cross field, deal 675 fire elemental damage, inflict burn status, dealing 160 fire elemental damage per each 0.5 second, last for 3 seconds (EP Consumption: 20 – Cooldown: 15s)",
+            "skillonedetail": "Summon cross and deploy: for 7 seconds, per each 0.8 second fire a wave of flame toward one random enemy in cross field, deal 675 fire elemental damage, inflict burn status, dealing 160 fire elemental damage per each 0.5 second, last for 3 seconds (EP Consumption: 20 - Cooldown: 15s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T5_164_4-247820.png",
@@ -1827,7 +1827,7 @@
         {
             "name": "Lightning Angel",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 6 seconds, per each 1.5 seconds deal 834 lightning elemental damage in cross field, inflict 0.7 second paralysis status (EP Consumption: 15 – Cooldown: 15s)",
+            "skillonedetail": "Summon cross and deploy: for 6 seconds, per each 1.5 seconds deal 834 lightning elemental damage in cross field, inflict 0.7 second paralysis status (EP Consumption: 15 - Cooldown: 15s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T5_165_4.png",
@@ -1839,7 +1839,7 @@
         {
             "name": "Pulse Cross Prototype",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 7 seconds, enhance all allies physical damage basic attack in cross field(branch attack and charge attack included) by 28.4% (EP Consumption: 17 – Cooldown: 12s)",
+            "skillonedetail": "Summon cross and deploy: for 7 seconds, enhance all allies physical damage basic attack in cross field(branch attack and charge attack included) by 28.4% (EP Consumption: 17 - Cooldown: 12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T8_168_4.png",
@@ -1851,7 +1851,7 @@
         {
             "name": "AI Chan's Candy",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 0.8 second drop candy to one random enemy in cross field, deal small AOE 662 physical damage (EP Consumption: 15 – Cooldown: 15s)",
+            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 0.8 second drop candy to one random enemy in cross field, deal small AOE 662 physical damage (EP Consumption: 15 - Cooldown: 15s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T11_175_4-234700.png",
@@ -1863,7 +1863,7 @@
         {
             "name": "Cross Ice Bullets",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 1.0 second fire an ice shell at one random enemy inside cross field, shell explode deal small AOE 514 ice elemental damage and slow target attack speed by 50%, last for 0.8 second (EP Consumption: 14 – Cooldown: 13s)",
+            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 1.0 second fire an ice shell at one random enemy inside cross field, shell explode deal small AOE 514 ice elemental damage and slow target attack speed by 50%, last for 0.8 second (EP Consumption: 14 - Cooldown: 13s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T1_157_3-187060.png",
@@ -1875,7 +1875,7 @@
         {
             "name": "Penetrating Bullets Launcher",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 0/9 second fire a bomb shell at one random enemy inside cross field, shell explode deal small AOE 740 physical damage (EP Consumption: 15 – Cooldown: 13s)",
+            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 0/9 second fire a bomb shell at one random enemy inside cross field, shell explode deal small AOE 740 physical damage (EP Consumption: 15 - Cooldown: 13s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T2_159_3-201830.png",
@@ -1887,7 +1887,7 @@
         {
             "name": "Flame Bullets Launcher",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 0.6 second fire a flaming shell at one random enemy inside cross field, shell explode deal small AOE 476 fire elemental damage (EP Consumption: 15 – Cooldown: 13s)",
+            "skillonedetail": "Summon cross and deploy: for 8 seconds, per each 0.6 second fire a flaming shell at one random enemy inside cross field, shell explode deal small AOE 476 fire elemental damage (EP Consumption: 15 - Cooldown: 13s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T2_158_3-261120.png",
@@ -1899,7 +1899,7 @@
         {
             "name": "Fire Oath",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 8 seconds, inflict burn status to enemy inside cross field, deal 445 fire elemental damage per each 0.5 second (EP Consumption: 20 – Cooldown: 12s)",
+            "skillonedetail": "Summon cross and deploy: for 8 seconds, inflict burn status to enemy inside cross field, deal 445 fire elemental damage per each 0.5 second (EP Consumption: 20 - Cooldown: 12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T3_161_3.png",
@@ -1911,7 +1911,7 @@
         {
             "name": "Ice Oath",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Summon cross and deploy: for 8 seconds, add 118 ice elemental damage for allies inside cross field (EP Consumption: 18 – Cooldown: 12s)",
+            "skillonedetail": "Summon cross and deploy: for 8 seconds, add 118 ice elemental damage for allies inside cross field (EP Consumption: 18 - Cooldown: 12s)",
             "skilltwotitle": "-",
             "skilltwodetail": "-",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/Weapon_Cross_T3_160_3-198840.png",
@@ -2739,28 +2739,28 @@
             "rarity": 3
         },
         {
-            "name": "Theresa – Origin",
+            "name": "Theresa - Origin",
             "skill": "After activating weapon skill, increase all-damage by 15 / 30 %, last for 6.0 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-4_thumb.png",
             "type": "top",
             "rarity": 3
         },
         {
-            "name": "Theresa – Origin",
+            "name": "Theresa - Origin",
             "skill": "Reduce weapon skill cooldown by 15 / 30 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-5_thumb.png",
             "type": "mid",
             "rarity": 3
         },
         {
-            "name": "Theresa – Origin",
+            "name": "Theresa - Origin",
             "skill": "After activating weapon skill, increase attack speed by 10 / 25 %, last for 4.0 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-6_thumb.png",
             "type": "bottom",
             "rarity": 3
         },
         {
-            "name": "Theresa – Origin",
+            "name": "Theresa - Origin",
             "set1": "Reduce allied (teammates / Valkyria) incoming frontal physical damage by 20%\nWhen equipped on Theresa, increase maximum SP by 20% while in combat",
             "set2": "Increase allied (teammates / Valkyria) basic attack (branch attack and charge attack included) physical damage by 15% (This skill does not stack with other buff effect)\nWhen equipped on Theresa, further increase self-basic attack (branch attack and charge attack included) physical damage by 15%",
             "type": "set",
@@ -2886,35 +2886,35 @@
             "rarity": 3
         },
         {
-            "name": "Sakura – Cheongsam",
+            "name": "Sakura - Cheongsam",
             "skill": "Increase physical damage dealt by 10%. When equipped on Mei or Sakura, further increase physical damage dealt by 5%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/thumb_sakura-cheongsam.png",
             "type": "top",
             "rarity": 3
         },
         {
-            "name": "Himeko – Noel",
+            "name": "Himeko - Noel",
             "skill": "Increase HP while on battle field by 10 / 15 %. When equipped on Himeko, basic attack (branch attack & charge attack included) has 20 / 40 % chance to inflict slow / burn / vulnerable / weaken status. Last for 2 / 5 seconds. Cooldown 10 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/2206881e4134970a8e62cb689ecad1c8a6865dbf.png",
             "type": "mid",
             "rarity": 3
         },
         {
-            "name": "Mei – Bride",
+            "name": "Mei - Bride",
             "skill": "When equipped on Mei, reduce incoming all-elemental damage by 14 / 26 %\nWhen surrounding has enemies, increase moving speed by 19 / 31 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Mei-5_thumb.png",
             "type": "mid",
             "rarity": 3
         },
         {
-            "name": "Himeko – Bride",
+            "name": "Himeko - Bride",
             "skill": "Increase charge attack physical damage by 5 / 10 %\nWhen equipped on Himeko, increase critical damage by 5 / 10 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Himeko-8_thumb.png",
             "type": "mid",
             "rarity": 3
         },
         {
-            "name": "Theresa – Magical Girl",
+            "name": "Theresa - Magical Girl",
             "skill": "Increase fire elemental damage by 30%.\nWhen equipped on Theresa, increase all-damage of cross type weapon by 15%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/theresa-magical-girl_thumb.png",
             "type": "mid",
@@ -2928,56 +2928,56 @@
             "rarity": 3
         },
         {
-            "name": "Mei – Songstress",
+            "name": "Mei - Songstress",
             "skill": "Increase critical damage by 10 / 20%\nWhen equipped on Mei, further increase critical damage by 10 / 20%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/mei-songstress_thumb.png",
             "type": "mid",
             "rarity": 3
         },
         {
-            "name": "Himeko – Teacher",
+            "name": "Himeko - Teacher",
             "skill": "Increase physical damage of branch and charge attack by 5% / 10%\nWhen equipped on Kiana, increase CRI stats by 9 / 15",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/himeko-teacher_thumb.png",
             "type": "mid",
             "rarity": 3
         },
         {
-            "name": "Kallen – Everlasting Summer",
+            "name": "Kallen - Everlasting Summer",
             "skill": "Increase defense power by 20% / 40%\nWhen equipped on Theresa, increase all damage dealt from user summoned unit by 5% / 15%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/kallen-blistering-summer_thumb.png",
             "type": "mid",
             "rarity": 3
         },
         {
-            "name": "Kiana – Happy New Year",
+            "name": "Kiana - Happy New Year",
             "skill": "Increase attack speed by 8  / 15 %. When used on Kiana or Kallen Valkyrja, after tag-in has 5 charges, each charge gives 5 / 10 % critical chance. You loose a charge per each 2.0 seconds. This skill has a 25 / 15 seconds cooldown",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/kiana-happy-new-year.jpg",
             "type": "bottom",
             "rarity": 3
         },
         {
-            "name": "Sakura – Blistering Summer",
+            "name": "Sakura - Blistering Summer",
             "skill": "Upon tag-in, increase basic attack (branch attack and charged attack included) all-damage by 10 / 15 %\nUpon tag-out, grant squad members with 10 / 25 % ice elemental resistance (not stackable).",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Sakura-9_thumb.png",
             "type": "bottom",
             "rarity": 3
         },
         {
-            "name": "Fuka – Inspection Tour",
+            "name": "Fuka - Inspection Tour",
             "skill": "When equipped on Fuka, increase attack speed by 5% / 15% and movement speed by 10% / 20%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/fuka-inspection-tour_thumb.png",
             "type": "bottom",
             "rarity": 3
         },
         {
-            "name": "Valkyrie – Judah",
+            "name": "Valkyrie - Judah",
             "skill": "When basic attack hit the enemy, drop a Theresa doll in front of the enemy that explodes after 2 second delay, dealing 100% / 200% lightning elemental damage based on attack power in a 4 meter radius. Cooldown 10 / 5 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/valk-judah.png",
             "type": "top",
             "rarity": 3
         },
         {
-            "name": "Mei – Demon",
+            "name": "Mei - Demon",
             "skill": "When kill an enemy, increase movement speed by 3% / 4% and melee physical damage by 4% / 6%, last for 10 seconds, stack up to 5 times.\nWhen equipped on Mei, the effect can be stacked up to 8 times",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/S3S_2.png",
             "type": "mid",
@@ -3202,7 +3202,7 @@
         },
         {
             "name": "Nuwa",
-            "set1": "Increase Valkyrja own summoned unit all–damage by 50%",
+            "set1": "Increase Valkyrja own summoned unit all-damage by 50%",
             "set2": "When tag-in, increase Valkryja own all-damage by 20% per allied summoned unit (friend‘s included) stack up to 5 times",
             "type": "set",
             "rarity": 4
@@ -3223,7 +3223,7 @@
         },
         {
             "name": "Shennong",
-            "skill": "After being attacked, grant a shield that can take all–damage based on 18 / 31 % of Valkyrja own max HP, last for 5 seconds, cooldown 12 seconds",
+            "skill": "After being attacked, grant a shield that can take all-damage based on 18 / 31 % of Valkyrja own max HP, last for 5 seconds, cooldown 12 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Shennong-3_thumb.png",
             "type": "bottom",
             "rarity": 4
@@ -3293,7 +3293,7 @@
         },
         {
             "name": "Schrodinger Cat",
-            "skill": "Charge for 6 seconds, next basic attack (branch attack and charge attack included) and a short duration afterwards have 50% chance to increase all–damage by 120 / 205 %, otherwise increase by 26 / 52 %",
+            "skill": "Charge for 6 seconds, next basic attack (branch attack and charge attack included) and a short duration afterwards have 50% chance to increase all-damage by 120 / 205 %, otherwise increase by 26 / 52 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Schrodinger-1_thumb.png",
             "type": "top",
             "rarity": 4
@@ -3320,28 +3320,28 @@
             "rarity": 4
         },
         {
-            "name": "Schrodinger – Band",
+            "name": "Schrodinger - Band",
             "skill": "Every attack gains one stack (cooldown 0.3 second), each stack increases physical damage by 1 / 2 %. After gained 7 stacks, enter Passionate mode for 5 seconds. Under Passionate mode, increase all-damage by 10 / 25 %. After Passionate mode ended, reset all effects. During Passionate Mode, damage up effect is not added",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/schrodinger-band-top_thumb.png",
             "type": "top",
             "rarity": 4
         },
         {
-            "name": "Schrodinger – Band",
+            "name": "Schrodinger - Band",
             "skill": "Every attack gains one stack (cooldown 0.3 second), each stack increases critical rate by 1 / 2 %. After gained 7 stacks, enter Passionate Mode for 5 seconds. Under Passionate Mode, immune to immobile effect, and reduce received all-damage by 5 / 15 %. After Passionate Mode ended, reset all effects. During Passionate Mode, critical rate up effect is not added",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/schrodinger-band-center_thumb.png",
             "type": "mid",
             "rarity": 4
         },
         {
-            "name": "Schrodinger – Band",
+            "name": "Schrodinger - Band",
             "skill": "Every attack gains one stack (cooldown 0.3 second), each stack increases attack speed by 1 / 2 %. After gained 7 stacks, enter Passionate Mode for 5 seconds. Under Passionate Mode, every attack gains additional 0.5 / 2 EP (cooldown 0.9). After Passionate Mode ended, reset all effects. During Passionate Mode, attack speed up effect is not added",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/schrodinger-band-bottom_thumb.png",
             "type": "bottom",
             "rarity": 4
         },
         {
-            "name": "Schrodinger – Band",
+            "name": "Schrodinger - Band",
             "set1": "Increase Passionate mode duration by 2 seconds, and stack effect of all Stigmata in this Stigmata set by 1%\nUnder Passionate mode, increase physical damage of next branch attack and all branch attacks in short duration afterwards by 50%",
             "set2": "Increase physical damage dealt against frozen enemy by 20%\nWhen equipped on Kiana or Kallen, increase all-damage of branch attack by 20%",
             "type": "set",
@@ -3370,7 +3370,7 @@
         },
         {
             "name": "Planck",
-            "set1": "When being attacked, if the damage is less than 15*Valkyrja level, it will still be calculated but Valkyrja action will not be interrupted.\nWhen equipped on Bronya, increase all–damage of ranged attack by 15%",
+            "set1": "When being attacked, if the damage is less than 15*Valkyrja level, it will still be calculated but Valkyrja action will not be interrupted.\nWhen equipped on Bronya, increase all-damage of ranged attack by 15%",
             "set2": "Restore 5% HP when hit an enemy, cooldown 5.0 seconds.\nWhen equipped on Bronya, increase EP gained via attack by 30%",
             "type": "set",
             "rarity": 4
@@ -3405,7 +3405,7 @@
         },
         {
             "name": "Lier Scarlet",
-            "skill": "Increase all–damage of basic attack (branch attack and charge attack included) by 23 / 36 %, however, max HP will also be reduced by 20%",
+            "skill": "Increase all-damage of basic attack (branch attack and charge attack included) by 23 / 36 %, however, max HP will also be reduced by 20%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/LiEr-4_thumb.png",
             "type": "top",
             "rarity": 4
@@ -3572,28 +3572,28 @@
             "rarity": 4
         },
         {
-            "name": "Kallen – Hymn",
+            "name": "Kallen - Hymn",
             "skill": "Self Valkyria & self summoned-units: Increase physical damage by 15 / 20 %, further increase physical damage by 6 / 12 % against enemies inflicted with weaken status",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-10.png",
             "type": "top",
             "rarity": 4
         },
         {
-            "name": "Kallen – Hymn",
+            "name": "Kallen - Hymn",
             "skill": "Grant Evangelium barrier when entering combat, after withstanding incoming damage by 150 / 400, the barrier dematerialized and enter 6.0 seconds cooldown. During the present of Evangelium barrier, reduce self incoming damage by 20 / 30 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-11.png",
             "type": "mid",
             "rarity": 4
         },
         {
-            "name": "Kallen – Hymn",
+            "name": "Kallen - Hymn",
             "skill": "Increase self attack speed by 3 / 6 % and critical damage by 5%, per 1 enemy on-field inflicted with weaken status, up to 4 times multiplier",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-12.png",
             "type": "bottom",
             "rarity": 4
         },
         {
-            "name": "Kallen – Hymn",
+            "name": "Kallen - Hymn",
             "set1": "One-time EP consumption at least 15, 70, 125, increase allied (teammates / Valkyria) all-damage by 8%, 15%, 22%, last for 7.0 seconds, not stackable",
             "set2": "On-hit against enemies inflicted with weaken status, instantly recover 8% HP and 5% EP, with 8.0 seconds cooldown",
             "type": "set",
@@ -3656,28 +3656,28 @@
             "rarity": 4
         },
         {
-            "name": "Tesla – Band",
+            "name": "Tesla - Band",
             "skill": "During tag-out, increase physical damage by 5 / 10 % for all members in squad (cannot be stacked with other skill)\nDuring tag-in, increase Valkyrja own physical damage by 5 / 15 % and attack speed by 5 / 20 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AW_1.png",
             "type": "top",
             "rarity": 4
         },
         {
-            "name": "Tesla – Band",
+            "name": "Tesla - Band",
             "skill": "During tag-out, increase lightning resistance by 5 / 15 % and lightning damage by 5 / 15 % for all members in squad (cannot be stacked with other skill)\nDuring tag-in, when being attacked, reduce received physical damage by 10 / 25%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AW_2.png",
             "type": "mid",
             "rarity": 4
         },
         {
-            "name": "Tesla – Band",
+            "name": "Tesla - Band",
             "skill": "During tag-out, increase movement speed by 5 / 10 % for all members in squad (cannot be stacked with other skill)\nDuring tag-in, increase Valkyrja own lightning elemental damage by 20 / 35 % and movement speed by 5 / 10 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/S4AW_3.png",
             "type": "bottom",
             "rarity": 4
         },
         {
-            "name": "Tesla – Band",
+            "name": "Tesla - Band",
             "set1": "Each basic attack (branch attack and charge attack included) gains a Chord charge, cooldown 1 second. After gained 4 charges, release a Chain of Lightning and remove all charges. Chain of Lightning hits randomly 4 targets, paralyzes those targets for 5 seconds and deals 600%, 580%, 560% and 540% lightning damage based on attack power respectively to each target. Chain of Lighting does not hit same target twice, cooldown 15 seconds",
             "set2": "Increase max HP by 20% during battle and lightning damage by 40% Chain of Lightning deals 600% lightning damage based on attack power to all 4 targets",
             "type": "set",
@@ -3908,28 +3908,28 @@
             "rarity": 4
         },
         {
-            "name": "Einstein – Band",
+            "name": "Einstein - Band",
             "skill": "Summon an AI combat assistant and unlock its particle charge attack perk, that will deal huge amount of physical damage\nWhen enemy on-field not less than 2, increase Valkyrja all-damage by 10 / 25 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-4_thumb.png",
             "type": "top",
             "rarity": 4
         },
         {
-            "name": "Einstein – Band",
+            "name": "Einstein - Band",
             "skill": "Summon an AI combat assistant and unlock its particle shockwave attack perk, that will deal AoE physical damage and knockdown the enemies\nWhen enemy on-field not less than 3, randomly inflict 1.0 / 3.0 seconds float and space-time slow status to an enemy per every 6.0 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-5_thumb.png",
             "type": "mid",
             "rarity": 4
         },
         {
-            "name": "Einstein – Band",
+            "name": "Einstein - Band",
             "skill": "Summon an AI combat assistant and unlock its particle beam attack perk, that will deal rapid physical damage\nWhen enemy not on-field less than 4, Valkyrja 10 / 25 % chance to nullify incoming damage",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-6_thumb.png",
             "type": "bottom",
             "rarity": 4
         },
         {
-            "name": "Einstein – Band",
+            "name": "Einstein - Band",
             "set1": "AI combat assistant’s particle charge, shockwave, and beam attack has 30% chance to deal double damage",
             "set2": "Remove this set all stigmata’s enemy on-field trigger condition\nincrease Valkyrja all-damage by 15 %",
             "type": "set",
@@ -4048,28 +4048,28 @@
             "rarity": 4
         },
         {
-            "name": "Bronya – Dark",
+            "name": "Bronya - Dark",
             "skill": "Increase ranged basic attack (branch attack and charged attack included) physical damage by 20 / 38 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-10_thumb.png",
             "type": "top",
             "rarity": 4
         },
         {
-            "name": "Bronya – Dark",
+            "name": "Bronya - Dark",
             "skill": "Grant whole squad members an one-time dark domain, reduce ranged all-damage inside dark domain by 11 / 20 %. Skill doesn’t stack with itself",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-11_thumb.png",
             "type": "mid",
             "rarity": 4
         },
         {
-            "name": "Bronya – Dark",
+            "name": "Bronya - Dark",
             "skill": "Create a dark field after stay within a small radius for 3.0 seconds, increase attack speed inside the dark field by 20 / 30 %, and will lose the effect if move outside of the dark field (Only affected dark field creator Valkyrja)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-12_thumb.png",
             "type": "bottom",
             "rarity": 4
         },
         {
-            "name": "Bronya – Dark",
+            "name": "Bronya - Dark",
             "set1": "When equipped Rocket Launcher or Cluster Missile Pod, after charged attack, within the 1.0 ~ 4.0 seconds duration, the next charged attack all-damage increase by 15%, buff stackable and duration refresh upon new stack, up to 3 times multiplier",
             "set2": "When equipped on Bronya, increase critical damage by 60%",
             "type": "set",
@@ -4216,28 +4216,28 @@
             "rarity": 4
         },
         {
-            "name": "Nuwa – Puppeteer",
+            "name": "Nuwa - Puppeteer",
             "skill": "Stun enemy for 2 / 5 seconds when breaking its shield\nIncrease all-damage dealt against shield-break enemy by 10 / 20%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/nuwa-doll-teacher-top_thumb-1.png",
             "type": "top",
             "rarity": 4
         },
         {
-            "name": "Nuwa – Puppeteer",
+            "name": "Nuwa - Puppeteer",
             "skill": "Increase physical damage of branch attack by 15 / 30%\nAfter performing branch attack 3 times, grants Valkyrja a shield that reduces received damage by 10 / 15% for 5 seconds, cooldown 6 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/nuwa-doll-teacher-center_thumb-1.png",
             "type": "mid",
             "rarity": 4
         },
         {
-            "name": "Nuwa – Puppeteer",
+            "name": "Nuwa - Puppeteer",
             "skill": "After performing ultimate skill, increase all-damage dealt by Valkyrja by 6 / 12%, last for 8 / 15 seconds, stack up to 4 times, cooldown 3 seconds. If effect is re-activated while being active, refresh its duration",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/04/nuwa-doll-teacher-bottom_thumb-1.png",
             "type": "bottom",
             "rarity": 4
         },
         {
-            "name": "Nuwa – Puppeteer",
+            "name": "Nuwa - Puppeteer",
             "set1": "After performing ultimate skill 2 times, generate a 5m radius Puppet boundary, shackle enemy stands within the boundary, and increase its received physical damage by 20%. After 6 seconds, Puppet boundary disappears and enters 18 seconds cooldown. This skill cannot be stacked with other skill",
             "set2": "Reduce debuff duration against Valkyrja by 30%\nIncrease all-damage dealt against enemy under debuff by 30%",
             "type": "set",
@@ -4356,14 +4356,14 @@
             "rarity": 4
         },
         {
-            "name": "Theresa – Gluttony",
+            "name": "Theresa - Gluttony",
             "skill": "10% chance on-hit drops a candy, that will increase 9 / 18 % all-damage when looted, last for 5.0 seconds, 2.0 seconds drop cooldown, and will disappear after 8.0 seconds if not looted",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-7.png",
             "type": "top",
             "rarity": 4
         },
         {
-            "name": "Bronya – Doll",
+            "name": "Bronya - Doll",
             "skill": "Increase range damage by 10 / 15 %\nWhen equipped on Bronya, 20 / 40 % chance to shackle the target upon attacking, last for 4 seconds, cooldown 10 seconds",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/bronya-doll_thumb.png",
             "type": "top",
@@ -4377,14 +4377,14 @@
             "rarity": 4
         },
         {
-            "name": "Kiana – Songstress",
+            "name": "Kiana - Songstress",
             "skill": "After performing perfect evasion skill, all members of team receive HP regen by 6 / 12  per each 1.0 second, last for 7 seconds. Triggered again will refresh effect duration. When equipped on Kiana, increase own HP regen by 4 / 12.7 per each 1.0 second, active even when not in play",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/3d9036a88226cffc0fb46c1fb2014a90f403eadc.png",
             "type": "mid",
             "rarity": 4
         },
         {
-            "name": "Mei – Wrath",
+            "name": "Mei - Wrath",
             "skill": "Convert all incoming damage into a wave of wrath, reflect back as damage, dealing 280% / 408% * original damage to the surrounding enemies",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Mei-2_thumb.png",
             "type": "mid",
@@ -4398,14 +4398,14 @@
             "rarity": 4
         },
         {
-            "name": "Bronya – Sloth",
+            "name": "Bronya - Sloth",
             "skill": "Ability 1: Lose all EP when tag-out, but recover 1.2 / 2.1 EP every 1.0 second before tag-in\nAbility 2: Gradually lose EP after tag-in and staying on-field, when EP below 20%, become fatigued and no battle morale (inflicted slow debuff)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-3_thumb.png",
             "type": "bottom",
             "rarity": 4
         },
         {
-            "name": "Fuka – Pride",
+            "name": "Fuka - Pride",
             "skill": "Increase melee physical damage by 15 / 30 %. However on-killed 1 enemies, increase own incoming all-damage by 7%, last for 30.0 seconds, up to 10 times multiplier",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Fuka-1.png",
             "type": "bottom",
@@ -4419,7 +4419,7 @@
             "rarity": 4
         },
         {
-            "name": "Himeko – Evening Drink",
+            "name": "Himeko - Evening Drink",
             "skill": "When there is an enemy nearby, restore 30 HP for user every second",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/himeko-evening-drink_thumb_temp.png",
             "type": "bottom",
@@ -4457,171 +4457,1374 @@
     "valkyrie": [
         {
             "name": "Kiana Kaslana - White Comet",
-            "image": "src/images/valkyriedetails/whitecomet.PNG",
-            "type": "Mecha",
-            "rarity": "B"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/kiana_pt.png",
+            "equipment": [
+                {
+                    "weapon": "Water Spirit Type-I",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Bathory Elizabeth",
+                    "stigmatabottom": "Nikola Tesla",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Mjolnir",
+                    "stigmatatop": "Tesla - Band",
+                    "stigmatamiddle": "Pool party",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Thunder Kikaku",
+                    "stigmatatop": "Cleopatra",
+                    "stigmatamiddle": "Cleopatra",
+                    "stigmatabottom": "Cleopatra",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - White Comet",
+                    "valk2": "Mei Raiden - Crimson Impulse",
+                    "valk3": "Bronya Zaychik - Chariot",
+                    "description": "The iconic trio"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "B",
+            "weapontype" : "gun"
         },
         {
             "name": "Kiana Kaslana - Divine Prayer",
-            "image": "src/images/valkyriedetails/divineprayer.PNG",
-            "type": "Phychic",
-            "rarity": "S"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/kiana_c3.png",
+            "equipment": [
+                {
+                    "weapon": "Colt Peacemaker / Water Spirit Type-I",
+                    "stigmatatop": "Rowland",
+                    "stigmatamiddle": "Rinaldo",
+                    "stigmatabottom": "Rinaldo",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Colt Peacemaker / Water Spirit Type-I",
+                    "stigmatatop": "Rinaldo",
+                    "stigmatamiddle": "Sakamoto Ryouma",
+                    "stigmatabottom": "Rinaldo",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Mjolnir / 2nd Sacred Relic / Judgement of Shamash - Gun",
+                    "stigmatatop": "Dark Jixuanyuan",
+                    "stigmatamiddle": "Dark Jixuanyuan",
+                    "stigmatabottom": "Schrodinger Cat",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Mjolnir / 2nd Sacred Relic / Judgement of Shamash - Gun",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Dracula",
+                    "stigmatabottom": "Lier Scarlet",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Thunder Kikaku",
+                    "stigmatatop": "Dark Jixuanyuan",
+                    "stigmatamiddle": "Tesla - Band",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Mei Raiden - Lightning Empress",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Theresa Apocalypse - Pledge",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "S",
+            "weapontype" : "gun"
         },
         {
             "name": "Kiana Kaslana - Ranger",
-            "image": "src/images/valkyriedetails/ranger.PNG",
-            "type": "Mecha",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/kiana_c1.png",
+            "equipment": [
+                {
+                    "weapon": "Artemis' Guardian / Colt Peacemaker / Water Spirit Type-II",
+                    "stigmatatop": "Rowland",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Rinaldo",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Artemis' Guardian / Colt Peacemaker / Water Spirit Type-II",
+                    "stigmatatop": "Theresa - Origin",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Theresa - Origin",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Mjolnir / Artemis' Guardian / Water Spirit Type-II",
+                    "stigmatatop": "Seele Vollerei",
+                    "stigmatamiddle": "Siegfried Kaslana",
+                    "stigmatabottom": "Seele Vollerei",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Mjolnir / Artemis' Guardian / Water Spirit Type-II",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Siegfried Kaslana",
+                    "stigmatabottom": "Lier Scarlet",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Mjolnir / Artemis' Guardian / Water Spirit Type-II",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Lier Scarlet",
+                    "stigmatabottom": "Kepler",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Dimensional Break",
+                    "valk2": "Kiana Kaslana - Ranger",
+                    "valk3": "Sakura Yae - Goushinnso Memento",
+                    "description": "The Meme Team"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "A",
+            "weapontype" : "gun"
         },
         {
             "name": "Kiana Kaslana - Knight Moonbeam",
-            "image": "src/images/valkyriedetails/moonbeam.PNG",
-            "type": "Creature",
-            "rarity": "S"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/kiana_c4.png",
+            "equipment": [
+                {
+                    "weapon": "Water Spirit Type-I / Dominator's Pistol",
+                    "stigmatatop": "Nikola Tesla",
+                    "stigmatamiddle": "Rinaldo",
+                    "stigmatabottom": "Rinaldo",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Water Spirit Type-I / Dominator's Pistol",
+                    "stigmatatop": "Rinaldo",
+                    "stigmatamiddle": "Rinaldo",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Mjolnir / Thunder Kikaku / Energy Leaper / Hyper Railgun",
+                    "stigmatatop": "Kepler",
+                    "stigmatamiddle": "Kepler",
+                    "stigmatabottom": "Cleopatra",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Mjolnir",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Pool Party",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Judgement of Shamash - Gun / Artemis' Guardian",
+                    "stigmatatop": "Zhuge Kongming",
+                    "stigmatamiddle": "Shakespeare / Fuxi",
+                    "stigmatabottom": "Shakespeare / Fuxi",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - Knight Moonbeam",
+                    "valk2": "Theresa Apocalypse - Celestial Hymn",
+                    "valk3": "Sakura Yae - Flame Sakitama",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "S",
+            "weapontype" : "gun"
         },
         {
             "name": "Mei Raiden - Crimson Impulse",
-            "image": "src/images/valkyriedetails/crimsonimpulse.PNG",
-            "type": "Creature",
-            "rarity": "B"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/mei_c2.png",
+            "equipment": [
+                {
+                    "weapon": "Lightning Soul",
+                    "stigmatatop": "Bathory Elizabeth",
+                    "stigmatamiddle": "Bathory Elizabeth",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "3rd Sacred Relic",
+                    "stigmatatop": "Michelangelo",
+                    "stigmatamiddle": "Michelangelo",
+                    "stigmatabottom": "Michelangelo",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Void Blade",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Lier Scarlet",
+                    "stigmatabottom": "Attila",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Void Blade",
+                    "stigmatatop": "Cecilia Scharia",
+                    "stigmatamiddle": "Cecilia Scharia",
+                    "stigmatabottom": "Cecilia Scharia",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Yamabuki Armor",
+                    "valk2": "Mei Raiden - Crimson Impulse",
+                    "valk3": "Kiana Kaslana - Ranger",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "B",
+            "weapontype" : "katana"
         },
         {
             "name": "Mei Raiden - Shadow Dash",
-            "image": "src/images/valkyriedetails/shadowdash.PNG",
-            "type": "Mecha",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/mei_c3.png",
+            "equipment": [
+                {
+                    "weapon": "Lightning Soul",
+                    "stigmatatop": "Bathory Elizabeth / Rinaldo",
+                    "stigmatamiddle": "Bathory Elizabeth / Rinaldo",
+                    "stigmatabottom": "Sakamoto Ryouma",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Raikiri / Magstorm / Pledge of Rain",
+                    "stigmatatop": "Shakespeare",
+                    "stigmatamiddle": "Pool Party",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Fairy Sword Silven / Void Blade / 3rd Sacred Relic",
+                    "stigmatatop": "Celine",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Celine",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Fairy Sword Silven / Void Blade / 3rd Sacred Relic",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Lier Scarlet / Planck",
+                    "stigmatabottom": "Lier",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Void Blade",
+                    "stigmatatop": "Michelangelo",
+                    "stigmatamiddle": "Michelangelo / Planck / Lier",
+                    "stigmatabottom": "Michelangelo",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Dimensional Break",
+                    "valk2": "Mei Raiden - Shadow Dash",
+                    "valk3": "Theresa Apocalypse - Violet Executer",
+                    "description": "No Description"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "A",
+            "weapontype" : "katana"
         },
         {
             "name": "Mei Raiden - Blade Strike",
-            "image": "src/images/valkyriedetails/striker.PNG",
-            "type": "Creature",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/mei_c1.png",
+            "equipment": [
+                {
+                    "weapon": "Lightning Soul",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Bathory Elizabeth / Rinaldo",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Lightning Soul",
+                    "stigmatatop": "Rinaldo",
+                    "stigmatamiddle": "Rinaldo",
+                    "stigmatabottom": "Attila",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "3rd Sacred Relic",
+                    "stigmatatop": "Ekaterina",
+                    "stigmatamiddle": "Ekaterina",
+                    "stigmatabottom": "Ekaterina",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Void Blade",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Lier Scarlet",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Yamabuki Armor",
+                    "valk2": "Sakura Yae - Miko",
+                    "valk3": "Mei Raiden - Blade Strike",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "A",
+            "weapontype" : "katana"
         },
         {
             "name": "Mei Raiden - Lightning Empress",
-            "image": "src/images/valkyriedetails/lightningempress.PNG",
-            "type": "Phychic",
-            "rarity": "S"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/09/mei_c4.png",
+            "equipment": [
+                {
+                    "weapon": "Pulse Katana Type-17",
+                    "stigmatatop": "Shigure Kira / Nikola Tesla",
+                    "stigmatamiddle": "Sakamoto Ryouma / Nikola Tesla",
+                    "stigmatabottom": "Edison / Nikola Tesla",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Magstorm",
+                    "stigmatatop": "Nagamitsu",
+                    "stigmatamiddle": "Nagamitsu",
+                    "stigmatabottom": "Tesla - Band",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Raikiri",
+                    "stigmatatop": "Shakespeare",
+                    "stigmatamiddle": "Pool Party",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Void Blade",
+                    "stigmatatop": "Shakespeare / Nagamitsu",
+                    "stigmatamiddle": "Lier Scarlet",
+                    "stigmatabottom": "Lier Scarlet",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Sheathed Blade",
+                    "stigmatatop": "Shakespeare",
+                    "stigmatamiddle": "Fuxi",
+                    "stigmatabottom": "Cleopatra",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Mei Raiden - Lightning Empress",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Theresa Apocalypse - Pledge",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "S",
+            "weapontype" : "katana"
         },
         {
             "name": "Bronya Zaychik - Chariot",
-            "image": "src/images/valkyriedetails/chariot.PNG",
-            "type": "Phychic",
-            "rarity": "B"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/bronya_c1.png",
+            "equipment": [
+                {
+                    "weapon": "X-01 Azure Eye",
+                    "stigmatatop": "Nikola Tesla",
+                    "stigmatamiddle": "Rinaldo",
+                    "stigmatabottom": "Rinaldo",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Markov Type A",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Sakamoto Ryouma",
+                    "stigmatabottom": "Nikola Tesla",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Briareus PRI / Flint Sanada",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Dark Jixuanyuan",
+                    "stigmatabottom": "Dark Jixuanyuan",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Tyr Wrist / 5th Sacred Relic",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Lier Scarlet",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "5th Sacred Relic",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Planck",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Snowy Sniper",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Bronya Zaychik - Chariot",
+                    "description": "Kallen (Memorial)"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "B",
+            "weapontype" : "cannon"
         },
         {
             "name": "Bronya Zaychik - Yamabuki Armor",
-            "image": "src/images/valkyriedetails/yamabuki.PNG",
-            "type": "Phychic",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/bronya_c2.png",
+            "equipment": [
+                {
+                    "weapon": "Markov Type A",
+                    "stigmatatop": "Theresa - Origin",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Theresa - Origin",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Quantum Destroyer Type-II / Briareus PRI",
+                    "stigmatatop": "Lier ",
+                    "stigmatamiddle": "Charlemagne",
+                    "stigmatabottom": "Zhuge Kongming",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Quantum Destroyer Type-II / Briareus PRI",
+                    "stigmatatop": "Zhuge Kongming",
+                    "stigmatamiddle": "Shakespeare",
+                    "stigmatabottom": "Shakespeare",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Quantum Destroyer Type-II / Briareus PRI",
+                    "stigmatatop": "Tesla - Band",
+                    "stigmatamiddle": "Tesla - Band",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Snowy Sniper",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Bronya Zaychik - Chariot",
+                    "description": "Kallen (Memorial)"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "A",
+            "weapontype" : "cannon"
         },
         {
             "name": "Bronya Zaychik - Snowy Sniper",
-            "image": "src/images/valkyriedetails/snowy.PNG",
-            "type": "Creature",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/bronya_c3.png",
+            "equipment": [
+                {
+                    "weapon": "Markov Type A",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Nikola Tesla",
+                    "stigmatabottom": "Dragon Boat Festival",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "5th Sacred Relic / Tyr Wrist",
+                    "stigmatatop": "Planck",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Planck",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Tyr Wrist",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Sloth",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "5th Sacred Relic / Tyr Wrist / Chiyou Cannon",
+                    "stigmatatop": "Schrodinger",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Planck",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Snowy Sniper",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Bronya Zaychik - Chariot",
+                    "description": "Kallen (Memorial)"
+                }
+            ],
+            "type": "creature",
+            "rarity": "A",
+            "weapontype" : "cannon"
         },
         {
             "name": "Bronya Zaychik - Dimensional Break",
-            "image": "src/images/valkyriedetails/dimensionalbreak.PNG",
-            "type": "Mecha",
-            "rarity": "S"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/bronya_c4.png",
+            "equipment": [
+                {
+                    "weapon": "Markov Type A",
+                    "stigmatatop": "Theresa - Gluttony",
+                    "stigmatamiddle": "Rinaldo",
+                    "stigmatabottom": "Rinaldo",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Tyr Wrist",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Fuxi Scroll",
+                    "stigmatatop": "Planck",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Planck",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Briareus PRI",
+                    "stigmatatop": "Tesla - Band",
+                    "stigmatamiddle": "Pool Party",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Dimensional Break",
+                    "valk2": "Mei Raiden - Shadow Dash",
+                    "valk3": "Theresa Apocalypse - Violet Executer",
+                    "description": "No Description"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "S",
+            "weapontype" : "cannon"
         },
         {
             "name": "Bronya Zaychik - Wolf Dawn",
-            "image": "src/images/valkyriedetails/wolf.PNG",
-            "type": "Mecha",
-            "rarity": "S"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/05/bronya_silver-wolf.png",
+            "equipment": [
+                {
+                    "weapon": "Markov Type A / Cathode Type-09",
+                    "stigmatatop": "Theresa - Origin",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Theresa - Origin",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Quantum Destroyer Type-II",
+                    "stigmatatop": "Nagamitsu",
+                    "stigmatamiddle": "Nagamitsu",
+                    "stigmatabottom": "Isaac Newton",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Briareus PRI",
+                    "stigmatatop": "Tesla - Band",
+                    "stigmatamiddle": "Tesla - Band",
+                    "stigmatabottom": "Tesla - Band",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Mei Raiden - Lightning Empress",
+                    "valk2": "Bronya Zaychik - Wolf Dawn",
+                    "valk3": "Himeko Murata - Scarlet Fusion",
+                    "description": "No Description"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "S",
+            "weapontype" : "cannon"
         },
         {
-            "name": "Bronya Zaychik - Black Nucleus (Dark Bronya)",
-            "image": "src/images/valkyriedetails/blacknucleus.PNG",
-            "type": "Mecha",
-            "rarity": "S"
+            "name": "Bronya Zaychik - Black Nucleus",
+            "type": "mecha",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/01/bronya_xenos_icon.png",
+            "equipment": [
+                {
+                    "weapon": "Markov Type C / Cathode Type-09",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Bathory Elizabeth",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "X-01 Azure Eye",
+                    "stigmatatop": "Bronya - Mysterious Charm",
+                    "stigmatamiddle": "Bronya - Mysterious Charm",
+                    "stigmatabottom": "Sakura - Blistering Summer",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Project Bunny 19C",
+                    "stigmatatop": "Sin Mal",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Sin Mal",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Flint Sanada / Briareus PRI",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Sin Mal",
+                    "description": "No description"
+                },
+                {
+                    "weapon": "Project Bunny 19C / Flint Sanada / Briareus PRI",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Planck / Lier",
+                    "stigmatabottom": "Planck",
+                    "description": "No description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - Knight Moonbeam",
+                    "valk2": "Theresa Apocalypse - Celestial Hymn",
+                    "valk3": "Bronya Zaychik - Black Nucleus",
+                    "description": "No Description"
+                }
+            ],
+            "rarity": "S",
+            "weapontype" : "cannon"
         },
         {
             "name": "Himeko Murata - Battlestorm",
-            "image": "src/images/valkyriedetails/battlestorm.PNG",
-            "type": "Creature",
-            "rarity": "B"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/himeko_c3.png",
+            "equipment": [
+                {
+                    "weapon": "King Cobra",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Bathory Elizabeth",
+                    "stigmatabottom": "Bathory Elizabeth",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Ghostslayer Nagamitsu / Xuanyuan Sword",
+                    "stigmatatop": "Jixuanyuan",
+                    "stigmatamiddle": "Jixuanyuan",
+                    "stigmatabottom": "Jixuanyuan",
+                    "description": "Budget set"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Himeko Murata - Battlestorm",
+                    "valk2": "Mei Raiden - Crimson Impulse",
+                    "valk3": "Bronya Zaychik - Chariot",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "B",
+            "weapontype" : "greatsword"
         },
         {
-            "name": "Himeko Murata - Triumph (Nexus)",
-            "image": "src/images/valkyriedetails/triumph.PNG",
-            "type": "Creature",
-            "rarity": "A"
+            "name": "Himeko Murata - Triumph",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/himeko_c4.png",
+            "equipment": [
+                {
+                    "weapon": "Nitro Crystal",
+                    "stigmatatop": "Akutagawa Ryuunosuke",
+                    "stigmatamiddle": "Akutagawa Ryuunosuke",
+                    "stigmatabottom": "Akutagawa Ryuunosuke",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Blood Dance",
+                    "stigmatatop": "Tesla - Band",
+                    "stigmatamiddle": "Pool Party",
+                    "stigmatabottom": "Siegfried Kaslana",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Xuanyuan Sword",
+                    "stigmatatop": "Seele Vollerei",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Seele Vollerei",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Blood Dance",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Planck",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - Knight Moonbeam",
+                    "valk2": "Himeko Murata - Triumph",
+                    "valk3": "Sakura Yae - Flame Sakitama",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "A",
+            "weapontype" : "greatsword"
         },
         {
             "name": "Himeko Murata - Scarlet Fusion",
-            "image": "src/images/valkyriedetails/scarletfusion.PNG",
-            "type": "Mecha",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/himeko_c2.png",
+            "equipment": [
+                {
+                    "weapon": "King Cobra",
+                    "stigmatatop": "Akutagawa Ryuunosuke",
+                    "stigmatamiddle": "Akutagawa Ryuunosuke",
+                    "stigmatabottom": "Akutagawa Ryuunosuke",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Blood Dance / Balmung",
+                    "stigmatatop": "Otto Apocalypse",
+                    "stigmatamiddle": "Lier Scarlet",
+                    "stigmatabottom": "Otto Apocalypse",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - Divine Prayer",
+                    "valk2": "Bronya Zaychik - Snowy Sniper",
+                    "valk3": "Himeko Murata - Scarlet Fusion",
+                    "description": "No Description"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "A",
+            "weapontype" : "greatsword"
         },
         {
             "name": "Himeko Murata - Blood Rose",
-            "image": "src/images/valkyriedetails/bloodrose.PNG",
-            "type": "Phychic",
-            "rarity": "S"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/10/himeko_c5.png",
+            "equipment": [
+                {
+                    "weapon": "King Kobra / Dragon Spine",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Jingwei",
+                    "stigmatabottom": "Jingwei",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Blood Dance / Sunfire Greatsword",
+                    "stigmatatop": "Planck",
+                    "stigmatamiddle": "Shakespeare / Nuwa",
+                    "stigmatabottom": "Fuxi",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Mei Raiden - Lightning Empress",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Himeko Murata - Blood Rose",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "S",
+            "weapontype" : "greatsword"
         },
         {
             "name": "Sakura Yae - Miko",
-            "image": "src/images/valkyriedetails/miko.PNG",
-            "type": "Creature",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/sakura_c1.png",
+            "equipment": [
+                {
+                    "weapon": "Pulse Katana Type-19 / Lightning Soul",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Bathory Elizabeth",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Void Blade / Sakura Blossom",
+                    "stigmatatop": "Schrodinger - Band",
+                    "stigmatamiddle": "Schrodinger - Band",
+                    "stigmatabottom": "Schrodinger - Band",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Void Blade / Sakura Blossom",
+                    "stigmatatop": "Celine",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Celine",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - Knight Moonbeam",
+                    "valk2": "Theresa Apocalypse - Celestial Hymn",
+                    "valk3": "Sakura Yae - Miko",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "A",
+            "weapontype" : "katana"
         },
         {
-            "name": "Sakura Yae - Flame Sakitama (Fire Sakura)",
-            "image": "src/images/valkyriedetails/firesaku.PNG",
-            "type": "Creature",
-            "rarity": "A"
+            "name": "Sakura Yae - Flame Sakitama",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/sakura_c3-2.png",
+            "equipment": [
+                {
+                    "weapon": "Pulse Katana Type-19",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Yodo Dono",
+                    "stigmatabottom": "Sakura - Blistering Summer",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Void Blade / Fairy Sword Silven",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Nuwa",
+                    "stigmatabottom": "Lier Scarlet",
+                    "description": "Abyss set"
+                },
+                {
+                    "weapon": "Fairy Sword Silven / Demon Blade - Florid Sakura",
+                    "stigmatatop": "Higokumaru",
+                    "stigmatamiddle": "Higokumaru / Nuwa",
+                    "stigmatabottom": "Higokumaru",
+                    "description": "General set"
+                },
+                {
+                    "weapon": "Demon Blade - Florid Sakura / Void Blade",
+                    "stigmatatop": "Planck",
+                    "stigmatamiddle": "Nuwa",
+                    "stigmatabottom": "Planck",
+                    "description": "Boss set"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - Divine Prayer",
+                    "valk2": "Bronya Zaychik - Wolf Dawn",
+                    "valk3": "Sakura Yae - Flame Sakitama",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "A",
+            "weapontype" : "katana"
         },
         {
-            "name": "Sakura Yae - Goushinnso Memento (Meme)",
-            "image": "src/images/valkyriedetails/unforgottenapostle.PNG",
-            "type": "Mecha",
-            "rarity": "S"
+            "name": "Sakura Yae - Goushinnso Memento",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/sakura_c2.png",
+            "equipment": [
+                {
+                    "weapon": "Crystal Edge",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Nikola Tesla",
+                    "stigmatabottom": "Sakura - Blistering Summer",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Crystal Edge",
+                    "stigmatatop": "Shigure Kira",
+                    "stigmatamiddle": "Nikola Tesla",
+                    "stigmatabottom": "Shigure Kira",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Ice Epiphyllum",
+                    "stigmatatop": "Nohime",
+                    "stigmatamiddle": "Nohime",
+                    "stigmatabottom": "Nohime",
+                    "description": "Uhm..."
+                },
+                {
+                    "weapon": "Ice Epiphyllum",
+                    "stigmatatop": "Planck",
+                    "stigmatamiddle": "Pool Party",
+                    "stigmatabottom": "Shakespeare",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Dimensional Break",
+                    "valk2": "Kiana Kaslana - Ranger",
+                    "valk3": "Sakura Yae - Goushinnso Memento",
+                    "description": "The Meme Team"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "S",
+            "weapontype" : "katana"
         },
         {
             "name": "Theresa Apocalypse - Pledge",
-            "image": "src/images/valkyriedetails/pledge.PNG",
-            "type": "Phychic",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/theresa_c1_icon.png",
+            "equipment": [
+                {
+                    "weapon": "Lightning Angel",
+                    "stigmatatop": "Theresa - Origin",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Theresa - Origin",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Lightning Angel",
+                    "stigmatatop": "Nikola Tesla",
+                    "stigmatamiddle": "Rinaldo",
+                    "stigmatabottom": "Rinaldo",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Oath of Judah",
+                    "stigmatatop": "Shakespeare",
+                    "stigmatamiddle": "Mei Pool",
+                    "stigmatabottom": "Otto Apocalypse",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Mei Raiden - Lightning Empress",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Theresa Apocalypse - Pledge",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "A",
+            "weapontype" : "cross"
         },
         {
             "name": "Theresa Apocalypse - Sakuno Rondo",
-            "image": "src/images/valkyriedetails/rondo.PNG",
-            "type": "Phychic",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/theresa_c3_icon.png",
+            "equipment": [
+                {
+                    "weapon": "Fire Angel",
+                    "stigmatatop": "Theresa - Origin",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Theresa - Origin",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Fire Angel",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Yodo Dono",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Oath of Judah",
+                    "stigmatatop": "Shakespeare",
+                    "stigmatamiddle": "Siegfried Kaslana / Mei Pool",
+                    "stigmatabottom": "Otto Apocalypse",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Pledge of Sakura",
+                    "stigmatatop": "Higokumaru",
+                    "stigmatamiddle": "Nuwa",
+                    "stigmatabottom": "Higokumaru",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Dimensional Break",
+                    "valk2": "Kiana Kaslana - Ranger",
+                    "valk3": "Theresa Apocalypse - Sakuno Rondo",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "A",
+            "weapontype" : "cross"
         },
         {
             "name": "Theresa Apocalypse - Violet Executer",
-            "image": "src/images/valkyriedetails/violetexecuter.PNG",
-            "type": "Mecha",
-            "rarity": "S"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/theresa_c2_icon.png",
+            "equipment": [
+                {
+                    "weapon": "Pulse Cross Prototype",
+                    "stigmatatop": "Theresa - Origin",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Theresa - Origin",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Lightning Angel",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Sakamoto Ryouma",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "Bloody Embrace",
+                    "stigmatatop": "Cleopatra",
+                    "stigmatamiddle": "Dark Jixuanyuan",
+                    "stigmatabottom": "Dark Jixuanyuan",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Bloody Embrace",
+                    "stigmatatop": "Dracula",
+                    "stigmatamiddle": "Dark Jixuanyuan",
+                    "stigmatabottom": "Dark Jixuanyuan",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Bloody Embrace",
+                    "stigmatatop": "Dracula",
+                    "stigmatamiddle": "Kepler",
+                    "stigmatabottom": "Cleopatra",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Dimensional Break",
+                    "valk2": "Sakura Yae - Goushinnso Memento",
+                    "valk3": "Theresa Apocalypse - Violet Executer",
+                    "description": "No Description"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "S",
+            "weapontype" : "cross"
         },
         {
-            "name": "Theresa Apocalypse - Celestial Hymn (Anthem)",
-            "image": "src/images/valkyriedetails/anthem.PNG",
-            "type": "Creature",
-            "rarity": "S"
+            "name": "Theresa Apocalypse - Celestial Hymn",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/03/theresa_c4_icon.png",
+            "equipment": [
+                {
+                    "weapon": "Pulse Cross Prototype",
+                    "stigmatatop": "Theresa - Origin",
+                    "stigmatamiddle": "Theresa - Origin",
+                    "stigmatabottom": "Theresa - Origin",
+                    "description": "Budget set"
+                },
+                {
+                    "weapon": "11th Sacred Relic",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Lier Scarlet",
+                    "stigmatabottom": "Kepler",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "11th Sacred Relic",
+                    "stigmatatop": "Lier Scarlet",
+                    "stigmatamiddle": "Dracula",
+                    "stigmatabottom": "Lier Scarlet",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "11th Sacred Relic / Bloody Embrace / Oath of Judah",
+                    "stigmatatop": "Kallen - Hymn",
+                    "stigmatamiddle": "Kallen - Hymn",
+                    "stigmatabottom": "Kallen - Hymn",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Oath of Judah",
+                    "stigmatatop": "Shakespeare",
+                    "stigmatamiddle": "Siegfried Kaslana / Mei Pool",
+                    "stigmatabottom": "Otto Apocalypse",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kiana Kaslana - Knight Moonbeam",
+                    "valk2": "Theresa Apocalypse - Celestial Hymn",
+                    "valk3": "Sakura Yae - Flame Sakitama",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "S",
+            "weapontype" : "cross"
+        },
+        {
+            "name": "Theresa Apocalypse - Luna Kindred",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/theresa-embrace-moonlight_thumb2.png",
+            "equipment": [
+                {
+                    "weapon": "Bloody Embrace",
+                    "stigmatatop": "Dracula",
+                    "stigmatamiddle": "Dracula",
+                    "stigmatabottom": "Dracula",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Bloody Embrace",
+                    "stigmatatop": "Michelangelo",
+                    "stigmatamiddle": "Ekaterina",
+                    "stigmatabottom": "Michelangelo",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Mei Raiden - Lightning Empress",
+                    "valk2": "Theresa Apocalypse - Luna Kindred",
+                    "valk3": "Bronya Zaychik - Wolf Dawn",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "A",
+            "weapontype" : "cross"
         },
         {
             "name": "Kallen Kaslana - Imayoh Ritual",
-            "image": "src/images/valkyriedetails/kallen.PNG",
-            "type": "Mecha",
-            "rarity": "A"
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/kallen_c1_icon.png",
+            "equipment": [
+                {
+                    "weapon": "Water Spirit Type-I",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Bathory Elizabeth",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget Set"
+                },
+                {
+                    "weapon": "Mjolnir / Thunder Kikaku",
+                    "stigmatatop": "Schrodinger Cat",
+                    "stigmatamiddle": "Planck",
+                    "stigmatabottom": "Isaac Newton / Lier",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Jingwei's Wings",
+                    "stigmatatop": "Schrodinger - Band",
+                    "stigmatamiddle": "Schrodinger - Band",
+                    "stigmatabottom": "Schrodinger - Band",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Yamabuki Armor",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Kallen Kaslana - Imayoh Ritual",
+                    "description": "No Description"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "A",
+            "weapontype" : "gun"
         },
         {
-            "name": "Fu Hua / Fuuka - Accipiter",
-            "image": "src/images/valkyriedetails/accipiter.PNG",
-            "type": "Physchic",
-            "rarity": "A"
+            "name": "Kallen Kaslana - Black Wing Nocturne",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/black-wing-nocture.png",
+            "equipment": [
+                {
+                    "weapon": "Judgement of Shamash - Gun",
+                    "stigmatatop": "Shigure Kira",
+                    "stigmatamiddle": "Shigure Kira",
+                    "stigmatabottom": "Shigure Kira",
+                    "description": "Budget Set"
+                },
+                {
+                    "weapon": "Phantom Colored Aria",
+                    "stigmatatop": "Nohime",
+                    "stigmatamiddle": "Nohime",
+                    "stigmatabottom": "Nohime",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kallen Kaslana - Black Wing Nocturne",
+                    "valk2": "Theresa Apocalypse - Pledge",
+                    "valk3": "Kiana Kaslana - Ranger",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "S",
+            "weapontype" : "gun"
         },
         {
-            "name": "Fu Hua / Fuuka - Shadow Knight",
-            "image": "src/images/valkyriedetails/shadowknight.PNG",
-            "type": "Mecha",
-            "rarity": "S"
+            "name": "Fu Hua - Accipiter",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/fuka_c1_icon.png",
+            "equipment": [
+                {
+                    "weapon": "White Star Destroyer",
+                    "stigmatatop": "Naoe Kanetsugu",
+                    "stigmatamiddle": "Bathory Elizabeth",
+                    "stigmatabottom": "Attila",
+                    "description": "Budget Set"
+                },
+                {
+                    "weapon": "Star Ring Vortex",
+                    "stigmatatop": "Jingwei",
+                    "stigmatamiddle": "Lier Scarlet",
+                    "stigmatabottom": "Lier",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Star Ring Vortex",
+                    "stigmatatop": "Cleopatra",
+                    "stigmatamiddle": "Ekaterina",
+                    "stigmatabottom": "Attila",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Star Ring Vortex",
+                    "stigmatatop": "Michelangelo",
+                    "stigmatamiddle": "Michelangelo",
+                    "stigmatabottom": "Michelangelo",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Kallen Kaslana - Black Wing Nocturne",
+                    "valk2": "Theresa Apocalypse - Pledge",
+                    "valk3": "Kiana Kaslana - Ranger",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "A",
+            "weapontype" : "gauntlet"
+        },
+        {
+            "name": "Fu Hua - Shadow Knight",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/fuka_c2_icon.png",
+            "equipment": [
+                {
+                    "weapon": "White Star Destroyer / Fist of Taixu",
+                    "stigmatatop": "Shigure Kira / Nikola Tesla",
+                    "stigmatamiddle": "Shigure Kira / Nikola Tesla",
+                    "stigmatabottom": "Shigure Kira / Nikola Tesla",
+                    "description": "Budget Set"
+                },
+                {
+                    "weapon": "Darken Nuada",
+                    "stigmatatop": "Shakespeare",
+                    "stigmatamiddle": "Kepler",
+                    "stigmatabottom": "Cleopatra",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Darken Nuada",
+                    "stigmatatop": "Monet",
+                    "stigmatamiddle": "Monet / Nagamitsu",
+                    "stigmatabottom": "Monet",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Fu Hua - Shadow Knight",
+                    "valk2": "Kiana Kaslana - Divine Prayer",
+                    "valk3": "Bronya Zaychik - Chariot",
+                    "description": "Abyss team"
+                }
+            ],
+            "type": "mecha",
+            "rarity": "S",
+            "weapontype" : "gauntlet"
+        },
+        {
+            "name": "Fu Hua - Phoenix",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/fuka_c3_icon.png",
+            "equipment": [
+                {
+                    "weapon": "Fist of Taixu",
+                    "stigmatatop": "Shigure Kira",
+                    "stigmatamiddle": "Shigure Kira",
+                    "stigmatabottom": "Shigure Kira",
+                    "description": "Budget Set"
+                },
+                {
+                    "weapon": "Ember of Kite",
+                    "stigmatatop": "Higokumaru",
+                    "stigmatamiddle": "Nuwa",
+                    "stigmatabottom": "Higokumaru",
+                    "description": "No Description"
+                }
+            ],
+            "team": [
+                {
+                    "valk1": "Fu Hua - Shadow Knight",
+                    "valk2": "Fu Hua - Phoenix",
+                    "valk3": "Theresa Apocalypse - Celestial Hymn",
+                    "description": "No Description"
+                }
+            ],
+            "type": "phychic",
+            "rarity": "S",
+            "weapontype" : "gauntlet"
+        },
+        {
+            "name": "Fu Hua - White Night Herald",
+            "thumbnail": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/white-night2.png",
+            "equipment": [
+                {
+                    "weapon": "Fist of Taixu",
+                    "stigmatatop": "Akutagawa Ryuunosuke",
+                    "stigmatamiddle": "Akutagawa Ryuunosuke",
+                    "stigmatabottom": "Akutagawa Ryuunosuke",
+                    "description": "Budget Set"
+                },
+                {
+                    "weapon": "Star Ring Vortex / Twin Wolves of Eternal Twilight",
+                    "stigmatatop": "Cleopatra / Jingwei",
+                    "stigmatamiddle": "Ekaterina",
+                    "stigmatabottom": "Attila",
+                    "description": "No Description"
+                },
+                {
+                    "weapon": "Twin Wolves of Eternal Twilight",
+                    "stigmatatop": "Schrodinger - Band",
+                    "stigmatamiddle": "Schrodinger - Band / Lier Scarlet / Ekaterina",
+                    "stigmatabottom": "Schrodinger - Band",
+                    "description": "No Description"
+                }
+                
+            ],
+            "team": [
+                {
+                    "valk1": "Bronya Zaychik - Yamabuki Armor",
+                    "valk2": "Fu Hua - White Night Herald",
+                    "valk3": "Kiana Kaslana - Divine Prayer",
+                    "description": "No Description"
+                }
+            ],
+            "type": "creature",
+            "rarity": "S",
+            "weapontype" : "gauntlet"
         }
     ]
 }

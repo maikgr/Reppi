@@ -608,8 +608,6 @@ async function stigmataSearch(msg) {
 			result.push(stigmataDB[indexes[i]]);
 		}
 
-		console.log(result);
-
 		if (result.length < 5 && result.length > 3) {
 			if (indexes[0] + 1 === indexes[1]) {
 				for (let i = 0; i < 3; i++) {

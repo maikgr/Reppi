@@ -3125,29 +3125,29 @@
         },
         {
             "name": "Einstein",
-            "skill": "When HP below 33%, increase all-damage by 28 / 41 %",
+            "skill": "Increase charge attack damage against shield by 22% / 30%\nWhen HP below 33%, increase all-damage by 28 / 41 %",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-1_thumb.png",
             "type": "top",
             "rarity": 4
         },
         {
             "name": "Einstein",
-            "skill": "When HP below 33%, reduce recevied ranged damage by 28 /41 %",
+            "skill": "When charge attack hits an enemy, heal 30 / 50 HP to user (cooldown 3 seconds)\nWhen the attack hits a Mechanical type enemy, recover 1.2 EP / 2 for user (cooldown 3 seconds)",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-2_thumb.png",
             "type": "mid",
             "rarity": 4
         },
         {
             "name": "Einstein",
-            "skill": "When HP below 33%, increase defense power by 22 / 31 %",
+            "skill": "Increase charge attack all damage by 12% / 20%\nWhen the attack hits a Mechanical type enemy, increase user attack speed by 11% / 15% for 3 seconds, refresh the duration if this effect is re-activated while being active",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Einstein-3_thumb.png",
             "type": "bottom",
             "rarity": 4
         },
         {
             "name": "Einstein",
-            "set1": "The further away from enemy, the less damage will be received, stack up to 4%*10",
-            "set2": "The nearer approach, the more damage can be dealed, stack up to 25%",
+            "set1": "Increase all damage dealt by 5% for every 1m further away from the enemy, stack up to 5 times",
+            "set2": "Decrease all damage taken when moving closer to the enemy, stack up to 40%",
             "type": "set",
             "rarity": 4
         },
@@ -3244,14 +3244,14 @@
         },
         {
             "name": "Jingwei",
-            "skill": "When enemy on-field not more than 3, increase moving speed by 18 / 31 %",
+            "skill": "When enemy on the battlefield is equal or less than 3, increase movement speed by 18% / 31%\nWhen charge attack or branch attack hit an enemy, increase fire elemental damage by 28% / 40% for 5 seconds, this duration is refreshed every time the effect is reactivated while it is active",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Jingwei-2_thumb.png",
             "type": "mid",
             "rarity": 4
         },
         {
             "name": "Jingwei",
-            "skill": "When enemy on field is equal or less than 2, increase defense 24 / 41 %",
+            "skill": "When enemy on the battlefield is equal or less than 2, increase defense power by 24% / 41%\nWhen current HP is less than 50%, heal 12 / 20 HP every second during standby",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Jingwei-3_thumb.png",
             "type": "bottom",
             "rarity": 4

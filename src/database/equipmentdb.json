@@ -4356,6 +4356,62 @@
             "rarity": 4
         },
         {
+            "name": "Sirin - Sublimation",
+            "skill": "Increase physical damage by 10 / 20%, further increase physical damage during Lawmaker form by 20 / 30%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/sirin-sublimation_thumb_T.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Sirin - Sublimation",
+            "skill": "Decrease cooldown of perfect evasion skill cooldown by 10 / 20%\nIncrease critical damage by 10 / 30%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/sirin-sublimation_thumb_C.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Sirin - Sublimation",
+            "skill": "When battle starts, generate a Spacetime shield. When being attacked, decrease elemental damage taken by 300 and enter 6 seconds cooldown if shield is broken. When shield is active, increase user attack speed by 10 / 20% and physical damage by 10 / 15%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/sirin-sublimation_thumb_B.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Sirin - Sublimation",
+            "set1": "For every allied summoned unit, increase Valkyrja all damage by 12% for 10 seconds, stack up to 3 layers\nEach layer has its own duration. If a new layer is created while all layers are active, refresh the layer with the shortest duration",
+            "set2": "Increase critical damage by 50%\nIncrease critical rate during Lawmaker form by 15%",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Edwin Hubble",
+            "skill": "After attacking, cause a frost nova explosion at the target’s location, freeze nearby enemies for 1 second and dealing 200 / 300% ice elemental damage based on attack power. Cooldown 8.0 seconds",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/hubble_thumb_T.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Edwin Hubble",
+            "skill": "Increase ice elemental damage resistance by 10 / 20%\nWhen hitting an enemy, 10 / 30% chance to slow them by 10 / 20%, lasts for 4 seconds. Cooldown 12 seconds",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/hubble_thumb_C.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Edwin Hubble",
+            "skill": "Increase all damage against frozen/slowed enemies by 15 / 35%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/hubble_thumb_B.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Edwin Hubble",
+            "set1": "When hitting a slowed enemy, increase attack speed by 15%, lasts for 4 seconds, this duration is refreshed every time the effect is reactivated while it is active",
+            "set2": "Increase ice elemental damage by 30%\nIncrease all-damage of branch/charge attacks by 10%",
+            "type": "set",
+            "rarity": 4
+        },
+        {
             "name": "Theresa - Gluttony",
             "skill": "10% chance on-hit drops a candy, that will increase 9 / 18 % all-damage when looted, last for 5.0 seconds, 2.0 seconds drop cooldown, and will disappear after 8.0 seconds if not looted",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Theresa-7.png",

@@ -217,6 +217,54 @@
             "rarity": 4
         },
         {
+            "name": "Void Key",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Release 3 Energy Shockwaves towards all enemies in front, each deal 200% physical damage based on attack power and knock up them. At the same time, summon a Space Core. Space Core explodes after a short period of time dealing 300% physical damage based on attack power\nWhen equipped by Lawmaker of the Void, damage dealt via Space Core is also affected by her skill attribute and also restores her Lawmaker Energy by 60",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase physical damage dealt by 20%\nIncrease critical damage by 30%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/wp_void-key_n.png",
+            "attack": "264",
+            "critical": "37",
+            "type": "gun",
+            "rarity": 4
+        },
+        {
+            "name": "Ranger Hand Cannon",
+            "skillonetitle": "Passive Skill",
+            "skillonedetail": "After activating, release a Flame Wave with user as the center of the wave every 1 second, last for 10 seconds. Each wave deals 800 fire elemental damage\nWhile this skill is active, if user successfully perform perfect evasion skill, additionally release a Strong Flame Wave dealing 4000 fire elemental damage to all enemies standing within the range Any enemy got hit by the wave will have 10% chance to be stunned for 2 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase user all damage dealt against stunned enemy by 35%\nRanger Buff:\nIncrease user ice elemental resistance by 20%\nIf the team has other Valkyrja using Ranger series weapon, increase user fire elemental damage dealt by 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/wp_ranger-pistol_n.png",
+            "attack": "240",
+            "critical": "15",
+            "type": "gun",
+            "rarity": 4
+        },
+        {
+            "name": "Bloody Saint",
+            "skillonetitle": "Passive Skill",
+            "skillonedetail": "When user basic attack or burst attack hits an enemy, summon Support Attack to deal 450% physical damage to the enemy and all enemies surrounding it within the range (cooldown: 6 seconds) When equipped on Original Sin Hunter, any enemy got hit by Support Attack will receive Pursuit Mark for 13 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "For every time successfully summon Support Attack via Passive Skill I, increase user physical damage by 7% for 25 seconds, stack up to 6 layers, each layer has its own duration, if a new layer is created while all layers are active, refresh the layer with the shortest duration. The buff effect will wear off if user performs tag-out",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/10/wp_bloody_saint_n.png",
+            "attack": "277",
+            "critical": "33",
+            "type": "gun",
+            "rarity": 4
+        },
+        {
+            "name": "Halloween Spirit",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "User summons 3 Pumpkin Bombs around user. Each bomb deals 300% fire elemental damage based on user attack power\n※Pumpkin Maze: In next 5 seconds after activating, 3 Pumpkin Bombs will be summoned around every 1 second. Each bomb deals 500% fire elemental damage based on user attack power",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/10/Weapon_Pistol_K33_203_4.png",
+            "attack": "231",
+            "critical": "10",
+            "type": "gun",
+            "rarity": 4
+        },
+        {
             "name": "Water Spirit Type-I",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "Increase physical damage against float status enemy by 40%",

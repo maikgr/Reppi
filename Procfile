@@ -1,1 +1,1 @@
-worker: node reppu.js
+worker: node ./src/reppi.js

@@ -1,0 +1,56 @@
+{
+    "emoji": [
+    	{
+            "name": "weapongun",
+            "id": "480711474130452480"
+        },
+        {
+            "name": "weaponkatana",
+            "id": "480711483806842881"
+        },
+        {
+            "name": "weaponcannon",
+            "id": "480711427817078784"
+        },
+        {
+            "name": "weapongreatsword",
+            "id": "480711459274227722"
+        },
+        {
+            "name": "weaponcross",
+            "id": "480711439896805386"
+        },
+        {
+            "name": "weapongauntlet",
+            "id": "480711450042564608"
+        },
+        {
+            "name": "stigmatatop",
+            "id": "480711517856071686"
+        },
+        {
+            "name": "stigmatamiddle",
+            "id": "480711538492309521"
+        },
+        {
+            "name": "stigmatabottom",
+            "id": "480711552069009419"
+        },
+        {
+            "name": "valkyriecreature",
+            "id": "480726315075633163"
+        },
+        {
+            "name": "valkyriemecha",
+            "id": "480726322843484190"
+        },
+        {
+            "name": "valkyriephychic",
+            "id": "480726328941871105"
+        },
+        {
+            "name": "reppidescription",
+            "id": "480735009662304256"
+        }
+    ]
+}

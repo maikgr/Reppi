@@ -1,0 +1,206 @@
+{
+	"valkyrie": [
+        {
+            "name": "Kiana Kaslana - White Comet",
+            "image": "src/images/valkyrie/whitecomet.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/whitecomet.PNG",
+            "type": "Mecha",
+            "rarity": 2
+        },
+        {
+            "name": "Kiana Kaslana - Divine Prayer",
+            "image": "src/images/valkyrie/divineprayer.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/divineprayer.PNG",
+            "type": "Phychic",
+            "rarity": 3
+        },
+        {
+            "name": "Kiana Kaslana - Ranger",
+            "image": "src/images/valkyrie/ranger.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/ranger.PNG",
+            "type": "Mecha",
+            "rarity": 3
+        },
+        {
+            "name": "Kiana Kaslana - Knight Moonbeam",
+            "image": "src/images/valkyrie/moonbeam.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/moonbeam.PNG",
+            "type": "Creature",
+            "rarity": 4
+        },
+        {
+            "name": "Mei Raiden - Crimson Impulse",
+            "image": "src/images/valkyrie/crimsonimpulse.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/crimsonimpulse.PNG",
+            "type": "Creature",
+            "rarity": 2
+        },
+        {
+            "name": "Mei Raiden - Shadow Dash",
+            "image": "src/images/valkyrie/shadowdash.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/shadowdash.PNG",
+            "type": "Mecha",
+            "rarity": 3
+        },
+        {
+            "name": "Mei Raiden - Blade Strike",
+            "image": "src/images/valkyrie/bladestrike.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/bladestrike.PNG",
+            "type": "Creature",
+            "rarity": 3
+        },
+        {
+            "name": "Mei Raiden - Lightning Empress",
+            "image": "src/images/valkyrie/lightningempress.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/lightningempress.PNG",
+            "type": "Phychic",
+            "rarity": 4
+        },
+        {
+            "name": "Bronya Zaychik - Chariot",
+            "image": "src/images/valkyrie/chariot.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/chariot.PNG",
+            "type": "Phychic",
+            "rarity": 2
+        },
+        {
+            "name": "Bronya Zaychik - Yamabuki Armor",
+            "image": "src/images/valkyrie/yamabuki.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/yamabuki.PNG",
+            "type": "Phychic",
+            "rarity": 3
+        },
+        {
+            "name": "Bronya Zaychik - Snowy Sniper",
+            "image": "src/images/valkyrie/snowy.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/snowy.PNG",
+            "type": "Creature",
+            "rarity": 3
+        },
+        {
+            "name": "Bronya Zaychik - Dimensional Break",
+            "image": "src/images/valkyrie/dimensionalbreak.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/dimensionalbreak.PNG",
+            "type": "Mecha",
+            "rarity": 4
+        },
+        {
+            "name": "Himeko Murata - Battlestorm",
+            "image": "src/images/valkyrie/battlestorm.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/battlestorm.PNG",
+            "type": "Creature",
+            "rarity": 2
+        },
+        {
+            "name": "Himeko Murata - Triumph (Nexus)",
+            "image": "src/images/valkyrie/triumph.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/triumph.PNG",
+            "type": "Creature",
+            "rarity": 3
+        },
+        {
+            "name": "Himeko Murata - Scarlet Fusion",
+            "image": "src/images/valkyrie/scarletfusion.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/scarletfusion.PNG",
+            "type": "Mecha",
+            "rarity": 3
+        },
+        {
+            "name": "Himeko Murata - Blood Rose",
+            "image": "src/images/valkyrie/bloodrose.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/bloodrose.PNG",
+            "type": "Phychic",
+            "rarity": 4
+        },
+        {
+            "name": "Theresa Apocalypse - Pledge",
+            "image": "src/images/valkyrie/pledge.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/pledge.PNG",
+            "type": "Phychic",
+            "rarity": 3
+        },
+        {
+            "name": "Theresa Apocalypse - Sakuno Rondo",
+            "image": "src/images/valkyrie/rondo.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/rondo.PNG",
+            "type": "Phychic",
+            "rarity": 3
+        },
+        {
+            "name": "Theresa Apocalypse - Violet Executer",
+            "image": "src/images/valkyrie/violetexecuter.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/violetexecuter.PNG",
+            "type": "Mecha",
+            "rarity": 4
+        },
+        {
+            "name": "Theresa Apocalypse - Celestial Hymn (Anthem)",
+            "image": "src/images/valkyrie/anthem.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/anthem.PNG",
+            "type": "Creature",
+            "rarity": 4
+        },
+        {
+            "name": "Fu Hua / Fuuka - Accipiter",
+            "image": "src/images/valkyrie/accipiter.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/accipiter.PNG",
+            "type": "Physchic",
+            "rarity": 3
+        },
+        {
+            "name": "Fu Hua / Fuuka - Shadow Knight",
+            "image": "src/images/valkyrie/shadowknight.PNG",
+            "imagefull": "src/images/valkyrieStandardGachaFull/shadowknight.PNG",
+            "type": "Mecha",
+            "rarity": 4
+        }
+    ],
+    "item": [
+        {
+            "name": "Item1",
+            "image": "src/images/items/1.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item2",
+            "image": "src/images/items/2.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item3",
+            "image": "src/images/items/3.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item4",
+            "image": "src/images/items/4.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item5",
+            "image": "src/images/items/5.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item6",
+            "image": "src/images/items/6.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item7",
+            "image": "src/images/items/7.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item8",
+            "image": "src/images/items/8.PNG",
+            "rarity": 1
+        },
+        {
+            "name": "Item9",
+            "image": "src/images/items/9.PNG",
+            "rarity": 1
+        }
+    ]
+}
+

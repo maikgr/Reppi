@@ -1,11 +1,11 @@
 {
-  "name": "reppi",
-  "version": "1.0.0",
-  "description": "Repulsion Bot",
+  "name": "reppu",
+  "version": "0.1.2",
+  "description": "Experimental bot",
   "engines": {
     "node": "8.11.2"
   },
-  "main": "bot.js",
+  "main": "reppu.js",
   "dependencies": {
     "discord.js": "^11.4.2",
     "images": "^3.0.1",
